@@ -90,7 +90,7 @@ Known laboratory contaminant genera are a routine part of published human "steri
 
 ## Declarations
 
-**Use of artificial intelligence.** Title and abstract screening, full-text data extraction, analysis code and the first draft of this manuscript were produced with an AI agent (Claude, Anthropic), under a pre-registered protocol and with automatic source checks. A human reviewer verified a random sample of screening decisions and extractions. The authors reviewed and take responsibility for the content.
+**Use of artificial intelligence.** Title and abstract screening, full-text data extraction and the first draft of this manuscript were produced with an AI agent (Claude, Anthropic), under a pre-registered protocol and with automatic source checks. A human reviewer verified a random sample of screening decisions and extractions. The authors reviewed and take responsibility for the content.
 
 **Ethics approval and consent.** Not applicable; the study used only published, open-access articles.
 
