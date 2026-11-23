@@ -1,0 +1,68 @@
+{
+  "pmcid": "PMC4419820",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2015,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "89b78f6f9d1ce2e35fbeb3a87b029f35acf806c230b9e3182396313bc9c5ce50",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0002",
+        "quote": "ally. Bar-coded pyro-sequencing of 16S ribosomal RNA genes was used to investigate the bacterial community composition and structure of each site. RESULTS: Neonatal feces of both infants had similar bacterial communities, and they were simi"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": " environment were also analyzed as negative controls. Both mothers were 29 years of age and neither had experienced bacterial vaginosis during pregnancy. Both mothers and neonates did not receive any antibiotic treatment. Mother 1 delivered"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cellulosimicrobium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Placental genera require site-specific figure review; vaginal Lactobacillus names excluded unless independently supported in placenta.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pmcid": "PMC13720141",
+  "tissue_category": "tumour",
+  "sub_site": "pan-cancer metagenome assembly reanalysis",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "b130ebfd00897e07e949cb26db609dd6d9e6563124b00b92c707050d713526bc",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "Information about the tumor tissue sequencing samples used to construct MAGs was obtained from the supplementary information of the report in which the MAGs were constructed 18 . MAG FASTA files were downloaded from the public Zenodo reposi"
+      }
+    ]
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": ". Utilizing high-quality microbial metagenome-assembled genomes from 3,526 human tumor tissue samples, we identify 528 biosynthetic gene clusters with the potential to encode specialized metabolites relevant to tumor pathology. We reveal th"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "TCGA reference-catalog mapping filter",
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": "Our decontamination strategy has three phases. In phase 1, we sought to reduce potential false-positive microbial signals identified through taxonomic profiling of the original sequencing data. To do this, we compared the unfiltered and dec"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Reused shotgun tumour MAGs; genus attribution to eligible tissue types must be verified against source cohort before denominator use. Genome/BGC taxon labels pool primary sites and metastatic sites without a per-genus eligible-site assignment; no genus denominator assigned from pooled labels.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

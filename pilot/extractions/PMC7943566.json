@@ -1,0 +1,54 @@
+{
+ "pmcid": "PMC7943566",
+ "block": "other_sterile",
+ "tissue_category": "other_sterile",
+ "year": 2021,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "shotgun",
+  "evidence": [
+   {
+    "id": "E0042",
+    "quote": "DNA libraries were sequenced to a depth of 10~50 million reads per sample"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0013",
+    "quote": "Three blank samples without AH specimens were processed along the metagenomic sequenc"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "evidence": [
+   {
+    "id": "E0014",
+    "quote": "the intraocular microbial communities in all patients were significantly different from all specimen-free negative controls"
+   }
+  ]
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Propionibacterium",
+   "evidence_id": "E0005",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "genera_in_figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "Intraocular (aqueous humor) metagenomes; genus profiles only in figures. Replacement for the rat paper (v1 sample).",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

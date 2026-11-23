@@ -1,0 +1,73 @@
+{
+  "pmcid": "PMC8904948",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour tissue",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "91d9b40db3305b8fe9559ad4cdfb12db0e0d767559b96c1b8aa039f2c0e9cbad",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "other",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ted sequencing and 2 were sent for 16S ribosomal DNA (rDNA) sequencing. Results We detected 49 pathogenic microorganisms (PMs) in the 37 tumor samples, 28 PMs in the 4 BALF samples, and 14 PMs in the 6 plasma samples. Overall, there were 5 "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pathogen-targeted sequencing in lung tumours without lung infection; target tumour genera only. BALF/plasma taxa excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

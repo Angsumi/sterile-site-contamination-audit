@@ -1,0 +1,144 @@
+{
+  "pmcid": "PMC10848802",
+  "tissue_category": "other_sterile",
+  "sub_site": "carotid atherosclerotic plaques",
+  "year": 2024,
+  "country": "Japan",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "rehensive next-generation sequencing by amplifying the 16S rRNA V3-4 region. Next-generation sequencing was performed by Hokkaido System Science Co., Ltd. (Sapporo, Japan). PCR amplicons were pooled and sequenced on an Illumina MiSeq with 3"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 5,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lautropia",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cardiobacterium",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kingella",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Abiotrophia",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Selenomonas",
+      "evidence_id": "E0051",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aggregatibacter",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tannerella",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Treponema",
+      "evidence_id": "E0065",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "54 carotid plaques screened; 5 analysed comprehensively; Staphylococcus-dominated excluded profiles recorded as detected in own carotid samples. Dental-only taxa excluded.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

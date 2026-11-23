@@ -1,0 +1,68 @@
+{
+  "pmcid": "PMC8773292",
+  "tissue_category": "other_sterile",
+  "sub_site": "skeletal muscle biopsies",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "The V3-V4 region of the bacterial 16S ribosomal gene was amplified by PCR using Vaiomer (Vaiomer, Lab\u00e8ge, France) universal primers. The resulting amplicons were sequenced using Illumina (Illumina Inc., San Diego, CA, USA) 2 \u00d7 300 paired-en"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "Negative controls were introduced during DNA extraction and amplification as previously described [ 33 ]. Empty tubes collected contaminants from labware and reagents during the extraction steps (Muscle-EXT-NC, Blood-EXT-NC). Similarly, a m"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "The read sequences from samples and negative controls were clustered by similarity into OTU Operational Taxonomic Units using the swarm algorithm v2.1.6 [ 34 ]. We performed the clustering in two steps, the first using an aggregation distan"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "To determine if bacterial DNA is present in healthy human tissues, we amplified and sequenced the V3-V4 variable regions of 16S rRNA obtained from aseptically extracted skeletal muscle and blood samples of 8 healthy males. We detected bacte"
+      }
+    ]
+  },
+  "n_target_samples": 16,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "unclear",
+  "notes": "Eight men before/after training; six also supplied blood, excluded from target list. Main text reports higher ranks; supplement tables report copy numbers and training efficiency, no genera.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "343ba8aa2a5c859cc66158f8bea46c4b916c0b9b1eb0d598e2f954b0c914be1f",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+  ]
+}

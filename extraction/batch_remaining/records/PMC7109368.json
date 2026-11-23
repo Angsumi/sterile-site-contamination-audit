@@ -1,0 +1,73 @@
+{
+  "pmcid": "PMC7109368",
+  "tissue_category": "tumour",
+  "sub_site": "liver breast lung ovary kidney TCGA",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "22d733322aa49ce318c3915663e1c40c1000710c691fbcfe40ba218eb2892a32",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "We downloaded TCGA cancer types with whole exome sequencing case pairs meeting selection criteria. Cases were defined as solid tumor cancer types within TCGA that had human-aligned sequencing reads from exome sequencing in binary version of"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "We downloaded TCGA cancer types with whole exome sequencing case pairs meeting selection criteria. Cases were defined as solid tumor cancer types within TCGA that had human-aligned sequencing reads from exome sequencing in binary version of"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Shared core genera across all nine cancer types include eligible internal tissues. Mucosal-specific genera excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

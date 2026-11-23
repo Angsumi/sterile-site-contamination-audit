@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12072589",
+  "tissue_category": "tumour",
+  "sub_site": "cervix TCGA source mislabelled blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Microbial profiles derive from TCGA-CESC whole-transcriptome data; no verified blood specimen cohort. Cervical tumour site is excluded by protocol.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "525bcdbf1848c862a9a0315b95c71ce93823d43af8b0b4d5d0216ddb318a4c1e",
+  "notes": "",
+  "review_flags": []
+}

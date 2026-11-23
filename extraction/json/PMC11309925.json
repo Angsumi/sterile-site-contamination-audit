@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC11309925",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "bed237fcaafce8aeee7165649605fd4585ddf8292fd81438f3ae32e530f29272",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "t years, the presence of bacterial 16S rRNA genes has been revealed in blood, which was previously thought to be a sterile environment, and characteristic blood microbiomes have been detected in various diseases. However, the mechanism and "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Serum-EV 16S profiling; tumour bacterial qPCR validation is separate. Only Cutibacterium named in text.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC11569570",
+  "tissue_category": "other_sterile",
+  "sub_site": "synovial fluid and blood",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Blood and synovial bacteria assessed by phylum-specific real-time PCR only.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "1ec80f11ea28f48e11b029b11855973133e2aed1602e5bf1a888bdba8e572e71",
+  "notes": "",
+  "review_flags": []
+}

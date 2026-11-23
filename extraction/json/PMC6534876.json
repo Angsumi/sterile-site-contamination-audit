@@ -1,0 +1,46 @@
+{
+  "pmcid": "PMC6534876",
+  "tissue_category": "tumour",
+  "sub_site": "breast tissue",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Study protocol with planned sequencing, not a completed primary study.",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": []
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "unclear",
+  "notes": "Excluded: prospective study protocol with planned recruitment and no study results.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5a66fc9e990093c86ea1593f98d5e320f031457dd502a6ec3cb43933bc5dd71b",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

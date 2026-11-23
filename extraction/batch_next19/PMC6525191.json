@@ -1,0 +1,101 @@
+{
+  "pmcid": "PMC6525191",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2019,
+  "country": "Republic of Korea",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "ng DNA extraction, bacterial genomic DNA was amplified with 16S_V3_F (5\u2032-TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG-3\u2032) and 16S_V4_R (5\u2032-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC-3\u2032) primers, which are specific for V3-"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 726,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Trabulsiella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "158 HCC, 166 cirrhosis and 402 healthy controls. Named candidate model OTUs retained; no positive rank ordering inferred from prognostic model.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "a04f46a8a8bff1f20d22d9fae3b6e4018d023d657c6884a9fdcb4d5c23bb316f",
+  "supplement_manifest": []
+}

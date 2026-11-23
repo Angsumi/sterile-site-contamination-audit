@@ -1,0 +1,168 @@
+{
+  "pmcid": "PMC6987042",
+  "tissue_category": "blood",
+  "sub_site": "serum",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "905dc1f0cba6ceb3d8e0e67d78c3a45d9b976d356b1952ade2c448e5d2bdaccf",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0055",
+        "quote": "on and sequencing of the bacterial 16S rRNA gene (variable region 4) followed by bioinformatic analysis using QIIME (see Methods ). Our primary approach used principal coordinates analysis (PCoA) to reduce the complexity of the data obtaine"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0051",
+        "quote": "d on the same sequencer run. Three negative control reactions, subjected to all experimental procedures, were included on the sequencer run. Bioinformatic analysis was performed using QIIME implemented as part of the Nephele 16S paired-end "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0059",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0061",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0085",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eremococcus",
+      "evidence_id": "E0085",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0085",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0076",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0078",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicella",
+      "evidence_id": "E0079",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0080",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0082",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

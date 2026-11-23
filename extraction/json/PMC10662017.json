@@ -1,0 +1,69 @@
+{
+  "pmcid": "PMC10662017",
+  "tissue_category": "tumour",
+  "sub_site": "eligible internal tumour types in ORIEN/TCGA: lung, sarcoma, thyroid, kidney, melanoma",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "ORIEN and TCGA primary tumour RNA-seq",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Bulk RNA-seq samples with corresponding expression data were obtained from ORIEN and TCGA. Samples from TCGA were identified and downloaded using the R package {GenomicDataCommons} and restricted to samples from patients\u2019 primary tumors. TC"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Bulk RNA-seq samples with corresponding expression data were obtained from ORIEN and TCGA. Samples from TCGA were identified and downloaded using the R package {GenomicDataCommons} and restricted to samples from patients\u2019 primary tumors. TC"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "exotic; decontam and Voom-SNM",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "From here, the R package {decontam} was used to identify contaminants within ORIEN and TCGA samples ( 12 ). These contaminant lists were revised using the literature-reviewed list from Poore and colleagues before contaminants were removed f"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Streptomyces",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pan-cancer dataset also includes colorectal/bladder tumours, which are ineligible. Conservatively retain Streptomyces explicitly linked to KIRC/LUAD and Fusobacterium explicitly detected in non-colorectal tumours. Other named genera only pooled across eligible/ineligible types and not assigned to eligible tissue in text; no converted supplements available. 16S validation is additional, method reflects primary RNA-seq mining.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

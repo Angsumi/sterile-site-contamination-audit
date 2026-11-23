@@ -1,0 +1,171 @@
+{
+ "pmcid": "PMC9426487",
+ "tissue_category": "other_sterile",
+ "sub_site": "",
+ "year": 2022,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "The microbial compositions of all samples were compared using 16S rRNA gene amplicon next-generation sequencing."
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "evidence": [
+   {
+    "id": "E0118",
+    "quote": "Blank extractions (as reagent controls) were also processed and used to identify potential contamination."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0037",
+    "quote": "of the isolated plasma samples in qPCR"
+   }
+  ]
+ },
+ "n_target_samples": null,
+ "list_type": "full_profile",
+ "genera": [
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Burkholderia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pedobacter",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Serratia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brevundimonas",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bradyrhizobium",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Elizabethkingia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ochrobactrum",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Herbaspirillum",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chryseobacterium",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methylobacterium",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enhydrobacter",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Clostridium",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paracoccus",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mesorhizobium",
+   "evidence_id": "E0101",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Acinetobacter",
+  "Burkholderia",
+  "Sphingomonas",
+  "Pedobacter",
+  "Serratia"
+ ],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Cerebral thrombi. Blanks and periprocedural controls judged negative by PCR gel; sequencing of blanks not stated.",
+ "extractor": "AI agent (Claude Opus 5.5), pilot 2026-11-22; converted 2026-11-23",
+ "date": "2026-11-22"
+}

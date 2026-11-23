@@ -1,0 +1,109 @@
+{
+  "pmcid": "PMC11385298",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma and adjacent lung",
+  "year": 2024,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "full-length",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "Use specific primers with a Barcode full-length of 16S to amplify the designated region of the sample"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 76,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodopseudomonas",
+      "evidence_id": "E0034",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "E0034",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenobacterum",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pasteurella",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0051",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "38 patients paired tumour/adjacent. Phenobacterum spelling preserved for genus validation. Salmonella/Rhodopseudomonas discussed as potential contamination; no removal.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

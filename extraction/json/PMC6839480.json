@@ -1,0 +1,87 @@
+{
+  "pmcid": "PMC6839480",
+  "tissue_category": "blood",
+  "sub_site": "blood",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "After extraction of total 16s rRNA gene from both the fecal and blood samples, PCR amplification was carried out for high-throughput IllUmina Miseq sequencing targeted on the V3-V4 functional region of the 16s rRNA gene. Detailed amplificat"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 80,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leucobacter",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastococcus",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citricoccus",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "40 MSA and 40 controls. Fecal-only Lactobacillus/Gordonibacter/Phascolarctobacterium/Haemophilus and genus-specific fecal qPCR excluded.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ce0427aef1305531bbcd9995198dbba578cd060ddc27aa4c912937ed62acb76c",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

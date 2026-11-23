@@ -1,0 +1,155 @@
+{
+ "pmcid": "PMC7943566",
+ "meta": {
+  "title": "Identification of an intraocular microbiota",
+  "journal": "Cell Discovery",
+  "year": "2021",
+  "doi": "10.1038/s41421-021-00245-6",
+  "pmid": "33750767"
+ },
+ "n_elements": 51,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "The current dogma in ophthalmology and vision research presumes the intraocular environment to be sterile. However, recent evidence of intestinal bacterial translocation into the bloodstream and many other internal organs including the eyes, found in healthy and diseased animal models, suggests that the intraocular cavity may also be inhabited by a microbial community. Here, we tested intraocular samples from over 1000 human eyes. Using quantitative PCR, negative staining transmission electron microscopy, direct culture, and high-throughput sequencing technologies, we demonstrated the presence of intraocular bacteria. The possibility that the microbiome from these low-biomass communities could be a contamination from other tissues and reagents was carefully evaluated and excluded. We also provide preliminary evidence that a disease-specific microbial signature characterized the intraocular environment of patients with age-related macular degeneration and glaucoma, suggesting that either spontaneous or pathogenic bacterial translocation may be associated with these common sight-threatening conditions. Furthermore, we revealed the presence of an intraocular microbiome in normal eyes from non-human mammals and demonstrated that this varied across species (rat, rabbit, pig, and macaque) and was established after birth. These findings represent the first-ever evidence of intraocular microbiota in humans."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "Introduction",
+   "text": "In this work, we present a structured analysis of the microbial content of fluid taken from the anterior chamber of both human and non-human mammalian eyes. First, we prospectively evaluated surgically obtained aqueous humor (AH) specimens from 1000 patients, which confirmed the presence of Propionibacterium acnes ( P. acnes ) in the majority of cases and suggested a diverse intraocular microbiota. Second, we characterized this diversity using metagenomic sequencing techniques. Third, we conducted exhaustive controls to minimize the risk that our observations were the result of contamination. Fourth, we compared the intraocular microbiome of patients with AMD and glaucoma with unaffected eyes, and finally we interrogated the intraocular microbial signatures of four non-human mammalian species (rat, rabbit, pig, and macaque) and found that the intraocular microbiota was established after birth in rats. We conclude that there is a low-biomass microbiome in what was previously considered to be a sterile intraocular environment and provide evidence that this is altered both in the context of disease and across mammalian species."
+  },
+  {
+   "evidence_id": "E0007",
+   "section": "Prospective cohort of over 1000 living human eyes",
+   "text": "This identification of intraocular P. acnes led us to ask whether it is possible to directly visualize these bacteria in intraocular fluid. AH specimens were examined using negative staining transmission electron microscopy. As a positive control, the rod-shaped cultured P. acnes was successfully visualized (Fig. 2a ). In negative controls containing no AH specimens, no bacterium could be found using the identical negative staining protocol (Fig. 2a ). However, multiple round- and rod-shaped bacteria were found in the AH samples from patients (Fig. 2b ; Supplementary Fig. S1a ). Endospores were evident within some bacteria (Fig. 2b ) and free endospores were also found in AH specimens (Supplementary Fig. S1b ). Hence, this indicated the existence of multiple types of intraocular bacteria in the AH specimens of cataract patients. Fig. 2 Detection of intraocular bacteria in AH specimens and cultures. a Negative staining transmission electron microscopy was used to visualize cultured P. acnes at 20,000× magnification. The negative control shows the visualization of water without AH specimen. b Negative staining transmission electron microscopy shows bacteria in minimally manipulated fresh AH specimens at 20,000× magnification. c Cultured E. coli was visualized by light microscopy. The negative control consists of sample preparation buffer without any AH inoculation. d Bacteria in cultured AH samples (examples of culture-positive and -negative samples) were visualized by light microscopy. e Representative anaerobic cultures of skin specimens and negative controls (PBS solution used to dilute specimens). f Representative anaerobic cultures of AH specimens."
+  },
+  {
+   "evidence_id": "E0010",
+   "section": "Further control studies to minimize the risk of a false-positive result due to bacterial contamination",
+   "text": "In order to address the possibility that our results were secondary to contamination from periocular tissues or bleeding at the time of surgery, we performed a metagenomic comparison of simultaneously acquired specimens of AH, conjunctiva, eyelid skin, and plasma from a further 20 patients undergoing cataract surgery (the demographic characteristics of all patients were listed in Cohort 3, Supplementary Table S1 ). A large number of human reads were detected among samples from all tissues (Fig. 3a ); however, the number of human reads within the AH samples (~ 5%) was significantly lower than the other three tissues (Fig. 3a ). The bacterial community in the specimens from all tissues showed classical individuality (Fig. 3b and Supplementary Fig. S5a ). The average numbers of microbial genes detected in AH samples (Fig. 3c ) as well as the alpha diversity (detected by Shannon index) of the microbial community in AH (Supplementary Fig. S5b ) were significantly higher than in the conjunctiva (CO) and plasma (PL) samples. Unsupervised hierarchical clustering of metabolic pathways in microbiota from the four tissues uncovered a unique metabolic pattern enriched in AH samples that was distinct from the other three tissues, which were indistinguishable (Fig. 3d and Supplementary Table S3 ). A principal coordinate analysis (PCoA) of community similarity (including bacteria, fungi, and viruses) indicated that the metagenome of AH was different from the other three tissues (Fig. 3e and Supplementary Fig. S6a–c ). The relative abundance of fungal and viral species differed among the four tissues (Supplementary Fig. S7 ). Fig. 3 A unique intraocular microbiota detected by metagenomic sequencing analysis. Comparative metagenomic analysis was performed for AH, conjunctiva (CO), plasma (PL), and skin (SK) specimens from 20 patients undergoing cataract surgery. a The average percentage of human reads among total sequenced reads from AH, CO, PL, and SK samples. b Relative abundance of the major genera of bacteria in the metagenomes of AH, CO, PL, and SK samples. c The average numbers of microbial genes identified in AH, CO, PL, and SK samples. d Hierarchical clustering analysis of relative abundance of microbial metabolic pathways identified in AH, CO, PL, and SK samples. P value was calculated using ANOVA test. e Diversity of the microbial community analyzed by PCoA. The Bray Curtis distance was used and P value was calculated using PERMANOVA test."
+  },
+  {
+   "evidence_id": "E0011",
+   "section": "Further control studies to minimize the risk of a false-positive result due to bacterial contamination",
+   "text": "These data suggest that the bacteria detected in the AH specimens are not contaminations from other tissues. However, to further rule out the possibility that the bacteria found in our AH specimens were contaminations from other tissues involved in AH sampling, we went on to test our method of eye disinfection at the time of cataract surgery by applying the same procedure to 8 macaques (16 eyes) and compared the total bacterial abundance on the inferior bulbar conjunctiva before and after the disinfection procedure. In addition, PCR assays capable of detecting all bacterial 16S rDNA were also performed on the reagents and drugs used during the sampling process. Data shown in Supplementary Fig. S8a, b demonstrated that our disinfection procedure abolished bacterial species on the surface of most eyes."
+  },
+  {
+   "evidence_id": "E0012",
+   "section": "Further control studies to minimize the risk of a false-positive result due to bacterial contamination",
+   "text": "Potential reagent and environmental contamination in high-throughput sequencing experiments was also a concern for our study. We thus paid great attention to myriad negative controls for both environments and reagents throughout these studies, including the blank, wash solution, anesthetic, disinfectant, NaCl solution, and mydriatic samples. Eight independent samples (blank) were collected following the exact procedures for AH collection, substituting 100 μL 0.9% sodium chloride solution instead of AH into the sample collection tubes in the operation room. Similarly, two of each wash solution, anesthetic, disinfectant, NaCl solution, and mydriatic samples were collected as controls for metagenomic sequencing analysis of AH specimens. All tissue samples as well as environmental and reagent controls were analyzed using a metagenomic sequencing approach. We found no detectable DNA in all control samples, while an average of 0.13 ng/μL DNA could be detected in AH samples using Qubit (Life, USA) (Supplementary Fig. S9a ). Importantly, all negative control samples required at least 40 cycles of PCR amplification in order to obtain enough DNA for sequencing experiments (Supplementary Fig. S9b ). As a result, over amplified DNA in negative control samples resulted in DNA bands on gels that were different from the AH samples (Supplementary Fig. S9b ). These data clearly differentiate the controls from AH samples, and this validation process confirms that the reads from AH samples are indeed from a true metagenomic community."
+  },
+  {
+   "evidence_id": "E0013",
+   "section": "Further control studies to minimize the risk of a false-positive result due to bacterial contamination",
+   "text": "To further address the concerns of contamination in the metagenomic analysis of low-biomass specimens such as AH, we obtained additional 12 AH specimens (Supplementary Table S1 , Cohort 4) and performed a spike-in (0.1 ng Malassezia globose genome, MYA4612 from ATCC, USA) controlled comparative analysis of AH metagenomes using two commercially available DNA extraction kits. Twelve AH specimens were divided into two equal parts, which were subjected to DNA isolation using QIAamp PowerFecal DNA kit (Qiagen, USA) (named group Q) and Epicentre MasterPure Complete DNA and RNA Purification Kit (Epicentre, USA) (named group E), respectively. Three blank samples without AH specimens were processed along the metagenomic sequencing analysis and served as negative controls (named Q-blank and E-blank, respectively) and any species present in these blank controls were excluded from further analysis of AH samples (Supplementary Table S4 ). As shown in Supplementary Fig. S10a , the alpha diversities measured by Shannon index of bacterial communities in Q and E groups were comparable, which were significantly higher than the alpha diversities of the communities in both blank controls. Although blank controls from Q and E groups were very different in beta diversity, beta diversities of the bacterial communities in Q and E groups were similar (Supplementary Fig. S10b ). When the relative abundance of bacterial species was compared (Pearson correlation coefficient) between communities identified using the Q or E kits, we found highly correlated communities identified in 11 out of 12 sample pairs (R ranged between 0.70 and 0.96) (Supplementary Fig. S10c ). Within the bacterial communities, the majority of core species with the relative abundance above 1% were consistently identified by both DNA isolation kits (Supplementary Fig. S10d ). In particular, P. acnes was the most abundant bacterial species within all samples (Supplementary Fig. S10e ). Its relative abundance (in average) was almost the same in groups Q and E samples (Supplementary Fig. S10d , top right corner). These results demonstrated that the microbial communities we identified from AH specimens were not a contamination from reagents or environments."
+  },
+  {
+   "evidence_id": "E0014",
+   "section": "The intraocular microbial signature of patients with age-related macular degeneration and glaucoma",
+   "text": "In order to define the intraocular microbiome in the context of disease, we conducted a preliminary comparison of the metagenomic sequencing results from our group of 41 otherwise normal eyes undergoing cataract surgery (Cohort 2) with an additional 38 patients who had a diagnosis of AMD ( N = 20) (Cohort 5) or glaucoma ( N = 26) (Cohort 6) at the time of cataract surgery. Supplementary Table S1 listed the summary demographic characteristics of all patients. The bacterial community in the AH specimens from all three patient cohorts showed classical individuality (Fig. 4a , Supplementary Fig. S11a , and Table S5 ), similar to the microbiome found in other body parts. Interestingly, the alpha diversities of the intraocular microbial communities were significantly different among these three types of patients (Fig. 4b ), despite all patients having bacteria as the major component of their intraocular microbiome (Supplementary Fig. S11b–d ). The PCoA on the composition of the intraocular microbiota (using all microbial species) showed clear differences among cataract, AMD and glaucoma patients (Fig. 4c and Supplementary Fig. S12a, b ). Importantly, the intraocular microbial communities in all patients were significantly different from all specimen-free negative controls (Supplementary Fig. S13 ). Similarly, hierarchical clustering analysis of the relative abundance of functional microbial genes from all metagenomes indicated that each ocular manifestation had a general signature of microbial function, while there were outliers in AMD or glaucoma group that could be classified to the other disease clusters (Fig. 4d ). In spite of the significant individuality presented by the intraocular microbiome (Fig. 4a ), we were able to identify signature bacterial species for each ocular disease group we tested (Supplementary Fig. S14 ). Taken together, our results suggest that the composition and function of intraocular microbiota may differentiate certain ocular diseases. Fig. 4 The microbiota in AH from patients with cataract, AMD, and glaucoma. a Relative abundance of the six major phyla of bacteria in the intraocular metagenomes in patients with cataract ( N = 41), AMD ( N = 20), or glaucoma ( N = 26). b The alpha diversity (measured by Shannon index) of the intraocular metagenomes in patients with cataract, AMD, and glaucoma. The error bar represents the mean of all Shannon index within the disease group ± SEM. The statistical difference was measured between patients with cataract and each of other disease groups, respectively. Mann-Whitney U test significance levels are denoted by asterisks (* P < 0.05). c PCoA of the similarity of the intraocular metagenomes in patients with cataract ( N = 30), AMD ( N = 18), and glaucoma ( N = 16). The Bray Curtis distance was used and P value was calculated using PERMANOVA test. d Hierarchical clustering analysis of the functional genes in the intraocular metagenomes in patients with cataract ( N = 30), AMD ( N = 18), and glaucoma ( N = 16)."
+  },
+  {
+   "evidence_id": "E0017",
+   "section": "Discussion",
+   "text": "In our study: (1) by using the quantitative PCR technique and a large cohort of patients, we found RNA of P. acnes in 64%–71% AH specimens from uninflamed eyes (Fig. 1 ), which was not from the contamination of ocular surface during sampling of the AH (Supplementary Fig. S8 ); (2) by using electron microscopy, we visualized multiple types of bacteria in AH specimens (Fig. 2b ); (3) by using various microbial culture techniques, we found ~ 93% AH were positive for multiple types of bacteria, which were clearly different from the uncultured intraocular bacteria in terms of morphology and activity (Fig. 2 ); (4) by using the metagenomic sequencing technology, we were able to distinguish the composition of AH from conjunctival, plasma, and skin microbiota (Fig. 3 ); (5) we provide preliminary evidence that the complexity and signatures of intraocular microbiota might also characterize ocular diseases such as glaucoma, or AMD (Fig. 4 ); (6) by using metagenomic sequencing technology we found bacterial DNA inside of the eyes of four disparate non-human mammalian species (Fig. 5a ); and (7) similar to the gut microbiota 10 , 11 , we found that the intraocular microbiota was established after birth in rats, increased in its abundance during life, and reached the highest level in adults (Fig. 5b, c )."
+  },
+  {
+   "evidence_id": "E0019",
+   "section": "Discussion",
+   "text": "Culture-independent sequencing-based technologies are extremely sensitive and powerful for characterizing many microbial communities in health and disease 12 . However, these microbiome and/or metagenomic studies also discovered controversial microbiota in the body sites or environments that were previously considered sterile, for example, placenta 13 , 14 . Actually, contamination in low microbial biomass microbiome studies could be introduced during sample collection and storage, laboratory processing of samples for sequencing experiments including reagents, and bioinformatic analysis steps 12 , 15 , 16 . Our current study integrated multiple key steps to control possible contamination and avoid false conclusions. First of all, we demonstrated that disinfection of ocular surface prevented introduction of bacterial contamination during sampling of intraocular AH specimens (Supplementary Fig. S8 ), which resulted in the characterization of intraocular microbiota that were different in both composition and functions from the ones in other tissues including skin, conjunctiva, and plasma (Fig. 3 ). Second, we applied direct visualization by electron microscopy (Fig. 2 ), PCR analysis (Fig. 1 ), in vitro culture (Fig. 2 ), as well as culture-independent sequencing techniques (Figs. 3 – 5 ) to avoid bias and erroneous conclusions reached by metagenomic analysis alone. Importantly, we also collected negative controls covering every step of the experimental process (Supplementary Figs. S8 – S10 , and S13 ) to minimize the possible misinterpretation of our data set. Finally, we also applied several controls in the bioinformatic analysis pipelines in order to limit false discoveries from our metagenomic analysis."
+  },
+  {
+   "evidence_id": "E0020",
+   "section": "Discussion",
+   "text": "Recent reports have demonstrated translocation of gut commensals to the bloodstream 17 , liver 4 , pancreas 18 , and joints 5 in animals and patients. In addition, tumor-type-specific intracellular bacteria were also detected in multiple human tumors with low microbial biomass 19 , 20 . Although the mechanisms of microbial translocation remain elusive, many factors influencing this process have been proposed 21 . Characteristics of both bacteria and the host decide the process of spontaneous or pathological translocation of whole bacteria into other internal organs. The host barriers including epithelial, vascular, and lymphatic ones restrict the passage of bacteria, whose integrity or selective gatekeeping property may regulate the traffic of free bacteria and/or host cells loaded with intracellular bacteria. Certain bacteria may also survive in the autophagosomes within phagocytes like Trojan horses and migrate with these cells through barriers, from gut to body sites including the eye and skin 22 , 23 . In addition, many commensal bacteria also likely co-evolve with the host and induce tissue-specific host immune tolerance to the dormant forms of these bacteria in the eye 24 . However, it is feasible that the intracellular location of these bacteria could be altered in response to pathogenic factors, which in theory would be consistent with the concept of dysbiosis of tissue-specific microbiota in eye diseases, hence our findings may have novel relevance to the pathogenesis of a range of sight-threatening conditions."
+  },
+  {
+   "evidence_id": "E0022",
+   "section": "Discussion",
+   "text": "All techniques have limitations and bias. More positive and negative controls could be used in order to even more exhaustively limit the possible introduction of microbial contamination into the intraocular specimens. In addition, we recognize the potential that eyes with cataract might not be truly ‘normal’, therefore, additional procedure- and disease-free eyes may be needed for further confirmation of intraocular microbial community."
+  },
+  {
+   "evidence_id": "E0023",
+   "section": "Discussion",
+   "text": "In conclusion, using electron microscopy, PCR, culture, and metagenomic sequencing analysis, we detect the presence of a bacterial community in AH samples taken from multiple human donors, with or without associated ocular pathology. This observation was further replicated in other mammalian species, suggesting that a low-biomass intraocular microbiome is a hitherto unrecognized component of the eye with potential wide-ranging implications for the future study of ophthalmic health and disease."
+  },
+  {
+   "evidence_id": "E0025",
+   "section": "Sampling of AH from patients",
+   "text": "A topical antimicrobial drug, 0.5% levofloxacin eye drops (Cravit, Santen Pharmaceutical Co., Japan), was administered four times a day in both eyes for at least 3 days before the cataract surgery. On the day of surgery, patients received conjunctival sac irrigation using 0.9% sodium chloride solution at least twice and mydriasis using compound tropicamide eye drops. Following disinfection and draping, 5% povidone iodine (PVI) was applied on the eye for 30 s. The conjunctival sac was then irrigated with tobramycin solution for at least three times. After topical anesthesia with 0.5% alcaine (at least three times), auxiliary incision was performed using 1.5 mm stab knife (Alcon, USA) at the 2 o’clock position of the limbus. AH was sampled via the auxiliary incision using a 1 mL sterile syringe before any other procedures were initiated. Immediately after collection, AH samples were transferred into sterile eppendorf tubes and stored at −80 °C prior to DNA extraction. The 0.9% sodium chloride solution (100 μL) was also transferred from a fresh 1 mL sterile syringe into a sterile eppendorf tube, which served as the Blank control."
+  },
+  {
+   "evidence_id": "E0026",
+   "section": "Sampling of AH from animal eyes and detection of total bacterial DNA using real-time PCR assays",
+   "text": "The eye balls from animals free of diseases and genetic manipulation were sterilized using 5% PVI and tobramycin solution, followed by washing in sterile 0.9% sodium chloride solution for three times in a cell culture hood. AH was sampled using 1 mL sterile syringes. DNA extraction was carried out using MasterPure Complete DNA and RNA Purification Kit (Epicentre, USA) according to the manufacturer’s protocol. The total bacterial DNA relative to the host DNA was quantified using the primer pair previously used in Clifford et al. 25 , detecting 16S rDNA of all bacteria: U16SRT-F: ACTCCTACGGGAGGCAGCAGT; U16SRT-R: TATTACCGCGGCTGCTGGC."
+  },
+  {
+   "evidence_id": "E0028",
+   "section": "Sampling of conjunctiva and detection of total conjunctival bacterial DNA using PCR assays",
+   "text": "The conjunctival impression cytology samples from inferior bulbar conjunctiva were obtained using the following protocol: (1) topically anesthetize the eye with 1–2 drops of Alcaine Eye Drop (Alcon, USA) and keep the eye closed for several minutes; (2) using disposable tweezers, place the MF Membrane filter (Millipore, REF:HAWP01300, 0.45 μm) on the inferior bulbar conjunctiva with the edge of the membrane clear of the lower tear meniscus and gently press for 10–15 s; (3) remove the membrane and store it immediately at –80 °C in a sterile Eppendorf tube with 300 μL Tissue and Cell Lysis Solution containing 1 μL of Proteinase K, provided in the MasterPure Complete DNA and RNA Purification Kit (Epicentre, USA); (4) apply 1–2 drops of Neomycin Sulfate eye drops (Alcon, USA) to each examined eye. DNA extraction was carried out using MasterPure Complete DNA and RNA Purification Kit (Epicentre, USA) according to the manufacturer’s protocol from the conjunctival impression cytology samples. The total bacterial DNA was PCR amplified using the primer pair previously used in Oh et al. 26 , detecting 16S rDNA of all bacteria (the amplicon at the size ~ 530 bp is between V1 and V3): V1_27F: AGAGTTTGATCCTGGCTCAG; V3_534R: GCATTACCGCGGCTGCTGG."
+  },
+  {
+   "evidence_id": "E0030",
+   "section": "RNA extraction and real-time PCR",
+   "text": "Total RNA was extracted from 100 μL AH using MasterPure Complete DNA & RNA Purification Kit (Epicentre, USA). DNA-free RNA was reverse transcribed into DNA using the All-In-One Master Mix Kit (Kapa, USA). Real-time PCR was performed using KAPA SYBR FAST Universal qPCR kit (Kapa, USA) to quantify the copy numbers of bacterial RNA. The primers were used: P. spp. - 16S : F-CCTGCCCTTGACTTTGG, R-AAGCCGCGAGTCCATC; P. acnes - PPA_RS04200 : F-GATTGGTTTACTACCCGTGAGCG, R-ATAGCAGGGATTCCA-GCGACA."
+  },
+  {
+   "evidence_id": "E0031",
+   "section": "DNA extraction from AH, plasma, conjunctiva, and skin specimens",
+   "text": "DNA extraction was carried out using MasterPure Complete DNA and RNA Purification Kit (Epicentre, USA) or QIAamp PowerFecal DNA kit (Qiagen, USA) according to the manufacturer’s protocol."
+  },
+  {
+   "evidence_id": "E0038",
+   "section": "Hypoxia culture in liquid medium",
+   "text": "The cooked meat medium (without antibiotics, 5 g/L Lab-Lemco’ powder, 30 g/L peptone, 5 g/L yeast extract, 5 g/L NaH 2 PO 4 , 3 g/L glucose, and 2 g/L soluble starch) was purchased from Huankai Microbial Inc. (Guangzhou, China). Each culture was prepared in a 15 mL glass tube (purchased from Drtech Inc., Guangzhou China) with 6 mL cooked meat medium, sterilized dry beef granules, and 1.5 mL liquid paraffin wax (purchased from Huankai Microbial Inc., Guangzhou, China) on top. All tubes were then sterilized at 121 °C for 30 min in the HEV-to Autoclave instrument (HIRAYAMA, Japan). AH sample fluid was injected into above tube in sterilized cell culture hood and sealed, followed by culture with shaking (200 rpm) at 37 °C for 5 days in the ZQTY-70F incubator (Zhichu Instrument Co., Ltd, Shanghai, China). Wax-sealed tubes containing no AH sample but the culture medium underwent the incubation protocol served as the negative controls. All cultures were then gram stained and subjected to microscopic examination."
+  },
+  {
+   "evidence_id": "E0039",
+   "section": "Anaerobic culture in blood agar medium",
+   "text": "Each AH specimen was mixed with sterile PBS to make a 200 μL mixture, was inoculated onto blood agar plate (purchased from CRmicrobio, Guangzhou, China), and cultured anaerobically in the incubator (LHS-50CL, Shanghai, China) at 37 °C for 7 days. Anaerobic environment was generated using atmosphere generation systems AnaeroGen TM 2.5 L (ThermoFisher, USA). The sterile PBS was used as negative controls."
+  },
+  {
+   "evidence_id": "E0041",
+   "section": "Negative staining transmission electron microscopy",
+   "text": "Fifty µL of fresh AH specimens or cultured AH samples were centrifuged at 14,000 rpm for 20 min. Supernatant was removed saving 5 µL of fluid, which was then loaded onto a copper grid with carbon film. The grid with sample was then stained with 2 µL phosphotungstic acid (3%) for 1 min. The grid was immediately examined using a JEM2010 electron microscope (JEOL Ltd., Japan). The images were acquired on a 2k × 2k 895 CCD camera (Gatan, CA USA). All reagents and grids were sterilized. Water without any AH samples was used as negative controls and no bacteria were found after extensive search in negative controls."
+  },
+  {
+   "evidence_id": "E0042",
+   "section": "Metagenomic sequencing",
+   "text": "A total of 100 ng of DNA from each sample was sonicated into fragments of 300–400 bp using Bioruptor (Diagenode, Belgium) and subjected to sequencing library preparation following the standard protocol provided by the manufacturer using VAHTS Nano DNA Library Prep Kit for Illumina (Vazyme, China). DNA libraries were sequenced to a depth of 10~50 million reads per sample using HiSeq PE Cluster Kit v4 and HiSeq SBS V4 250 cycle kit (Illumina, USA) on the Illumina HiSeq2500 sequencer and subjected to initial processing using CASAVA (v1.8.2) (Illumina)."
+  },
+  {
+   "evidence_id": "E0044",
+   "section": "Sequence analysis",
+   "text": "The non-human sequences were first analyzed using the Kraken program 30 , with the pre-built 4 GB database as the reference (including complete bacterial, archaeal, and viral genomes in RefSeq as of 8 December 2014) ( https://ccb.jhu.edu/software/kraken/ ), followed by mapping of non-human sequences against our custom fungal genomes (containing 68 species and 75 strains, downloaded from http://fungidb.org/fungidb/ , on 12 March 2015) using Burrows-Wheeler Aligner (BWA0.7.5a) with three mismatches. The relative abundance of each species was calculated by the ratio of the total mapped reads of each species, normalized by their genome size and the total mapped microbial reads within each sample. Decontam 31 (in R scripts) was used to remove all contaminations from negative sequencing controls. Community diversity (Shannon index and evenness) was calculated according to the method described in Mothur program after using a subsampling cutoff of 500 microbial sequences per sample. The HMP Unified Metabolic Analysis Network (HUMAnN2) 32 was used to analyze the abundance of microbial genes and KEGG pathways for samples with >500 microbial sequences per sample. PCoA was performed on the relative abundance of bacterial species or microbial genes using Ade4 package in R statistical software (v3.1.1) after using a subsampling cutoff of 500 microbial sequences per sample or 1 read per gene. LDA Effect Size (LefSe 1.0) 33 was used to identify species, microbial genes, and functional pathways characterizing the differences among sample groups."
+  }
+ ],
+ "italic_candidates": {
+  "Actb": [
+   "E0015"
+  ],
+  "Macaca": [
+   "E0015"
+  ],
+  "Malassezia": [
+   "E0013"
+  ],
+  "Oryctolagus": [
+   "E0015"
+  ],
+  "Propionibacterium": [
+   "E0005",
+   "E0006"
+  ],
+  "Rattus": [
+   "E0015"
+  ],
+  "Staphylococcus": [
+   "E0008"
+  ],
+  "Sus": [
+   "E0015"
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "pmcid": "PMC13314463",
+ "block": "other_sterile",
+ "tissue_category": "other_sterile",
+ "year": 2026,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "2bRAD-M",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "2bRAD-M gene sequencing was used to characterize the aqueous humor microbiome"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0016",
+    "quote": "we set up negative controls for identifying and removing contaminating sequences from the experimental samples"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "evidence": [
+   {
+    "id": "E0016",
+    "quote": "a certain number of sequences were randomly drawn from the negative control pool"
+   }
+  ]
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Escherichia",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Neisseria",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Capnocytophaga",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Veillonella",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodococcus",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Jensenia",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "claimed",
+ "notes": "Aqueous humor; 3 per group.",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

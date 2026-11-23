@@ -1,0 +1,143 @@
+{
+  "pmcid": "PMC8494912",
+  "tissue_category": "blood",
+  "sub_site": "peripheral whole blood",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "512084796bdba658821c4d07657cb48e034bbb0965e4a787b479b36000891e57",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "COPDGene peripheral-blood RNA-seq",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ondary use of peripheral blood RNA-sequencing from 2,590 current and former smokers with and without chronic obstructive pulmonary disease (COPD) from the COPDGene study. We used the Genome Analysis Toolkit (GATK) microbial pipeline PathSeq"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Starting from the whole blood RNA-seq data, we used reads that were not mapped to the human genome during the gene expression analysis to detect a bacterial signature. Additional filtering of the unmapped reads was performed using the PathS"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "statistical / batch filtering",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "he phylum level above an abundance-filtering 1% threshold across all subjects were Proteobacteria, Actinobacteria, Firmicutes, and Bacteroidetes. In the abundance plot of the normalized scores for these four phyla, ordered by RNA-seq librar"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 2590,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylorubrum",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methyloversatilis",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Nevskia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Streptomyces",
+      "evidence_id": "E0014",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Primary and replication splits of the COPDGene cohort; eight explicitly removed genera logged as flagged.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

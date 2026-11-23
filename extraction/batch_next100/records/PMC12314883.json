@@ -1,0 +1,219 @@
+{
+  "pmcid": "PMC12314883",
+  "tissue_category": "blood",
+  "sub_site": "serum",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6545ca4828f6950487a29e50151d98dd6c0954efcfbdf4ba66739ec98bfc912d",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "agenomic analysis of the bacterial 16S rRNA gene in serum was established, and serum metabolites were detected through an untargeted metabolic study based on Gas Chromatography-Quadruple Time-Of-Flight Mass Spectrometry with accurate mass. "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Agathobacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerostipes",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyricicoccus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyricimonas",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyrivibrio",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catenibacterium",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Colidextribacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterorhabdus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Esherichia-Shigella",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Holdemanella",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Intestinimonas",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnospira",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megamonas",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Odoribacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillibacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parasutterella",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phascholarctobacterium",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Proteus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicibacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding.",
+    "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  ]
+}

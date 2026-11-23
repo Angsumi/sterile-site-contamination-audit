@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC9669652",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic adenocarcinoma",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA via Poore 2020",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Microbiome data and transcriptome data were obtained from the Cancer Genome Atlas (TCGA) database. 1 The microbiome data of pancreatic adenocarcioma patient tissues were derived from the re-cleaning of the sequencing data of samples from th"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": " tissues were derived from the re-cleaning of the sequencing data of samples from the TCGA database by Rob Knight\u2019s team ( Poore et al., 2020 ). The microbial RNA data of pancreatic adenocarcioma patients were selected and the clinical data"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 79,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acetobacterium",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Advenella",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catenuloplanes",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gulbenkiania",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kurthia",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptolyngbya",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Planctomyces",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Proteus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xenophilus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCGA microbial RNA profiles reprocessed by Poore/Knight; no own controls. 37 recurrence/metastasis plus 42 no-recurrence patients.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e5c7215c180df04fe8bfb78e592419e276e6fde5041d52e9d9373bb29a14eb77",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

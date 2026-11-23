@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC11811456",
+  "tissue_category": "tumour",
+  "sub_site": "ulcerated gastrointestinal stromal tumours",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Community sequencing succeeded only in two GISTs with disrupted mucosa, exposing the tumour to intestinal microbiota; closed target-site data are qPCR only.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "895e0f08c39239b8b49889b97e2487c6e7a0c602d3e2b7924aaaf8e66c8653ed",
+  "notes": "",
+  "review_flags": []
+}

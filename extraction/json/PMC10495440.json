@@ -1,0 +1,534 @@
+{
+  "pmcid": "PMC10495440",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "fetal membrane, amniotic fluid, cord blood; maternal peripheral blood",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "s were stored at \u2212 20 \u00b0C. The V3\u2013V4 region of the 16S rRNA gene was amplified by polymerase chain reaction (PCR) from the microbial genome DNA using appropriate primers (forward primer: 5\u2032-ACTCCTACGGGAGGCAGCAG-3\u2032; reverse primer: 5\u2032-GGACTACHVGGG"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Acetoanaerobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aliivibrio",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alkanindiges",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allobaculum",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerolinea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaeromyxobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arcobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arenimonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Azotobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bdellovibrio",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastococcus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bryobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chthonomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dechloromonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Denitratisoma",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dokdonella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dongia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Edaphobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Filimonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavitalea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gaiella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geodermatophilus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haliangium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hyphomicrobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Intestinibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Intestinimonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Labrys",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnospira",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactivibrio",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Legionella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limnobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megasphaera",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micropruina",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nakamurella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nesterenkonia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Niabella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrolancea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrosomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrospira",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nocardia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nonomuraea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ottowia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenarthrobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paludibaculum",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Patulibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peredibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phycicoccus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phyllobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Plasticicumulans",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionicicella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudolabrys",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudonocardia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Psychrobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ramlibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizomicrobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseiflexus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rudaea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serinicoccus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Singulisphaera",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Solibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Solirubrobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sorangium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphaerisporangium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingopyxis",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sulfuritalea",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Syntrophobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Taibaiella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrabacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thauera",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tyzzerella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "claimed",
+  "notes": "Community profiling following rupture of membranes, excluded women with infection/fever before labour. Table3 includes fetal membrane,amniotic fluid,cord and maternal blood (all target sites); all valid bacterial genera recorded. LEfSe/Kruskal-Wallis called contamination mitigation but does not remove contaminants, coded none. Secondary analysis of own case-control cohort.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

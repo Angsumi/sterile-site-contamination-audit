@@ -1,0 +1,144 @@
+{
+  "pmcid": "PMC10889071",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour and lung parenchyma biopsies",
+  "year": 2024,
+  "country": "Lithuania",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V1-V2",
+    "evidence": [
+      {
+        "id": "E0045",
+        "quote": "PCR 27F and 338R universal 16SrRNA gene primers were used for V1\u2013V2 region amplification. The amplification of the appropriate fragment size after PCR was verified using electrophoresis. For PCR product normalization, a 96-well SequalPrep n"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0046",
+        "quote": "Using prepared water control samples and a Decontam R package (version 4.1.2), a presumed ASV contaminant was removed from the analysis. Bacteria at the phylum level with counts less than 50 were removed from the analysis, as well as bacter"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "Decontam",
+    "evidence": [
+      {
+        "id": "E0046",
+        "quote": "Using prepared water control samples and a Decontam R package (version 4.1.2), a presumed ASV contaminant was removed from the analysis. Bacteria at the phylum level with counts less than 50 were removed from the analysis, as well as bacter"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonela",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Selenomonas",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tropheryma",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "105 NSCLC participants enrolled; exact total tissue biopsy count not specified in main text. Only tissue taxa extracted; stool-only differential genera excluded. Veillonela spelling retained for review.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

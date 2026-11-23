@@ -1,0 +1,76 @@
+{
+  "pmcid": "PMC8251846",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placental tissue across three layers",
+  "year": 2021,
+  "country": "USA",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "qPCR was performed to determine 16S counts within extracted samples. Isolated microbial DNA was amplified using primers to the hypervariable V4 region of the 16S rRNA gene, similar to others. 7 , 12 Forward primer\u2010TCGTCGGCAGCGTCAGATGTGTATAA"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "The 16S rRNA gene reads were analyzed using a robust bioinformatics pipeline. Reads were stitched using PANDAseq 13 using 150 bp and 350 bp as the minimum and maximum lengths of the assembled reads, respectively. Operational taxonomic units"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam / SourceTracker",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "plained by their distribution in the airswabs. 21 We used Decontam 22 V1.4.0 to identify taxa microbiome that are more prevalent in airswabs than in placenta samples."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "erials and Methods). Before sequencing, we first performed qPCR to determine the 16S rRNA copy numbers within extracted samples. As shown in Figure 1A , placenta samples contain significantly more copies of 16S as compared to airswab or wat"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "44 women; multiple layers per placenta. Tool-based contaminant assessment described. Supplement PDF is image-only; main named genera retained, additional figure labels unresolved.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "aa7524117b491a835da1201ef8a84a70b2392224e06034b0f77f99853ec4e95f",
+  "supplement_manifest": []
+}

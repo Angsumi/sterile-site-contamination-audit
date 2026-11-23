@@ -1,0 +1,54 @@
+{
+  "pmcid": "PMC3587628",
+  "tissue_category": "blood",
+  "sub_site": "post-dental-extraction blood",
+  "year": 2013,
+  "country": "",
+  "eligible_fulltext": null,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "Variable V1, V2, and V3 regions of the 16S rDNA were amplified with the universal eubacterial primers 27F (5\u2032-AGAGTTTGATCMTGGCTCAG-3\u2032) and 533R ( 5\u2032-GCCTTGCCAGCCCGCTCAGGC-3\u2032 ) using the high-fidelity AB-Gene DNA polymerase (Thermo Scientifi"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 8,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "unclear",
+  "notes": "Held: deliberate post-extraction transient bacteraemia; protocol excludes suspected bloodstream-infection diagnostics but does not explicitly adjudicate induced-bacteraemia community studies. Human adjudication needed.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8274ce9ae2a996f4e16db0b2407f02e80dc0d66e89f7d0ad1e373a9308ec54af",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Unresolved eligibility; excluded from merged analysis data until adjudicated."
+  ],
+  "eligibility_review": "Held: deliberate post-extraction transient bacteraemia; protocol excludes suspected bloodstream-infection diagnostics but does not explicitly adjudicate induced-bacteraemia community studies. Human adjudication needed."
+}

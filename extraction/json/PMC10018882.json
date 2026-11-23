@@ -1,0 +1,89 @@
+{
+  "pmcid": "PMC10018882",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4 (reverse-transcribed RNA)",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "and the cDNA was diluted to 100 \u00b5l for subsequent 16 S library construction. PCR amplification of the V3-V4 hypervariable regions of the bacterial 16 S rRNA was performed in a 25 \u00b5l reaction volume using universal primer pairs (343 F: 5\u2032-TACGGRA"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0029",
+        "quote": "was clear after comparison with the environmental control samples. The analysis of 16 S RNA sequencing of the solvent used in this study showed completely different microbiota content than that in FFPE samples. The analysis of ITS RNA sequencing"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 70,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Prevotella_9",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus_1",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "claimed",
+  "notes": "Bacterial 16S RNA amplicon assay; fungal ITS results excluded. Top10 genera table includes family groups excluded; no single pooled top5 rank.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

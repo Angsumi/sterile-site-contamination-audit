@@ -1,0 +1,79 @@
+{
+ "pmcid": "PMC8873459",
+ "block": "blood",
+ "tissue_category": "blood",
+ "year": 2022,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "host_seq_mining",
+  "evidence": [
+   {
+    "id": "E0036",
+    "quote": "yielding bam files that served as input into PathSeq"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "DNA extracted from all samples was subjected to whole-genome sequencing, initially with the goal of comprehensively profiling somatic mutations in human DNA."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "literature_list",
+  "evidence": [
+   {
+    "id": "E0037",
+    "quote": "we curated a list of genera and species that were reported in the literature as being problematic"
+   }
+  ]
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Dermabacter",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kytococcus",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptomyces",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rothia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gordonia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pandoraea",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "genera_in_figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Mostly bone marrow (1756) with 114 blood; 12 healthy bone marrow donors are biological, not negative, controls. Most genera only in figures.",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

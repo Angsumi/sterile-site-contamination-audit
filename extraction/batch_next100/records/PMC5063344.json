@@ -1,0 +1,113 @@
+{
+  "pmcid": "PMC5063344",
+  "tissue_category": "other_sterile",
+  "sub_site": "atherosclerotic plaque",
+  "year": 2016,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "aa803db39c8f276aa5c699301dc9f62ce387b4ff29bed6e8e809fb3ff14a49ca",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": "The V1–V3 regions of the 16S rRNA gene were PCR amplified with the barcoded primers 27F (5′-GAGTTTGATCCTGGCTCAG-3′) and 533R (5′-TTACCGCGGCTGCTGGCAC-3′) and pyrosequenced using the GS Junior System (454 Life Sciences, Roche) as described pr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Curvibacter",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pimelobacter",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

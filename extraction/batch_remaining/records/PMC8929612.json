@@ -1,0 +1,203 @@
+{
+  "pmcid": "PMC8929612",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "fetal membranes",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e28daa176f3af8c4bb87f0a3bf4db3b86a51179b460bea5169182d6e42088dc0",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "d by Illumina sequencing of the V4 16S rRNA gene region. This included duplicate frozen amnion and chorion fetal membrane rolls or FFPE combined amniochorionic samples. Negative controls of surrounding wax blocks and DNA extraction reagents"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": "axa detected in samples, wax block controls and kit regent negative controls. Decontam in R [ 21 , 33 ] was firstly utilised to detect and report contamination from sequencing data but avoid the removal of ASVs originating in samples [ 21 ]"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam; SourceTracker (flagging/assessment, not all ASVs removed)",
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": " and kit regent negative controls. Decontam in R [ 21 , 33 ] was firstly utilised to detect and report contamination from sequencing data but avoid the removal of ASVs originating in samples [ 21 ]. This method is preferable when samples ar"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "E0020",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0053",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Anaerostipes",
+      "evidence_id": "E0053",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0053",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0053",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Collinsella",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dietzia",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0053",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Gemmiger",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "FFPE/frozen fetal membrane comparison; background contamination is central. Avoid counting mock-community taxa as tissue detections. Tools identified background without deleting all flagged ASVs; eight explicitly classified contaminant genera are flagged in extraction.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

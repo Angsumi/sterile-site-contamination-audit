@@ -1,0 +1,273 @@
+{
+  "pmcid": "PMC9037597",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5a10792cfb8e70ae0403a31415a20abdb07a3a91658c81ec29e2545daecd93fa",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "nonmalignant tissue) were used for 16S rRNA (microbiome) and RNA-seq (host gene expression). Subgroup microbiome diversities and their matched gene expression patterns were analyzed. Significantly enriched taxa were screened out, based on d"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geobacillus",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Capnocytophaga",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnoanaerobaculum",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marinococcus",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oligella",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rubellimicrobium",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingopyxis",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0116",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptococcus",
+      "evidence_id": "E0116",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmata",
+      "evidence_id": "E0117",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0117",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0119",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyricicoccus",
+      "evidence_id": "E0119",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Selenomonas",
+      "evidence_id": "E0119",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermomonas",
+      "evidence_id": "E0119",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vagococcus",
+      "evidence_id": "E0120",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acetobacter",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Deinococcus",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillospira",
+      "evidence_id": "E0123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Novosphingobium",
+      "evidence_id": "E0124",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastomonas",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "E0125",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own lung tissue 16S community profiles; host RNA-seq is separate.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "pmcid": "PMC10269859",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma and lung squamous cell carcinoma",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0037",
+        "quote": "Research data were collected from the TCGA database. Paired transcriptome profiles and tissue microbiome data of LUAD and LUSC patients were obtained from previous studies (LUAD samples, 123 cases; LUSC samples, 110 cases) ( 30 )."
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0037",
+        "quote": "Research data were collected from the TCGA database. Paired transcriptome profiles and tissue microbiome data of LUAD and LUSC patients were obtained from previous studies (LUAD samples, 123 cases; LUSC samples, 110 cases) ( 30 ). Then, we used "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 233,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Shigella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudogulbenkiania",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCGA microbial abundance profiles from prior study; despite caption 16S label, public TCGA host sequencing-derived profiles. Comamonas and Delftia mentioned only as members of family, not detected genera; excluded. Own decontamination not stated.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

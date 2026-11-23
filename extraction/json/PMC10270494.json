@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC10270494",
+  "tissue_category": "blood",
+  "sub_site": "blood and liver tissue",
+  "year": 2023,
+  "country": "Austria",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0113",
+        "quote": "the pathogenesis of HCC and, therefore, generated 16S rRNA profiles from feces, blood, and liver tissue from noncirrhotic NAFLD (n = 21), cirrhosis of various aetiologies (n = 27), and HCC (n = 111) patients (Figures S1, http://links.lww.com/HC9"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0113",
+        "quote": "e comparison of data from biological samples with negative controls for sample preparation steps and PCR amplification (Supplemental Figure S3, http://links.lww.com/HC9/A326 )."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0109",
+        "quote": "Real-time PCR amplification was performed using 16S universal primers that target the V3\u2013V4 region of the bacterial 16S ribosomal gene. The qPCR step was performed in triplicate on a VIIA 7 PCR system (ThermoFisher, Waltham, MA, USA) with SYBR G"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Target blood/liver genus profiles are shown in figures, but text names only families; Blautia/Agathobacter refer to feces and excluded. No accessible converted supplement available. Cohort 159 participants; per-target specimen number not stated in text.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

@@ -1,0 +1,250 @@
+{
+ "pmcid": "PMC12618227",
+ "meta": {
+  "title": "Microbial signals in primary and metastatic brain tumors",
+  "journal": "Nature Medicine",
+  "year": "2025",
+  "doi": "10.1038/s41591-025-03957-4",
+  "pmid": "41238915"
+ },
+ "n_elements": 110,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Gliomas and brain metastases are associated with poor prognosis, necessitating a deeper understanding of brain tumor biology and the development of effective therapeutic strategies. Although our group and others have demonstrated microbial presence in various tumors, recent controversies regarding cancer-type-specific intratumoral microbiota emphasize the importance of rigorous, orthogonal validation. This prospective, multi-institutional study included a total of 243 samples from 221 patients, comprising 168 glioma and brain metastases samples and 75 non-cancerous or tumor-adjacent tissues. Using stringent fluorescence in situ hybridization, immunohistochemistry and high-resolution spatial imaging, we detected intracellular bacterial 16S rRNA and lipopolysaccharides in both glioma and brain metastases samples, localized to tumor, immune and stromal cells. Custom 16S and metagenomic sequencing workflows identified taxa associated with intratumoral bacterial signals in the tumor microenvironment; however, standard culture methods did not yield readily cultivable microbiota. Spatial analyses revealed significant correlations between bacterial 16S signals and antimicrobial and immunometabolic signatures at regional, neighborhood and cellular levels. Furthermore, intratumoral 16S bacterial signals showed sequence overlap with matched oral and gut microbiota, suggesting a possible connection with distant communities. Together, these findings introduce microbial elements as a component of the brain tumor microenvironment and lay the foundation for future mechanistic and translational studies."
+  },
+  {
+   "evidence_id": "E0007",
+   "section": "Bacterial 16S signals are detectable in primary and metastatic brain tumors",
+   "text": "To determine and validate the presence, distribution and biological relevance of bacteria and bacterial elements in primary and metastatic brain tumors, we applied a stringent workflow integrating complementary experimental and bioinformatic approaches, including fluorescence in situ hybridization (FISH), immunohistochemistry (IHC) and spatial molecular imaging (SMI) for signal detection; culturomics and bioinformatic analyses for characterization; and SMI and digital spatial profiling (DSP) for functional analysis (Fig. 1a ). The study included 243 tissue samples from a total of 221 patients (168 tumor: 113 glioma, 55 BrM; 22 normal tissue adjacent to tumor (NAT); and 53 non-cancerous brain tissue) (Fig. 1b,c ). When sufficient material was available, tumor samples were analyzed using at least two methods in the following categories: visualization, sequencing and culturomics (Fig. 1d and Supplementary Table 1 ). In total, 33 of 113 glioma and 23 of 55 BrM samples were assessed by methods in at least two different categories. Fig. 1 Study workflow. a , Schematic of the study workflow. To assess the presence and correlation of bacteria and bacterial elements in brain tumors, we combined integrative methods, including RNAScope FISH and SMI for detection and validation of bacterial signals, culturomics and bioinformatic analyses for taxonomic characterization of intratumoral bacterial signals and spatial technologies to evaluate biological relevance within the TME. Stringent workflows were developed to enhance each methodology. Schematics were created using BioRender.com . b , c , Samples from 221 patients were included in this study, with distribution shown by analytical method ( b ) and institution ( c ). d , When sufficient tissue was available, samples were analyzed using at least two methods in the following categories: visualization (FISH, SMI and DSP); sequencing (16S rRNA amplicon and metagenomic shotgun sequencing); and culturomics. The Venn diagram depicts the number of samples analyzed across each methodological category. Seq, sequencing; WGS, whole-genome sequencing."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "Bacterial 16S signals are detectable in primary and metastatic brain tumors",
+   "text": "We first conducted RNAScope FISH on whole-tissue sections from 15 glioma and 15 BrM samples, using a validated 16S rRNA pan-bacterial probes 7 alongside a negative control probe. Distinct 16S rRNA signals were detected in 11 glioma and nine BrM tumors (Supplementary Table 1 ). z -stack imaging detected 16S rRNA signals in close proximity to the nucleus, suggestive of intracellular localization (Extended Data Fig. 1a ). Co-staining with glial fibrillary acidic protein (GFAP; glioma) or pan-cytokeratin (BrM) membrane markers revealed diverse localization patterns of bacterial 16S rRNA, including cytoplasmic, membrane-adjacent and extracellular distributions (Fig. 2a ). Notably, 16S rRNA signals varied in size and morphology, with some consistent with intact bacteria (approximately 2 μm) and others exhibiting punctate patterns (Fig. 2a ), suggesting the potential presence of both intact bacterial cells and fragmented bacterial 16S rRNA. To further investigate the presence of bacterial elements, we performed lipopolysaccharide (LPS) staining on consecutive tissue sections to those used for 16S rRNA FISH. LPS was detected in 13 glioma and nine BrM samples, with staining patterns suggesting both intracellular and extracellular localization (Fig. 2b and Supplementary Table 1 ). Notably, 16S rRNA FISH and LPS staining results were concordant in 22 of 30 samples (positive n = 18 and negative n = 4 by both methods; Supplementary Table 1 ). Discordant findings in the remaining samples may reflect differences in bacterial RNA and protein stability or degradation across sequential tissue sections. Fig. 2 Bacterial signals are detectable in primary and metastatic brain tumors. a , RNAScope 16S rRNA FISH of glioma (left) and BrM (right). Representative images of 15 glioma and 15 BrM samples (female 40%, age range 20–71 years; one full section slide per patient). Nuclei, DAPI, blue; bacterial 16S rRNA, red; GFAP, pan-cytokeratin (pan-CK), green in glioma and BrM, respectively. b , Representative images of H&E staining, 16S rRNA FISH and LPS IHC staining of a brain tumor sample (patient cohort same as a ; one sequential full section slide per patient). Nuclei, SYTO13, blue; bacterial 16S rRNA, red; negative control, green. White and black arrows mark 16S rRNA and LPS signals with proximity to nuclei, respectively. c , Schematic demonstrating the experimental workflow for SMI (CosMx platform). Patients: glioma n = 19, BrM n = 9, female 37.1%, age range 28–80 years; FOVs n = 39 per TMA. d , Three-dimensional reconstruction of cells containing high-confidence intracellular 16S signal (light and dark blue) and low-confidence low-level 16S signal (purple). Bacterial 16S signals, red; human transcripts identified in each cell, purple and blue. e , UMAP plot of single-cell clustering of glioma and BrM samples. Each cell cluster is represented by a different color and labeled. f , UMAP plot of high-confidence 16S signal distribution in each cluster and corresponding normalized counts. g , h , Representative images and bar plots demonstrating the percentage of high-confidence 16S-positive cells within glioma ( g ) and BrM ( h ) TME. 16S signal, white. Images were obtained using napari software. DC, dendritic cell; ECs, endothelial cells; Mac/Mic, macrophage/microglia; MSC, mesenchymal stem cell; NK, natural killer cell; Oligo, oligodendrocytes; OPC, oligodendrocyte progenitor cell; T reg , regulatory T cell."
+  },
+  {
+   "evidence_id": "E0011",
+   "section": "Bacterial 16S signals are detectable in primary and metastatic brain tumors",
+   "text": "Intratumoral 16S signal was detected both intracellularly and within the extracellular environment. Although the potential biological significance of extracellular 16S signals cannot be disregarded, current technologies are limited in accurately distinguishing between true extracellular 16S rRNA signal and potential contamination introduced during tissue processing (for example, tissue fixation and embedding). Therefore, we exclusively considered intracellular 16S signals for analysis. To ensure true intracellular localization, we excluded cells where bacterial 16S signals were near the cell membrane, as such proximity combined with the inherent limitations associated with cell segmentation could create false-positive intracellular patterns. Thus, only cells in which the median bacterial 16S position was within the central 50% of all transcript positions across all x , y and z axes (that is, centered within the cell body) were considered high-confidence 16S-positive cells (Fig. 2d , Extended Data Fig. 1d and Supplementary Video 1 ). Of the 28,177 and 65,993 cells analyzed across all cores in glioma and BrM TMAs, we identified a total of 182 (0.65%) and 198 (0.3%) cells with high-confidence intracellular 16S signal, respectively."
+  },
+  {
+   "evidence_id": "E0012",
+   "section": "Bacterial 16S signals are detectable in primary and metastatic brain tumors",
+   "text": "The intracellular 16S signal exhibited heterogeneous distribution patterns across and within the analyzed tumors and fields of view (FOVs), suggesting a non-random distribution. First, the different tumor samples exhibited variation in the intracellular 16S signal count per patient (glioma, average: 1,098.2, range 25–4,236; BrM, average: 943.6, range 30–2,706) and the total number of 16S-positive cells detected per patient (glioma, range 0–27; BrM, range 1–62) (Extended Data Fig. 1e ). This distribution pattern was not related to tissue core position on the TMA (Supplementary Table 2 ). Furthermore, intracellular 16S signal in glioma and BrM exhibited 16-fold and 67.5-fold higher density, respectively, compared to 16S signal in the extracellular environment, which is likely the result of contamination with expected random tissue distribution (median intracellular signal density per μm 2 : glioma 7.52 × 10 −3 , BrM 7.56 × 10 −3 ; median extracellular 16S signal per μm 2 : glioma 4.78 × 10 −4 , BrM 1.13 × 10 −4 )."
+  },
+  {
+   "evidence_id": "E0014",
+   "section": "Bacterial 16S signals are detectable in primary and metastatic brain tumors",
+   "text": "Next, we assessed whether the bacterial signal detected within the brain TME could be attributed to cultivable bacteria. We prepared homogenates from nine freshly resected tumors, 13 fresh-frozen tumor samples and two non-cancerous fresh-frozen brain samples from individuals with epilepsy (Supplementary Table 1 ; female 50%, age range 26–77 years). All fresh-frozen samples were assessed using SMI, 16S amplicon sequencing and/or metagenomic shotgun sequencing and were confirmed to contain bacterial 16S signal (Supplementary Table 3 ). In freshly resected tumors, sufficient tissue was available in three samples to conduct 16S rRNA digital polymerase chain reaction PCR (dPCR) post-culture, which confirmed the presence of bacterial 16S copies (2.5–16 copies per microliter). Homogenates were plated on nutrient-rich media, with or without pre-enrichment in nutrient-rich broth, and subjected to both anaerobic and aerobic conditions. Across all conditions, no bacterial growth was observed after 14 days of culture. These findings suggest that brain tumor and non-cancerous brain samples may lack readily cultivable bacteria, as assessed by standard culture techniques."
+  },
+  {
+   "evidence_id": "E0015",
+   "section": "Distinct bacterial signatures were identified in brain tumors compared to non-cancerous brain tissue",
+   "text": "To further characterize the intratumoral bacterial signals, we assembled prospective cohorts of glioma and BrM tumor samples from patients at MD Anderson Cancer Center (MDACC1 and MDACC2 cohorts) and the University of Texas Health Science Center at Houston (UTH cohort) (Fig. 3a and Supplementary Table 3 ), which were analyzed using 16S (V3-V4) rRNA amplicon sequencing. For comparison, we included a cohort of non-cancerous brain tissue resected as part of a procedure for drug-resistant epilepsy (UTH non-cancerous brain). Two glioma samples from the MDACC1 cohort failed to yield sequencing reads and were excluded from analysis. Fig. 3 Distinct bacterial signatures were identified in brain tumors compared to non-cancerous brain tissue. a , Tumor samples (glioma n = 77, BrM n = 41, fresh-frozen n = 109, formalin-fixed paraffin-embedded (FFPE), n = 5, OCT (Optimal cutting temperature), n = 4; female 39.8%, age range 20–83 years) and non-cancerous brain tissue (fresh-frozen, n = 13; female 23.1%, age range 20–73 years) were assessed using 16S (V3-V4) rRNA amplicon sequencing. Bubble plot demonstrates the proportion of bacterial taxa identified among samples with detectable bacterial signal in glioma, BrM and non-cancerous prospective cohorts. Taxa identified as potential environmental contaminants after filtration are presented in gray. Tables present the number of samples, ASVs and genera identified pre-filtering and post-filtering. b , Glioma ( n = 30) and BrM ( n = 15) samples were assessed using metagenomic shotgun sequencing (fresh-frozen n = 45; female 44.4%, age range 26–77 years). Bubble plot demonstrates the proportion of bacterial taxa identified among samples with detectable bacterial signal, presented at genus level. Taxa identified as potential environmental contaminants after filtration are presented in gray. Tables present the number of samples, genera and species identified pre-filtering and post-filtering."
+  },
+  {
+   "evidence_id": "E0016",
+   "section": "Distinct bacterial signatures were identified in brain tumors compared to non-cancerous brain tissue",
+   "text": "Bioinformatic analysis of 16S datasets from samples anticipated to have no or low-abundance bacterial signal, such as brain tissue, poses challenges, largely owing to contamination effects 13 . To detect and minimize the impact of potential contaminants in our analysis, we applied a series of five filtration steps that aimed to remove the most common types of contamination ( Methods ). After this filtration process, 46.6% of the tumor samples (55 out of 118) and 76.9% of the non-cancerous brain samples (10 out of 13) did not retain any detectable bacterial signal (Fig. 3a ). Across the remaining samples, a total of 34 bacterial taxa were identified (observed genera per sample 1–15; Fig. 3a , Extended Data Fig. 3a,b and Supplementary Table 3 ). Notably, consistent with our 16S FISH, minimal signal was detected in non-cancerous brain tissue. These findings collectively suggest the tumor specificity of the identified intratumoral 16S signal. Among the identified bacterial taxa, 16 taxa were associated with human commensal microbiota, representing potential biologically meaningful signal (amplicon sequence variant (ASV): tumor n = 59, non-cancerous brain n = 2, Gram-negative taxa n = 12, Gram-positive taxa n = 4); however, 18 taxa were found to be known environmental contaminants (ASV n = 53; Fig. 3a ). These results highlight the inherent limitations associated with bioinformatic analysis of low-abundance samples, indicating that even stringent filtration methods cannot eliminate all contaminants. Consequently, taxonomic data obtained from bioinformatic analyses of samples with low biomass warrant validation."
+  },
+  {
+   "evidence_id": "E0017",
+   "section": "Distinct bacterial signatures were identified in brain tumors compared to non-cancerous brain tissue",
+   "text": "We further asked if the taxa identified by 16S rRNA gene sequencing could be validated with broader gene coverage. We conducted metagenomic shotgun sequencing on 45 tumor samples (glioma n = 30, BrM n = 15). Non-human reads comprised an average of 0.056% of the total reads (range 0.03–0.09%), of which an average of 0.46% was found to be bacterial (range 0.002–2.13%). To complement the 16S (V3-V4) coverage obtained by 16S rRNA sequencing, metagenomic sequencing was filtered against the SILVA ribosomal RNA gene database 17 , ensuring that the detected taxonomies were derived from non-ribosomal bacterial genes. We applied a filtration workflow to minimize the inclusion of reads likely arising from contamination ( Methods ), which eliminated 43% and 20% of glioma and BrM samples, leaving a total of 29 and 24 species (24 and 21 genera) in 17 glioma and 12 BrM samples, respectively (observed species per sample: 1–7; Fig. 3b and Supplementary Table 4 ). This analysis obtained non-ribosomal coverage for five of the 16 bacterial genera identified using 16S rRNA gene sequencing, including Fusobacterium , Veillonella , Prevotella , Capnocytophaga and Enterococcus (Fig. 3b ). Additionally, metagenomic analysis was concordant with our 16S amplicon sequencing in detecting the presence of bacterial signal in nine of the 16 samples assessed by both methods (Supplementary Table 1 and Extended Data Fig. 3c ), with a moderate correlation in bacterial richness (Spearman’s ρ = 0.59, P = 0.09). Seven samples had detectable reads by metagenomic sequencing but not by 16S amplicon sequencing. Together, these findings provide broader gene coverage of bacterial taxa in brain tumors, although complete bacterial genomes could not be recovered, likely owing to the low biomass."
+  },
+  {
+   "evidence_id": "E0031",
+   "section": "The intratumoral bacterial 16S signals correlate with the oral and gut microbiota",
+   "text": "Given the large body of literature on the gut–oral–brain axis 25 , 26 , we set out to determine whether the identified intratumoral bacterial signals are associated with the related gut or oral microbiome. In our prospective cohort, matched stool (glioma n = 65, BrM n = 28), saliva (glioma n = 109, BrM n = 42) and cheek swab (glioma n = 112, BrM n = 42) samples were collected at the time of craniotomy (Supplementary Table 3 ) and analyzed using metagenomic shotgun sequencing."
+  },
+  {
+   "evidence_id": "E0032",
+   "section": "The intratumoral bacterial 16S signals correlate with the oral and gut microbiota",
+   "text": "The gut and oral microbiome in individuals with glioma and BrM did not differ by beta diversity (Bray–Curtis index; stool, P = 0.45; saliva, P = 0.06; cheek swab, P = 0.12), suggesting no correlation with brain tumor type. We then compared the combined glioma and BrM datasets to metagenomic sequencing data from healthy individuals in the Human Microbiome Project (HMP) 27 , 28 (stool n = 209, n = 6, cheek swab n = 160). Beta diversity differed significantly between brain tumor-associated and healthy microbiomes (stool and cheek swab, P = 0.001; saliva, P = 0.014), and we identified distinct oral and gut bacterial signatures in individuals with brain tumor (Fig. 6a and Supplementary Table 7 ). To control for age, this comparison was restricted to individuals with brain tumor aged 18–40 years, consistent with the HMP cohort; sex was not a confounding factor (stool and cheek swab, P > 0.9; saliva, P = 0.4). Interestingly, we found that several brain tumor-associated oral and gut bacterial taxa overlapped with the intratumoral bacterial taxa, identified using either 16S amplicon or metagenomic sequencing ( Prevotella , Capnocytophaga , Streptococcus and Bifidobacterium ) (Fig. 6a ), suggesting a potential correlation between the intratumoral bacterial signal and the oral and gut microbiota. It should be noted that this comparison may be limited by the differences in methodologies for sample collection and sequencing between the HMP and brain tumor cohorts. Fig. 6 Intratumoral bacterial 16S signal correlates with the oral and gut microbiota of patients with brain tumor. a , Differentially abundant taxa in the oral and gut microbiome of patients with glioma and BrM (age range 18–40 years, female 46.7%) compared to healthy individuals (HMP, age range 18–40 years, female 46.4%), assessed by ANCOM-BC, ANCOM-BC2 and MaAsLin2 (two-sided, Holm and Benjamini–Hochberg test for multiple comparison adjustment, respectively). Taxa with differential abundance by at least two methods were included. Heatmap values demonstrate the log 2 FC of taxa with significant differential abundance in patients with brain tumor compared to HMP. If a taxon was not significantly different by two of the three methods, the corresponding cell was colored in white (adjusted P values are presented in Supplementary Table 7 ). Schematic was created using BioRender.com . b , The proportion of the identified intratumoral bacterial sequence (seq.) length that overlapped with bacterial sequences in matched oral or gut microbiome (metagenomic shotgun sequencing). Schematic was created using BioRender.com . c , Stacked bar plot demonstrating the number of identified taxa in tumor with or without sequence overlap with salivary or stool bacterial taxa."
+  },
+  {
+   "evidence_id": "E0033",
+   "section": "The intratumoral bacterial 16S signals correlate with the oral and gut microbiota",
+   "text": "To further evaluate this correlation, we conducted metagenomic shotgun sequencing on 34 matched tumor and saliva samples (glioma n = 28, BrM n = 6) and 19 matched tumor and stool samples (glioma n = 16, BrM n = 3) at a sequencing depth of 100 million reads per sample. To avoid cross-contamination, tumor, saliva and stool samples were processed and sequenced separately. In 11 of 34 tumor–saliva sample pairs, we found overlap between the tumor bacterial signal and salivary microbiome, ranging between one and three species per patient, including Prevotella , Veillonella , Neisseria , Streptococcus and Bifidobacterium species, among others. On average, 79% of the full length of the sequences detected in tumor had overlap with salivary bacterial sequences (percent length matching range 20–100%; tumor sequence length average 292 bp, range 149–835 bp) (Fig. 6b ). In tumor–stool sample pairs, sequence overlap was detected in one of 19 tumor–stool sample pairs ( Bifidobacterium ; 50% length matching, tumor sequence length 302 bp). On average, 53% of the total taxa identified in tumors overlapped with either salivary or stool taxa (range 16.6–100%; Fig. 6c ). Overall, these findings demonstrate sequence similarity at species level between the oral and gut microbiota and intratumoral bacterial signals."
+  },
+  {
+   "evidence_id": "E0034",
+   "section": "The intratumoral bacterial 16S signals correlate with the oral and gut microbiota",
+   "text": "In addition to distant commensal microbiota, disseminating tumor cells migrating from the primary tumor to the metastatic site may represent another potential source of bacterial signal in BrM. To assess this, we conducted metagenomic shotgun sequencing on a retrospective cohort of matched BrM and primary tumors ( n = 8 pairs, 50% female, age 47–74 years). After filtration, bacterial taxa were detected in three of eight primary tumors and in two of eight BrM samples; however, no overlapping taxa were identified between matched pairs (Supplementary Table 8 )."
+  },
+  {
+   "evidence_id": "E0037",
+   "section": "Discussion",
+   "text": "Although microbiome studies have historically relied on sequencing and computational analyses, recent reports have raised concerns about the reliability of these standard approaches in low-abundance samples such as tumor tissue 11 – 13 . This technical limitation was evident in our 16S amplicon and metagenomic shotgun sequencing data analyses, where rigorous decontamination efforts failed to eliminate all known contaminants. As a result, complementary approaches are needed to assess microbial presence in samples with anticipated low abundance. This is exemplified in several studies that used targeted methods to stain bacteria in situ 4 , 7 , recover cultivatable bacteria from colorectal 6 , 10 and melanoma 9 tumors and detect bacterial activity in breast cancer specimens 4 ."
+  },
+  {
+   "evidence_id": "E0051",
+   "section": "Microbiome extraction and sequencing methods",
+   "text": "All samples were processed for DNA extraction and sequenced at CosmosID, Inc. or the MDACC Microbiome Core Facility (Supplementary Table 3 ). Fresh-frozen tumor samples were submitted for DNA extraction and sequencing without further thawing or aliquoting in the laboratory to minimize contamination. For FFPE and OCT-embedded samples, a paraffin/OCT punch was included as sample control. Reagent controls were taken at the time of DNA extraction for each extraction kit and each batch and at the time of library preparations. All tumor samples and associated controls were sequenced using V3-V4 16S rRNA amplicon sequencing. A subgroup of sample and controls was sequenced via metagenomic shotgun sequencing. Matched stool (approximately 100 mg), saliva and cheek swab (500 µl each) samples were sequenced using metagenomic shotgun sequencing at 30 million reads. A subgroup of stool and saliva samples was also sequenced at 100 million reads."
+  },
+  {
+   "evidence_id": "E0052",
+   "section": "Bacterial DNA extraction",
+   "text": "DNA extraction from fresh-frozen or OCT-embedded tumor samples was conducted with a DNeasy UltraClean Microbial Kit (Qiagen). DNA extraction from FFPE samples was conducted with a QIAamp DNA FFPE Tissue Kit (Qiagen). DNA extraction from stool, cheek swab and saliva samples was conducted using a Qiagen DNeasy PowerSoil Pro Kit. The manufacturer’s instructions were followed for all DNA extractions. Genomic DNA was quantified with Qubit 2.0 DNA HS Assay (Thermo Fisher Scientific). All tumor samples were processed separately from oral and stool samples to avoid cross-contamination."
+  },
+  {
+   "evidence_id": "E0053",
+   "section": "16S rRNA amplicon sequencing",
+   "text": "Genomic DNA was amplified via PCR using the following primers: 341F (CCTACGGGRSGCAGCA) and 805R (GACTACHVGGGTATCTAATCC) 44 , which cover hypervariable regions (V3 and V4). Primer selection and design were chosen to achieve comprehensive taxonomic coverage. Final library quantity was assessed by Qubit 2.0 (Thermo Fisher Scientific), and quality was assessed by TapeStation D1000 ScreenTape (Agilent Technologies). Illumina 8-nucleotide dual-indices were used. Equimolar pooling of libraries was performed based on quality control values, and samples were sequenced on an Illumina MiSeq with a read length configuration of 300 bp for 0.1 million paired-end reads per sample (500,000 in each direction)."
+  },
+  {
+   "evidence_id": "E0055",
+   "section": "Tumor 16S rRNA amplicon sequencing",
+   "text": "16S rRNA sequencing datasets (MDACC1, MDACC2, UTH tumor and non-cancerous brain cohorts) were analyzed using the DADA2 package (version 1.26) 45 . All taxonomic output files were imported into R using the phyloseq package (version 1.50.0) 46 . To eliminate signal from potential contaminants, we used a five-step filtration process:"
+  },
+  {
+   "evidence_id": "E0056",
+   "section": "Tumor 16S rRNA amplicon sequencing",
+   "text": "Step 1. To eliminate contaminants introduced by reagents and operators (expected to be in high abundance and across most samples), we pooled all controls across all cohorts including DNA extraction, library preparation and blank controls as well as FFPE and OCT punch controls taken from each block ( n = 24) and plotted the distribution of ASVs based on proportion across all controls (Extended Data Fig. 3a ). Using the changepoint R package (version 2.3), we calculated the first detectable inflection point on this curve, which was found to be 0.045%. We used this threshold to eliminate sample ASVs that follow a similar distribution to those of controls, and only ASVs with less than 0.045% proportion across all samples were kept for the next filtration step."
+  },
+  {
+   "evidence_id": "E0059",
+   "section": "Tumor 16S rRNA amplicon sequencing",
+   "text": "Step 4. We used Source tracking for Contamination Removal in microBiomes (SCRuB, version 0.0.1) 47 , using the well position for samples in each cohort, to eliminate ASVs that could be a result of potential cross-contamination across samples that were sequenced together."
+  },
+  {
+   "evidence_id": "E0061",
+   "section": "Tumor 16S rRNA amplicon sequencing",
+   "text": "The identified taxa after these filtration steps were plotted using ggplot2 (version 3.5.2) 48 . Specifically, we highlighted taxa that were linked to common human commensal microorganisms and those that are environmental contaminant, separately, for ease of review. Alluvial plots demonstrating the removal of taxa across the different filtration steps were generated using ggalluvial (version 0.12.5)."
+  },
+  {
+   "evidence_id": "E0062",
+   "section": "Tumor metagenomic shotgun sequencing",
+   "text": "Metagenomic shotgun sequencing data from all tumor samples as well as matched saliva and stool samples (100 million) were analyzed using a custom pipeline for the detection of reads of bacterial origin. Single and paired-end reads were quality trimmed and quality filtered using BBDuk. Reads of human origin were filtered using the bloom filter from the BBTools suite 49 using a cutoff of more than 15 31mers matching the human genome (GRChg38) 50 . Paired-end sequencing reads were merged using BBMerge from the BBTools suite 49 under ‘maxstrict’ parameters. Combined merged and single-end reads were dereplicated using VSEARCH 51 . Dereplicated reads were normalized using normalized-by-median.py from the khmer suite 52 . Normalized reads were filtered against a bloom filter containing all kmers from gbbct, and single kmer match was enough to allow the read to pass. The resulting read set was mapped against all bacterial reference entries in GenBank bacteria (gbbct) using BLASTn 53 with an E-value cutoff of 0.00001, a word length of 29 and a 95% identity cutoff. All aligned reads were extracted and aligned to SILVA 17 16S database version 138. Reads aligning to 16S were removed. Remaining reads were clustered using a minimum set cover approach to determine which minimal set of genomes contained all remaining read alignments."
+  },
+  {
+   "evidence_id": "E0063",
+   "section": "Tumor metagenomic shotgun sequencing",
+   "text": "For tumor samples, aligned bacterial reads were aggregated into a single bulk sample. The reads were subsequently remapped to all bacterial genomes in gbbct. Reads with top-scoring hits that contained more than one genus, or two distinct species, were considered to be of low informativity and were removed from consideration. The resulting read set was reclustered using a similar minimum set cover approach to determine which genomes best explained the highly informative reads. This clustering step also included querying whether a genome contained reported assembly anomalies or was derived from metagenome-assembled genomes (MAGs), which were removed. The resulting set of genomes was considered to be our basal set (Step 1). To further remove potential contaminants, we used additional filtration steps:"
+  },
+  {
+   "evidence_id": "E0064",
+   "section": "Tumor metagenomic shotgun sequencing",
+   "text": "Step 2. Taxa identified in negative controls were removed as contaminants."
+  },
+  {
+   "evidence_id": "E0065",
+   "section": "Tumor metagenomic shotgun sequencing",
+   "text": "Step 3. Hits smaller than the median contig length (139-bp length) were removed as low-abundance contaminants."
+  },
+  {
+   "evidence_id": "E0066",
+   "section": "Tumor metagenomic shotgun sequencing",
+   "text": "Step 4. Depth of coverage per species was calculated, and unique sequences for which more than two times coverage was detected across all tumor samples were removed as high-abundance/high-redundancy contaminants."
+  },
+  {
+   "evidence_id": "E0068",
+   "section": "Comparison of bacterial sequences in tumor versus matched saliva and stool",
+   "text": "Metagenomic shotgun sequencing (stool, saliva and cheek swab samples from the MDACC1 cohort, 30 million) were filtered and mapped using BBMap (version 38.84) and analyzed using the MetaPhlAn package (version 4.1.1.) 54 and the CHOCOPhlAn database (mpa_vJan21_CHOCOPhlAnSGB_202103)."
+  },
+  {
+   "evidence_id": "E0070",
+   "section": "dPCR",
+   "text": "dPCR was conducted using the 16S pan-bacterial assay (TaqMan, Ba04930791-S1; Thermor Fisher Scientific) and the QuantStudio Absolute Q dPCR System (Thermo Fisher Scientific, A52732 and A53301), following the manufacturer’s instructions. Nuclease-free water was used as a negative control."
+  },
+  {
+   "evidence_id": "E0071",
+   "section": "TMAs",
+   "text": "A total of 33 glioma and 19 BrM FFPE blocks were used for TMA construction. Hematoxylin and eosin (H&E) slides of each block were used for initial screening to demarcate immune-high and immune-low areas in the tumor. For each block, 2–6 cores were selected for TMA construction. TMAs were built using an ATA-100 Advanced Tissue Arrayer (Chemicon International). A total of 103 and 96 cores, 1 mm in diameter each, were taken from glioma and BrM blocks, respectively. The cores were arranged to fit within a 36.2-mm × 14.6-mm rectangle, as required by the GeoMx Digital Spatial Profiler (Bruker Spatial Biology). For sectioning, all surfaces were cleaned by bleach, and new blades and fresh reagents were used each time. Five-micrometer fresh-cut sections of the glioma and BrM TMAs were mounted onto Superfrost Plus slides and were used for RNAScope FISH, SMI and DSP experiments. Fresh-cut normal brain TMA sections were purchased from TissueArray (BNC17011d) for RNAScope FISH. To minimize contamination, TMA core needles were cleaned with DNA AWAY (Thermo Fisher Scientific) in between each core. For slide sectioning, the histotech’s water bath was wiped with DNA AWAY and refilled with deionized water. The block surfaces and cutting tools were wiped with DNA AWAY. A new microtome blade was used for each sample and wiped with DNA AWAY prior to use. Five-millimeter-thick sections were cut and left to dry in a sterile biocabinet and subsequently stored at 4 °C in a slide box whose inner surfaces had been wiped with DNA AWAY."
+  },
+  {
+   "evidence_id": "E0072",
+   "section": "RNAScope FISH",
+   "text": "To visualize bacterial 16S signals within the TME, glioma, BrM and healthy brain TMA or whole-tissue sections were stained using the RNAScope Multiplex Fluorescent Assay (RNAScope Multiplex Fluorescent Reagent Kit version 2, 323100; Advanced Cell Diagnostics). In brief, slides were baked at 60 °C for 1 hour using a Quincy 20GC analog lab oven and deparaffinized using xylene and 100% EtOH (2×). Slides were then treated with hydrogen peroxide for 10 minutes at room temperature. Antigen retrieval was conducted using RNAScope 1× Target Retrieval reagent within a steamer at 99 °C for 15 minutes. The slides were washed with 100% EtOH and dried at room temperature overnight. On the second day, the slides were treated with RNAScope Protease Plus at 40 °C for 20 minutes using a hybridization chamber (Boekel Scientific RapidFISH Slide Hybridizer, 240200). Each slide was then incubated with RNAScope Probe Mix including a eubacteria 16S probe (RNAScope Probe - EB-16S-rRNA-C2, no. 464461-C2) and a negative control that targets (RNAScope Probe - Dr-igf1, no. 489251) at 40 °C for 2 hours. Amplification was conducted through three rounds of incubation with RNAScope Amplification Buffers, followed by separate channel development for each probe (eubacteria 16S, cyanine 3; negative control probe, cyanine 5). For whole-tissue sections co-stained with pan-cytokeratin or GFAP, protease incubation was performed for 15 minutes. Serial sections were incubated with either 16S probe or negative control probe (RNAScope Probe - Dr-actb2, no. 486831-C2). Channel development was conducted for both 16S and negative control probes with cyanine 5 (Akoya Biosciences, NEL745001KT, 1:3,000). Slides were fixed with 10% neutral buffered formalin (NBF) and then stored in 1× PBS at 4 °C overnight. The next day, slides were blocked with Buffer W for 30 minutes at room temperature and then stained with antibody diluted in Buffer W for 1 hour at room temperature. Glioma and BrM samples were stained with anti-GFAP (Alexa 388-GFAP, eBioscience, 53-9892-82, 1:50) and PanCK (Alexa 532-PanCK, Novus Biologicals, NBP2-33200AF532, 1:50), respectively. Slides were washed with 2× saline-sodium citrate (SSC) buffer for 5 minutes at room temperature. To minimize autofluorescence from lipofuscin, which can be detected in brain tissue with aging 58 , slides were treated with 1× TrueBlack Lipofuscin Autofluorescence Quencher (Cell Signaling Technology, 92401) for 30 seconds at room temperature, followed by three rounds of PBS washes. Slides were then incubated with DAPI for 30 seconds at room temperature and mounted using ProLong Gold Antifade Mounting Solution."
+  },
+  {
+   "evidence_id": "E0073",
+   "section": "RNAScope FISH",
+   "text": "Imaging of the 16S-stained tissue sections was conducted using the GeoMx platform (Bruker Spatial Biology). High-magnification imaging was conducted using a Zeiss Apotome 3 microscope and at ×20 dry and ×63 oil objectives. Exposure time was set at 60 ms for DAPI and 3 seconds for 16S and negative control channels. z -stack images were captured of 16S-positive areas at ×63 objective, and three-dimensional renderings were created using Zeiss ZEN software (version 3.9.)."
+  },
+  {
+   "evidence_id": "E0075",
+   "section": "Bacterial culture",
+   "text": "A total of nine fresh tumor samples were obtained from the operating room and were transferred to a tube containing 500 µl of autoclaved TSA medium, under a biological safety cabinet. A second tube of autoclaved TSA was opened under the hood, at the time of transfer, to serve as an environmental control. In addition to fresh tumor, 10 fresh-frozen tumor samples and two fresh-frozen non-cancerous brain samples (temporal lobe) were also included for culture. In an anaerobic chamber (Whitley A135 HEPA Anaerobic Workstation; Don Whitley Scientific), one 5-mm stainless steel bead (Qiagen, 69989) was added to the tubes for homogenization via a TissueLyzer LT (Qiagen, 85600) at 50 Hz for 5 minutes. For each media type, 50 µl of the tissue homogenates was spread on 60-mm plates using plating beads. Furthermore, 50 µl of samples was added to the TSB-SB broth media. Cultures were kept in anerobic and aerobic conditions at 37 °C and evaluated for colony formation every day for 14 days. Broth samples were cultured on agar plates after 72 hours and continued for another 14 days with routine evaluation for colony formation. For each new batch of media, bacterial taxa, including Rothia mucilaginosa (ATCC, 25296) and Prevotella intermedia (ATCC, 25611), were used as positive controls. Colony biotyping was conducted using a MALDI Biotyper (Bruker)."
+  },
+  {
+   "evidence_id": "E0077",
+   "section": "Bacterial culture",
+   "text": "All frozen samples were confirmed to contain bacterial reads via SMI, 16S amplicon and/or metagenomic shotgun sequencing. Fresh samples were evaluated for bacterial presence when sufficient tissue was available for 16S rRNA dPCR."
+  },
+  {
+   "evidence_id": "E0078",
+   "section": "IHC",
+   "text": "After treating all FFPE block and microtome surfaces with DNA AWAY to remove exogenous microbial biomolecules, samples were sectioned at 4 µm onto Superfrost Plus slides (Thermo Fisher Scientific). IHC staining was performed using a BOND RXm autostainer (Leica). Slides were subjected to a 20-minute antigen retrieval in BOND pH 6 citrate buffer (Leica) at 100 °C. Mouse monoclonal antibody against LPS lipid A (Abcam, ab8467) was diluted 1:500 in BOND primary antibody diluent (Leica) and applied to the slides for 15 minutes at room temperature. Staining proceeded using the BOND Polymer Refine Detection system using a hematoxylin counterstain. A colon section containing fecal material was used as a positive control. IHC slides were scanned at ×20 using an Aperio AT2 whole-slide scanner (Leica) and assessed using ImageScope software. Images were assessed for LPS staining by a pathologist."
+  },
+  {
+   "evidence_id": "E0106",
+   "section": "Supplementary information",
+   "text": "Reporting Summary Supplementary Table 1 Summary of methodologies applied to individual samples and corresponding results on detection of bacterial signal Supplementary Table 2 Description of samples included in TMAs constructed from patients with glioma and BrM for DSP and SMI Supplementary Table 3 Description of tissue (tumor and non-cancerous brain tissue), stool, saliva and cheek swab samples from all cohorts included for sequencing in this study with associated demographic and clinical information Supplementary Table 4 Bacterial taxa identified through shotgun metagenomic sequencing in tumor samples and the associated genome coverage information Supplementary Table 5 Differentially enriched proteins and transcripts in bacterial 16S-high and 16S-low regions of interest in BrM and glioma samples Supplementary Table 6 Differentially enriched transcripts in 16S-positive cells and neighborhoods in BrM and glioma samples Supplementary Table 7 Differentially abundant oral and gut bacterial taxa in patients with brain tumor compared to healthy individuals (HMP) Supplementary Table 8 Bacterial taxa identified through shotgun metagenomic sequencing in matched brain metastasis and primary tumor samples Supplementary Table 9 Differentially abundant oral and gut bacterial taxa in patients with brain tumor with or without progression post-surgery Supplementary Table 10 Correlation of gut, oral and intratumoral bacterial signatures with clinical characteristics and outcome Supplementary Table 11 Bacterial probe sequences for SMI and DSP Supplementary Table 12 Curated gene sets used for custom pathway analysis in small molecular imaging cell and neighborhood analyses Supplementary Video 1 Three-dimensional reconstruction of representative tumor cells with high-confidence and low-confidence intracellular 16S signal Supplementary Video 2 Three-dimensional reconstruction of representative tumor cells harboring genus-specific bacterial signal"
+  },
+  {
+   "evidence_id": "E0108",
+   "section": "Supplementary",
+   "text": "[supplement] Supplementary Table 1 Summary of methodologies applied to individual samples and corresponding results on detection of bacterial signal Supplementary Table 2 Description of samples included in TMAs constructed from patients with glioma and BrM for DSP and SMI Supplementary Table 3 Description of tissue (tumor and non-cancerous brain tissue), stool, saliva and cheek swab samples from all cohorts included for sequencing in this study with associated demographic and clinical information Supplementary Table 4 Bacterial taxa identified through shotgun metagenomic sequencing in tumor samples and the associated genome coverage information Supplementary Table 5 Differentially enriched proteins and transcripts in bacterial 16S-high and 16S-low regions of interest in BrM and glioma samples Supplementary Table 6 Differentially enriched transcripts in 16S-positive cells and neighborhoods in BrM and glioma samples Supplementary Table 7 Differentially abundant oral and gut bacterial taxa in patients with brain tumor compared to healthy individuals (HMP) Supplementary Table 8 Bacterial taxa identified through shotgun metagenomic sequencing in matched brain metastasis and primary tumor samples Supplementary Table 9 Differentially abundant oral and gut bacterial taxa in patients with brain tumor with or without progression post-surgery Supplementary Table 10 Correlation of gut, oral and intratumoral bacterial signatures with clinical characteristics and outcome Supplementary Table 11 Bacterial probe sequences for SMI and DSP Supplementary Table 12 Curated gene sets used for custom pathway analysis in small molecular imaging cell and neighborhood analyses "
+  }
+ ],
+ "italic_candidates": {
+  "Bifidobacterium": [
+   "E0032",
+   "E0033"
+  ],
+  "Capnocytophaga": [
+   "E0017",
+   "E0032",
+   "E0039"
+  ],
+  "Enterococcus": [
+   "E0017"
+  ],
+  "Fusobacterium": [
+   "E0017",
+   "E0018",
+   "E0035",
+   "E0039",
+   "E0042",
+   "E0081"
+  ],
+  "Gemella": [
+   "E0039"
+  ],
+  "Homo": [
+   "E0081"
+  ],
+  "Neisseria": [
+   "E0033",
+   "E0039"
+  ],
+  "Porphyromonas": [
+   "E0018",
+   "E0081"
+  ],
+  "Prevotella": [
+   "E0017",
+   "E0018",
+   "E0032",
+   "E0033",
+   "E0039",
+   "E0075",
+   "E0081"
+  ],
+  "Rothia": [
+   "E0075"
+  ],
+  "Streptococcus": [
+   "E0032",
+   "E0033"
+  ],
+  "Veillonella": [
+   "E0017",
+   "E0033",
+   "E0035"
+  ]
+ }
+}

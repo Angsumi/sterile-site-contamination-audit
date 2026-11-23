@@ -1,0 +1,26 @@
+[
+  {
+    "file": "peerj-03-1398-s001.xlsx",
+    "alias": "S980.md",
+    "bytes": 49064,
+    "sha256": "4645afbe64d7ffcca6b958246706845752e7b9cf832e1fc187875ab8f3902aff",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4671185.1/peerj-03-1398-s001.xlsx",
+    "md_bytes": 10703
+  },
+  {
+    "file": "peerj-03-1398-s002.xlsx",
+    "alias": "S990.md",
+    "bytes": 113372,
+    "sha256": "cb385174f32ff369f24cdeafd6225a1f10590fbdc834724d456c960613b78121",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4671185.1/peerj-03-1398-s002.xlsx",
+    "md_bytes": 112210
+  },
+  {
+    "file": "peerj-03-1398-s003.xlsx",
+    "alias": "S1000.md",
+    "bytes": 50227,
+    "sha256": "ab4bc8d58ac26a663088810a95fb7de5b7f0fa9f4d24197470a6c872451fb4b2",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4671185.1/peerj-03-1398-s003.xlsx",
+    "md_bytes": 3922
+  }
+]

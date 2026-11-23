@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC11863458",
+  "tissue_category": "blood",
+  "sub_site": "blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "075041ba888c9eeea9299f18f3532260e2d5aaa2553a10757389f273c45572de",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "2bRAD-M",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0004",
+        "quote": " alcoholic ESCC was examined using 2bRAD-M, a novel technique for detecting microbiome in human body fluids [ 7 ]. The results showed significantly increased blood microbiome diversity, abundance of Gram-negative bacteria, and levels of Gra"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human blood 2bRAD-M community profiling, distinct from mouse esophageal experiments. Human genus labels mainly in figures. Main Figure 1F contains species labels in an image; no unambiguous genus list in machine-readable text. Figures-only flag preserves this limitation.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

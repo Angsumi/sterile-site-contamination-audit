@@ -1,0 +1,114 @@
+{
+  "pmcid": "PMC7565819",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic adenocarcinoma",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA PAAD host RNA-seq",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Simple Summary The cancer microbiome has been suggested to be closely involved in the immune dysregulation that leads to carcinogenesis. Given that pancreatic adenocarcinoma (PAAD) is one of the most lethal cancers, it is important to ident"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "mors. In this study, we analyzed PAAD patient RNA-sequencing data from The Cancer Genome Atlas (TCGA) to correlate abundance of intra-pancreatic microbes to dysregulation of immune and cancer-associated genes and pathways. We discovered tha"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "date/batch heuristic",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "n occurs, which allowed us to determine potential contaminants\u2019 relationship with the sequencing date. We visualized the microbial abundance of cancer patients in the form of a heat map and removed any microbe where stretches of dates with "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aggregatibacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agrobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Beutenbergia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shigella",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geobacillus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Public TCGA PAAD RNA-seq/Pathoscope reanalysis. Date/batch-associated microbial features explicitly filtered as contaminants. Unclassified endosymbiont and viral entries excluded.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "3f34ae9d53a3d55b73b2f60b25de948d90b584271252abd04f7eb4f84c7bbb52",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+  ]
+}

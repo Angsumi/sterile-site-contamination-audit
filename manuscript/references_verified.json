@@ -1,0 +1,222 @@
+{
+ "Salter2014": {
+  "authors": "Salter SJ, Cox MJ, Turek EM, Calus ST, Cookson WO, Moffatt MF, Turner P, Parkhill J, Loman NJ, Walker AW.",
+  "title": "Reagent and laboratory contamination can critically impact sequence-based microbiome analyses.",
+  "journal": "BMC Biol",
+  "year": 2014,
+  "vol": "12",
+  "issue": null,
+  "pages": "87",
+  "doi": "10.1186/s12915-014-0087-z",
+  "pmid": "25387460"
+ },
+ "Glassing2016": {
+  "authors": "Glassing A, Dowd SE, Galandiuk S, Davis B, Chiodini RJ.",
+  "title": "Inherent bacterial DNA contamination of extraction and sequencing reagents may affect interpretation of microbiota in low bacterial biomass samples.",
+  "journal": "Gut Pathog",
+  "year": 2016,
+  "vol": "8",
+  "issue": null,
+  "pages": "24",
+  "doi": "10.1186/s13099-016-0103-7",
+  "pmid": "27239228"
+ },
+ "Weyrich2019": {
+  "authors": "Weyrich LS, Farrer AG, Eisenhofer R, Arriola LA, Young J, Selway CA, Handsley-Davis M, Adler CJ, Breen J, Cooper A.",
+  "title": "Laboratory contamination over time during low-biomass sample analysis.",
+  "journal": "Mol Ecol Resour",
+  "year": 2019,
+  "vol": "19",
+  "issue": "4",
+  "pages": "982-996",
+  "doi": "10.1111/1755-0998.13011",
+  "pmid": "30887686"
+ },
+ "Eisenhofer2019": {
+  "authors": "Eisenhofer R, Minich JJ, Marotz C, Cooper A, Knight R, Weyrich LS.",
+  "title": "Contamination in Low Microbial Biomass Microbiome Studies: Issues and Recommendations.",
+  "journal": "Trends Microbiol",
+  "year": 2019,
+  "vol": "27",
+  "issue": "2",
+  "pages": "105-117",
+  "doi": "10.1016/j.tim.2018.11.003",
+  "pmid": "30497919"
+ },
+ "deGoffau2019": {
+  "authors": "de Goffau MC, Lager S, Sovio U, Gaccioli F, Cook E, Peacock SJ, Parkhill J, Charnock-Jones DS, Smith GCS.",
+  "title": "Human placenta has no microbiome but can contain potential pathogens.",
+  "journal": "Nature",
+  "year": 2019,
+  "vol": "572",
+  "issue": "7769",
+  "pages": "329-334",
+  "doi": "10.1038/s41586-019-1451-5",
+  "pmid": "31367035"
+ },
+ "Poore2020": {
+  "authors": "Poore GD, Kopylova E, Zhu Q, Carpenter C, Fraraccio S, Wandro S, Kosciolek T, Janssen S, Metcalf J, Song SJ, Kanbar J, Miller-Montgomery S, Heaton R, Mckay R, Patel SP, Swafford AD, Knight R.",
+  "title": "Microbiome analyses of blood and tissues suggest cancer diagnostic approach.",
+  "journal": "Nature",
+  "year": 2020,
+  "vol": "579",
+  "issue": "7800",
+  "pages": "567-574",
+  "doi": "10.1038/s41586-020-2095-1",
+  "pmid": "32214244"
+ },
+ "Gihawi2023": {
+  "authors": "Gihawi A, Ge Y, Lu J, Puiu D, Xu A, Cooper CS, Brewer DS, Pertea M, Salzberg SL.",
+  "title": "Major data analysis errors invalidate cancer microbiome findings.",
+  "journal": "mBio",
+  "year": 2023,
+  "vol": "14",
+  "issue": "5",
+  "pages": "e0160723",
+  "doi": "10.1128/mbio.01607-23",
+  "pmid": "37811944"
+ },
+ "Nejman2020": {
+  "authors": "Nejman D, Livyatan I, Fuks G, Gavert N, Zwang Y, Geller LT, Rotter-Maskowitz A, Weiser R, Mallel G, Gigi E, Meltser A, Douglas GM, Kamer I, Gopalakrishnan V, Dadosh T, Levin-Zaidman S, Avnet S, Atlan T, Cooper ZA, Arora R, Cogdill AP, Khan MAW, Ologun G, Bussi Y, Weinberger A, Lotan-Pompan M, Golani O, Perry G, Rokah M, Bahar-Shany K, Rozeman EA, Blank CU, Ronai A, Shaoul R, Amit A, Dorfman T, Kremer R, Cohen ZR, Harnof S, Siegal T, Yehuda-Shnaidman E, Gal-Yam EN, Shapira H, Baldini N, Langille MGI, Ben-Nun A, Kaufman B, Nissan A, Golan T, Dadiani M, Levanon K, Bar J, Yust-Katz S, Barshack I, Peeper DS, Raz DJ, Segal E, Wargo JA, Sandbank J, Shental N, Straussman R.",
+  "title": "The human tumor microbiome is composed of tumor type-specific intracellular bacteria.",
+  "journal": "Science",
+  "year": 2020,
+  "vol": "368",
+  "issue": "6494",
+  "pages": "973-980",
+  "doi": "10.1126/science.aay9189",
+  "pmid": "32467386"
+ },
+ "Fierer2025": {
+  "authors": "Fierer N, Leung PM, Lappan R, Eisenhofer R, Ricci F, Holland SI, Dragone N, Blackall LL, Dong X, Dorador C, Ferrari BC, Goordial J, Holmes SP, Inagaki F, Korem T, Li SS, Makhalanyane TP, Metcalf JL, Nagarajan N, Orsi WD, Shanahan ER, Walker AW, Weyrich LS, Gilbert JA, Willis AD, Callahan BJ, Shade A, Parkhill J, Banfield JF, Greening C.",
+  "title": "Guidelines for preventing and reporting contamination in low-biomass microbiome studies.",
+  "journal": "Nat Microbiol",
+  "year": 2025,
+  "vol": "10",
+  "issue": "7",
+  "pages": "1570-1580",
+  "doi": "10.1038/s41564-025-02035-2",
+  "pmid": "40542287"
+ },
+ "Davis2018": {
+  "authors": "Davis NM, Proctor DM, Holmes SP, Relman DA, Callahan BJ.",
+  "title": "Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data.",
+  "journal": "Microbiome",
+  "year": 2018,
+  "vol": "6",
+  "issue": "1",
+  "pages": "226",
+  "doi": "10.1186/s40168-018-0605-2",
+  "pmid": "30558668"
+ },
+ "Austin2023": {
+  "authors": "Austin GI, Park H, Meydan Y, Seeram D, Sezin T, Lou YC, Firek BA, Morowitz MJ, Banfield JF, Christiano AM, Pe'er I, Uhlemann AC, Shenhav L, Korem T.",
+  "title": "Contamination source modeling with SCRuB improves cancer phenotype prediction from microbiome data.",
+  "journal": "Nat Biotechnol",
+  "year": 2023,
+  "vol": "41",
+  "issue": "12",
+  "pages": "1820-1828",
+  "doi": "10.1038/s41587-023-01696-w",
+  "pmid": "36928429"
+ },
+ "Aagaard2014": {
+  "authors": "Aagaard K, Ma J, Antony KM, Ganu R, Petrosino J, Versalovic J.",
+  "title": "The placenta harbors a unique microbiome.",
+  "journal": "Sci Transl Med",
+  "year": 2014,
+  "vol": "6",
+  "issue": "237",
+  "pages": "237ra65",
+  "doi": "10.1126/scitranslmed.3008599",
+  "pmid": "24848255"
+ },
+ "Lauder2016": {
+  "authors": "Lauder AP, Roche AM, Sherrill-Mix S, Bailey A, Laughlin AL, Bittinger K, Leite R, Elovitz MA, Parry S, Bushman FD.",
+  "title": "Comparison of placenta samples with contamination controls does not provide evidence for a distinct placenta microbiota.",
+  "journal": "Microbiome",
+  "year": 2016,
+  "vol": "4",
+  "issue": "1",
+  "pages": "29",
+  "doi": "10.1186/s40168-016-0172-3",
+  "pmid": "27338728"
+ },
+ "Kennedy2023": {
+  "authors": "Kennedy KM, de Goffau MC, Perez-Mu\u00f1oz ME, Arrieta MC, B\u00e4ckhed F, Bork P, Braun T, Bushman FD, Dore J, de Vos WM, Earl AM, Eisen JA, Elovitz MA, Ganal-Vonarburg SC, G\u00e4nzle MG, Garrett WS, Hall LJ, Hornef MW, Huttenhower C, Konnikova L, Lebeer S, Macpherson AJ, Massey RC, McHardy AC, Koren O, Lawley TD, Ley RE, O'Mahony L, O'Toole PW, Pamer EG, Parkhill J, Raes J, Rattei T, Salonen A, Segal E, Segata N, Shanahan F, Sloboda DM, Smith GCS, Sokol H, Spector TD, Surette MG, Tannock GW, Walker AW, Yassour M, Walter J.",
+  "title": "Questioning the fetal microbiome illustrates pitfalls of low-biomass microbial studies.",
+  "journal": "Nature",
+  "year": 2023,
+  "vol": "613",
+  "issue": "7945",
+  "pages": "639-649",
+  "doi": "10.1038/s41586-022-05546-8",
+  "pmid": "36697862"
+ },
+ "Tan2023": {
+  "authors": "Tan CCS, Ko KKK, Chen H, Liu J, Loh M, SG10K_Health Consortium, Chia M, Nagarajan N.",
+  "title": "No evidence for a common blood microbiome based on a population study of 9,770 healthy humans.",
+  "journal": "Nat Microbiol",
+  "year": 2023,
+  "vol": "8",
+  "issue": "5",
+  "pages": "973-985",
+  "doi": "10.1038/s41564-023-01350-w",
+  "pmid": "36997797"
+ },
+ "Riquelme2019": {
+  "authors": "Riquelme E, Zhang Y, Zhang L, Montiel M, Zoltan M, Dong W, Quesada P, Sahin I, Chandra V, San Lucas A, Scheet P, Xu H, Hanash SM, Feng L, Burks JK, Do KA, Peterson CB, Nejman D, Tzeng CD, Kim MP, Sears CL, Ajami N, Petrosino J, Wood LD, Maitra A, Straussman R, Katz M, White JR, Jenq R, Wargo J, McAllister F.",
+  "title": "Tumor Microbiome Diversity and Composition Influence Pancreatic Cancer Outcomes.",
+  "journal": "Cell",
+  "year": 2019,
+  "vol": "178",
+  "issue": "4",
+  "pages": "795-806.e12",
+  "doi": "10.1016/j.cell.2019.07.008",
+  "pmid": "31398337"
+ },
+ "Urbaniak2016": {
+  "authors": "Urbaniak C, Gloor GB, Brackstone M, Scott L, Tangney M, Reid G.",
+  "title": "The Microbiota of Breast Tissue and Its Association with Breast Cancer.",
+  "journal": "Appl Environ Microbiol",
+  "year": 2016,
+  "vol": "82",
+  "issue": "16",
+  "pages": "5039-5048",
+  "doi": "10.1128/aem.01235-16",
+  "pmid": "27342554"
+ },
+ "Ou2025": {
+  "authors": "Williamson EM, Hammer TJ, Hogendoorn K, Eisenhofer R.",
+  "title": "Blanking on blanks: few insect microbiota studies control for contaminants.",
+  "journal": "mBio",
+  "year": 2025,
+  "vol": "16",
+  "issue": "4",
+  "pages": "e0265824",
+  "doi": "10.1128/mbio.02658-24",
+  "pmid": "39998222"
+ },
+ "Zakis2022": {
+  "authors": "Zakis DR, Paulissen E, Kornete L, Kaan AMM, Nicu EA, Zaura E.",
+  "title": "The evidence for placental microbiome and its composition in healthy pregnancies: A systematic review.",
+  "journal": "J Reprod Immunol",
+  "year": 2022,
+  "vol": "149",
+  "issue": null,
+  "pages": "103455",
+  "doi": "10.1016/j.jri.2021.103455",
+  "pmid": "34883392"
+ },
+ "Panzer2023": {
+  "authors": "Panzer JJ, Romero R, Greenberg JM, Winters AD, Galaz J, Gomez-Lopez N, Theis KR.",
+  "title": "Is there a placental microbiota? A critical review and re-analysis of published placental microbiota datasets.",
+  "journal": "BMC Microbiol",
+  "year": 2023,
+  "vol": "23",
+  "issue": "1",
+  "pages": "76",
+  "doi": "10.1186/s12866-023-02764-6",
+  "pmid": "36934229"
+ }
+}

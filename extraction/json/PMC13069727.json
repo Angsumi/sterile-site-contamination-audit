@@ -1,0 +1,114 @@
+{
+  "pmcid": "PMC13069727",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "0197795019ad9e2d499e84e4e1a3008aab879bb7e0ec7829119871b51024da34",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "amplification was performed on the 16 S rRNA gene V3-V4 hypervariable region using the 341 F and 806R primers The purified amplified products were connected to sequencing joints, sequencing libraries were constructed, and sequencing was per"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "oratory environment. Additionally, negative controls (no-template controls) were included for all PCR reactions. These negative controls underwent the same PCR reagent system and cycling conditions as the samples. After amplification, the P"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bergeyella",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedobacter",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [
+    "Acinetobacter",
+    "Stenotrophomonas",
+    "Pseudomonas",
+    "Bergeyella",
+    "Bacillus"
+  ],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC12866835",
+  "tissue_category": "other_sterile",
+  "sub_site": "synovial fluid",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "69aa233f236ddcbb31c977f6ad1825a9b2269f8e39b95e5d33f2fdd8acf24f0e",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": " different stages are analyzed via 16S rRNA high‐throughput sequencing, and the results show that microbial diversity is positively correlated with OA progression, with the microbiomes dominated by Proteobacteria, Firmicutes, and Actinobact"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human synovial fluid genera only; rat transfer experiment genera excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

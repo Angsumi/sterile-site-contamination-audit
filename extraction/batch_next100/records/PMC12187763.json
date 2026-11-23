@@ -1,0 +1,108 @@
+{
+  "pmcid": "PMC12187763",
+  "tissue_category": "tumour",
+  "sub_site": "lung squamous cell carcinoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f483fec81f9516e7a83a9db737a82cf59875afc30f484b1602ef4a3141cb8901",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-LUSC Narunsky-Haziza microbial profiles",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "he authors included data from four cohorts: the WIS cohort of the Weizmann Institute of Science, TCGA, Hopkins cohort, and UCSD cohort. In order to control the pollution caused by environment and operation process, for the WIS data, the aut"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "the Weizmann Institute of Science, TCGA, Hopkins cohort, and UCSD cohort. In order to control the pollution caused by environment and operation process, for the WIS data, the authors selected 104 paraffin samples and 191 negative controls. "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "statistical / batch filtering",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "ors used computational software to filter the data in various ways, such as comparing the results with those of WIS, the HMP project, and more than 100 other literatures. In our study, we used the intratumor microbiome abundance of samples "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidibacillus",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cyanothece",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flammeovirga",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gallibacterium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmata",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnoclostridium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrabacter",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only TCGA-LUSC microbial results used. WIS paraffin controls described for upstream dataset do not constitute same-cohort TCGA controls.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

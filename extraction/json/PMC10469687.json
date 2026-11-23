@@ -1,0 +1,124 @@
+{
+  "pmcid": "PMC10469687",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma (TCGA-LUAD)",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "The RNA sequence data, clinical data, microbiome data of TCGA-LUAD were obtained from the cBioPortal. 1 Fragments Per Kilobase Million (FPKM) values were converted to Transcripts Per Million (TPM) values using TPM = (FPKM/FPKM sum"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "The RNA sequence data, clinical data, microbiome data of TCGA-LUAD were obtained from the cBioPortal. 1 Fragments Per Kilobase Million (FPKM) values were converted to Transcripts Per Million (TPM) values using TPM = (FPKM/FPKM sum ) \u00d7 10 6 . The"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 491,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Histophilus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteibacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marinitoga",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sandarakinorhabdus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stomatobaculum",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseiflexus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylopila",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Belnapia",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysinimicrobium",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marichromatium",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseibium",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sporosarcina",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCMA via cBioPortal; bacterial genus candidates extracted from named results; viruses excluded. Additional LMS formula names with spaced letters need coordinator review to recover additional bacterial genera. No own microbial decontamination stated; ComBat applies host datasets.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

@@ -1,0 +1,97 @@
+{
+  "pmcid": "PMC7445256",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and adjacent normal tissue",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "Generation of the 16S rDNA library, sequencing, raw read calling/processing, were performed by Zymo Research through their ZymoBIOMICS service (Zymo Research Corp. Irvine, CA). ZymoBIOMICS Microbial Community Standards (Zymo D6300) were use"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 66,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rubrobacter",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phyllobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "46 specimens in primary set and 20 in second validation set. Unclassified Bradyrhizobiaceae/Caulobacteraceae labels excluded. Both sets are breast tissue; provenance of second set needs cohort review.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e235426ae6333afa5e6ed2b3e321db55a7497a1997cb1eb06f34b1e947eec376",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,12 @@
+{
+  "pmcid": "PMC13125019",
+  "tissue_category": "other_sterile",
+  "sub_site": "follicular fluid",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Follicular-fluid microbiota measured by targeted real-time PCR panel only; no microbial community sequencing.",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "b2bd27615bc17e5f8d32b53a3b469f4f9e978719488680ad073d05f1af3ab7c0"
+}

@@ -1,0 +1,9 @@
+{
+  "pmcid": "PMC10910819",
+  "tissue_category": "tumour",
+  "year": 2024,
+  "eligible_fulltext": false,
+  "exclusion_reason": "Human HCC samples assessed only by FISH/IHC; community sequencing (2bRAD-M) performed only in mouse HCC model (E0005, E0018).",
+  "extractor": "AI agent (GPT-6.1-sol, batch B unclear)",
+  "date": "2026-11-23"
+}

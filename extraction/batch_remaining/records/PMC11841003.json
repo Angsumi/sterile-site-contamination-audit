@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC11841003",
+  "tissue_category": "tumour",
+  "sub_site": "breast tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ae8b771bcfb9f0407594dfd8d455f55f31526e13cdfd391e34a082b3909a2469",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "nd V3-V4 regions of 16 S rRNA were sequenced using Illumina MiSeq platform [ 17 ]. The breast tissue microbiome dataset consists of two groups: normal tissues (47 samples) and tumor tissues (47 samples). The normal and tumor tissue samples "
+      }
+    ]
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": " breast milk, and V3-V4 regions of 16 S rRNA were sequenced using Illumina MiSeq platform [ 17 ]. The breast tissue microbiome dataset consists of two groups: normal tissues (47 samples) and tumor tissues (47 samples). The normal and tumor "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Reanalysis of breast tissue and breast milk cohorts; breast tissue target only. No target genus labels in main text.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

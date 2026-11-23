@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC13207979",
+  "tissue_category": "other_sterile",
+  "sub_site": "aneurysm wall and intraluminal thrombus",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "778f8e3264ffaaf8b9a46fa73950008b477819f58ae58fb50686c3641dacd105",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "n aneurysmal tissues. We performed 16S ribosomal RNA (rRNA) gene sequencing of the aneurysmal wall, intraluminal thrombus, feces, saliva, and dental plaque collected from 32 patients undergoing open surgical repair of non-infectious AAA. Ba"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Capnocytophaga",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only aneurysm wall/thrombus genera; oral swab genera excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

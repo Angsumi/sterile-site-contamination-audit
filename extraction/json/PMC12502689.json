@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC12502689",
+ "tissue_category": "brain_csf",
+ "sub_site": "cerebrospinal fluid (archived biobank pellets)",
+ "year": 2025,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0010", "quote": "archived CSF samples available through a CSF biobank at the Columbia University Medical Center"}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0015", "quote": "Library preparation was carried out using the Zymo Quick-16S/V3V4 Plus NGS Library Prep Kit"}]},
+ "controls": {"value": "included_not_sequenced", "types": "extraction negative control (water only)", "n_sequenced": null, "evidence": [{"id": "E0014", "quote": "All extractions included both negative (water only) and positive controls"}]},
+ "decontamination": {"value": "abundance_filter_only", "tool": "0.0001% abundance cutoff; spike-in taxa removed", "evidence": [{"id": "E0017", "quote": "a stringent abundance cutoff of 0.0001% was applied to remove extremely low-abundance taxa"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 174,
+ "list_type": "full_profile",
+ "genera": [],
+ "top5": [],
+ "figures_only": "yes",
+ "authors_conclusion": "not_claimed",
+ "notes": "No CSF bacterial genus named in text: only spike-in organisms (Imtechella, Allobacillus) detected consistently; low-count 'Other' taxa (<20 reads) shown only in Fig. 1B and interpreted as contaminants/sequencing errors. Streptococcus pneumoniae only in meningitis positive-control sample (not recorded). No supplements available. Negative-control sequencing results not reported.",
+ "extractor": "AI agent (Claude sub-agent, batch 02)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,97 @@
+{
+  "pmcid": "PMC9658903",
+  "tissue_category": "tumour",
+  "sub_site": "epithelial ovarian tumour",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "TIANamp Bacteria DNA Kit (TianGen) was used to extract bacterial genomic DNA based on the manufacturer\u2019s instructions. Concentration and quality of extracted DNA were determined by NanoDrop spectrophotometer. After that, the 16 s ribosomal "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Devosia",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chelativorans",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oceanicaulis",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pure-culture P. acnes, Bacillus and Escherichia isolates do not enter sequencing list. Ochrobacterium spelling retained for taxonomy review rather than silently changed.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "dba1c664d587d9c4215fbc79af51aeae8ab87270dde49ed1a22d2a7a0c41ed52",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

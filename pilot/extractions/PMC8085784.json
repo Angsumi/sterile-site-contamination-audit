@@ -1,0 +1,94 @@
+{
+ "pmcid": "PMC8085784",
+ "block": "tumour",
+ "tissue_category": "tumour",
+ "year": 2021,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "host_seq_mining",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "RNA-sequencing data were filtered for bacterial reads via direct alignment to a reference library of bacterial sequences using the Pathoscope 2.0 software"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "Raw whole-transcriptome RNA-sequencing, Level 3 normalized mRNA expression read counts"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "tool",
+  "evidence": [
+   {
+    "id": "E0017",
+    "quote": "In all, we identified 202 potential contaminants to be eliminated from further investigation"
+   }
+  ]
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Rhodococcus",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bradyrhizobium",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Trueperella",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Micrococcus",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Frankia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anabaena",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Synechococcus",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chroococcidiopsis",
+   "evidence_id": "E0027",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "claimed",
+ "notes": "TCGA thyroid RNA-seq; contaminants by sequencing date/plate, abundance pattern and a 175-genus published list. No sequenced controls exist for TCGA. Controls quote shows data source only (no controls mentioned).",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

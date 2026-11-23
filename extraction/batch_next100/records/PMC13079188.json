@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC13079188",
+  "tissue_category": "other_sterile",
+  "sub_site": "aqueous humor",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "bf0028f8bc6bc9a0c20bf6212ca3f75b5ab80422c15f1bc265a8d7beba4a4b30",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "Next-generation sequencing (NGS) was performed on the collected AH samples and negative controls, generating over 23 million clean reads per sample. The results of metagenomic data analysis indicated that only GGB7511 and Aquabacterium were"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "ed on the collected AH samples and negative controls, generating over 23 million clean reads per sample. The results of metagenomic data analysis indicated that only GGB7511 and Aquabacterium were found in some of the negative controls. In "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0053",
+        "quote": "mplemented stringent bioinformatic decontamination strategies, we acknowledge that additional controls, such as DNA extraction blanks and reagent-only controls, would further strengthen the rigor of contamination assessment."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paeniglutamicibacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

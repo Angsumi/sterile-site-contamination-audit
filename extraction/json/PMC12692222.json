@@ -1,0 +1,147 @@
+{
+  "pmcid": "PMC12692222",
+  "tissue_category": "tumour",
+  "sub_site": "glioblastoma and meningioma tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "s role in BTs remains underexplored. We performed 16S rRNA gene sequencing of the gut microbiota (GM) and intratumoral microbiome (ItM) from fresh tissue samples of 9 patients with GBM and 18 with MGM. 12 age- and sex-matched healthy contro"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 27,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Burkholderia-Caballeronia-Paraburkholderia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leifsonia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Noviherbaspirillum",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseiarcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteitalea",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Candidatus_Udaeobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Candidatus_Adlerbacteria",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Melghirimyces",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bryobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "9 GBM and 18 meningioma tissues; stool and 12 healthy stool controls excluded. Unclassified groups excluded; Candidatus names logged for taxonomy review.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6c01c086bf5679405c6801c9abd38a0581d403b4e7f53de9955fa4952893a927",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

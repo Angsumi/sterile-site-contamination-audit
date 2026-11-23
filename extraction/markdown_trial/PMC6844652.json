@@ -1,0 +1,63 @@
+{
+  "pmcid": "PMC6844652",
+  "year": 2019,
+  "eligible_fulltext": true,
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "n_target_samples": 80,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S"
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "fulltext.md:L55",
+      "evidence_quote": "The relative abundance of microbiota in the peripheral blood samples from LC patients revealed a dominance of five phyla (Fig. 1 ): Firmicutes (49.9%), Bacteroidetes (23.0%), Proteobacteria (12.1%), Fusobacteria (6.1%) and Actinobacteria (5.6%) (Fig. 1 a), but it was hardly different, visually or statistically, from healthy controls. Meanwhile, the most abundant genus found in the LC patients was Bacteroides (21.4%), followed by Streptococcus (8.5%), a genus in the family Enterobacteriaceae (7.8%) and a bacteria of the family Lachnospiraceae (6.3%) (Fig. 1 b). At the genus level, a total of 183 OTUs were identified in cirrhotic patients, whereas 123 different bacterial genera were distinguished in healthy controls (Supplementary Table S1, Supplemental digital content 1, http://links.lww.com/EJGH/A449 ).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "fulltext.md:L55",
+      "evidence_quote": "The relative abundance of microbiota in the peripheral blood samples from LC patients revealed a dominance of five phyla (Fig. 1 ): Firmicutes (49.9%), Bacteroidetes (23.0%), Proteobacteria (12.1%), Fusobacteria (6.1%) and Actinobacteria (5.6%) (Fig. 1 a), but it was hardly different, visually or statistically, from healthy controls. Meanwhile, the most abundant genus found in the LC patients was Bacteroides (21.4%), followed by Streptococcus (8.5%), a genus in the family Enterobacteriaceae (7.8%) and a bacteria of the family Lachnospiraceae (6.3%) (Fig. 1 b). At the genus level, a total of 183 OTUs were identified in cirrhotic patients, whereas 123 different bacterial genera were distinguished in healthy controls (Supplementary Table S1, Supplemental digital content 1, http://links.lww.com/EJGH/A449 ).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "fulltext.md:L63",
+      "evidence_quote": "Two-dimensional principal coordinates analysis plots of unweighted UniFrac distances were used, based on the relative abundance of OTUs, to visualise complex relationships in the microbial communities between subgroups. There was no obvious separation between groups, defined neither by aetiology (Fig. 2 a), by severity (Fig. 2 b) of LC, nor presence or absence of viable HCC (Fig. 2 c). However, LEfSe analysis showed that the abundance of Enterobacteriaceae was significantly higher in cirrhotics (LC patients and healthy controls: 7.8% and 6.0 %, respectively) (Figs. 3 and 4 , Supplementary Table S1, Supplemental digital content 1, http://links.lww.com/EJGH/A449 ). On the contrary, the abundance of Akkermansia , Rikenellaceae and Erysipelotrichales was significantly lower in cirrhotics (relative abundance of Akkermansia in LC patients and healthy controls: 0% and 0.2%, that of Rikenellaceae in LC patients and healthy controls: 0.1% and 0.92%, that of in Erysipelotrichales LC patients and healthy controls: 0.58% and 1.21%, respectively) (Figs. 3 and 4 , Supplementary Table S1, Supplemental digital content 1, http://links.lww.com/EJGH/A449 ). Likewise, LEfSe analysis showed that LC patients with HCC had the significantly higher abundance of Enterobacteriaceae (HCC patients vs. healthy controls: 8.65% vs. 6.02%, respectively) and Bacteroides (HCC patients v healthy controls: 23.8% vs. 17.6%, respectively) than healthy controls whilst that of Bifidobacterium (HCC patients vs. healthy controls: 5.00% vs. 5.04%, respectively) was significantly lower (Supplementary Table S2, Supplemental digital content 2, http://links.lww.com/EJGH/A450 ). We also calculated the four alpha diversity scores based on PD whole tree, Chao1, the number of observed species and the Shannon index. However, no significant difference was observed between cirrhotic patients and healthy controls (Fig. 5 ).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "fulltext.md:L63",
+      "evidence_quote": "Two-dimensional principal coordinates analysis plots of unweighted UniFrac distances were used, based on the relative abundance of OTUs, to visualise complex relationships in the microbial communities between subgroups. There was no obvious separation between groups, defined neither by aetiology (Fig. 2 a), by severity (Fig. 2 b) of LC, nor presence or absence of viable HCC (Fig. 2 c). However, LEfSe analysis showed that the abundance of Enterobacteriaceae was significantly higher in cirrhotics (LC patients and healthy controls: 7.8% and 6.0 %, respectively) (Figs. 3 and 4 , Supplementary Table S1, Supplemental digital content 1, http://links.lww.com/EJGH/A449 ). On the contrary, the abundance of Akkermansia , Rikenellaceae and Erysipelotrichales was significantly lower in cirrhotics (relative abundance of Akkermansia in LC patients and healthy controls: 0% and 0.2%, that of Rikenellaceae in LC patients and healthy controls: 0.1% and 0.92%, that of in Erysipelotrichales LC patients and healthy controls: 0.58% and 1.21%, respectively) (Figs. 3 and 4 , Supplementary Table S1, Supplemental digital content 1, http://links.lww.com/EJGH/A449 ). Likewise, LEfSe analysis showed that LC patients with HCC had the significantly higher abundance of Enterobacteriaceae (HCC patients vs. healthy controls: 8.65% vs. 6.02%, respectively) and Bacteroides (HCC patients v healthy controls: 23.8% vs. 17.6%, respectively) than healthy controls whilst that of Bifidobacterium (HCC patients vs. healthy controls: 5.00% vs. 5.04%, respectively) was significantly lower (Supplementary Table S2, Supplemental digital content 2, http://links.lww.com/EJGH/A450 ). We also calculated the four alpha diversity scores based on PD whole tree, Chao1, the number of observed species and the Shannon index. However, no significant difference was observed between cirrhotic patients and healthy controls (Fig. 5 ).",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "66 cirrhotic and 14 healthy participants. Akkermansia detected in healthy target blood, reported as 0% in cirrhosis. RNA-derived 16S amplicons. Family-level taxa excluded.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC6844652/fulltext.md",
+  "source_sha256": "88c040aa1fcbab1cb4f275de3e0a19609fc6fa6ba45633b636333d66283fe11e",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named"
+}

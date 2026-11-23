@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC13784061",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5fa5ed1e2ddc2a03b919716db5481fcd23e8c77d02ed8c14a412080056704af2",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": " immunotherapy were analyzed using 16 S-5R rRNA sequencing (Cohort 1). Two core models were constructed: a deep learning-based bacterial diagnostic model (BDM) incorporating hidden layers and a Squeeze-and-Excitation block to predict immuno"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "monitoring, we included extraction blanks (blank controls processed in parallel with each batch using the same kit reagents) and PCR negative controls (no-template controls) in every experimental batch. All negative controls were subjected "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam / SCRuB",
+    "evidence": [
+      {
+        "id": "E0049",
+        "quote": "SMURF framework), in which quality filtering and chimera removal were independently performed for each of the five amplicons; the resulting sequences were then aligned to an optimized version of the Greengenes database (May 2013) for taxono"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

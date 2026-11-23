@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC11742043",
+ "tissue_category": "tumour",
+ "sub_site": "lung tumour tissue (NSCLC adenocarcinoma and squamous cell carcinoma, resected)",
+ "year": 2025,
+ "country": "Italy",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "public_reuse", "dataset": "SRA PRJNA303190 (training); PRJNA327258 (validation)", "evidence": [{"id": "E0034", "quote": "The complete dataset is available at NCBI under the identifier PRJNA303190"}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0034", "quote": "using Illumina high-throughput sequencing to target the V3-V4 region of the 16S rRNA gene"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 263,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Acinetobacter", "evidence_id": "E0008", "flagged_contaminant": false},
+  {"name": "Pseudomonas", "evidence_id": "E0008", "flagged_contaminant": false},
+  {"name": "Thermus", "evidence_id": "E0008", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0009", "flagged_contaminant": false},
+  {"name": "Herbaspirillum", "evidence_id": "E0011", "flagged_contaminant": false},
+  {"name": "Corynebacterium", "evidence_id": "E0012", "flagged_contaminant": false},
+  {"name": "Kocuria", "evidence_id": "E0012", "flagged_contaminant": false}
+ ],
+ "top5": ["Acinetobacter", "Pseudomonas", "Thermus"],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Re-analysis of public 16S data; only 3 genera ranked in text (top5 partial). n=263 after QC (training set); validation set PRJNA327258 (97 samples) not profiled at genus level in text. No controls or decontamination; Thermus dominant but not discussed as contaminant.",
+ "extractor": "AI agent (Claude sub-agent, batch 08)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,9 @@
+{
+  "reviewer": "same coordinating AI; not independent human validation",
+  "records": [
+    "PMC4419820",
+    "PMC7355471"
+  ],
+  "status": "held outside analysis",
+  "reason": "Figure locators are not supported by existing text-source checker; independent source-labelled visual validation required. No fabricated text evidence inserted."
+}

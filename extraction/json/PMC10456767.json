@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC10456767",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "'amniotic space' swabs: amniotic fluid, placenta (amnion-chorion), newborn axilla at caesarean; vaginal swabs not extracted",
+ "year": 2023,
+ "country": "Peru",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0012", "quote": "Amniotic fluid swabs were collected under surgical field sterile conditions at the time of uterine incision at Caesarean section."}]},
+ "method": {"value": "16S", "region": "V4", "evidence": [{"id": "E0013", "quote": "high-throughput sequencing of the PCR amplified V4 region of the 16S rRNA gene"}]},
+ "controls": {"value": "sequenced", "types": "extraction kit negative controls", "n_sequenced": null, "evidence": [{"id": "E0013", "quote": "Negative controls were included for each DNA extraction kit."}, {"id": "E0013", "quote": "The samples were rarefied to 4000 reads and rarefaction resulted in the loss of all negative controls ( Table S2 )."}]},
+ "decontamination": {"value": "abundance_filter_only", "tool": ">1% mean abundance threshold", "evidence": [{"id": "E0014", "quote": "Analyses of the relative abundance of genera at different locations were limited to those with average abundances greater than 1%. This served to minimise the problem of including the genera of bacteria from potential contaminants."}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 22,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Prevotella", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Dialister", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Shigella", "evidence_id": "E0027", "flagged_contaminant": false},
+  {"name": "Staphylococcus", "evidence_id": "E0027", "flagged_contaminant": false},
+  {"name": "Gardnerella", "evidence_id": "E0027", "flagged_contaminant": false},
+  {"name": "Listeria", "evidence_id": "E0027", "flagged_contaminant": false},
+  {"name": "Bacteroides", "evidence_id": "E0029", "flagged_contaminant": false},
+  {"name": "Mycoplasma", "evidence_id": "E0030", "flagged_contaminant": false},
+  {"name": "Lactobacillus", "evidence_id": "E0031", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "22 women (11 stillbirth, 11 preterm), three amniotic-space swab types each. 'E. coli / Shigella' recorded as Shigella (Escherichia/Shigella composite). Table 3 (12 most abundant taxa) not in parsed text; only 4 of them named. Negative controls sequenced but lost at rarefaction (low reads); no control-based removal. Ureaplasma mentioned without site; not recorded. Authors argue low vagina-amnion concordance rules out significant contamination.",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,119 @@
+{
+  "pmcid": "PMC10577941",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid",
+  "year": 2023,
+  "country": "Germany",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "on sequencing of the V3–V4 hypervariable region of the 16S rRNA gene was performed on a MiSeq Illumina instrument (MiSeq Reagent Kit v3 (600 Cycle); Illumina, San Diego, CA, USA) using the universal eubacterial primers 347F and 803R [ 28 ],"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "Sequences were analysed using QIIME 2 software package release 2019.10.0 [ 29 ] with default parameters. FASTQ files were trimmed and merged with a minimum read length of 50 and minimum Phred score of"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "sing the primer pair 347F / 803R. To exclude potential contamination, ASV occurring in extraction and PCR controls were removed from the dataset (33 and 2 ASV, respectively) (Additional file 1 : Table S1). Furthermore, mitochondrial sequenc"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "Quantitative real-time PCR of the 16S rRNA gene as proxy for bacterial load was performed on the ABI 7300 Cycler (Applied Biosystems, Germany) using the following reaction mixture: 12.5 µl 2 × Power SYBR Green master mix (Thermofisher Scien"
+      }
+    ]
+  },
+  "n_target_samples": 143,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acetobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shigella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Escherichia and Shigella described as one complex; retain one composite equivalent by coordinator normalization. Paracoccus explicitly describes own samples in discussion.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

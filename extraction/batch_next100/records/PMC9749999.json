@@ -1,0 +1,12 @@
+{
+  "pmcid": "PMC9749999",
+  "tissue_category": "other_sterile",
+  "sub_site": "aneurysm wall and blood",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Target aneurysm-wall and blood assays are RT-qPCR only; 16S community sequencing was restricted to stool.",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "cde72ae0db6da499d14a94d49aa4c86a631659bf4270b34cf61160e0d9cebb03"
+}

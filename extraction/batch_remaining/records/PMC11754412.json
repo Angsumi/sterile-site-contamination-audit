@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC11754412",
+  "tissue_category": "tumour",
+  "sub_site": "lung tissue qPCR only",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Community sequencing was performed on BAL fluid; lung tissue used for targeted bacterial qPCR only.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "915088db438aa972e71c7ac99419f9e88f12cec45dfe067e24d1abde49539eab",
+  "notes": "",
+  "review_flags": []
+}

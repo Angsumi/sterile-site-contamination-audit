@@ -1,0 +1,222 @@
+{
+ "pmcid": "PMC10139004",
+ "meta": {
+  "title": "Comparative Analysis of the Placental Microbiome in Pregnancies with Late Fetal Growth Restriction versus Physiological Pregnancies",
+  "journal": "International Journal of Molecular Sciences",
+  "year": "2023",
+  "doi": "10.3390/ijms24086922",
+  "pmid": "37108086"
+ },
+ "n_elements": 48,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "A comparative analysis of the placental microbiome in pregnancies with late fetal growth restriction (FGR) was performed with normal pregnancies to assess the impact of bacteria on placental development and function. The presence of microorganisms in the placenta, amniotic fluid, fetal membranes and umbilical cord blood throughout pregnancy disproves the theory of the “sterile uterus”. FGR occurs when the fetus is unable to follow a biophysically determined growth path. Bacterial infections have been linked to maternal overproduction of pro-inflammatory cytokines, as well as various short- and long-term problems. Proteomics and bioinformatics studies of placental biomass allowed the development of new diagnostic options. In this study, the microbiome of normal and FGR placentas was analyzed by LC-ESI-MS/MS mass spectrometry, and the bacteria present in both placentas were identified by analysis of a set of bacterial proteins. Thirty-six pregnant Caucasian women participated in the study, including 18 women with normal pregnancy and eutrophic fetuses (EFW > 10th percentile) and 18 women with late FGR diagnosed after 32 weeks of gestation. Based on the analysis of the proteinogram, 166 bacterial proteins were detected in the material taken from the placentas in the study group. Of these, 21 proteins had an exponentially modified protein abundance index (emPAI) value of 0 and were not included in further analysis. Of the remaining 145 proteins, 52 were also present in the material from the control group. The remaining 93 proteins were present only in the material collected from the study group. Based on the proteinogram analysis, 732 bacterial proteins were detected in the material taken from the control group. Of these, 104 proteins had an emPAI value of 0 and were not included in further analysis. Of the remaining 628 proteins, 52 were also present in the material from the study group. The remaining 576 proteins were present only in the material taken from the control group. In both groups, we considered the result of ns prot ≥ 60 as the cut-off value for the agreement of the detected protein with its theoretical counterpart. Our study found significantly higher emPAI values of proteins representative of the following bacteria: Actinopolyspora erythraea , Listeria costaricensis , E. coli , Methylobacterium , Acidobacteria bacterium , Bacteroidetes bacterium , Paenisporsarcina sp., Thiodiazotropha endol oripes and Clostridiales bacterium . On the other hand, in the control group statistically more frequently, based on proteomic data, the following were found: Flavobacterial bacterium , Aureimonas sp. and Bacillus cereus . Our study showed that placental dysbiosis may be an important factor in the etiology of FGR. The presence of numerous bacterial proteins present in the control material may indicate their protective role, while the presence of bacterial proteins detected only in the material taken from the placentas of the study group may indicate their potentially pathogenic nature. This phenomenon is probably important in the development of the immune system in early life, and the placental microbiota and its metabolites may have great potential in the screening, prevention, diagnosis and treatment of FGR."
+  },
+  {
+   "evidence_id": "E0006",
+   "section": "1. Introduction",
+   "text": "The state of the microenvironment of the maternal-fetal unit and its impact on the course of pregnancy, delivery and further health of the child and adult has been controversial for many years. They resulted from technical difficulties related to sampling and their analysis (biomass samples with a low content of microorganisms could be dominated by contamination during sampling or DNA isolation). On the other hand, in the studies carried out so far, we observe a very high methodological heterogeneity of the methods used to detect bacteria and viruses in placental tissues. This applies, for example, to the selection of a sequencing platform, DNA isolation kits and the selection of variable regions of the 16sRNA gene, which affects the ambiguity of the analyzed results. The introduction of new generation sequencing (NGS), mass spectrophotometry, proteomics and bioinformatics analysis of the obtained results enabled new diagnostic possibilities, primarily high sensitivity of biomass diagnostics of the tested material, e.g., bearing."
+  },
+  {
+   "evidence_id": "E0007",
+   "section": "1. Introduction",
+   "text": "The presence of microorganisms in the placenta, amniotic fluid, fetal membranes and umbilical cord blood in studies using next-generation DNA sequencing technology undermines the sterility of the intrauterine environment during pregnancy and at the same time refutes the “sterile uterus” hypothesis, which was considered formulated in the early 20th century. The consequences of the presence of bacteria in the uterus are far-reaching in medicine and basic sciences and shed new light on the antibiotic treatment of pregnant women. It has been shown that the state of the biomass of the uterine environment later affects the development of atopy, asthma, allergies and obesity [ 11 , 12 , 13 ]."
+  },
+  {
+   "evidence_id": "E0022",
+   "section": "3. Discussion",
+   "text": "The results of a review evaluating the microbiological composition of the placenta in a healthy pregnant woman and the potential relationship between the placental microbiome and the oral microbiome have shown the existence of a low biomass placental microflora in pregnant women with a normal course of pregnancy [ 29 ]."
+  },
+  {
+   "evidence_id": "E0031",
+   "section": "3. Discussion",
+   "text": "The sophisticated methods used in our research are based on the identification of proteins using LC-ESI-MS/MS by pooling material from 18 FGR and 18 control placentas. To distinguish between placental samples and contamination introduced during DNA extraction, purification and amplification, unsupervised ordination methods showed a separate clustering between pooled negative control and placental samples like in studies performed by others [ 32 ]. These methods do not distinguish between live, dead or ruptured bacterial fragments. Differences in relation to the data of other researchers may be statistically significant because the statistical analysis does not concern individual cases but material from the studied population, which seems to be more convincing in terms of the population."
+  },
+  {
+   "evidence_id": "E0033",
+   "section": "3. Discussion",
+   "text": "A limitation of our study would be that we did not perform any bacterial culture of the tested bearings due to the presence of potentially viable bacteria. The material for the study was collected during cesarean section in sterile conditions. However, other researchers have confirmed that this method is devoid of the possibility of contamination [ 43 ]. Moreover, none of the taxa of bacteria mentioned in other studies were found to have different abundance between vaginally delivered and cesarean placentas [ 32 ]."
+  },
+  {
+   "evidence_id": "E0038",
+   "section": "4. Materials and Methods",
+   "text": "Material for proteomic investigation consisted of pieces of normal placentas serving as controls and fragments of placentas obtained from mothers with FGR. Following the process, trained employees collected all samples. During the cesarean section, soon after childbirth, the placenta was put in sterile containers containing ice under aseptic circumstances. Those responsible for collecting specimens wore a sterile protective apron, face masks and sterile gloves to guarantee sterility throughout the sampling procedure. The placentae were collected and weighed. Four placenta samples measuring 1.0 × 1.0 × 1.5 cm were taken from each placenta (overall number of samples: 144), around 3 to 4 cm from the umbilical cord attachment point, from four separate quadrants of the placenta. To reduce the possibility of infection after cesarean delivery, only portions from the inner placenta were obtained for evaluation (risk of contamination). Each placenta sample was put in a sterile, labeled cryovial, frozen in liquid nitrogen, and kept at −80 degrees Celsius for future study."
+  }
+ ],
+ "italic_candidates": {
+  "Acidobacteria": [
+   "E0001",
+   "E0018",
+   "E0026",
+   "E0029"
+  ],
+  "Acinetobacter": [
+   "E0019"
+  ],
+  "Actinobacteria": [
+   "E0024"
+  ],
+  "Actinopolyspora": [
+   "E0001",
+   "E0018",
+   "E0026",
+   "E0029"
+  ],
+  "Archangium": [
+   "E0019"
+  ],
+  "Atopobium": [
+   "E0010"
+  ],
+  "Aureimonas": [
+   "E0001",
+   "E0020",
+   "E0026"
+  ],
+  "Bacillus": [
+   "E0001",
+   "E0020",
+   "E0026"
+  ],
+  "Bacteroides": [
+   "E0005",
+   "E0027"
+  ],
+  "Bacteroidetes": [
+   "E0001",
+   "E0018",
+   "E0024",
+   "E0026",
+   "E0028"
+  ],
+  "Bifidobacterium": [
+   "E0028"
+  ],
+  "Chi": [
+   "E0044"
+  ],
+  "Clostridiales": [
+   "E0001",
+   "E0018",
+   "E0026"
+  ],
+  "Coprococcus": [
+   "E0027"
+  ],
+  "Deltaproteobacteria": [
+   "E0019"
+  ],
+  "Desulfovibrio": [
+   "E0028"
+  ],
+  "Enterococcus": [
+   "E0019",
+   "E0020"
+  ],
+  "Faecalibacterium": [
+   "E0027"
+  ],
+  "Firmicutes": [
+   "E0019",
+   "E0024",
+   "E0028"
+  ],
+  "Flavobacterial": [
+   "E0001",
+   "E0020",
+   "E0026"
+  ],
+  "Fusobacteria": [
+   "E0028"
+  ],
+  "Grdnerella": [
+   "E0010"
+  ],
+  "Helicobacteria": [
+   "E0027"
+  ],
+  "Human": [
+   "E0010"
+  ],
+  "Hyphomonas": [
+   "E0019"
+  ],
+  "Klebsiella": [
+   "E0018",
+   "E0020"
+  ],
+  "Lachnospira": [
+   "E0027"
+  ],
+  "Lactobacillus": [
+   "E0010",
+   "E0019",
+   "E0028"
+  ],
+  "Listeria": [
+   "E0001",
+   "E0018",
+   "E0026"
+  ],
+  "Methylobacterium": [
+   "E0001",
+   "E0018",
+   "E0030"
+  ],
+  "Microbacterium": [
+   "E0019"
+  ],
+  "Nature": [
+   "E0008"
+  ],
+  "Neisseriaceae": [
+   "E0028"
+  ],
+  "Oscillospira": [
+   "E0027"
+  ],
+  "Paenisporsarcina": [
+   "E0001",
+   "E0018",
+   "E0026"
+  ],
+  "Pneumoniae": [
+   "E0020"
+  ],
+  "Porphyromonas": [
+   "E0005"
+  ],
+  "Prevotella": [
+   "E0005"
+  ],
+  "Proteobacteria": [
+   "E0024",
+   "E0028"
+  ],
+  "Provotella": [
+   "E0010"
+  ],
+  "Pseudoalteromonas": [
+   "E0019"
+  ],
+  "Pseudomonas": [
+   "E0019"
+  ],
+  "Splinomonas": [
+   "E0019"
+  ],
+  "Stenoprophomonas": [
+   "E0019"
+  ],
+  "Thiodiazotropha": [
+   "E0001",
+   "E0018",
+   "E0026"
+  ],
+  "Veillonella": [
+   "E0019"
+  ]
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "pmcid": "PMC12780582",
+ "tissue_category": "blood",
+ "sub_site": "blood (TCGA colorectal cancer patients, blood-derived WGS/RNA-seq)",
+ "year": 2025,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "public_reuse",
+  "dataset": "TCGA CRC blood microbiome (rep200 decontaminated data from prior study, ref 18)",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "The microbiome data were derived from prior cancer microbiome studies, including whole-genome and transcriptomic sequencing data of CRC from TCGA"
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "alignment of non-human reads to the multi-domain “rep200” reference database for microbial quantification"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "tool",
+  "tool": "in silico statistical contaminant identification + manual curation (prior TCGA pipeline)",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "application of a robust two-step in silico decontamination strategy, which combined statistical identification of contaminants with manual curation against known human microbiome datasets"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 110,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Gelidibacter",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sulcia",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cyclobacterium",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lachnobacterium",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nitrosococcus",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aureispira",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Only 6 bacterial genera (plus Simplexvirus) selected by LASSO Cox for prognosis; decontaminated data inherited from prior study (decontamination done by original authors).",
+ "extractor": "AI agent (Claude sub-agent, batch 09)",
+ "date": "2026-11-23"
+}

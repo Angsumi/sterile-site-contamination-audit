@@ -1,0 +1,132 @@
+{
+ "pmcid": "PMC12475220",
+ "meta": {
+  "title": "SMOTE-augmented machine learning model predicts recurrent and metastatic breast cancer from microbiome analysis",
+  "journal": "Scientific Reports",
+  "year": "2025",
+  "doi": "10.1038/s41598-025-16790-z",
+  "pmid": "41006422"
+ },
+ "n_elements": 29,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0007",
+   "section": "DNA extraction and microbiome sequencing",
+   "text": "Blood samples were processed for extracellular vesicle (EV) isolation through centrifugation and filtration. Bacterial DNA was extracted from EVs using the DNeasy PowerSoil Kit (QIAGEN) and quantified with the QIAxpert system. The 16S rRNA gene was amplified using the primers 16s_V3_F (5′-TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG-3′) and 16s_V4_R (5′-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC-3′) 13 . Microbiome profiling was performed following the Illumina protocol using a MiSeq platform (MiSeq Software v4.1.0). To minimise the risk of contamination, bacterial DNA was extracted from EVs rather than directly from whole blood. The extracted DNA was then used for 16S rRNA sequencing to identify operational taxonomic units (OTUs) 12 ."
+  }
+ ],
+ "italic_candidates": {
+  "Acetobacteraceae": [
+   "E0018"
+  ],
+  "Actinomyces": [
+   "E0018"
+  ],
+  "Bacteroides": [
+   "E0001",
+   "E0015",
+   "E0018",
+   "E0021"
+  ],
+  "Bifidobacterium": [
+   "E0001",
+   "E0018",
+   "E0021"
+  ],
+  "Blautia": [
+   "E0021"
+  ],
+  "Brevibacterium": [
+   "E0018"
+  ],
+  "Burkholderia": [
+   "E0018"
+  ],
+  "Caballeronia": [
+   "E0018"
+  ],
+  "Comamonas": [
+   "E0018"
+  ],
+  "Corynebacterium": [
+   "E0015",
+   "E0018"
+  ],
+  "Cronobacter": [
+   "E0018"
+  ],
+  "Deinococcus": [
+   "E0018"
+  ],
+  "Enterobacter": [
+   "E0001",
+   "E0015",
+   "E0018",
+   "E0020"
+  ],
+  "Enterobacteriaceae": [
+   "E0020"
+  ],
+  "Faecalibacterium": [
+   "E0018"
+  ],
+  "Helicobacter": [
+   "E0018"
+  ],
+  "Herbaspirillum": [
+   "E0018"
+  ],
+  "Herminiimonas": [
+   "E0018"
+  ],
+  "Klebsiella": [
+   "E0001",
+   "E0018",
+   "E0020"
+  ],
+  "Kluyvera": [
+   "E0018"
+  ],
+  "Lautropia": [
+   "E0018"
+  ],
+  "Leuconostoc": [
+   "E0018"
+  ],
+  "Ligilactobacillus": [
+   "E0018"
+  ],
+  "Limosilactobacillus": [
+   "E0018"
+  ],
+  "Obscuribacteraceae": [
+   "E0018",
+   "E0022"
+  ],
+  "Paraburkholderia": [
+   "E0018"
+  ],
+  "Pseudomonas": [
+   "E0018"
+  ],
+  "Ralstonia": [
+   "E0018"
+  ],
+  "Sphingomonaas": [
+   "E0018"
+  ],
+  "Sphingomonas": [
+   "E0015",
+   "E0018"
+  ],
+  "Staphylococcus": [
+   "E0018"
+  ],
+  "Subdoligranulum": [
+   "E0018"
+  ],
+  "Vaulcaiibacterium": [
+   "E0018"
+  ]
+ }
+}

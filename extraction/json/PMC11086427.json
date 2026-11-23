@@ -1,0 +1,79 @@
+{
+ "pmcid": "PMC11086427",
+ "tissue_category": "blood",
+ "sub_site": "serum (chronic spontaneous urticaria, vitamin D insufficient group); stool not extracted",
+ "year": 2024,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0010",
+    "quote": "genomic DNA was isolated from 1 mL serum with a QIAmp DNA blood mini kit"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0010",
+    "quote": "the universal eubacterial primers of a conserved V3–V4 region of the 16S rRNA gene"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 30,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Burkholderia – Caballeronia – Paraburkholderia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aquabacterium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brevibacillus",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "72 sera; only 30 (VDI) + 4 (non-VDI) amplified adequately; serum profile analysed only for the 30 VDI sera. Only top-3 serum genera ranked (B-C-P 40.95%, Acinetobacter, Aquabacterium), so top5 left empty. Composite SILVA name recorded verbatim as spelled in E0020 (spaced en-dashes). No negative controls or decontamination described.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,100 @@
+{
+ "pmcid": "PMC12312234",
+ "block": "blood",
+ "tissue_category": "blood",
+ "year": 2025,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "2bRAD-M",
+  "evidence": [
+   {
+    "id": "E0022",
+    "quote": "2bRAD-M utilizes type IIB restriction enzymes"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "abundance_filter_only",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "The threshold of G score for a false positive discovery of microbial species was set 5"
+   }
+  ]
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cupriavidus",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Clostridium",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Alcaligenes",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kocuria",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Klebsiella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Acinetobacter",
+  "Cupriavidus",
+  "Sphingomonas",
+  "Pseudomonas",
+  "Staphylococcus"
+ ],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "claimed",
+ "notes": "Serum. No negative controls found in the text.",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

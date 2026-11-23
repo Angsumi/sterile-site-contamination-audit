@@ -1,0 +1,104 @@
+{
+ "pmcid": "PMC10876218",
+ "tissue_category": "tumour",
+ "sub_site": "lung adenocarcinoma primary tumour (TCGA-LUAD)",
+ "year": 2024,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "public_reuse",
+  "dataset": "TCGA-LUAD RNA-seq; Poore et al. 2020 Kraken-TCGA data",
+  "evidence": [
+   {
+    "id": "E0025",
+    "quote": "The intratumoral microbiome data used in this study and the metadata were downloaded from a previous work conducted by Poore et al."
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0023",
+    "quote": "the tumor microbiome abundance was obtained by Kraken pipeline from RNA sequencing data"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "tool",
+  "tool": "Poore et al. decontamination (as in original data)",
+  "evidence": [
+   {
+    "id": "E0025",
+    "quote": "The decontamination process was detailed in the original paper [ 28 ]."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 478,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lachnoclostridium",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paenibacillus",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromonas",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Vibrio",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Klebsiella",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Pseudomonas most abundant genus; 17 LEfSe genera enriched in high-risk group shown only in figure (Streptococcus, Escherichia, Klebsiella named in Discussion as own results). Decontamination inherited from Poore et al.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

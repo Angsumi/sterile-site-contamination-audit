@@ -1,0 +1,133 @@
+{
+  "pmcid": "PMC5328378",
+  "tissue_category": "other_sterile",
+  "sub_site": "coronary and femoral artery tissue",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "postulated. A limited number of studies have used 16S RNA gene sequencing-based metagenomics approaches to identify bacteria at the species level from atherosclerotic plaques in arterial walls. The objective of this study was to establish d"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 42,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [
+    "Porphyromonas",
+    "Escherichia",
+    "Staphylococcus",
+    "Pseudomonas",
+    "Streptococcus"
+  ],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Clinically non-atherosclerotic artery segments from cardiovascular-disease patients. Table-based species count as genus. First five genera explicitly ranked in Table 5.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "3bfb2e14edc2fee3f44140e07c0ddd1dc6ed7337e1327b92d4033e3329634fbd",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

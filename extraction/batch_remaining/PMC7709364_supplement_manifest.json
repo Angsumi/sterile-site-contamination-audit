@@ -1,0 +1,18 @@
+[
+  {
+    "file": "BJS5-4-1227-s001.docx",
+    "alias": "S950.md",
+    "bytes": 604219,
+    "sha256": "14fa2946c0299095d4e5401a4700897a3427beb6a9c257bf1c8f9936d9b216ed",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7709364.1/BJS5-4-1227-s001.docx",
+    "md_bytes": 1727
+  },
+  {
+    "file": "BJS5-4-1227-s002.xlsx",
+    "alias": "S960.md",
+    "bytes": 20973,
+    "sha256": "1349af63a53a8ce4f5c2cb327d0cbb519c5081d3153466fef26e2cac8d57dc01",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7709364.1/BJS5-4-1227-s002.xlsx",
+    "md_bytes": 20496
+  }
+]

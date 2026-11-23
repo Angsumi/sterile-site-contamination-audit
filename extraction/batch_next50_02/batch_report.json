@@ -1,0 +1,624 @@
+[
+  {
+    "pmcid": "PMC6534876",
+    "status": "merged",
+    "eligible_fulltext": false,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8672898",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 4,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11866540",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 2,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+    ],
+    "supplements_consulted": [
+      "N50B_S1_ijmsv22p1039s1.md",
+      "N50B_ijmsv22p1039s1.md"
+    ],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12294340",
+    "status": "merged",
+    "eligible_fulltext": false,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC13073471",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 14,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC13275416",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 16,
+    "failures": [],
+    "warnings": [
+      "WARN genus Acinetobacteria not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC5610236",
+    "status": "held_eligibility_or_provenance",
+    "eligible_fulltext": null,
+    "n_genera_raw": 1,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.",
+      "Adjudicate diagnostic intra-amniotic infection scope versus microbiome profiling; do not impose an undocumented exclusion."
+    ],
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8155119",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 31,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9965790",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 19,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8327971",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 20,
+    "failures": [],
+    "warnings": [
+      "WARN genus Bosea not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8025517",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+    ],
+    "supplements_consulted": [
+      "N50B_12866_2021_2154_MOESM1_ESM.md",
+      "N50B_12866_2021_2154_MOESM2_ESM.md"
+    ],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9402670",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 22,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8971327",
+    "status": "merged_cohort_exclusion",
+    "eligible_fulltext": false,
+    "n_genera_raw": 4,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "cohort_excluded_from_analysis": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC4971513",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11532974",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 10,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9892641",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 6,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [
+      "N50B_Data_Sheet_1.md"
+    ],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6839480",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 7,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6110826",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 4,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC13022160",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 21,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8484116",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC7565819",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 10,
+    "failures": [],
+    "warnings": [
+      "WARN duplicate genus Escherichia"
+    ],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC7445256",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC13359530",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 1,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+    ],
+    "supplements_consulted": [
+      "N50B_Supplementary materials Figure S3 Rarefaction curves.md",
+      "N50B_Supplementary Materials Table S2 Sequence frequencies of each filtration step.md",
+      "N50B_Supplementary materials Figure S4 Emperor 3D visualization.md",
+      "N50B_Supplementary Materials Table S1 Summary of the clinical and demographic characteristics of the study cohort.md"
+    ],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC4802384",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11817552",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 6,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9893660",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 21,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12072589",
+    "status": "held_eligibility_or_provenance",
+    "eligible_fulltext": null,
+    "n_genera_raw": 12,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Confirm blood source of TCGA-CESC microbial profiles; cervical tumour tissue is an excluded mucosal site."
+    ],
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6155189",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 21,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6806051",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 4,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6629868",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 17,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC5460277",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9896411",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6368644",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 3,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9850102",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 11,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11915875",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 11,
+    "failures": [],
+    "warnings": [
+      "WARN duplicate genus Shigella"
+    ],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12442831",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 1,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8207208",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 1,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+    ],
+    "supplements_consulted": [
+      "N50B_mmc3.md",
+      "N50B_mmc2.md",
+      "N50B_mmc1.md"
+    ],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8202409",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 20,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8477924",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12605167",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 12,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11829562",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 14,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8535827",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 14,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [
+      "N50B_Table S4.md",
+      "N50B_Table S1.md",
+      "N50B_Table S2.md",
+      "N50B_Table S3.md"
+    ],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9390323",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 7,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12922273",
+    "status": "held_eligibility_or_provenance",
+    "eligible_fulltext": null,
+    "n_genera_raw": 3,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals.",
+      "Identify microbial dataset and sequencing provenance before establishing full-text eligibility."
+    ],
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC11827206",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 18,
+    "failures": [],
+    "warnings": [
+      "WARN genus Bosea not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9312790",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 24,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+    ],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9658903",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [
+      "WARN genus Ochrobacterium not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6237987",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12373402",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 16,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9523266",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 13,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "supplements_consulted": [],
+    "source_check": "pass"
+  }
+]

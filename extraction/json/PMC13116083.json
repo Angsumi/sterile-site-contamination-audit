@@ -1,0 +1,63 @@
+{
+  "pmcid": "PMC13116083",
+  "tissue_category": "brain_csf",
+  "sub_site": "pituitary adenoma",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "131823e6d331443dfd81050c5ef5f62db644baf84baa6603e11736494b4da7dc",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": ". Various molecular, cellular, and sequencing techniques were used to determine the role of intratumoral microbiome in pituitary adenoma. We demonstrate that human patients or murine bearing estradiol‐induction or DRD2 loss are all characte"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "re also determined by fluorescence quantitative PCR (Figure 1i )."
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human pituitary tumour metagenomic sequencing; culture, qPCR and mouse evidence not added to genus list. PBS control is described for bacterial culture; sequencing blank controls are not stated.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

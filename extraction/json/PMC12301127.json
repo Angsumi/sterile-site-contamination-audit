@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC12301127",
+  "tissue_category": "other_sterile",
+  "sub_site": "vitreous fluid",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Purpose Emerging evidence suggests an association between ocular microbiota dysbiosis and ophthalmic diseases; however, the role of the posterior segment microbiome in diabetic retinopathy (DR) remains poorly characterized. In this study, w"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0028",
+        "quote": "le processing, we collected 3 samples as negative controls, including reagents and magnetic beads involved in the process of DNA extraction and library construction. According to QC data, the negative control obtained readings several order"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 38,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lawsonella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Duncaniella",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alcaligenes",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "19 diabetic retinopathy plus 19 controls. Unvalidated CAG/UBA labels excluded. Negative-control read counts explicitly reported.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "bcc0d0a33e8849b406d5eaacb65ee6c2577537f21d1435ef21b25ced58c39ede",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

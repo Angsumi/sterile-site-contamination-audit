@@ -1,0 +1,97 @@
+{
+  "pmcid": "PMC9892641",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta decidua and fetal tissue",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Quantitative 16S ribosomal ribonucleic acid (rRNA) qPCR and 16S gene sequencing measures the abundance and composition of bacteria at the fetal-maternal interface. Decidua, which is perfused throughout pregnancy and will acquire the same co"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "from 0.25 g of tissue, PBS wash, and PBS negative control samples using a PowerMag Soil DNA Isolation Bead Plate (MPBio, Irvine, CA, USA) following the manufacturer instructions with a KingFisher robot (ThermoFisher, Waltham, MA, USA). Quan"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "y index on raw OTU abundance tables after reagent contaminant filtering. The significance of diversity differences is tested by analysis of variance (ANOVA). To estimate beta diversity, Bray\u2013Curtis indices are computed after excluding OTUs "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "The alternative hypothesis of this study expects an increase in bacterial abundance in the placenta after initiation of maternal perfusion around 10 weeks gestational age. This is assessed by quantitative 16S PCR, which demonstrates the pre"
+      }
+    ]
+  },
+  "n_target_samples": 52,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Atopobium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "24 placental, 22 decidual and six fetal organ tissue samples. This is a completed pilot, not a protocol despite present-tense methods. Vaginal-like Atopobium, Gardnerella and Lactobacillus explicitly interpreted as contamination; flagged rather than treated as unqualified detections.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "78e91024bfd299f89bd85d7b3c696c31e60cc4df121bf01c48b23ff7b1b2fa65",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

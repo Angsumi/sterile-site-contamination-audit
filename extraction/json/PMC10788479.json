@@ -1,0 +1,169 @@
+{
+  "pmcid": "PMC10788479",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour and paired normal lung tissue",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "Frozen tissue the size of a grain of rice and 500 μl PBS were first placed in a tissue lysis tube, then homogenized and lysed using a bead mill. Sample releasing agent (2007, Genskey) was used to remo"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "ples from collection and extraction were introduced as negative controls (Figure 1b ), and we found the microbiota load was lower in negative control samples (Table S2 ). Among tissues, the cytokine concentrations of 15 LUAD patients and 9 "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 128,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polynucleobacter",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gordonia",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pantoea",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "61 paired tumour/normal samples plus 6 other lung diseases. No contaminant taxon-removal procedure explicitly stated; qPCR measures adapter libraries, not bacterial biomass.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

@@ -1,0 +1,61 @@
+# pmcid	decision	tissue_category	reason	source
+PMC11882532	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11896907	include	tumour	endometrial carcinoma cBioPortal microbiome	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11897063	include	tumour	breast tumour spatial 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11903660	include	tumour	papillary thyroid carcinoma 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11908479	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11924647	include	tumour	TNBC intratumoural 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11928969	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); qPCR copies of 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11935637	include	other_sterile	cerebral thrombi mNGS	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11940041	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11952268	include	blood	blood 16S profiling (Italian CRC case-control)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11959627	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11980388	exclude		diagnostic sequencing or infection study (C1 scope)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11981758	include	tumour	intratumoural cholangiocarcinoma and bile	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11988970	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC11990268	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12004234	include	placenta_fetal	placental swabs 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12008866	include	blood	blood with gut and oral, MI	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12013413	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease); meconium	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12014497	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12016845	include	tumour	BALT lymphoma lung	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12024857	include	tumour	lacrimal gland tumour 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12028492	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12029928	unclear	brain_csf	AD brain tissue; species-specific method unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12034738	include	blood	blood with oral, MI	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12035477	include	tumour	TNBC intratumoural	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12048959	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12052825	include	tumour	lung tissue mNGS (cancer vs other opacities)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12053177	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); isolates	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12054239	unclear	placenta_fetal	fetal intestine; metabolites, sequencing unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12060445	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12066050	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12066232	include	blood	blood 16S cognitive decline	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12072589	include	blood	circulating microbiome (TCGA) cervical cancer	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12081727	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease); bile only	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12090784	include	blood	blood cfDNA shotgun CRC	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12090810	exclude		method, database or simulation study without target-site profiling	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12093491	exclude		diagnostic sequencing or infection study (C1 scope)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12095603	include	tumour	HCC 2bRAD-M	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12117587	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12136066	exclude		case report	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12138198	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour); oral SCC	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12150452	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12153356	exclude		in vitro or cell-line study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12155445	exclude		in vitro or cell-line study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12162974	unclear	tumour	pancreatic tissue colonization; method unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12183207	include	tumour	papillary thyroid carcinoma 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12184269	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12187763	include	tumour	LUSC public intratumour microbiome	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12189293	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12202081	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12207524	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12210022	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); bacterial PCR quantification	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12213574	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour); gastric	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12234225	exclude		not primary research (review, editorial, protocol, meta-analysis); cohort profile	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12245331	unclear	other_sterile	periexpander breast fluid 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12248636	exclude		diagnostic sequencing or infection study (C1 scope)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12261376	include	blood	blood microbiome NSCLC ICI	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12266555	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12271362	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC12271595	include	tumour	HCC intratumoural (human tissue)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23

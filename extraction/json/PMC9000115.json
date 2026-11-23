@@ -1,0 +1,138 @@
+{
+  "pmcid": "PMC9000115",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "68e2c6735a049d44733c6aeb5510ec1ae3007bf51ccc4aed1af396c7db65b0a4",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": " V3–V4 hypervariable region of the 16S ribosomal DNA (rDNA). The primers used for microbiome analysis were as follows: 16S_V3_F (5′-TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG-3′) and 16S_V4_R (5′-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGA"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Edwardsiella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "pmcid": "PMC8477924",
+  "tissue_category": "blood",
+  "sub_site": "plasma during colorectal cancer treatment",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "sequencing of variable regions V3~V4 of bacterial 16S rRNA genes. The association of the blood microbial diversity with clinical response to the therapy as measured by RECIST1.1 and OS was evaluated. The baseline Chao index of blood microbi"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": " water) served as environmental DNA contamination controls."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "copy number in plasma was quantified using TaqMan qPCR as described previously. 18 Extraction blanks (DNA-free water) served as environmental DNA contamination controls."
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "20 immunochemotherapy and 19 chemotherapy patients, repeated blood timepoints. Tissue site is blood, not colorectal tumour. Bacterial-load qPCR used; extraction blanks mentioned without explicit successful sequencing.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "648fb8111656789905d21fc25a271c7533d8cf3cfc971f02edb0229073dbf576",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+  ]
+}

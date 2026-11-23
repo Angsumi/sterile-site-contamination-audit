@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC11781185",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e10f0eaf5f140c9c8d273da3041e2ca9862414da743ff2b97793e3c08c426c7c",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "2bRAD-M",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "2bRAD-M, an innovative and cost-effective strategy, selectively sequences approximately 1% of the metagenome while delivering precise species-level bacterial, archaeal, and fungal profiles simultaneously. This cutting-edge approach demonstr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Diaphorobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lawsonella",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

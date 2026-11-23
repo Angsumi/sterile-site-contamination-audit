@@ -1,0 +1,136 @@
+{
+  "pmcid": "PMC7563524",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour tissue",
+  "year": 2020,
+  "country": "Germany",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "isher Scientific, Waltham, MA, USA). The V3+4 region of the 16S rRNA gene was amplified using 10 ng of bacterial template DNA with degenerate region-specific primers (341F: 5\u2032-ACTCCTACGGGAGGCAGCAG-3\u2032; 806R: 5\u2032-123 GGACTACHVGGGTWTCTAAT-3\u2032) c"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 10,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Barnesiella",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Norcardia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus2",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Target tumour genera only. Norcardia and Ruminococcus2 are retained as written and may not count. Escherichia represents composite Escherichia_Shigella; first genus counted per protocol. Reported Clostridium_XIVa mapped to first genus. No top5 rank order inferred from prose list.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e3ca63d8f54edab91d8e238e1dafc7ac19cde2f0649e7d63960c228d4893216e",
+  "supplement_manifest": []
+}

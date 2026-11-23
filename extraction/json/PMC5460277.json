@@ -1,0 +1,107 @@
+{
+  "pmcid": "PMC5460277",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": " 500 bps of the hypervariable V6\u2013V8 region of the 16S rRNA gene. Specificity and amplicon size were verified by gel electrophoresis. PCR products were cleaned with AMPure XP beads. Amplicons were barcoded using the Nextera XT Index Kit set "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "wing the manufacturer\u2019s recommendations. Negative controls consisting of extraction reagents and PCR amplification were added to each set of fecal, oral and placental samples and included in the sequencing reaction. Purified DNA was quantif"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "cond AMPure XP beads cleaning to reduce potential contamination with human DNA. Fecal, oral and placental tagged-amplicons were quantified, normalized and pooled. The pooled libraries were sequenced using the Illumina MiSeq platform and wor"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 37,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "SPRING pregnancy substudy, same team as PMC5378909 (36 dyads). Shared study population probable; individual overlap not proven. Earlier paper has no usable named-genus list so there is no duplicate usable count currently; resolve identifiers before final analysis.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "209688ff7f45ac014338b9c438ae0a9a9823f4d2d239c0822c837a1be5075add",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

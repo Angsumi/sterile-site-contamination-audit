@@ -1,0 +1,153 @@
+{
+  "pmcid": "PMC12856059",
+  "tissue_category": "other_sterile",
+  "sub_site": "follicular fluid",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "21e72624bc24b24a962a9ac476b6c40d081016b84966fc121956ce25f1de92fa",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0082",
+        "quote": "V3–V4 hypervariable regions of the 16S rRNA gene using an Illumina MiSeq system. The specific primers used were forward 5′‐CCTACGGGNGGCWGCA‐3′ and reverse 5′‐GACTACHVGGGTATCTAATCC‐3′. PCR amplification was carried out in a total volume of 2"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0073",
+        "quote": "ithout DNA samples was used as the negative control for subsequent microbial testing. FF from dominant follicles containing oocytes (diameter > 1.4 cm) were collected during ovum pick‐up. To avoid blood contamination of the sample, we used "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0083",
+        "quote": "First, the original sequence data were processed to remove low‐quality sequences and fit sequences. Sequence analysis was carried out via Mothur (version 1.43.0) based on the MiSeq SOP, utilizing SILVA (version 138.1) data obtained from the"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aeromonas",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alicyclobacillus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquicella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Atopobium",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Listeria",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Raoultella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrimonas",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Undibacterium",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

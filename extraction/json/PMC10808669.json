@@ -1,0 +1,124 @@
+{
+  "pmcid": "PMC10808669",
+  "tissue_category": "blood",
+  "sub_site": "serum in perioperative anaphylaxis and matched controls",
+  "year": 2024,
+  "country": "France",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "mples has been determined using a previously described metagenomic pipeline ( 18 ). Briefly, we used next generation high throughput sequencing of variable regions of the 16S rDNA bacterial gene. The PCR amplification was performed using 16"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "g both custom and freely accessible R packages ( 18 ). Only taxa present in >25% of the samples were included in differential abundance analysis. To measure α-diversity, we used the observed richness, the Chao1 index, the Shannon index and "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "Real-time PCR amplification was performed using 16S universal primers targeting the V3-V4 region of the bacterial 16S ribosomal gene (Vaiomer universal 16S primers). The qPCR step was performed on a VIIA 7 ® PCR system (Life Technologies) u"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudarcicella",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodoferax",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lewinella",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylotenera",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aurantimicrobium",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bryobacter",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrospira",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Variovorax",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "20 anaphylaxis patients with acute/baseline samples and 20 matched controls; exact sequenced serum sample count not given. No explicit own negative controls.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

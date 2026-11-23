@@ -1,0 +1,46 @@
+{
+  "pmcid": "PMC12294340",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "qPCR bacterial DNA burden only; no sequencing-based community profile.",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "other",
+    "region": "",
+    "evidence": []
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 285,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "unclear",
+  "notes": "Excluded: bacterial DNA burden by qPCR only, not sequencing-based community profiling. Epigenetic arrays do not meet microbial-community sequencing eligibility.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4e581c3aa18d1bea4f990685add56999940bec1b9802b989cc78f504522f23c2",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

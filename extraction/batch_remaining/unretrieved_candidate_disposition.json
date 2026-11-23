@@ -1,0 +1,10 @@
+{
+  "pmcid": "PMC7776645",
+  "decision": "exclude",
+  "reason": "Conference/journal-supplement abstract rather than full research article.",
+  "publication_type": "Abstract",
+  "journal": "Open Forum Infectious Diseases",
+  "issue": "7(Suppl 1)",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PMC7776645&format=json&resultType=core",
+  "verified": "2026-11-23"
+}

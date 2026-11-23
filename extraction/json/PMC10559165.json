@@ -1,0 +1,53 @@
+{
+  "pmcid": "PMC10559165",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2023,
+  "country": "Japan",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V1-V2",
+    "evidence": [
+      {
+        "id": "E0046",
+        "quote": "The PCR-amplified V1–V2 regions of the bacterial 16S rRNA gene (as mentioned above for PCR amplification of the 16S rRNA gene) were sequenced on a MiSeq platform (Illumina, San Diego, CA). QIIME version 2.202002 was used to process the raw "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "patients with RCC differed from that obtained from the negative control (NC: phosphate buffered saline) ( Fig. 2 A). The distance matrix revealed that b-DNA isolated from the serum EVs in patients with RCC significantly differed from that i"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 98,
+  "list_type": "differential_only",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Main-text target results name class/order/family taxa only. No converted supplements available; Acinetobacter appears only in discussion of another study, excluded.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

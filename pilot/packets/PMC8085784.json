@@ -1,0 +1,97 @@
+{
+ "pmcid": "PMC8085784",
+ "meta": {
+  "title": "The intratumor microbiome predicts prognosis across gender and subtypes in papillary thyroid carcinoma",
+  "journal": "Computational and Structural Biotechnology Journal",
+  "year": "2021",
+  "doi": "10.1016/j.csbj.2021.03.032",
+  "pmid": "33995898"
+ },
+ "n_elements": 35,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0002",
+   "section": "Abstract",
+   "text": "While the intratumor microbiome has become increasingly implicated in cancer development, the microbial landscape of papillary thyroid carcinoma (PTC) is essentially uninvestigated. PTC is characterized by varied prognosis between gender and cancer subtype, but the cause for gender and subtype-based dissimilarities is unclear. Women are more frequently diagnosed with PTC, while men suffer more advanced-staged PTC. In addition, tall cell variants are more aggressive than classical and follicular variants of PTC. We hypothesized that intratumor microbiome composition distinctly alters the immune landscape and predicts clinical outcome between PTC subtypes and between patient genders. Raw whole-transcriptome RNA-sequencing, Level 3 normalized mRNA expression read counts, and DNA methylation 450 k sequencing data for untreated, nonirradiated tumor, and adjacent normal tissue were downloaded from the Genomic Data Commons (GDC) legacy archive for 563 thyroid carcinoma patients. Microbe counts were extracted using Pathoscope 2.0 software. We correlated microbe abundance to clinical variables and immune-associated gene expression. Gene-set enrichment, mutation, and methylation analyses were conducted to correlate microbe abundance to characterize microbes’ roles. Overall, PTC tumor tissue significantly lacked microbes that are populated in adjacent normal tissue, which suggests presence of microbes may be critical in controlling immune cell expression and regulating immune and cancer pathways to mitigate cancer growth. In contrast, we also found that microbes distinctly abundant in tall cell and male patient cohorts were also correlated with higher mutation expression and methylation of tumor suppressors. Microbe dysbiosis in specific PTC types may explain observable differences in PTC progression and pathogenesis. These microbes provide a basis for developing specialized prebiotic and probiotic treatments for varied PTC tumors."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "Introduction",
+   "text": "In this study, we characterized the abundance of microbes in PTC using RNA sequencing data obtained from TCGA. We identified microbes differentially abundant between males and females and between different PTC subtypes. To determine the mechanisms by which specific microbes may influence the immune landscape, we correlated microbe abundance to clinical variables, immune-associated (IA) gene expression, immune-cell expression, and cancer and immunological pathways. Finally, we correlated microbe abundance with known copy number variations (CNV) and mutations and methylation sites ( Fig. 1 ). With this study, we aim to characterize the thyroid carcinoma intratumor microbiome and investigate microbiome’s unique clinical significance in thyroid carcinoma prognosis. Fig. 1 Schematic of project workflow and analyses. After obtaining sequencing data from The Cancer Genome Atlas (TCGA), we used the Pathoscope software to extract microbial read counts. We normalized the microbial counts using Aitchison’s log transformation. 1) We performed differential abundance to identify which microbes were significant differentially abundant in tumor vs. normal samples. The overlap in differentially abundant microbial species between various cohorts is demonstrated through venn diagrams: male versus female thyroid carcinoma and classical papillary thyroid carcinoma (CPTC) versus follicular variant papillary thyroid carcinoma (FVPTC) versus tall cell papillary thyroid carcinoma (TCPTC). 2) Three methods of contamination correction were used to identify potential contaminants among the significantly differentially abundant microbes we identified in Step 1. We performed correction by sequencing plate, sequencingdata, and abundance in one individual sample vs. all samples. We also compiled a list of common contaminants from previously published research and eliminated these microbes from further study. 3) MACIS (distant Metastasis, patient Age, Completeness of resection, local Invasion, and tumor Size) score and clinical variable analysis of differentially abundant microbes were performed using the Kruskal-Wallis statistical test. Clinical variable data (pathologic stage, TNM stage) for each sample were obtained from the Broad Institute GDAC Firehose database. 4) Correlation of microbial abundance to immune-associated gene expression and immune cell infiltration: We performed gene differential expression analysis on Level 3 normalized mRNA expression read count data obtained from Genomic Data Commons legacy archive/TCGA. We then correlated microbe abundance with dysregulated immune-associated gene expression using Kruskal-Wallis and visualized and categorized the data using Cytoscape Reactome FIViz software. We used CIBERSORTx software to obtain immune cell expression correlated with microbe abundance. 5) We used Gene Set Enrichment Analysis to identify immunological and oncogenic signatures correlated with microbial abundance. 6) We used the Repeated Evaluation of Variables conditionAL Entropy and Redundancy (REVEALER) to identify chromosomal amplifications, deletions, and mutations correlated with microbial abundance. 7) We used DNA methylation 450k sequencing data and a modified workflow of methylationArrayAnalysis from Bioconductor to identify differentially methylated sites in thyroid carcinoma. We correlated differentially methylated sites with microbial abundance using the Kruskal-Wallis statistical test."
+  },
+  {
+   "evidence_id": "E0006",
+   "section": "Data acquisition",
+   "text": "Raw whole-transcriptome RNA-sequencing, Level 3 normalized mRNA expression read counts, and DNA methylation 450 k sequencing data for untreated, nonirradiated tumor and adjacent normal tissue were downloaded from the Genomic Data Commons (GDC) legacy archive for 563 thyroid carcinoma (THCA) patients (354 CPTC, 101 FVPTC, 35 TCPTC, 135 male, 366 female tumor samples) [12] , [13] . The GDC provides web-based access to data and metadata from cancer genomics studies aggregated in TCGA, and The Broad Institute developed a suite of tools and pipelines to assist in aggregating and analyzing various types of large-scale genomic and proteomic data. Clinical information for all patients was downloaded from Broad GDAC Firehose [14] . Genomic alteration information for each patient was obtained from the last analysis report (2016) of the Broad Institute TCGA Genome Data Analysis Center [15] ."
+  },
+  {
+   "evidence_id": "E0007",
+   "section": "Extraction of microbial reads",
+   "text": "RNA-sequencing data were filtered for bacterial reads via direct alignment to a reference library of bacterial sequences using the Pathoscope 2.0 software and the NCBI nucleotide database [16] . To account for the inherent compositionality of microbe data, we performed a ratio transformation of the microbe abundance data. Ratio transformations capture the relationships between samples in the data, regardless of whether the data are counts or proportions. Log-ratios make the dataset linearly related, so that log-ratio abundances of features can be compared to other samples in the data [17] , [18] . We used the R “compositions” package to perform the variance-stabilizing Aitchison’s log transformation to eliminate negative correlation bias and account for large amounts of variability between samples."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "Evaluation of contamination",
+   "text": "Contamination of RNA-sequencing data may originate from appliance contamination or sequencing errors [19] . In order to account for contamination, we employed multiple contamination correction methods based on TCGA sampling and sequencing methodology [20] . First, scatterplots of microbial abundance versus date of sequencing were produced; potential contaminants were determined based on unrepresentative overabundance of bacteria, or overabundance solely across three (or less) consecutive dates. Second, boxplots of microbe abundance versus sequencing plates were produced to identify unrepresentative overabundance of bacteria, or overabundance of bacteria solely in samples sequenced on the same plate. Third, total abundance across all microbes was compared against the abundance of each individual microbe, per patient. As the total number of read counts for each sample increases, it is reasonable to assume that the abundance of any specific microbe will also increase if the microbe is not a contaminant. We identified potential contaminants in scatter plots of individual microbe abundance versus total abundance with a slope of zero (margin around 0 of ±0.1)"
+  },
+  {
+   "evidence_id": "E0017",
+   "section": "Contamination correction",
+   "text": "To verify that our measurement of intratumor microbial abundance was consistent across samples and not due to contamination, we conducted three methods of contamination correction. We identified 17 and 21 potential contaminants using correction by sequencing date and plate respectively ( Fig. 3 A, B). We compared individual microbial abundance to the abundance of all microbes to identify aberrant abundance potential contaminants ( Fig. 3 C). Finally, we compiled a list of 175 commonly known contaminants from studies of bacterial contamination from reagents and of the hospital microbiome [29] , [30] . In all, we identified 202 potential contaminants to be eliminated from further investigation (Supplementary Table 1). Fig. 3 Contamination correction. (A) Potential microbial contaminants were identified by producing scatterplots of individual microbe abundance versus date of sequencing of sample. Independent clusters of high abundance across a few dates indicates that the microbe is not consistently differentially abundant across all samples. (B) Potential microbial contaminants were identified by producing boxplots of individual microbe abundance versus sequencing plate. Singular boxplots of high abundance in one sequencing plate indicates that the microbe is not consistently differentially abundant across all samples. Instead, the microbe appears to be differentially abundant due to contamination in one sequencing plate. (C) Read counts of total abundance across all microbes was compared against the abundance of each individual microbe, per patient. Potential contaminants were identified in scatter plots with a slope of zero. This method elicited zero potential contaminants, as all plots had a slope with magnitude significantly greater than zero."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0018"
+  ],
+  "Anabaena": [
+   "E0020",
+   "E0023"
+  ],
+  "Bifidobacterium": [
+   "E0004"
+  ],
+  "Bradyrhizobium": [
+   "E0018",
+   "E0020",
+   "E0027",
+   "E0028",
+   "E0031"
+  ],
+  "Chroococcidiopsis": [
+   "E0027"
+  ],
+  "Clostridia": [
+   "E0030"
+  ],
+  "Frankia": [
+   "E0020",
+   "E0027",
+   "E0031"
+  ],
+  "Lactobacillus": [
+   "E0004"
+  ],
+  "Micrococcus": [
+   "E0018",
+   "E0027"
+  ],
+  "Rhodococcus": [
+   "E0018"
+  ],
+  "Stenotrophomonas": [
+   "E0018",
+   "E0020"
+  ],
+  "Synechococcus": [
+   "E0019",
+   "E0023",
+   "E0027"
+  ],
+  "Trueperella": [
+   "E0018",
+   "E0027",
+   "E0031"
+  ]
+ }
+}

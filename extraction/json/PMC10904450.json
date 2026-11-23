@@ -1,0 +1,109 @@
+{
+  "pmcid": "PMC10904450",
+  "tissue_category": "tumour",
+  "sub_site": "PDAC and adjacent pancreatic tissue",
+  "year": 2024,
+  "country": "Japan",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V1-V2",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "The 16S rDNA V1–2 regions were amplified by PCR and sequenced in the MiSeq platform (Illumina) with MiSeq Reagent kit v2 (500 cycles) using the 250 bp paired-end protocol. The QIIME2 (version 2020.11) pipeline was used to perform microbiome"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "ancreatic tissues with that derived from 15 samples of FFPE pieces without tissues [ 15 ]. Alpha diversity analysis with Shannon index was calculated using QIIME2. Beta diversity analysis using weighted-UniFrac Principal Coordinate Analysis"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "Decontam",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "ilva (138 SSURef NR99 full-length taxonomy). Bacterial contamination was distinguished using R program package “Decontam” with the parameter “method = frequency” by comparing the data from pancreatic tissues with that derived from 15 sample"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Quantitative polymerase chain reaction (qPCR) was performed on Applied Biosystems 7500 real-time PCR system (Applied Biosystems Inc, CA, USA) using SYBR green qPCR assay (Applied Biosystems Inc, CA, USA). The V1–2 regions of 16S rRNA gene w"
+      }
+    ]
+  },
+  "n_target_samples": 78,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Curvibacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "52 bacteria-positive tumours and 26 adjacent tissues sequenced, from 162 initially screened. Decontam frequency with 15 non-tissue FFPE controls.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

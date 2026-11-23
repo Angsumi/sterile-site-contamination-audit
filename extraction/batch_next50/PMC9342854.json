@@ -1,0 +1,132 @@
+{
+  "pmcid": "PMC9342854",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "For the detection of the bacterial 16S rRNA gene, polymerase chain reaction (PCR) amplification of the V3-V4 region was performed using the barcode-specific primers 338F (5\u2032-ACTCCTACGGGAGGCAGCAG) and 806R (5\u2032-GGACTACHVGGGTWTCTAAT). PCR with"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0050",
+        "quote": " low. Although it was found that the placenta and control shared 300 OTUs, there were still 571 OTUs only presented in the placenta samples, suggesting that the placenta might have its distinct bacteria. We assumed OTUs in placenta shared w"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0050",
+        "quote": "a shared with the environmental control were from contamination and excluded from the analysis. The results showed that the main dominant bacterial phyla in the placental samples were Firmicutes, Bacteroidetes, Actinobacteria , and Proteoba"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 61,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Duncaniella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ihubacter",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0047",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Harryflintia",
+      "evidence_id": "E0047",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0047",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Odoribacter",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parasutterella",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limosilactobacillus",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerotignum",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dialister",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Loktanella intentionally spiked as exogenous DNA, excluded. Environmental-control OTUs removed. 61 placentae; 71 total including controls.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6e620c2da4d959a5118665e6935ff8eaed7ca4d9b2c5da2bcb53dcde1d3dc922",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC12492736",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic cancer tissue and paired adjacent tissue",
+ "year": 2025,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0013", "quote": "All human samples (including 47 cases of pancreatic cancer and adjacent tissues), as well as the clinical data, were obtained from our hospital."}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0015", "quote": "V3-V4 variable region amplification and sequencing were performed using the Illumina NovaSeq 6000 sequencing platform"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 94,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Pseudomonas", "evidence_id": "E0019", "flagged_contaminant": false},
+  {"name": "Acinetobacter", "evidence_id": "E0019", "flagged_contaminant": false},
+  {"name": "Aeromonas", "evidence_id": "E0019", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "47 paired tumour + adjacent tissues (94 samples). Country not stated explicitly ('our hospital'; discussion refers to future Chinese centres). Only LEfSe genera named; profiles in figures. No negative controls mentioned. TCMbio (TCGA) used only for survival analysis.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

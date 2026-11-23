@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC6284549",
+  "tissue_category": "blood",
+  "sub_site": "plasma",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5683c6524b15ec03919dac1a2996d23d1ca33ad47575db0b7eca0b996f6e7943",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0004",
+        "quote": "ive bacterial outer membranes, and 16S ribosomal DNA (rDNA), which is common to all bacterial species. Increased levels of circulating LPS are associated with higher levels of immune activation in HIV-infected adults [ 4 , 12 ]. Higher leve"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0039",
+        "quote": "of the library was produced. After removing operational taxonomic units (OTUs) seen in negative experimental controls ( Supplementary Materials ), OTU numbers were sparse and dominated by Enterobacteriaceae organisms and staphylococci in bo"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "168 blood plasma/pellet samples generated sequence libraries; uninfected controls failed sequencing. Retained staphylococci supported by main results; qPCR-panel organisms not counted. The sequencing-result term “staphylococci” is not silently substituted with a genus label from the qPCR panel.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "pmcid": "PMC8025517",
+  "tissue_category": "blood",
+  "sub_site": "longitudinal post-liver-transplant plasma",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0004",
+        "quote": "A total of 111 plasma samples were consecutively collected from 51 LT recipients. First, we analyzed 25 recipients whose samples had been collected at all three time points. Subsequently, 28 samples from other patients were analyzed to conf"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 111,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "unclear",
+  "notes": "51 transplant recipients; 111 longitudinal plasma specimens. Separate diagnostic infection-validation samples not used for target genus list. Supplement tables list mainly families/read counts, not target genus names; figure-only profiles remain unresolved.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e706e7d87f9e1a2ae022e4f43cfd560494a7532d7ae1eb9d2d03919201b993f7",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+  ]
+}

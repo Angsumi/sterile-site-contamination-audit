@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC13141833",
+  "tissue_category": "tumour",
+  "sub_site": "fungal-only TCGA analysis",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Tumour mycobiome study; bacterial data mentioned as context, not eligible bacterial community results.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "852c0dd33ccdbf68d9465118d8a02e468e5d7599f3147c517c981e8a8c5627ce",
+  "notes": "",
+  "review_flags": []
+}

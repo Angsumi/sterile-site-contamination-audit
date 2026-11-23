@@ -1,0 +1,113 @@
+{
+  "pmcid": "PMC8064568",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ba535be0365ad1671acd8ad6a8e95247071cd1d9a70dffff2601da67f8b6811f",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "hy tissue microbiota by applying a 16S rRNA gene amplicon sequencing protocol to tissue samples of 29 non-small cancer patients. Emphasis was put on contaminant management and a comprehensive comparison of bacterial composition between canc"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0037",
+        "quote": "onary region, and a methodological control accounting for every step of the protocol were extracted and sequenced for each patient. The samples were enzymatically and mechanically homogenized using the Liberase ™ TM enzyme cocktail (Roche, "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0038",
+        "quote": " cancerous tissue. The presence of contaminants was accounted for through bioinformatics by removing Operational Taxonomic Unit (OTU) found in controls from the corresponding samples on a relative abundance basis [ 22 , 24 ]."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 58,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Diaphorobacter",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

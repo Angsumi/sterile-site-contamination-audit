@@ -1,0 +1,209 @@
+{
+ "pmcid": "PMC8638380",
+ "meta": {
+  "title": "Alterations of thyroid microbiota across different thyroid microhabitats in patients with thyroid carcinoma",
+  "journal": "Journal of Translational Medicine",
+  "year": "2021",
+  "doi": "10.1186/s12967-021-03167-9",
+  "pmid": "34847917"
+ },
+ "n_elements": 28,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Background In recent years, the incidence rate of Thyroid carcinoma (TC) has been increasing worldwide. Thus, research on factors of TC carcinogenesis may promote TC prevention and decrease the incidence rate. There are several studies targeting the correlation between gut microbiota and thyroid disease. Carcinogenesis of several malignancies is influenced by microbiota. However, thyroid microbiome of TC has not been revealed. This study investigated thyroid microbiota in different TC microhabitats. Methods We performed 16s rRNA gene sequencing using tumor tissues and matched peritumor tissues from 30 patients with TC to characterize thyroid microbiota. Results The richness and diversity of thyroid microbiota were lower in TC tumor samples than in matched peritumor tissues. At the genus level, the core microbiota of thyroid included Sphingomonas , Comamonas , Acinetobacter , Pseudomonas , Microvirgula , and Soonwooa . The abundance of Sphingomonas and Aeromonas was significantly increased in tumor tissues, while the abundance of Comamonas , Acinetobacter , and Peptostreptococcus was significantly enhanced in peritumor tissues. The combination of Comamonas and Sphingomonas could discriminate tumor samples from peritumor samples with an area under the curve (AUC) of 0.981 (95% confidence interval [CI] 0.949–1.000). The abundance of Sphingomonas was significantly higher in N1 stage than in N0 stage. Sphingomonas could distinguish between N0 and N1 stage with an AUC of 0.964 (95% CI 0.907–1.000). Conclusions The microbial diversity and composition were significantly different between peritumor and tumor microhabitats from patients with TC, which may eventually affect TC carcinogenesis and progression. The combination of Comamonas and Sphingomonas could serve as a powerful biomarker for discrimination between tumor and peritumor tissues. Furthermore, the higher abundance of Sphingomonas was correlated with lymph node metastasis, indicating that the abundance of Sphingomonas may indicate a poor prognosis for TC patients, and Sphingomonas may play a role in promoting TC progression. Supplementary Information The online version contains supplementary material available at 10.1186/s12967-021-03167-9."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "Introduction",
+   "text": "The term ‘thyrogastric syndrome’ referring to the link between the gastrointestinal tract and the thyroid has been postulated in 1950s [ 17 ]. Gastric mucosal cells and thyroid follicular cells have the same embryonic origin because the thyroid gland develops from primitive gut cells [ 18 ]. Thus, we hypothesize that thyroid gland may also be colonized by microorganisms. For the first time, we performed 16s rRNA gene sequencing using tumor tissues and matched peritumor tissues from 30 patients with TC to characterize the core microbiota of thyroid, compare microbial diversity and composition of tumor tissues and matched peritumor tissues, identify differential taxa between tumor tissues and matched peritumor tissues, and characterize the microbial biomarkers for discrimination between tumor and peritumor tissues. The correlation between microbiota of thyroid carcinoma and clinicopathological factors was analyzed."
+  },
+  {
+   "evidence_id": "E0007",
+   "section": "DNA extraction, amplicon library construction, and sequencing",
+   "text": "The genomic DNA of thyroid tissues (about 100 mg) was extracted using cetyltrimethylammonium bromide/sodium dodecyl sulfate method. To evaluate environmental contamination, six sterile Petri dishes with sterile water and sterile filter paper were placed in different corners of the operating room for 24 h. The filter paper was transferred to sterile tubes for DNA extraction and subsequent PCR. The extracted DNA from the filter paper was used as quality control (QC). DNA integrity was analyzed by 1% agarose gel electrophoresis. DNA concentration and purity were verified using Nanodrop 2000 (Thermo). We used nested PCR to amplify the V–V4 region of bacterial 16s rRNA gene. During the first round, the 16s rRNA gene was amplified using the 27F (5′-AGAGTTTGATCCTGGCTCAG-3′) and 1492R (5′-GGTTACCTTGTTACGACTT-3′) primers. In the second round, V3-V4 region of 16S rRNA gene was amplified using the 341F (5′-TCGTCGGCAGCGT CAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG-3′) and 806R (5′-G TCTCGTGGGCTCGGAGATGTGTATAAGAGACAGGACTACHVGGGTATCTAATCC-3′) primers. All PCR reactions were carried out in 25 μL reaction mixture containing 10 ng of template DNA. Barcode was added using index PCR (Nextera XT Index Kit v2, illumina). The PCR condition of DNA from filter paper was the same as that of DNA from tissues. Index PCR products were sequenced with the Miseq platform."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "Sequencing data analysis",
+   "text": "The raw reads were filtered to obtain the high-quality clean reads using USEARCH 8.0. Chimera sequences were detected and removed using the UCHIME algorithm software [ 19 ]. Sequences with more than 97% similarity were allocated to one operational taxonomic unit (OTU) using UPARSE software [ 20 ]. The phylogenetic affiliation of each 16S rRNA gene sequence was analyzed by RDP Classifier against the Silva 16S rRNA database using confidence threshold of 70%. Subsequent analyses, including alpha diversity analysis, beta diversity analysis on Bray–Curtis distance, the linear discriminant analysis (LDA) effect size (LEfSe), and random forest analysis, were performed using MicrobiomeAnalyst [ 21 ]."
+  },
+  {
+   "evidence_id": "E0010",
+   "section": "Differences in microbial diversity and composition between TC peritumor and tumor tissues",
+   "text": "As shown in Additional file 1 : Table S1, the 16s rRNA gene sequencing produced a median of 41,778 reads for QC samples, 30 paired tumor and peritumor tissues. First, we analyzed alpha diversity to investigate microbial diversity between TC peritumor and tumor tissues. The Chao1 index reflecting species richness was lower in tumor tissues than in peritumor tissues; however, the difference was not significant ( P = 0.268, Fig. 2 A). The Shannon index, which measures species richness and evenness, was significantly lower in tumor tissues in comparison to peritumor tissues ( P < 0.001, Fig. 2 B). To exclude the possibility of contamination from the environment, six QC samples were obtained from the operating room where the tissue samples were collected. The analysis of alpha diversity showed that the Chao1 index and the Shannon index were both significantly lower in QC group compared with peritumor and tumor tissues ( P < 0.001, Fig. 2 A and B). Fig. 2 Comparison of microbial profiles between QC samples, TC tumor and matched peritumor tissues before elimination of environmental contamination. A , B Chao1 and Shannon indices were used to evaluate the microbial diversity of the paired tumor, peritumor tissues, and QC samples. Tumor and matched peritumor tissues were from 30 TC patients. QC samples were used to reveal the environmental microbiota. The Mann–Whitney U test was performed to compare differences between two groups. C Principal coordinate analysis (PCoA) of Bray–Curtis analysis demonstrated that QC samples, peritumor and tumor tissues showed three distinct clusters. The microbial relative abundance of TC tumor tissues, matched peritumor tissues, and QC samples at the phylum ( D ) and genus ( E ) levels is shown"
+  },
+  {
+   "evidence_id": "E0013",
+   "section": "Differences in microbial diversity and composition between TC peritumor and tumor tissues",
+   "text": "To exclude the effect of environment on thyroid microbiota, we eliminated OTUs annotated as Enterobacter , Citrobacter , and Chryseobacterium from TC peritumor and tumor tissues. The Chao1 index was higher in tumor tissues than in peritumor tissues; however, the difference was not significant ( P = 0.224, Fig. 3 A). The Shannon index was significantly lower in tumor tissues than in peritumor tissues ( P = 0.022, Fig. 3 B). PCoA showed that significant clustering was detected between tumor and peritumor tissues (PERMANOVA, R 2 = 0.162, P < 0.001, Fig. 3 C). At the phylum level, the core microbiota of thyroid was Proteobacteria , Bacteroidetes , Firmicutes (Fig. 3 D). At the genus level, the core microbiota of thyroid included Sphingomonas , Comamonas , Acinetobacter , Pseudomonas , Microvirgula , and Soonwooa (Fig. 3 E). Fig. 3 Comparison of microbial profiles between TC tumor and matched peritumor tissues after elimination of environmental contamination. A , B Comparison of Chao1 and Shannon indices between 30 TC tumor and matched peritumor tissues after elimination of environmental contamination. C Principal coordinate analysis (PCoA) demonstrated that the peritumor and tumor tissues showed two distinct clusters. The microbial relative abundance of 30 TC tumor tissues and matched peritumor tissues at the phylum ( D ) and genus ( E ) levels is shown"
+  },
+  {
+   "evidence_id": "E0017",
+   "section": "Discussion",
+   "text": "In this study, we used 16s rRNA gene sequencing to characterize thyroid microbiota in different thyroid microhabitats. The alpha diversity and beta diversity were both significantly different between QC samples and thyroid tissue samples, indicating that thyroid tissues were not contaminated by the surrounding environment. We found that TC tumor tissues had lower thyroid microbiota richness and diversity than matched peritumor tissues. A decrease in microbiota diversity in tumor tissues was also observed in patients with lung cancer and gastric cancer [ 22 , 23 ]. Nevertheless, an increase in gut microbiota diversity is observed in patients with TC, Hashimoto's thyroiditis, and hyperthyroidism [ 14 , 16 , 24 ]. At the genus level, the core microbiota of thyroid tissues included Comamonas , Acinetobacter , Pseudomonas , Microvirgula , Soonwooa , and Sphingomonas , while the core gut microbiota of TC encompassed Faecalibacterium , Bacteroides , Blautia , Rosebulia , Dialister , and Lachnoclostridium . These results showed that the composition of thyroid microbiota and gut microbiota of TC patients were different."
+  },
+  {
+   "evidence_id": "E0020",
+   "section": "Discussion",
+   "text": "A metagenomic analysis of the stool samples showed that the abundance of Acinetobacter was decreased in patients with colorectal cancer compared with healthy subjects [ 29 ]. A 16s rRNA gene sequencing analysis of lung tissues revealed that the microbial community compositions of patients only with emphysema were characterized by a significantly higher abundance of Proteobacteria (primary the genus Acinetobacter ) in comparison to lung cancer patients with or without emphysema [ 23 ]. Acinetobacter is widespread in natural environments and plays an important role in disseminating infections, including the respiratory tract and urinary tract. Certain species of Acinetobacter are resistant to multi-drugs and regarded as important pathogens. Acinetobacter baumannii is an important opportunistic pathogen that is ubiquitous in hospitals and other settings related with healthcare. A systematic review of thirteen original articles showed that gastric carcinogenesis could be associated with an increase in the abundance of Acinetobacter baumannii [ 30 ]. These studies showed that the genus Acinetobacter could be related with carcinogenesis of different malignancies. We found that the genus Acinetobacter was enriched in TC tumor tissues, indicating that it may promote TC progression."
+  },
+  {
+   "evidence_id": "E0021",
+   "section": "Discussion",
+   "text": "Meanwhile, this study has a few limitations. First, the sample size in this study was small. This study has obtained several positive results, which pave the way for future study with larger sample size. The quantitative reverse-transcription polymerase chain reaction (RT-qPCR) assay is a common quantitative approach to identify microbes in tumor tissues. In the future, we will utilize RT-qPCR to quantitatively identify bacteria, particularly Comamonas and Sphingomonas , in thyroid cancer tissues in larger sample size. Second, this was a retrospective study, and a prospective study is needed to validate our results. Third, the lack of a control group with benign nodules may compromise the interpretation of the results, since comparing the microbial difference of thyroid tissues between patients with benign nodules and TC will further support the observations of this work. In addition, 16s rRNA sequencing cannot identify the specific bacterial species, resulting in that information on the species of thyroid microbiota was not obtained. Thus, a study revealing the species of thyroid microbiota is needed in future."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0001",
+   "E0012",
+   "E0013",
+   "E0014",
+   "E0017",
+   "E0018",
+   "E0020",
+   "E0022"
+  ],
+  "Aeromonas": [
+   "E0001",
+   "E0014",
+   "E0018",
+   "E0022"
+  ],
+  "Bacteroides": [
+   "E0017",
+   "E0018"
+  ],
+  "Bacteroidetes": [
+   "E0012",
+   "E0013"
+  ],
+  "Bifidobacteria": [
+   "E0004"
+  ],
+  "Blautia": [
+   "E0017",
+   "E0018"
+  ],
+  "Chryseobacterium": [
+   "E0012",
+   "E0013"
+  ],
+  "Citrobacter": [
+   "E0012",
+   "E0013"
+  ],
+  "Comamonas": [
+   "E0001",
+   "E0012",
+   "E0013",
+   "E0014",
+   "E0015",
+   "E0017",
+   "E0018",
+   "E0019",
+   "E0021",
+   "E0022"
+  ],
+  "Dialister": [
+   "E0017"
+  ],
+  "Enterobacter": [
+   "E0012",
+   "E0013"
+  ],
+  "Enterobacteriaceae": [
+   "E0004"
+  ],
+  "Enterococcus": [
+   "E0004"
+  ],
+  "Faecalibacterium": [
+   "E0017"
+  ],
+  "Firmicutes": [
+   "E0012",
+   "E0013"
+  ],
+  "Helicobacter": [
+   "E0003"
+  ],
+  "Klebsiella": [
+   "E0018"
+  ],
+  "Lachnoclostridium": [
+   "E0017"
+  ],
+  "Lactobacillaceae": [
+   "E0004"
+  ],
+  "Megamonas": [
+   "E0018"
+  ],
+  "Microvirgula": [
+   "E0001",
+   "E0012",
+   "E0013",
+   "E0017"
+  ],
+  "Pasteurellaceae": [
+   "E0004"
+  ],
+  "Peptostreptococcus": [
+   "E0001",
+   "E0014",
+   "E0018",
+   "E0022"
+  ],
+  "Prevotellaceae": [
+   "E0004"
+  ],
+  "Proteobacteria": [
+   "E0012",
+   "E0013",
+   "E0020"
+  ],
+  "Proteus": [
+   "E0014"
+  ],
+  "Pseudomonas": [
+   "E0001",
+   "E0012",
+   "E0013",
+   "E0017"
+  ],
+  "Rikenellaceae": [
+   "E0004"
+  ],
+  "Rosebulia": [
+   "E0017"
+  ],
+  "Roseburia": [
+   "E0018"
+  ],
+  "Soonwooa": [
+   "E0001",
+   "E0012",
+   "E0013",
+   "E0017"
+  ],
+  "Sphingomonas": [
+   "E0001",
+   "E0012",
+   "E0013",
+   "E0014",
+   "E0015",
+   "E0016",
+   "E0017",
+   "E0018",
+   "E0019",
+   "E0021",
+   "E0022"
+  ],
+  "Veillonellaceae": [
+   "E0004"
+  ]
+ }
+}

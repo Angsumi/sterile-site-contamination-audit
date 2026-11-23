@@ -1,0 +1,103 @@
+{
+ "pmcid": "PMC13085916",
+ "tissue_category": "tumour",
+ "sub_site": "ER+PR+ breast tumour (FFPE)",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "study included 52 ER+/PR + patients who underwent breast cancer surgery at Huangpu District Central Hospital of Shanghai, China"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0040",
+    "quote": "16S rRNA amplicon sequencing of the V3-V4 hypervariable regions was performed using cDNA samples from 55 tumour tissues"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "blank digestion buffer (extraction/environmental blank); solvent",
+  "n_sequenced": 2,
+  "evidence": [
+   {
+    "id": "E0045",
+    "quote": "As environmental controls, two blank digestion buffer added protease were processed in parallel with the FFPE samples."
+   },
+   {
+    "id": "E0045",
+    "quote": "The analysis of 16S RNA sequencing of the solvent used in this study showed a much lower and completely different microbial content than that in FFPE samples"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "tool",
+  "tool": "decontam",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "the R package Decontam ( https://github.com/benjjneb/decontam ) was employed in the microbiota activities analysis"
+   },
+   {
+    "id": "E0045",
+    "quote": "the relative activities of microbiota in each group were calculated after excluding the contaminant RNA sequences"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 55,
+ "list_type": "full_profile",
+ "genera": [
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0066",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0067",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Alloprevotella",
+   "evidence_id": "E0069",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0070",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0071",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Prevotella",
+  "Bacteroides",
+  "Alloprevotella",
+  "Pseudomonas",
+  "Lactobacillus"
+ ],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "RNA-based 16S (cDNA from FFPE total RNA), recorded as 16S. 55 tumours sequenced, 52 patients analysed. Muribaculaceae (family, listed in genus rows) was 38% in blanks yet retained as key tumour taxon; not recorded as genus. Top5 from Table 2 genus rows (no-recurrence means); Muribaculaceae family excluded.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

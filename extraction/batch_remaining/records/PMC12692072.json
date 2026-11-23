@@ -1,0 +1,138 @@
+{
+  "pmcid": "PMC12692072",
+  "tissue_category": "tumour",
+  "sub_site": "eligible internal TCGA cohorts",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ded6e6e501dadae35b56674c0f3490d8c07b0d3aa208fbd69c5dcd597a42f381",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": " types in The Cancer Genome Atlas (TCGA) [ 67 ] were obtained from the Bacteria in Cancer (BIC) database [ 68 ], and the relative abundance of the top 15 genera was visualized in composition barplots. BIC also served as a source of genus-le"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": " types in The Cancer Genome Atlas (TCGA) [ 67 ] were obtained from the Bacteria in Cancer (BIC) database [ 68 ], and the relative abundance of the top 15 genera was visualized in composition barplots. BIC also served as a source of genus-le"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Actinoplanes",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Meiothermus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mitsuaria",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Solimonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vibrio",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "BIC/TCGA reanalysis; eligible internal tumours only.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

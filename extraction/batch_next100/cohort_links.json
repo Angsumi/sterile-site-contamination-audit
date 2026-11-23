@@ -1,0 +1,32 @@
+[
+  {
+    "paper": "PMC12008866",
+    "linked_paper": "PMC12034738",
+    "status": "same team, different recruiting hospital and sample counts; no confirmed overlap",
+    "basis": "Gansu People’s Hospital 24+24 versus Qinghai People’s Hospital 10+10"
+  },
+  {
+    "paper": "PMC9176212",
+    "linked_paper": "PMC9577097",
+    "status": "possible overlap; unresolved",
+    "basis": "Same regional blood-cardiovascular research team; shared methods citation is not evidence of sample reuse"
+  },
+  {
+    "paper": "PMC9793878",
+    "linked_paper": "PMC4968547",
+    "status": "confirmed public reuse, different research team",
+    "basis": "PMC9793878 methods explicitly list SRP076038 Urbaniak et al. 2016"
+  },
+  {
+    "paper": "PMC10989844",
+    "linked_paper": "PMC10986527",
+    "status": "shared TCGA-ACC data possible, no same-team confirmation",
+    "basis": "Different author lists; retain dataset linkage for final analysis"
+  },
+  {
+    "paper": "PMC5675698",
+    "linked_paper": "PMC8052771",
+    "status": "possible biorepository overlap; unresolved",
+    "basis": "Cleveland Clinic breast microbiome biorepository; participant identifiers needed"
+  }
+]

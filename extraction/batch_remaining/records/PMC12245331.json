@@ -1,0 +1,178 @@
+{
+  "pmcid": "PMC12245331",
+  "tissue_category": "other_sterile",
+  "sub_site": "breast implant capsule and breast tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "9b3f44feb434d3c7313b665e591a90976121190c6d6523352cec6bd8aa8c4867",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ackground: Prior studies have used 16S rRNA sequencing to examine and define the local breast microbiome, but this has not been investigated with respect to breast reconstruction. Periexpander fluid can be readily collected in patients with"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dietzia",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vampirovibrio",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shigella",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenispora",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moheibacter",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermicanus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0039",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hymenobacter",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Breast-capsule microbiome profiling; no implant infection diagnostic cohort described.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

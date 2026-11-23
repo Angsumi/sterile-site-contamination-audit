@@ -1,0 +1,11 @@
+pmcid,target_site,retained_genera,flagged_removed,status
+PMC9718202,plasma,0,0,incomplete_requires_supplement_or_figure_review
+PMC4419820,placenta,1,0,incomplete_requires_supplement_or_figure_review
+PMC8904948,lung tumour,9,0,at_least_three_named
+PMC7355471,histologically healthy lung tissue,1,0,incomplete_requires_supplement_or_figure_review
+PMC7946554,cerebral arterial thrombus,5,0,at_least_three_named
+PMC6844652,whole blood,4,0,at_least_three_named
+PMC9257056,pancreatic tumour EUS-FNA,3,0,at_least_three_named
+PMC13318943,prostate tissue,4,1,at_least_three_named
+PMC12066232,peripheral blood leukocytes,0,0,incomplete_requires_supplement_or_figure_review
+PMC5946436,amniotic fluid,0,0,incomplete_requires_supplement_or_figure_review

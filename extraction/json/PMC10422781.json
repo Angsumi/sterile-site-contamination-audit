@@ -1,0 +1,179 @@
+{
+  "pmcid": "PMC10422781",
+  "tissue_category": "tumour",
+  "sub_site": "eligible TCGA internal tumour types (PRAD,LUAD,BRCA,KIRC,THCA,OV,GBM,KIRP,KICH,UCEC)",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Tumor microbiome counts data for 32 tumor types from TCGA project were obtained from Haziza et al. ( https://github.com/knightlab-analyses/mycobiome ) [ 9 ]. Only data from primary tumors were used. Recent studies have highlighted"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Tumor microbiome counts data for 32 tumor types from TCGA project were obtained from Haziza et al. ( https://github.com/knightlab-analyses/mycobiome ) [ 9 ]. Only data from primary tumors were used. Recent studies have highlighted"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam; Voom-SNM",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Tumor microbiome counts data for 32 tumor types from TCGA project were obtained from Haziza et al. ( https://github.com/knightlab-analyses/mycobiome ) [ 9 ]. Only data from primary tumors were used. Recent studies have highlighted"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Tissierella",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Borrelia",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paeniglutamicibacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseolinea",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corallococcus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oceanococcus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Virgibacillus",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tatumella",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Labedella",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Orrella",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mucilaginibacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micromonospora",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chitinilyticum",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedobacter",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thioflexothrix",
+      "evidence_id": "E0028",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Simplicispira",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Diaminobutyricibacter",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Yimella",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fluoribacter",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mangrovicoccus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoavidus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Williamsia",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lottiidibacillus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Extracted only genus-to-cancer links explicitly given for eligible internal tumours. Excluded mucosal-only links and fungi. Pooled pan-cancer TP53 classifier features omitted because cannot attribute to eligible tumour types; top-five importance is not abundance ranking.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

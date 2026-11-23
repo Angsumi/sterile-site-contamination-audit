@@ -1,0 +1,32 @@
+{
+ "pmcid": "PMC7961033",
+ "tissue_category": "blood",
+ "sub_site": "serum (Takayasu arteritis, giant cell arteritis, healthy donors)",
+ "year": 2021,
+ "country": "France",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0012", "quote": "A total of 13 patients with TAK (20 blood samples), 9 patients with GCA (11 blood samples) and 15 HD patients were analysed."}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0007", "quote": "The V3-V4 hypervariable regions of the 16S rDNA were amplified and quantified by qPCR, and sequenced with MiSeq technology (Vaiomer, Labège, France)."}]},
+ "controls": {"value": "sequenced", "types": "reagent/negative controls (in vitro and in silico)", "n_sequenced": null, "evidence": [{"id": "E0007", "quote": "Numerous controls were performed both in vitro and in silico to ensure the absence of artefacts"}, {"id": "E0022", "quote": "the abundance of 16S ribosomal RNA genes is 1000-fold lower in negative controls compared with blood samples. The blood samples have also higher genus richness and a different composition"}]},
+ "decontamination": {"value": "abundance_filter_only", "tool": "OTU prevalence <5% removed", "evidence": [{"id": "E0008", "quote": "OTUs with a prevalence < 5% were removed from the analysis"}]},
+ "biomass_qpcr": {"value": "yes", "evidence": [{"id": "E0007", "quote": "The concentration of 16S rRNA gene copies normalized to 1 mL of serum in each sample was determined by real-time qPCR"}]},
+ "n_target_samples": 46,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Zoogloea", "evidence_id": "E0013", "flagged_contaminant": false},
+  {"name": "Staphylococcus", "evidence_id": "E0013", "flagged_contaminant": false},
+  {"name": "Bdellovibrio", "evidence_id": "E0014", "flagged_contaminant": false},
+  {"name": "Clostridium", "evidence_id": "E0014", "flagged_contaminant": false},
+  {"name": "Hyphomicrobium", "evidence_id": "E0014", "flagged_contaminant": false},
+  {"name": "Rhodococcus", "evidence_id": "E0015", "flagged_contaminant": false},
+  {"name": "Aquiluna", "evidence_id": "E0015", "flagged_contaminant": false},
+  {"name": "Cloacibacterium", "evidence_id": "E0001", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Vaiomer blood 16S pipeline. Negative controls only described in Discussion (lower 16S copies, different composition) - counted as sequenced but no control-based removal. Only LEfSe-differential genera named; Clostridium from BLAST of unidentified Clostridiaceae OTU (C. saudiense). Cloacibacterium misspelt 'Coacibacterium' in Results. 'Pseudarcella hirudinis' BLAST hit not recorded. n = 46 serum samples (41 subjects).",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

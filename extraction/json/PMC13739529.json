@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC13739529",
+  "tissue_category": "brain_csf",
+  "sub_site": "glioma tissue",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4e023bfda2165d0ca450d1dc2d86dae9f526ff749c08637165a22d77df580e9e",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "PCR amplification was carried out using Phusion High-Fidelity PCR Master Mix (Thermo Fisher Scientific, Waltham, MA, USA). Nuclease-free-water PCR negative controls were included during amplification, but were not sequenced. Each reaction m"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "e samples, stringent contamination control procedures were implemented throughout experimental processing. Paraffin-only blank samples and DNA extraction negative controls (no-tissue controls) were included in parallel during DNA extraction"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": " extremely low-abundance ASVs were filtered to reduce potential artifacts associated with reagent contamination or index hopping. These combined measures were applied to improve data reliability and preserve biologically meaningful microbia"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Escherichia–Shigella",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0052",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vibrio",
+      "evidence_id": "E0052",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Galbibacter",
+      "evidence_id": "E0094",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0104",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptostreptococcus",
+      "evidence_id": "E0104",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "PCR water controls not sequenced, but paraffin/extraction blanks sequenced; overall sequenced-control classification reflects the latter.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

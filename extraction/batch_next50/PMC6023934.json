@@ -1,0 +1,92 @@
+{
+  "pmcid": "PMC6023934",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2018,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0033",
+        "quote": "A) and normalized to10 ng/\u03bcL. The V3-V4 region of 16S rDNA gene was amplified by PCR using Illumina adapter overhang nucleotide sequences following Illumina protocols. After 16S rDNA gene amplification, the multiplexing step was performed u"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0033",
+        "quote": "encing service, Valencia, Spain). To rule out and control for possible contaminations, PCR amplification and libraries controls were also sequenced as negative controls."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "hat our findings are relevant and not result from contamination. The reagents used for PCR amplification were sequenced as well as negative controls to rule out possible reagent contamination. With placenta samples, negative placental contr"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 39,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnospira",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "19/39 placenta profiles retained after >1000-read criterion. Cervical and oral-only genera excluded. Kitome controls sequenced but no explicit taxon-based removal.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "734d77a5985e057b8ca191ac9368b3c0cc29e80ed60cd8097fd15f4320871e56",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

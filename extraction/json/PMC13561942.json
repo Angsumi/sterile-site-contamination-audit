@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC13561942",
+  "tissue_category": "tumour",
+  "sub_site": "colorectal cancer liver metastases",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8e7acb1e58d0182115117fc39a1391ed09422ccf2c12298613ddb93694271a24",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "C) and 20 patients with CRLM by 5R 16S rDNA sequencing, untargeted metabolomics, and functional assays. Public datasets were used for single‑cell analysis of the tumor immune microenvironment. Results Primary colorectal lesions and paired l"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": ", and adjacent liver tissues. Five blank tubes were included as sequencing quality-control controls. In addition, DNA extraction negative controls and PCR no-template controls were included to monitor potential contaminants introduced durin"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "erimental artifacts and rigorously filtered from all biological samples using standard tumor microbiome decontamination pipelines ( 12 ). The same contamination-filtering criterion was applied consistently to samples from both primary color"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmiger",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only liver metastasis profiles, not colorectal primary lesions. Direct detection of Bacillus in metastases; other mixed-site associations require review.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

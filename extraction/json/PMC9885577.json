@@ -1,0 +1,198 @@
+{
+  "pmcid": "PMC9885577",
+  "tissue_category": "other_sterile",
+  "sub_site": "liver",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5fe4ee8acbe6acfb65e0157dad3b6040163587e6a2926785fe258cd7d95abf98",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "V3-V4 hypervariable regions of the 16S rRNA gene were amplified by two steps PCR using v1 primers (VAIOMER SAS) and sequenced using MiSeq Reagent Kit v3 (2 × 300 bp Paired-End Reads, Illumina, San Diego, CA, USA), as previously described [ "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "menters, or consumables, different negative controls were performed. They consist in adding molecular grade water to an empty tube, separately at the DNA extraction and PCR steps. Then, the amplification product is sequenced and performed s"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "he beta diversity analysis and the qPCR analyses show a clear separation between negative controls and both blood samples and liver samples (Supplementary Fig. 1 A-G). The controls performed here confirm that the exogenous bacterial contami"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clavibacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ferruginibacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Janthinobacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kocuria",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Morganella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudarcicella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodoluna",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kluyvera",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kosakonia",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Multicountry human liver biopsy cohort; controls sequenced, contamination considered negligible rather than taxa removed. Total bacterial load assessment described in supplementary qPCR/control comparison.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

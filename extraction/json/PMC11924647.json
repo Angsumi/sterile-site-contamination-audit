@@ -1,0 +1,68 @@
+{
+ "pmcid": "PMC11924647",
+ "tissue_category": "tumour",
+ "sub_site": "triple-negative breast cancer pre-treatment biopsy",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "issue DNA were extracted from frozen pre-treatment samples of 57 patients (22 with non-pCR and 35 with pCR) at Guangdong Provincial People’s Hospital"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "The V3-V4 region of bacterial 16S rRNA was amplified for library construction and sequenced on the Illumina Nova6000 platform"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "negative control in 16S qPCR",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0021",
+    "quote": "B RT-qPCR analysis of 16S rDNA in negative control (n = 10), pCR (n = 40) and non-pCR (n = 25) tumors"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "unclear",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0021",
+    "quote": "After standard procedures of contamination filtration, a broad spectrum of bacterial communities at both phylum and class levels were identified in TNBC tissues"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0021",
+    "quote": "Real-time quantitative polymerase chain reaction (RT-qPCR) analysis of 16S rDNA revealed that the intratumoral microbiota load was significantly greater in pCR group than in non-pCR group"
+   }
+  ]
+ },
+ "n_target_samples": 57,
+ "list_type": "mixed",
+ "genera": [],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "16S results reported only at phylum/class level (Fig 2A); no genus names in main text; supplementary file (Additional file) not available as markdown. Nature of the qPCR 'negative control' (n=10) unclear (could be blanks or normal tissue). Detailed 16S methods in Additional file.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

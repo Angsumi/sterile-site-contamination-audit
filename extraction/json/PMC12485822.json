@@ -1,0 +1,224 @@
+{
+ "pmcid": "PMC12485822",
+ "tissue_category": "tumour",
+ "sub_site": "breast cancer tissue (FFPE) and benign breast nodules; pre/post neoadjuvant therapy specimens",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0013",
+    "quote": "Tumour samples were retrieved from formalin‐fixed paraffin‐embedded blocks derived from the aforementioned patients."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0014",
+    "quote": "The target region was the V3–V4 hypervariable region of the 16S rRNA gene"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "paraffin/FFPE blank sections; equipment and environmental controls",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0013",
+    "quote": "Negative controls included (1) paraffin/FFPE blank sections and (2) equipment and environmental controls. Sequencing of all negative controls via 16S rRNA revealed only background‐level reads, with no detectable microbial signals."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 345,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Weissella",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paenibacillus",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methyloversatilis",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Halomonas",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dietzia",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nesterenkonia",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromicrobium",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bosea",
+   "evidence_id": "E0035",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0039",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nitriliruptor",
+   "evidence_id": "E0039",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0039",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingobium",
+   "evidence_id": "E0043",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Caulobacter",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rikenella",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Desulfobulbus",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Albimonas",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mucispirillum",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Erysipelatoclostridium",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Taibaiella",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudothermotoga",
+   "evidence_id": "E0049",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ruminococcus",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Megamonas",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Faecalibacterium",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Eubacterium",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Novosphingobium",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Tissierella",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Saccharomonospora",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Azospirillum",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Prauserella",
+   "evidence_id": "E0059",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Salipaludibacillus",
+   "evidence_id": "E0059",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Subdoligranulum",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Cohorts overlap: 165 benign nodules (83 later malignant with matched tumours), 180 primary BC, 101 NAT specimens; n_target_samples=345 (165 benign + 180 BC) approximate. Controls sequenced, reported as background only; no decontamination step described. Only differential/model-feature genera named; overall genus composition in figures/supplement. Halonotius (archaeal) and SILVA unnamed groups (C1_B045, NS5_marine_group, Clostridia UCG-014) not recorded. FISH/TEM confirmation; also culture experiments.",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

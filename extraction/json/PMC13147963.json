@@ -1,0 +1,300 @@
+{
+  "pmcid": "PMC13147963",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour and adjacent tissue",
+  "year": 2026,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "stematically characterize the PDAC microbiome, we performed 16S rRNA gene sequencing on 135 clinical samples from a discovery cohort of 71 patients (Figure 1A ). Taxonomic profiling revealed that Proteobacteria dominated the landscape, prim"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "S920:L31",
+        "quote": "For 16S rRNA gene sequencing, DNA extraction negative controls (sterile water and buffer) and PCR negative controls were included in every batch. Sequence variants (ASVs) present in negative controls were identified as contaminants and bioi"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "S920:L31",
+        "quote": "Sequence variants (ASVs) present in negative controls were identified as contaminants and bioinformatically removed from the dataset using the decontam R package."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "S921:L570",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "S921:L571",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "S921:L572",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Novosphingobium",
+      "evidence_id": "S921:L573",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "S921:L574",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Diaphorobacter",
+      "evidence_id": "S921:L575",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vulcaniibacterium",
+      "evidence_id": "S921:L577",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "S921:L579",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "S921:L581",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "S921:L582",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "S921:L583",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "S921:L584",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "S921:L586",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "S921:L587",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "S921:L588",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidiphilus",
+      "evidence_id": "S921:L589",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Schlegelella",
+      "evidence_id": "S921:L590",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "S921:L591",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "S921:L592",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "S921:L593",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "S921:L596",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "S921:L597",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "S921:L598",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "S921:L599",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "S921:L600",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "S921:L601",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "S921:L602",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "S921:L603",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "S921:L604",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Duncaniella",
+      "evidence_id": "S921:L605",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lentilactobacillus",
+      "evidence_id": "S921:L606",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "S921:L607",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "S921:L608",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Empedobacter",
+      "evidence_id": "S921:L609",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mediterraneibacter",
+      "evidence_id": "S921:L610",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "S921:L611",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allobaculum",
+      "evidence_id": "S921:L612",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "S921:L613",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ligilactobacillus",
+      "evidence_id": "S921:L614",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerobutyricum",
+      "evidence_id": "S921:L615",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "S921:L617",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "S921:L618",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "S921:L619",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "135 samples in text versus 142 in caption; 71 discovery patients. Culture-only taxa excluded. Supplement source data 1B used; discovery sample-count discrepancy retained.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c377dedc6d70bc9c4ece98ae21a98438ed473bfb488ddd3c6987890480e01580",
+  "supplement_manifest": [
+    {
+      "source": "N19_IMT2-5-e70126-s002.md",
+      "alias": "S920.md",
+      "sha256": "25de0177ceb0b21523622e691f9e4586acab3a88862d7053c64a53586f306f39"
+    },
+    {
+      "source": "N19_IMT2-5-e70126-s001.md",
+      "alias": "S921.md",
+      "sha256": "637b0b5359500816d79057bbc4184579d2b0294bf86fb85f84ccaad71711cc7b"
+    }
+  ],
+  "excluded_non_genus_labels": [
+    "unclassified_f__Caulobacteraceae",
+    "unclassified_d__Bacteria",
+    "unclassified_f__Sphaerotilaceae",
+    "unclassified_f__Lachnospiraceae",
+    "unclassified_f__Oscillospiraceae",
+    "unclassified_o__Eubacteriales"
+  ]
+}

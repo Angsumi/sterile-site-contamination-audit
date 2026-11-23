@@ -1,0 +1,26 @@
+[
+  {
+    "paper": "PMC8971327",
+    "related": "PMC4971513",
+    "decision": "excluded_followup_keep_4971513",
+    "basis": "Same author team, explicitly same 33-woman cohort and 27-slide-review subset; retain longer genus list per protocol."
+  },
+  {
+    "paper": "PMC5460277",
+    "related": "PMC5378909",
+    "decision": "probable_overlap_pending_identifiers",
+    "basis": "Same author team and SPRING pregnancy substudy, 37 maternal sets versus 36 mother-infant dyads. Earlier report currently has no usable named-genus list, so no duplicated usable count."
+  },
+  {
+    "paper": "PMC12442831",
+    "related": "PMC9234634",
+    "decision": "possible_overlap_review",
+    "basis": "Same institution and cited prior tissue workflow; current 90-case HCC versus prior mixed 28-case primary liver cancer. No same-subject evidence established."
+  },
+  {
+    "paper": "PMC13073471",
+    "related": "PMC11829562",
+    "decision": "not_automatically_same_cohort",
+    "basis": "Different author teams and separately described Korean versus Chinese collections; similar assay alone is not duplicate evidence."
+  }
+]

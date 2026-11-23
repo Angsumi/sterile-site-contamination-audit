@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC5593928",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta and fetal membranes",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "676774fbff3f995b44a21d40a507cf61e45fa8b89726c1fcda076a82d3b2f8f6",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "placental microbiome have used the 16S regions V1–V3 4 , V3–V4 13 and V6-8 5 . We attempted to sequence all nine variable regions (V1, V2, V3, V4, V5, V6, V7-8, and V9). However, we found that primers specific to the V7-8 regions did not am"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "n most samples, but also amplified negative controls (including blanks and water). Analysis was therefore primarily performed using samples amplified with primers flanking the V4 region (F515–R806) as it amplified bacterial DNA in the major"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "ive OTUs, we performed a series of filtering steps for analysis. First , we removed OTUs observed only once from samples to eliminate potential sequencing artifacts 17 . The average Shannon diversity, which accounts for evenness and richnes"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "solute quantification of bacterial copy number of the 16S gene per µl of each sample. We used quantitative real-time PCR using primers targeting the V4 region (Table S2 ) and generated a logarithmic standard curve using the Cq values of a k"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

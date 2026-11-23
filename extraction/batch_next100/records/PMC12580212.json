@@ -1,0 +1,118 @@
+{
+  "pmcid": "PMC12580212",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "08c2bf0afb5c9c349df9a91911c6ce71f66cf8874c4541fdb51d76b1905c1053",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "g the MGISEQ-200RS high-throughput sequencing kit (FCL PE100). The library concentration was quantified using a Qubit 3.0 fluorometer (Invitrogen). Three blank controls were included and underwent DNA extraction and library preparation in p"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": ".0 fluorometer (Invitrogen). Three blank controls were included and underwent DNA extraction and library preparation in parallel with the samples. Sequencing was performed on an MGISEQ-200 platform (BGI)."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Azospira",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Diaphorobacter",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stutzerimonas",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Providencia",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alicycliphilus",
+      "evidence_id": "E0052",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geobacillus",
+      "evidence_id": "E0052",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "evidence_id": "E0052",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

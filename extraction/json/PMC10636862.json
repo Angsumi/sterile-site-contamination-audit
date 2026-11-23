@@ -1,0 +1,114 @@
+{
+  "pmcid": "PMC10636862",
+  "tissue_category": "blood",
+  "sub_site": "TCGA NSCLC blood",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA blood via Poore 2020",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "tudy is demonstrated in Fig. 1 . All NSCLC patients in TCGA with blood microbiome data and survival information of any stages and grades (n = 109) were included in this study. For 109 NSCLC patients in TCGA, the clinical data, survival data"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "The workflow of this study is demonstrated in Fig. 1 . All NSCLC patients in TCGA with blood microbiome data and survival information of any stages and grades (n = 109) were included in this study. Fo"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "Poore Voom-SNM / plate-center filtering (source dataset)",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "otal of 1553 genera were detected and quantified after Voom-SNM normalization and removing the potential contaminants. To describe the tumor microenvironment landscape of patients with NSCLC in TCGA, the matching tumor RNA-seq data (gene co"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 109,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Anaeromusa",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hirschia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parascardovia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agreia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kozakia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Demequina",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfuromonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastococcus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerobacillus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ewingella",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Candidatus_Babela",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "claimed",
+  "notes": "Voom-SNM normalized decontaminated source data. Archaeal/viral genera excluded. Candidatus_Babela retained as written for genus review.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

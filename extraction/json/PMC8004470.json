@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC8004470",
+  "tissue_category": "brain_csf",
+  "sub_site": "brain",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ddeb92cf34e41a402afbd03bbe6679213436f513f47686ab6651de7569c4fc01",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ents’ brain samples. Methods Using 16S rRNA gene sequencing, we tested the hypothesis that there is a bacterial brain microbiome. We evaluated brain samples from healthy human subjects and individuals suffering from PD (olfactory bulb and p"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "n a random order. Several types of controls were used to account for contamination: negative controls: n = 3 samples consisting of an empty tube ( DNA extraction blank control ), allowing detection of contamination during DNA extraction; n "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0044",
+        "quote": "All taxonomic signals of true positive zOTUs (Fig. 4 a) were reassessed using a manual Blast (Suppl. Table 6 ). Six out of the 17 most abundant zOTUs across all study samples belonged to either the human or the mouse genome (zOTU20/uncl. Pe"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0038",
+        "quote": "les were in line with the expected qPCR copies given the manufacturer’s bacterial density and our dilutions (Suppl. Fig. 2 a) validating our approach for estimating bacterial biomass. However, using amplicon sequencing to determine the mock"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Clostridioides",
+      "evidence_id": "E0044",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium-Methylorubrum",
+      "evidence_id": "E0044",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylotenera",
+      "evidence_id": "E0044",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Paludicola",
+      "evidence_id": "E0044",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0044",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0044",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Brain apparent bacterial signals attributed to off-target amplification or contamination; positive-control Salmonella not counted.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

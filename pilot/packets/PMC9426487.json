@@ -1,0 +1,190 @@
+{
+ "pmcid": "PMC9426487",
+ "meta": {
+  "title": "Bacterial Signatures of Cerebral Thrombi in Large Vessel Occlusion Stroke",
+  "journal": "mBio",
+  "year": "2022",
+  "doi": "10.1128/mbio.01085-22",
+  "pmid": "35726919"
+ },
+ "n_elements": 131,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "ABSTRACT It is important to understand the microbial features of the cerebral thrombus and its clinical relevance in stroke patients, of which data were scarce. We aimed to investigate the microbial features of cerebral thrombi retrieved via thrombectomy in stroke patients with large vessel occlusion (LVO) and their correlations with 3-month mortality. In a prospective cohort study, thrombus samples were collected during mechanical thrombectomy in LVO stroke patients with successful revascularization at a tertiary hospital. Oral, fecal, and isolated plasma samples were collected within 12 h of admission. The microbial compositions of all samples were compared using 16S rRNA gene amplicon next-generation sequencing. Fluorescent in situ hybridization (FISH) was used to detect bacteria in thrombus samples. The primary outcome was 3-month mortality. Perioperative adverse events (AEs) within 48 h were also recorded. Bacterial DNA was detected in 96.2% of thrombus samples from 104 patients, and clusters of bacterial signals were seen in the thrombi with FISH. Compared with fecal and oral samples, the thrombus microbiota was mainly characterized by excessive enrichment of Proteobacteria , mainly originating from plasma. The bacterial concentrations, dominant bacteria, and distribution patterns differed in thrombi obtained from cardioembolic and large-artery atherosclerotic strokes. Higher abundances of Acinetobacter and Enterobacteriaceae were associated with a higher risk of perioperative AEs, and a higher abundance of Acinetobacter was independently associated with a higher risk of 90-day mortality. This study demonstrated the presence of bacteria in cerebral thrombi retrieved with thrombectomy in LVO strokes, with some bacteria associated with patients’ prognoses."
+  },
+  {
+   "evidence_id": "E0003",
+   "section": "INTRODUCTION",
+   "text": "Recent studies have also revealed that microbiota colonization in thrombi of patients with myocardial infarction might influence the progression of thrombosis and risks of major adverse cardiovascular events ( 12 – 15 ). Yet data were scarce on microbial analysis of thrombi from stroke patients before endovascular mechanical thrombectomy was established as a first-line treatment for acute ischemic stroke (AIS) with large vessel occlusion (LVO) ( 16 – 21 ). Endovascular treatment not only significantly improves outcomes of LVO stroke patients compared with conventional treatment but also provides a unique opportunity for investigations of the thrombus in such patients, including the thrombus microbiota ( 22 – 24 ). However, some recent relevant studies had conflicting findings on the presence of bacteria in retrieved cerebral thrombi in such patients ( 22 – 24 ), and little is known regarding the source of the thrombus microbiota and its association with outcomes after thrombectomy. In addition, these studies mostly had a small sample size or simplified methodology on microbiota analysis (e.g., quantitative PCR [qPCR] amplification)."
+  },
+  {
+   "evidence_id": "E0004",
+   "section": "INTRODUCTION",
+   "text": "In this study, we aimed to investigate the microbial features of cerebral thrombi collected by stent retriever within 24 h of onset in LVO stroke patients, using advanced sequencing technology (16S rRNA gene amplicon next-generation sequencing), fluorescent in situ hybridization (FISH), and fast expectation-maximization microbial source tracking (FEAST), and to correlate the microbial features with postthrombectomy outcomes."
+  },
+  {
+   "evidence_id": "E0037",
+   "section": "Microbial features of thrombus, plasma, fecal, and oral samples.",
+   "text": "Overall, we collected 104 thrombus, 98 plasma, 103 fecal, and 102 oral samples from the 104 patients recruited. Bacterial DNA was positive in 96.2% (100/104) of the thrombus samples ( Fig. 1i ) and 96.9% (95/98) of the isolated plasma samples in qPCR. Blank control samples obtained from collection tubes ( Fig. 1j ) and operation table (e.g., surgical drape, skin at the puncture point, interventional instruments, the syringe to transfer the thrombus, and interventionalist's gloves) were bacteria negative in qPCR (see Fig. S1 in the supplemental material). Also, reagent controls (including all qPCR reagents such as sterile water and primers, but without DNA templates) were contained in all qPCR experiments, and no targeted PCR products were observed ( Fig. S2 and S3 ). Thus, exogenous contamination (e.g., surgical and sample disposal and analysis procedures) of bacteria can be ruled out."
+  },
+  {
+   "evidence_id": "E0038",
+   "section": "Microbial features of thrombus, plasma, fecal, and oral samples.",
+   "text": "[FIG 1 caption] Bacterial composition of the different communities among the four body habitats. (a) Schematic diagram of the body sites of the bacterial communities in the present study. (b) Concentration of bacterial DNA in different samples. Lowercase letters a, b, and c are used to show differences between compared groups; different letters represent significant differences between the two groups, while the same letters represent no difference. Each dot denotes a sample. (c) Rarefaction curves of detected bacterial ASVs among the four types of samples reaching saturation with increasing sequencing depths. The vertical bars represent standard errors. (d) Venn diagram representing the overlapping ASVs in the four types of samples (only ASVs with a relative abundance greater than 0.1% are shown in the diagram). (e) Shannon indices of the four types of samples. Lowercase letters a, b, and c are used to show differences between compared groups as in panel B. Each dot denotes a sample. (f) Microbial composition of thrombus samples was obviously distinct from that of fecal, oral, and plasma samples, with the Bray-Curtis distance scored on the relative abundance of ASVs. (g) Relative abundances of the dominant taxa in the four types of samples at the phylum level. (h) Source tracking of the microbiota in the thrombi based on the FEAST algorithm in all patients and in patients with CE and LAA stroke, respectively. (i) PCR products of thrombus samples, with 470-bp bands as target products. M, marker DL2000; CK, reagent control in the PCR process. (j) No targeted PCR products were observed in the blank control samples from collection tubes. M, marker DL2000; CK, reagent control in the PCR process. Abbreviations: ASV, amplicon sequence variant; FEAST, fast expectation-maximization for microbial source tracking; CE, cardioembolism; LAA, large-artery atherosclerosis; PCR, polymerase chain reaction."
+  },
+  {
+   "evidence_id": "E0103",
+   "section": "DISCUSSION",
+   "text": "In this prospective study, 104 thrombi were obtained via mechanical thrombectomy within 24 h of symptom onset in AIS patients, and 96.2% of the thrombi were positive for bacterial DNA by 16S rRNA gene sequencing. Moreover, by means of FISH with a universal bacterial probe, we confirmed the presence of bacteria in the thrombus samples and observed clustering or freely distributed bacteria patterns. There may be doubts over possible contamination and false positivity in the findings. However, in the testing procedures, communications in and out of cells would stop after formalin fixation, and there would be no living bacteria in the tissue; then, the signals of possible contamination (if any) should be nonuniform after slicing, dehydration, and dyeing procedures. Yet the bright green fluorescence signals seen in the thrombus samples in FISH were mostly distributed in clusters inside and outside the cell, which were less likely to come from external contamination."
+  },
+  {
+   "evidence_id": "E0104",
+   "section": "DISCUSSION",
+   "text": "Previous studies had also confirmed the presence of bacteria in aspirated thrombi. In a previous study using qPCR to detect oral bacterial DNA in thrombi obtained from 75 stroke patients ( 22 ), 84.0% of the thrombus samples were bacteria positive, a bit lower than in our study (96.2%). In this previous study, DNA of Streptococcus species (representative oral microbe) was detected in 79% of the thrombus samples, comparable with that in the current study (73%). But the relative abundance of Streptococcus was not investigated in this previous study ( 22 ), which was low in the current study (1.1%), as revealed by next-generation sequencing. Another metagenomic analysis found more than 27 bacteria in middle cerebral artery thrombus samples from 4 stroke patients, with Lactobacillus , Staphylococcus , and Stenotrophomonas as the dominant bacteria ( 24 ), partially consistent with our findings. In our study, 182 genera and 542 ASVs had a relative abundance of >1.0% in the thrombi. The bacteria with the highest average abundance were Acinetobacter (12.8%) and Stenotrophomonas (5.3%), while Lactobacillus had an abundance of only 0.8%. In addition, Lactobacillus vaginalis , Bacillus cereus , and Kocuria marina were cultivated in the bacterial culture of the tissue fragment solution of thrombus aspirates in our study. Another study also confirmed the bacterial footprints in thrombus aspirates (14 positive in 124 patients) from patients with acute myocardial infarction by bacterial culture ( 26 ). It is possible that the majority of bacterial species in thrombi are commensal or low-grade pathogens around the human body, possibly invading the bloodstream from the oral tract, gut, or skin without leading to overt infection in immunocompetent hosts."
+  },
+  {
+   "evidence_id": "E0105",
+   "section": "DISCUSSION",
+   "text": "An innovation of this study is that oral, fecal, and isolated plasma samples of AIS patients were collected synchronously within 12 h of admission, aiming to more comprehensively illustrate the characteristics of the thrombus microbiome through multisite comparisons. Such cross-site comparisons could reduce the effects of between-individual variability in the microbiota on the findings, which also allow tracing of the origins of the thrombus microbiome (via the FEAST algorithm). For instance, a previous study reported shared operational taxonomic units (OTUs) between atherosclerotic plaques and the gut by using pyrosequencing of 16S rRNA genes of atherosclerotic plaque, oral, and gut samples of 15 patients ( 27 ). Consistent with common sense, this study showed less diverse microbiota in thrombus samples than oral and fecal samples, with significantly different microbial compositions. However, there were still 70 highly abundant ASVs in the thrombi overlapping with oral, fecal, and isolated plasma samples, suggesting that the source of the thrombus microbiome may be related to bacteria in these three regions. Bacteria in the thrombus and plasma samples were similar, and 46.7% of thrombus bacteria may originate from plasma samples based on the FEAST algorithm. Previous studies have also detected bacterial fragments in the plasma of healthy individuals ( 28 ) and ischemic stroke patients ( 29 ), of which several bacteria were culturable ( 28 ). However, the sources of the circulating bacteria were uncertain in these previous investigations. There were studies indicating possible translocation of bacteria from other body sites to the plasma ( 30 , 31 ). For instance, gut bacteria such as Escherichia coli , Klebsiella pneumoniae , and Pseudomonas aeruginosa are common sources of bacteremia ( 32 , 33 ), but not usually the direct cause of brain infection ( 34 ). Studies have associated cardiovascular diseases ( 35 , 36 ) with increased translocation of intestinal bacteria, mainly through the epithelial mucosa of the intestine. In addition, oral bacteria ( 37 – 39 ) can also enter the blood with a compromised mechanical barrier of oral mucosa. Therefore, simultaneous collection and analysis of plasma, oral, and fecal samples with thrombus samples as in the current study could facilitate a better understanding of the potential sources of the microorganisms. However, oral and gut health status, which could significantly influence the bacterial signatures of oral and fecal samples and possible translocation of the bacteria, was not available in this cohort. This was a limitation of the current study, warranting further investigations."
+  },
+  {
+   "evidence_id": "E0114",
+   "section": "Study subjects and sample collection.",
+   "text": "The thrombus was removed during surgery, rinsed with 0.9% sterile normal saline, and placed directly into sterile tubes (catalog no. CY-95000-P1; HCY Technology, China) for qPCR analysis under strict aseptic conditions. A histological sample was placed in another tube with 3.7% formaldehyde if the thrombus was of adequate size. All of the thrombus collection and preparation processes were carried out under sterile conditions, and the thrombus did not come into contact with any potential contaminant. Blank controls were obtained in 4 cases via swabs before thrombus collection from collection tubes and anything that could be in contact with the thrombus on the operation table."
+  },
+  {
+   "evidence_id": "E0118",
+   "section": "DNA extraction and 16S sequencing.",
+   "text": "Bacterial DNA was extracted from the samples, enriched by PCR amplification, and identified by 16S sequencing with the following steps. First, bacterial DNA was extracted from samples using a commercially available bacterial DNA extraction minikit (MabioDNB361B; Mabio, China). Blank extractions (as reagent controls) were also processed and used to identify potential contamination. The V3-V4 variable regions of 16S rRNA genes were then amplified by PCR using Illumina-tagged primers 338F (5′- ACTCCTACGGGAGGCAGCA -3′) and 806R (5′- GGACTACHVGGGTWTCTAAT -3′). Three replicates of the PCR products in the same sample were mixed, and the PCR instrument was a Bio-Rad S1000 (Bio-Rad Laboratories, CA). PCR products were evaluated by 1.5% agarose gel electrophoresis, and visible products 470 bp (with barcode) in size were used in further experiments. The PCR products were mixed in equimolar ratios, calculated by GeneTools analysis software (version 4.03.05.0; SynGene), and then purified using an EZNA gel extraction kit (Omega, USA). Sequencing libraries were set up using the NEBNext Ultra DNA library prep kit for Illumina (New England Biolabs, USA), and the index codes were added. The Qubit 2.0 fluorometer (Thermo Scientific) and Agilent Bioanalyzer 2100 system were used to evaluate the library quality. Finally, the library was sequenced on an Illumina HiSeq 2500 platform, and 250-bp paired-end reads were obtained."
+  },
+  {
+   "evidence_id": "E0119",
+   "section": "Bioinformatics analyses.",
+   "text": "Bioinformatics analyses were performed to compare the bacterial signatures of different samples and to track the sources of bacteria in thrombus samples. The 16S rRNA gene sequences were processed using VSEARCH 2.15.1 ( 57 ), USEARCH 10.0.240 ( 58 ), and in-house scripts ( 59 ). Based on the high-confidence 16S representative sequences, an amplicon sequence variant (ASV) table was created according to VSEARCH (–usearch_global). Linear discriminant analysis (LDA) coupled with effect size measurement (LEfSe) was used to measure differentially abundant taxa across groups using the default parameters ( 60 ). Based on high-quality sequences, BugBase ( 61 ) was used to infer and compare organism-level microbiome phenotypes among different samples to better understand the possible function of the bacteria in the thrombus. FEAST was performed to track the microbial source based on the ASV data following protocols provided by the authors of the R package ( 62 ). Contribution from each source was calculated and represented as a percentage. Gut microbiota alpha diversity was calculated by the Shannon index with the vegan package, and between-sample differences were tested with Kruskal-Wallis tests, with subsequent pairwise comparisons adjusted by Bonferroni correction. The microbial beta diversity was compared using Bray-Curtis dissimilarity (unconstrained principal coordinate analysis [PCoA]), and significance was determined by the Adonis test. The relative abundance of dominant taxa in each patient or each group by the outcomes is shown in stack bar plots using the R package ggplot2."
+  },
+  {
+   "evidence_id": "E0126",
+   "section": "Supplementary",
+   "text": "[supplement] 10.1128/mbio.01085-22.2 FIG S1 Gel electrophoresis result of plate 1 for blank controls. (a and b) Numbers 1 to 38 represent periprocedural environmental controls as follows. Before operation, surgical drape, 1 to 4; surgical gloves, 5 to 8. During operation, arterial blood on the puncture needle, 9 to 12; skin of the puncture point, 13 to 16; intervention instrument, 21 to 24. After operation, surgical gloves, 17 to 20; arterial blood on the puncture point, 35 to 38. Collection and transferal of thrombus, etc., external surface of saline washed thrombus, 25 to 26; syringe to transfer the thrombus, 27 to 30; Eppendorf tube for thrombus collection, 31 to 34. “M” represents marker, also shown in a larger view, with the target amplified fragment in the V3V4 region of 16S rRNA with a fragment size of 470 bp. CK, reagent control (without DNA template) for polymerase chain reaction. Download FIG S1, TIF file, 1.9 MB . Copyright © 2022 Liao et al. 2022 Liao et al. https://creativecommons.org/licenses/by/4.0/ This content is distributed under the terms of the Creative Commons Attribution 4.0 International license . "
+  },
+  {
+   "evidence_id": "E0127",
+   "section": "Supplementary",
+   "text": "[supplement] 10.1128/mbio.01085-22.3 FIG S2 Gel electrophoresis result of 7 plates for collected samples. (1a to 7b) Gel electrophoresis results of 7 plates of various samples collected in this study, each with a marker (M) and reagent control (without DNA template) for polymerase chain reaction (CK). The numbers in the plates represent different samples that are sorted randomly. Download FIG S2, TIF file, 2.0 MB . Copyright © 2022 Liao et al. 2022 Liao et al. https://creativecommons.org/licenses/by/4.0/ This content is distributed under the terms of the Creative Commons Attribution 4.0 International license . "
+  },
+  {
+   "evidence_id": "E0128",
+   "section": "Supplementary",
+   "text": "[supplement] 10.1128/mbio.01085-22.4 FIG S3 Gel electrophoresis result of another 7 plates for collected samples. (1a to 7a) Gel electrophoresis results of another 7 plates of various samples collected in this study, each with a marker (M) and reagent control (without DNA template) for polymerase chain reaction (CK). The numbers in the plates represent different samples that are sorted randomly. Download FIG S3, TIF file, 1.9 MB . Copyright © 2022 Liao et al. 2022 Liao et al. https://creativecommons.org/licenses/by/4.0/ This content is distributed under the terms of the Creative Commons Attribution 4.0 International license . "
+  }
+ ],
+ "italic_candidates": {
+  "Actinobacteria": [
+   "E0040"
+  ],
+  "Bacillus": [
+   "E0040",
+   "E0108"
+  ],
+  "Bacteroidetes": [
+   "E0040",
+   "E0131"
+  ],
+  "Bradyrhizobium": [
+   "E0040"
+  ],
+  "Brevundimonas": [
+   "E0040"
+  ],
+  "Burkholderia": [
+   "E0040"
+  ],
+  "Chryseobacterium": [
+   "E0040",
+   "E0046",
+   "E0107"
+  ],
+  "Elizabethkingia": [
+   "E0040"
+  ],
+  "Enhydrobacter": [
+   "E0040"
+  ],
+  "Enterobacteriaceae": [
+   "E0001",
+   "E0048",
+   "E0102",
+   "E0109"
+  ],
+  "Firmicutes": [
+   "E0040",
+   "E0046"
+  ],
+  "Herbaspirillum": [
+   "E0040"
+  ],
+  "Lactobacillaceae": [
+   "E0046"
+  ],
+  "Lactobacillus": [
+   "E0104",
+   "E0107"
+  ],
+  "Mesorhizobium": [
+   "E0101"
+  ],
+  "Methylobacterium": [
+   "E0040"
+  ],
+  "Moraxellaceae": [
+   "E0048",
+   "E0073",
+   "E0098"
+  ],
+  "Ochrobactrum": [
+   "E0040"
+  ],
+  "Paracoccus": [
+   "E0060",
+   "E0101",
+   "E0131"
+  ],
+  "Pedobacter": [
+   "E0040"
+  ],
+  "Prevotella": [
+   "E0040"
+  ],
+  "Proteobacteria": [
+   "E0001",
+   "E0040",
+   "E0102",
+   "E0106"
+  ],
+  "Pseudomonadales": [
+   "E0048",
+   "E0061",
+   "E0073",
+   "E0099"
+  ],
+  "Ralstonia": [
+   "E0040"
+  ],
+  "Serratia": [
+   "E0040"
+  ],
+  "Sphingomonas": [
+   "E0040"
+  ],
+  "Stenotrophomonas": [
+   "E0040",
+   "E0104"
+  ],
+  "Veillonellaceae": [
+   "E0046",
+   "E0107"
+  ]
+ }
+}

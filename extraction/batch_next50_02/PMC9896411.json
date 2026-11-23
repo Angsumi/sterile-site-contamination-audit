@@ -1,0 +1,102 @@
+{
+  "pmcid": "PMC9896411",
+  "tissue_category": "other_sterile",
+  "sub_site": "calcified aortic valve",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0042",
+        "quote": "To assess the bacterial CAV composition, we sequenced a total of 1,064,815.00 reads for 20 samples."
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0042",
+        "quote": "To assess the bacterial CAV composition, we sequenced a total of 1,064,815.00 reads for 20 samples."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0057",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "E0057",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusicatenibacter",
+      "evidence_id": "E0057",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0057",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicibacter",
+      "evidence_id": "E0057",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "CAVD valve study, not infective endocarditis. Negative-control amplification unsuccessful. T-cell culture experiments do not contribute bacteria.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4e0b21650b2915d1565ee1d94511d067525b5071915a43fb6fb63f9659862e86",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

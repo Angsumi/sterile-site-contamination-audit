@@ -1,0 +1,105 @@
+{
+ "pmcid": "PMC8638380",
+ "tissue_category": "tumour",
+ "sub_site": "",
+ "year": 2021,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "We performed 16s rRNA gene sequencing using tumor tissues and matched peritumor tissues from 30 patients"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "six sterile Petri dishes with sterile water and sterile filter paper were placed in different corners of the operating room for 24 h"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "evidence": [
+   {
+    "id": "E0013",
+    "quote": "after elimination of environmental contamination"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": null,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Comamonas",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Microvirgula",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Soonwooa",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromonas",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Peptostreptococcus",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Proteus",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chryseobacterium",
+   "evidence_id": "E0012",
+   "flagged_contaminant": true
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Controls are operating-room sampling blanks only (no extraction blanks). Chryseobacterium is in the QC core and the pre-elimination thyroid core; treated as removed. Gut genera from faecal samples not counted.",
+ "extractor": "AI agent (Claude Opus 5.5), pilot 2026-11-22; converted 2026-11-23",
+ "date": "2026-11-22"
+}

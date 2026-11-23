@@ -1,0 +1,184 @@
+{
+  "pmcid": "PMC10334658",
+  "tissue_category": "tumour",
+  "sub_site": "lung cancer biopsies and adjacent normal lung tissues",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "A systematic literature search of PubMed was conducted to identify metagenomic studies related to lung cancer. The combination of the following keywords was used for the systematic search: ((\u201cLung Cancer\u201d [Title/Abstract]) OR (\u201cPu"
+      }
+    ]
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "The 16S rRNA sequence data were processed using QIIME 2 (version 2020.6) pipeline [ 35 ]. Before running the QIIME scripts, the quality of sequences was visualized using the FastQC tool [ 36 ], which provides quality control check"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 835,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nocardioides",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Deinococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobacterium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoxanthomonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Abiotrophia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Atopobium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parvimonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Reanalysis of four SRA/GEO lung biopsy studies. Sequence QC/denoising does not constitute contaminant removal; no own negative controls stated. Controls means normal tissue comparator.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

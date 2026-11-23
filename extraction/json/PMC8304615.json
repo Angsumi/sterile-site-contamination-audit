@@ -1,0 +1,337 @@
+{
+  "pmcid": "PMC8304615",
+  "tissue_category": "blood",
+  "sub_site": "uncultured whole blood",
+  "year": 2021,
+  "country": "Bulgaria",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "For DNA analysis we applied 16S rRNA genes and ITS2 targeted sequencing on Illumina MiSeq (Illumina Inc., San Diego, CA, USA). DNA sequencing was performed at IMGM Laboratories GmbH (IMGM Laboratories GmbH, Martinsried, Germany). For bacter"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "ith contaminations by DNAs in reagents, culture medium, and negative controls. We eliminated all OTUs with less than 100 reads of combined abundance among all samples. The number of reads established as a threshold for a taxonomic assignmen"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "U that included the elimination of all OTUs associated with contaminations by DNAs in reagents, culture medium, and negative controls. We eliminated all OTUs with less than 100 reads of combined abundance among all samples. The number of re"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 28,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "S920:L126",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "S920:L127",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "S920:L128",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "S920:L129",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "S920:L130",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "S920:L132",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "S920:L134",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "S920:L141",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "S920:L142",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "S920:L143",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "S920:L145",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "S920:L146",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "S920:L148",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "S920:L151",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nocardioides",
+      "evidence_id": "S920:L152",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "S920:L154",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidibacter",
+      "evidence_id": "S920:L155",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "S920:L156",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "S920:L157",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "S920:L159",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "S920:L162",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "S920:L164",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "S920:L166",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "S920:L167",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Exiguobacterium",
+      "evidence_id": "S920:L168",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aggregatibacter",
+      "evidence_id": "S920:L169",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vulcaniibacterium",
+      "evidence_id": "S920:L170",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Noviherbaspirillum",
+      "evidence_id": "S920:L174",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "S920:L179",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kocuria",
+      "evidence_id": "S920:L181",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "S920:L183",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseomonas",
+      "evidence_id": "S920:L200",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Abiotrophia",
+      "evidence_id": "S920:L205",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hymenobacter",
+      "evidence_id": "S920:L206",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "S920:L208",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "S920:L209",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "S920:L211",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "S920:L212",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geobacillus",
+      "evidence_id": "S920:L214",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sorangium",
+      "evidence_id": "S920:L215",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidocella",
+      "evidence_id": "S920:L216",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmata",
+      "evidence_id": "S920:L217",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Skermanella",
+      "evidence_id": "S920:L218",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Labrys",
+      "evidence_id": "S920:L219",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "S920:L220",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrobacter",
+      "evidence_id": "S920:L221",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "S920:L222",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Variibacter",
+      "evidence_id": "S920:L223",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Reyranella",
+      "evidence_id": "S920:L225",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedomicrobium",
+      "evidence_id": "S920:L226",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidisoma",
+      "evidence_id": "S920:L227",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Novosphingobium",
+      "evidence_id": "S920:L228",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "S920:L229",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "S920:L230",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only non-cultured blood sequencing columns used; taxa appearing only after culture excluded. ITS fungal sequencing excluded from bacterial genus list.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e7548fb266dd749e8bf7e3d430793e72e6de90a7bf553c20a17ea49bc7cde2e1",
+  "supplement_manifest": [
+    {
+      "source": "N19_microorganisms-1239364-supplementary.md",
+      "alias": "S920.md",
+      "sha256": "dfb91fdbc91cee771a616cbf0d895a0e505190ad3627fcfa39196b88d32bdebc"
+    }
+  ]
+}

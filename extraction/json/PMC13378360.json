@@ -1,0 +1,62 @@
+{
+  "pmcid": "PMC13378360",
+  "tissue_category": "tumour",
+  "sub_site": "pancreas",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8580ec7b656ad5b6aabdde943ef55e70678e0d34cc2b14ded159c21ab5645b0b",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "tative analysis of bacterial load (16 S rRNA gene copies) via qPCR in tumor tissues from male ( n = 15) and female ( n = 15) patients, compared to sterile blank controls and environmental background controls (EBC). Statistical significance "
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": " 15) patients, compared to sterile blank controls and environmental background controls (EBC). Statistical significance was determined by unpaired t test; ∗ p < 0.05, ∗∗ p < 0.01, ∗∗∗ p < 0.001; ns, not significant. No significant differenc"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "mens. (B) Quantitative analysis of bacterial load (16 S rRNA gene copies) via qPCR in tumor tissues from male ( n = 15) and female ( n = 15) patients, compared to sterile blank controls and environmental background controls (EBC). Statistic"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

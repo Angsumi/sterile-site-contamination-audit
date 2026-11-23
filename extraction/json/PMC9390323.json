@@ -1,0 +1,92 @@
+{
+  "pmcid": "PMC9390323",
+  "tissue_category": "tumour",
+  "sub_site": "cholangiocarcinoma",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "ase free water) was applied in DNA extraction and 16S amplification steps. The absent band of the negative control was observed. Sequencing was performed on the Illumina MiSeq platform (Illumina \u00ae , Macrogen, Korea), with read length of 301"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "l extension step at 72 \u00b0C for 5 min. The negative control (DNase free water) was applied in DNA extraction and 16S amplification steps. The absent band of the negative control was observed. Sequencing was performed on the Illumina MiSeq pla"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 18,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Deinococcus",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Atopostipes",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "18/36 tumour tissues amplified for 16S. Escherichia-Shigella composite counted once. Water negative controls had absent bands; do not assume successful control sequencing.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "64dbb76c0488e60358f84deb3399186961ccf029ecd5baa3837cd9714a2a5481",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

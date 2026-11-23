@@ -1,0 +1,77 @@
+{
+  "pmcid": "PMC7049446",
+  "tissue_category": "tumour",
+  "sub_site": "primary renal tumour",
+  "year": 2020,
+  "eligible_fulltext": true,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "We performed sequencing with an Illumina HiSeq 3000 system using 100 bp paired-end protocol following the manufacturer's protocol to attain mRNAs of all samples. After we obtained short sequence reads, we aligned them to the UCSC human geno"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "We removed PhiX and Cutibacterium acnes as known dominant contaminants prior to analysis."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 6,
+  "sample_count_note": "PMC7049446: 6 primary tumour samples from 6 patients; 18 total tissues. PMC13478868: 10 lesion biopsies + 6 lung controls.",
+  "genera": [
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "list_type": "mixed",
+  "authors_conclusion": "claimed",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "supplement_files_available": [],
+  "status": "provisional; separate from analysis dataset",
+  "notes": "Removal of known contaminants stated; neither own negative controls nor published contaminant-list basis specified, hence unclear. Staphylococcus reported in thrombus abstract, excluded from primary renal tumour list. Literature-only Parvimonas/Peptostreptococcus excluded.",
+  "exclusion_reason": "",
+  "country": ""
+}

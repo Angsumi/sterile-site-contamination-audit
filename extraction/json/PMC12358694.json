@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC12358694",
+  "tissue_category": "tumour",
+  "sub_site": "lung tissue reanalysis",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f53268efe15745ca3663e0d06821563bc035829946bd35426b8b29567aca2ee5",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "blicly available raw 16S rRNA gene‐sequencing data from lung tissues (both tumor and adjacent normal); (2) well‐annotated metadata distinguishing tissue types; (3) minimum sample size ≥ 50; (4) Illumina‐based sequencing with comparable read"
+      }
+    ]
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "iteria: (1) publicly available raw 16S rRNA gene‐sequencing data from lung tissues (both tumor and adjacent normal); (2) well‐annotated metadata distinguishing tissue types; (3) minimum sample size ≥ 50; (4) Illumina‐based sequencing with c"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Diversity-scaling reanalysis of lung tissue microbiomes; no genus-level list in main text.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

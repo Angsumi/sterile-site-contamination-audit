@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC11434507",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "meconium maternal sites only",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Sequencing limited to maternal mucosal samples and neonatal meconium, not a target sterile tissue.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e070de2321c2f9b8fae0c6cfa3937e4ba023b210bcc54a18e09679159825e23c",
+  "notes": "",
+  "review_flags": []
+}

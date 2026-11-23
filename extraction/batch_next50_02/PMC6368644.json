@@ -1,0 +1,72 @@
+{
+  "pmcid": "PMC6368644",
+  "tissue_category": "tumour",
+  "sub_site": "ovarian carcinoma tissue",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "ecific for the V3-V4 hypervariable regions of the 16S rRNA genes 54 . To sequence our amplicon, dual indices and Illumina sequencing adapters were attached using the Nextera XT Index Kit and purified the amplicon using AMPure XP beads 55 . "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "d within 30 minutes. As an environmental negative control (EN group), when an operation began we opened a sterile vial and kept the vial open until the tissue was collected, and the samples of EN group were treated the same as that of N gro"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 25,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "25 ovarian tumours and 25 normal distal fallopian tubes sequenced. Retain only explicitly ovarian-cancer-enriched genera; normal-tube-only Lactococcus not assigned to ovarian target list.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e74dda1832751ae85569f7826c55fc4265fe8f33cbd312819b8b0b7eb8e3ad06",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

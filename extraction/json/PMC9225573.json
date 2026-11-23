@@ -1,0 +1,67 @@
+{
+  "pmcid": "PMC9225573",
+  "tissue_category": "blood",
+  "sub_site": "blood host WGS",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "mapped reads from five families, using high-depth sequencing data. Furthermore, we investigated the changes in the blood microbiota composition of healthy subjects, according to age group."
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 37,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "37 participants from 5 families; host-genome research WGS unmapped-read mining. Treat as own samples, not designed microbial shotgun sequencing.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8de7dd180443f05317be4d51fe7d6f4ea9763eb30676fd9d11f6ea48afd11f93",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

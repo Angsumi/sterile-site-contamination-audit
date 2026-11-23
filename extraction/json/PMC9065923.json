@@ -1,0 +1,133 @@
+{
+ "pmcid": "PMC9065923",
+ "tissue_category": "blood",
+ "sub_site": "plasma (ART-treated HIV immune responders/non-responders and healthy controls)",
+ "year": 2022,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "This study was conducted using plasma samples from 71 ART-treated HIV individuals on suppressive ART, including 31 IRs and 40 INRs, and 60 healthy individuals."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4 (515F/806R as stated)",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "Bacteria 16S rDNA amplicons covering variable regions V3 to V4 were amplified using primers (515F and 806R"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "extraction blank",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0019",
+    "quote": "After carefully removing potential contaminants using blank extractions according to our previous methods"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "tool": "user-defined filter pipeline using blank extractions + low abundance/prevalence filters",
+  "evidence": [
+   {
+    "id": "E0019",
+    "quote": "After carefully removing potential contaminants using blank extractions according to our previous methods"
+   },
+   {
+    "id": "E0007",
+    "quote": "A user-defined filter pipeline was performed to remove the low abundance, low prevalence, and potential contaminants and artifacts from the plasma microbiome."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0018",
+    "quote": "plasma levels of LPS, sCD14, and total bacterial 16s rDNA were significantly increased in INRs compared to healthy controls"
+   }
+  ]
+ },
+ "n_target_samples": 131,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Phyllobacterium",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Janibacter",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Moheibacter",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Petrimonas",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Burkholderia",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Serratia",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Xanthomonas",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Alcanivorax",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leuconostoc",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anoxybacillus",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodobacter",
+   "evidence_id": "E0019",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Controls 'sequenced' inferred from contaminant removal using blank extractions (sequencing of blanks not explicitly stated). Only 12 differential genera named; full profile in figures. Includes mouse experiments (not extracted).",
+ "extractor": "AI agent (Claude sub-agent, batch 09)",
+ "date": "2026-11-23"
+}

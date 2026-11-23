@@ -1,0 +1,1864 @@
+{
+  "PMC13069727": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      83
+    ],
+    "method": "16S:35",
+    "controls": "included_not_sequenced:43",
+    "decon": "none",
+    "qpcr": "no",
+    "top5": [
+      "Acinetobacter",
+      "Stenotrophomonas",
+      "Pseudomonas",
+      "Bergeyella",
+      "Bacillus"
+    ],
+    "list_type": "full_profile"
+  },
+  "PMC11781185": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      91,
+      95,
+      107,
+      115,
+      127
+    ],
+    "method": "2bRAD-M:31",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC9705848": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      79,
+      95
+    ],
+    "method": "16S:35",
+    "controls": "sequenced:35",
+    "decon": "removed_control_taxa:43",
+    "qpcr": "yes:39"
+  },
+  "PMC9749999": {
+    "tissue": "other_sterile",
+    "site": "aneurysm wall and blood",
+    "lines": [],
+    "method": "EXCLUDE",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "exclude": "Target aneurysm-wall and blood assays are RT-qPCR only; 16S community sequencing was restricted to stool."
+  },
+  "PMC8494912": {
+    "tissue": "blood",
+    "site": "peripheral whole blood",
+    "lines": [
+      59,
+      75,
+      79
+    ],
+    "method": "host_seq_mining:31",
+    "controls": "none_mentioned",
+    "decon": "tool:59",
+    "qpcr": "no",
+    "flagged": [
+      "Flavobacterium",
+      "Pseudomonas",
+      "Methylobacterium",
+      "Methyloversatilis",
+      "Streptomyces",
+      "Methylorubrum",
+      "Ralstonia",
+      "Nevskia"
+    ],
+    "public": 7,
+    "dataset": "COPDGene peripheral-blood RNA-seq",
+    "notes": "Primary and replication splits of the COPDGene cohort; eight explicitly removed genera logged as flagged.",
+    "n": 2590
+  },
+  "PMC12617009": {
+    "tissue": "placenta_fetal",
+    "site": "placenta fetal membrane and cord blood",
+    "lines": [
+      167
+    ],
+    "method": "16S:151",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "167": [
+        "Lactobacillus",
+        "Bacteroides",
+        "Staphylococcus"
+      ]
+    },
+    "notes": "Only placenta/fetal membrane and cord-blood genera; maternal gut, breast milk, skin and infant stool excluded."
+  },
+  "PMC13125019": {
+    "tissue": "other_sterile",
+    "site": "follicular fluid",
+    "lines": [],
+    "method": "EXCLUDE",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "exclude": "Follicular-fluid microbiota measured by targeted real-time PCR panel only; no microbial community sequencing."
+  },
+  "PMC13123245": {
+    "tissue": "tumour",
+    "site": "pulmonary lesions",
+    "lines": [
+      59,
+      67,
+      83
+    ],
+    "method": "16S:27",
+    "controls": "sequenced:51",
+    "decon": "removed_control_taxa:27",
+    "qpcr": "no",
+    "n": 98
+  },
+  "PMC4968547": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      151,
+      171
+    ],
+    "method": "16S:43",
+    "controls": "sequenced:67",
+    "decon": "tool:67",
+    "qpcr": "no",
+    "notes": "SourceTracker assesses contamination from sequenced PBS controls; check final treatment against published source fractions."
+  },
+  "PMC12940155": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      111,
+      119
+    ],
+    "method": "16S:51",
+    "controls": "sequenced:99",
+    "decon": "tool:71",
+    "qpcr": "no",
+    "top5": [
+      "Pseudomonas",
+      "Veillonella",
+      "Prevotella"
+    ],
+    "list_type": "full_profile"
+  },
+  "PMC7524391": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid",
+    "lines": [
+      59
+    ],
+    "method": "16S:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC5669892": {
+    "tissue": "placenta_fetal",
+    "site": "placenta",
+    "lines": [
+      119,
+      271,
+      283
+    ],
+    "method": "16S:75",
+    "controls": "included_not_sequenced:319",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "n": 20,
+    "overrides": {
+      "271": [
+        "Achromobacter",
+        "Acinetobacter",
+        "Geothrix",
+        "Nitratireductor",
+        "Novosphingobium",
+        "Paracocccus",
+        "Pelomonas",
+        "Pseudonocardia",
+        "Woodsholea"
+      ]
+    },
+    "review_taxonomy": "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  },
+  "PMC13485531": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      75
+    ],
+    "method": "16S:39",
+    "controls": "sequenced:39",
+    "decon": "removed_control_taxa:35",
+    "qpcr": "no"
+  },
+  "PMC6029081": {
+    "tissue": "placenta_fetal",
+    "site": "placenta",
+    "lines": [
+      75,
+      83,
+      155,
+      163,
+      107,
+      111,
+      115,
+      119,
+      123,
+      127,
+      131,
+      135,
+      139,
+      143,
+      147
+    ],
+    "method": "16S:11",
+    "controls": "sequenced:11",
+    "decon": "removed_control_taxa:83",
+    "qpcr": "no",
+    "flagged": [
+      "Propionibacterium"
+    ],
+    "notes": "Lactobacillus, Veillonella and Mycoplasma OTUs were judged falsely flagged due to sample-to-control crossover and retained by authors. Propionibacterium removed.",
+    "n": 400
+  },
+  "PMC12922691": {
+    "tissue": "blood",
+    "site": "plasma",
+    "lines": [
+      327
+    ],
+    "method": "16S:31",
+    "controls": "sequenced:35",
+    "decon": "removed_control_taxa:35",
+    "qpcr": "no"
+  },
+  "PMC8080813": {
+    "tissue": "blood",
+    "site": "serum extracellular vesicles",
+    "lines": [
+      71,
+      79,
+      87
+    ],
+    "method": "16S:47",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Serum EV results only; a separate brain-tissue analysis is not pooled into this blood record.",
+    "list_type": "full_profile"
+  },
+  "PMC9808057": {
+    "tissue": "placenta_fetal",
+    "site": "placenta uterine cavity",
+    "lines": [
+      199,
+      207
+    ],
+    "method": "16S:71",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "199": [
+        "Lactobacillus",
+        "Gardnerella",
+        "Staphylococcus",
+        "Methylobacterium",
+        "Ureaplasma",
+        "Enterococcus"
+      ]
+    }
+  },
+  "PMC9046152": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid",
+    "lines": [
+      119
+    ],
+    "method": "16S+shotgun:35",
+    "controls": "sequenced:51",
+    "decon": "removed_control_taxa:51",
+    "qpcr": "no",
+    "flag_all": true,
+    "conclusion": "not_claimed",
+    "notes": "Healthy mid-gestational AF profiling retained; infected positive-control AF taxa excluded. All four environmental target detections interpreted as contamination.",
+    "extra_method_line": 67
+  },
+  "PMC6945248": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid placenta fetal membranes",
+    "lines": [
+      87
+    ],
+    "method": "16S:59",
+    "controls": "sequenced:59",
+    "decon": "none",
+    "qpcr": "no"
+  },
+  "PMC12717426": {
+    "tissue": "tumour",
+    "site": "pancreas",
+    "lines": [
+      51,
+      55,
+      63,
+      71
+    ],
+    "method": "16S:35",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC5063344": {
+    "tissue": "other_sterile",
+    "site": "atherosclerotic plaque",
+    "lines": [
+      247,
+      255
+    ],
+    "method": "16S:103",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC4964003": {
+    "tissue": "other_sterile",
+    "site": "lung parenchyma",
+    "lines": [
+      27,
+      31,
+      55,
+      79,
+      83
+    ],
+    "method": "16S:127",
+    "controls": "sequenced:39",
+    "decon": "removed_control_taxa:39",
+    "qpcr": "no",
+    "notes": "Primary nonmalignant lung specimens with smaller paired tumour subset; shared-control-OTU removal was a sensitivity analysis.",
+    "list_type": "full_profile"
+  },
+  "PMC5593928": {
+    "tissue": "placenta_fetal",
+    "site": "placenta and fetal membranes",
+    "lines": [
+      59
+    ],
+    "method": "16S:31",
+    "controls": "sequenced:31",
+    "decon": "abundance_filter_only:35",
+    "qpcr": "yes:35",
+    "list_type": "full_profile"
+  },
+  "PMC5592210": {
+    "tissue": "placenta_fetal",
+    "site": "placenta",
+    "lines": [
+      183,
+      291,
+      295
+    ],
+    "method": "16S:131",
+    "controls": "included_not_sequenced:131",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "n": 20,
+    "overrides": {
+      "183": [
+        "Brevibacillus",
+        "Brocadia",
+        "Dyella",
+        "Geothrix",
+        "Lactobacillus",
+        "Sulfuricella",
+        "Thauera"
+      ]
+    },
+    "review_taxonomy": "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  },
+  "PMC11903660": {
+    "tissue": "tumour",
+    "site": "thyroid",
+    "lines": [
+      31
+    ],
+    "method": "16S:7",
+    "controls": "included_not_sequenced:103",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Human 16S thyroid results only; isolated Escherichia strain and animal/cell perturbations excluded."
+  },
+  "PMC8824227": {
+    "tissue": "blood",
+    "site": "peripheral portal and hepatic venous blood",
+    "lines": [
+      35,
+      39,
+      47,
+      51,
+      55
+    ],
+    "method": "16S:S1040:L13",
+    "controls": "sequenced:S1040:L15",
+    "decon": "removed_control_taxa:S1040:L15",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "notes": " Escherichia/Shigella composite represented once as Escherichia."
+  },
+  "PMC12580212": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      179,
+      187,
+      203,
+      211
+    ],
+    "method": "shotgun:43",
+    "controls": "included_not_sequenced:43",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC10986513": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      95,
+      99,
+      103,
+      107,
+      131,
+      139
+    ],
+    "method": "host_seq_mining:27",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "public": 27,
+    "dataset": "TCGA-BRCA Kraken raw profiles (Poore)",
+    "n": 1018
+  },
+  "PMC6345098": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      195,
+      203,
+      247
+    ],
+    "method": "other:7",
+    "controls": "sequenced:195",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "195": []
+    },
+    "notes": "16S DNA profiles plus host whole-transcriptome mining; control-only genera and culture-only isolates excluded.",
+    "list_type": "full_profile"
+  },
+  "PMC13446152": {
+    "tissue": "placenta_fetal",
+    "site": "placenta",
+    "lines": [
+      251,
+      255,
+      295
+    ],
+    "method": "16S:203",
+    "controls": "sequenced:203",
+    "decon": "tool:219",
+    "qpcr": "no",
+    "overrides": {
+      "295": [
+        "Escherichia",
+        "Curvibacter",
+        "Pelomonas",
+        "Asprobacter"
+      ]
+    }
+  },
+  "PMC7353057": {
+    "tissue": "tumour",
+    "site": "liver",
+    "lines": [
+      39,
+      43,
+      47,
+      51,
+      55,
+      63,
+      71
+    ],
+    "method": "host_seq_mining:23",
+    "controls": "none_mentioned",
+    "decon": "tool:35",
+    "qpcr": "no",
+    "public": 23,
+    "dataset": "TCGA-LIHC Pathoscope"
+  },
+  "PMC8821101": {
+    "tissue": "tumour",
+    "site": "pancreas",
+    "lines": [
+      131,
+      135
+    ],
+    "method": "16S:15",
+    "controls": "sequenced:123",
+    "decon": "removed_control_taxa:123",
+    "qpcr": "yes:31",
+    "list_type": "full_profile"
+  },
+  "PMC7416914": {
+    "tissue": "placenta_fetal",
+    "site": "placental chorionic villi",
+    "lines": [
+      155,
+      159
+    ],
+    "method": "shotgun:7",
+    "controls": "sequenced:159",
+    "decon": "none",
+    "qpcr": "yes:147",
+    "flag_all": true,
+    "conclusion": "not_claimed",
+    "notes": "Shotgun chorionic-villus profiles only; cultured fetal-membrane organisms excluded. Authors attribute all named shotgun genera to contamination.",
+    "list_type": "full_profile"
+  },
+  "PMC11708301": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      119
+    ],
+    "method": "16S:35",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "n": 41
+  },
+  "PMC9294280": {
+    "tissue": "tumour",
+    "site": "prostate",
+    "lines": [
+      83,
+      87,
+      91,
+      111
+    ],
+    "method": "16S:35",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "yes:99",
+    "overrides": {
+      "83": [
+        "Prevotella",
+        "Cupriavidus",
+        "Propionibacterium",
+        "Acinetobacter",
+        "Corynebacterium"
+      ]
+    },
+    "top5": [
+      "Prevotella",
+      "Cupriavidus",
+      "Propionibacterium",
+      "Acinetobacter",
+      "Corynebacterium"
+    ],
+    "list_type": "full_profile"
+  },
+  "PMC13555953": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      95,
+      99,
+      103,
+      111
+    ],
+    "method": "16S:47",
+    "controls": "included_not_sequenced:47",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC6871869": {
+    "tissue": "other_sterile",
+    "site": "synovial fluid",
+    "lines": [
+      251,
+      307
+    ],
+    "method": "16S:7",
+    "controls": "included_not_sequenced:91",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "307": [
+        "Porphyromonas"
+      ]
+    },
+    "list_type": "full_profile"
+  },
+  "PMC7352186": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      31,
+      35,
+      51,
+      59,
+      63,
+      79
+    ],
+    "method": "host_seq_mining:23",
+    "controls": "none_mentioned",
+    "decon": "tool:51",
+    "qpcr": "no",
+    "flagged": [
+      "Achromobacter",
+      "Agrobacterium",
+      "Alkalilimnicola",
+      "Bradyrhizobium",
+      "Brevundimonas",
+      "Burkholderia",
+      "Cellvibrio",
+      "Hydrogenophaga",
+      "Roseateles",
+      "Staphylococcus",
+      "Thiomonas"
+    ],
+    "public": 23,
+    "dataset": "TCGA-LUAD/LUSC Pathoscope"
+  },
+  "PMC11839906": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      83,
+      195,
+      223,
+      95,
+      99,
+      103,
+      107,
+      111,
+      115,
+      119,
+      123,
+      127,
+      131,
+      135,
+      139,
+      143,
+      147,
+      151,
+      155,
+      159,
+      163,
+      167,
+      171,
+      175,
+      179,
+      183,
+      187,
+      191
+    ],
+    "method": "16S:7",
+    "controls": "sequenced:195",
+    "decon": "none",
+    "qpcr": "no",
+    "table_contaminant_flags": true,
+    "conclusion": "not_claimed",
+    "notes": "Known-contaminant column preserved as flags; remaining detections do not establish resident blood microbes. Authors reject support for a healthy resident microbiome.",
+    "list_type": "full_profile"
+  },
+  "PMC9880005": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      39,
+      51
+    ],
+    "method": "host_seq_mining:75",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "public": 75,
+    "dataset": "TCGA-BRCA Kraken raw profiles (Poore)"
+  },
+  "PMC13474856": {
+    "tissue": "tumour",
+    "site": "endometrium",
+    "lines": [
+      119,
+      127,
+      135,
+      139
+    ],
+    "method": "16S:59",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "135": [
+        "Slackia",
+        "Porphyromonas",
+        "Fenollaria",
+        "Moryella"
+      ]
+    }
+  },
+  "PMC12222121": {
+    "tissue": "blood",
+    "site": "peripheral and portal venous blood",
+    "lines": [
+      255,
+      263,
+      271,
+      279
+    ],
+    "method": "16S:39",
+    "controls": "sequenced:39",
+    "decon": "removed_control_taxa:39",
+    "qpcr": "no",
+    "overrides": {
+      "279": [
+        "Sphingobium",
+        "Acidovorax",
+        "Pseudomonas",
+        "Cupriavidus"
+      ]
+    }
+  },
+  "PMC9176212": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      167,
+      183
+    ],
+    "method": "16S:43",
+    "controls": "included_not_sequenced:43",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "notes": "29 MI and 19 healthy controls in Lanzhou; possible shared team/healthy-control recruitment with PMC9577097 requires participant-ID audit; not deduplicated based on institution alone."
+  },
+  "PMC11850547": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      171
+    ],
+    "method": "16S:127",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "171": [
+        "Leptotrichia",
+        "Veillonella",
+        "Streptococcus",
+        "Staphylococcus",
+        "Bifidobacterium",
+        "Bacteroides",
+        "Pseudomonas"
+      ]
+    },
+    "list_type": "full_profile"
+  },
+  "PMC13483239": {
+    "tissue": "tumour",
+    "site": "kidney",
+    "lines": [
+      51,
+      63,
+      71
+    ],
+    "method": "host_seq_mining:27",
+    "controls": "included_not_sequenced:23",
+    "decon": "tool:51",
+    "qpcr": "no",
+    "public": 27,
+    "dataset": "Six ccRCC RNA-seq cohorts plus own 16S tissue validation",
+    "notes": "Mixed public RNA mining and own 16S cohorts. Exact matching of negative controls to all public cohorts remains a human-check priority.",
+    "n": null
+  },
+  "PMC13381187": {
+    "tissue": "tumour",
+    "site": "lung core tissue",
+    "lines": [
+      107,
+      111,
+      119,
+      131
+    ],
+    "method": "16S:55",
+    "controls": "sequenced:63",
+    "decon": "removed_control_taxa:63",
+    "qpcr": "no",
+    "overrides": {
+      "107": [
+        "Bacillus",
+        "Mycoplasma"
+      ],
+      "111": [
+        "Mycoplasma",
+        "Bacillus",
+        "Achromobacter",
+        "Anoxybacillus",
+        "Streptococcus"
+      ],
+      "119": [
+        "Mycoplasma",
+        "Bacillus",
+        "Burkholderia-Caballeronia-Paraburkholderia",
+        "Achromobacter",
+        "Acinetobacter"
+      ],
+      "131": [
+        "Mycoplasma",
+        "Bacillus",
+        "Burkholderia-Caballeronia-Paraburkholderia"
+      ]
+    },
+    "list_type": "full_profile"
+  },
+  "PMC6987042": {
+    "tissue": "blood",
+    "site": "serum",
+    "lines": [
+      239,
+      247,
+      343,
+      259,
+      263,
+      267,
+      271,
+      275,
+      279,
+      283,
+      287,
+      291,
+      295,
+      299,
+      303,
+      307,
+      311,
+      315,
+      319,
+      323,
+      327,
+      331
+    ],
+    "method": "16S:223",
+    "controls": "sequenced:207",
+    "decon": "none",
+    "qpcr": "no",
+    "flagged": [
+      "Serratia",
+      "Escherichia"
+    ],
+    "list_type": "full_profile"
+  },
+  "PMC7562954": {
+    "tissue": "other_sterile",
+    "site": "lung tissue",
+    "lines": [],
+    "method": "16S:7",
+    "controls": "sequenced:39",
+    "decon": "removed_control_taxa:43",
+    "qpcr": "yes:211",
+    "notes": "Human autopsy lung methods comparison. Main text/supplement text lacks extractable target bacterial genus names; genus-level figures require visual adjudication.",
+    "n": 7
+  },
+  "PMC12711707": {
+    "tissue": "blood",
+    "site": "peripheral and portal venous blood",
+    "lines": [],
+    "method": "16S+shotgun:7",
+    "controls": "included_not_sequenced:59",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Both methods profiled circulating blood. Supplement Table 4 core genera and Table 5 explicitly shotgun-only genera used because main text lacks named genera.",
+    "list_type": "full_profile"
+  },
+  "PMC12183207": {
+    "tissue": "tumour",
+    "site": "thyroid",
+    "lines": [
+      199,
+      207,
+      223,
+      227,
+      247
+    ],
+    "method": "16S:27",
+    "controls": "sequenced:51",
+    "decon": "abundance_filter_only:51",
+    "qpcr": "no",
+    "notes": "PCR controls had <1000 reads and no amplification bands; environmental controls electrophoresis only. Taxa with <=3 reads or unverified by mbodymap removed; Planococcus validated.",
+    "n": null
+  },
+  "PMC8064568": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      387
+    ],
+    "method": "16S:7",
+    "controls": "sequenced:151",
+    "decon": "removed_control_taxa:155",
+    "qpcr": "no",
+    "n": 58
+  },
+  "PMC11981758": {
+    "tissue": "tumour",
+    "site": "intrahepatic cholangiocarcinoma",
+    "lines": [
+      107
+    ],
+    "method": "16S:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "public": 59,
+    "dataset": "Multiple published bile/tumour sequencing cohorts plus new bile cohort",
+    "notes": "Only IntraCCA tissue genera retained; bile-only genera and biletype biomarkers excluded. Multi-study reuse needs linkage audit.",
+    "overrides": {
+      "107": [
+        "Rhodococcus",
+        "Ralstonia",
+        "Paraburkholderia",
+        "Pseudomonas",
+        "Thermomonas",
+        "Acinetobacter",
+        "Bacillus",
+        "Sphingomonas",
+        "Methylorubrum",
+        "Enterococcus",
+        "Acidovorax",
+        "Staphylococcus"
+      ]
+    }
+  },
+  "PMC13097710": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid",
+    "lines": [],
+    "method": "EXCLUDE",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "exclude": "Virome-only amniotic-fluid profiling; no bacterial community results."
+  },
+  "PMC7107015": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid",
+    "lines": [
+      279,
+      323,
+      331
+    ],
+    "method": "16S:7",
+    "controls": "sequenced:279",
+    "decon": "none",
+    "qpcr": "yes:7",
+    "overrides": {
+      "279": []
+    },
+    "notes": "Negative-control-only Casaltella, Acinetobacter and Rhodobacter not attributed to target AF. Reagent dsDNase treatment is not computational contaminant removal.",
+    "n": 22
+  },
+  "PMC13141924": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      155,
+      175,
+      183,
+      187,
+      199,
+      207
+    ],
+    "method": "16S:119",
+    "controls": "sequenced:123",
+    "decon": "tool:123",
+    "qpcr": "no",
+    "n": 51
+  },
+  "PMC9116393": {
+    "tissue": "tumour",
+    "site": "pancreas",
+    "lines": [
+      31,
+      35
+    ],
+    "method": "16S:87",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "35": [
+        "Pseudomonas",
+        "Herbaspirillum",
+        "Sphingomonas"
+      ]
+    },
+    "notes": "Only pancreatic tissue community results; oral-only genera excluded. Composite rhizobial label counts once."
+  },
+  "PMC6109274": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid",
+    "lines": [],
+    "method": "16S:67",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "127": [],
+      "131": [
+        "Prevotella",
+        "Streptococcus",
+        "Bacteroides",
+        "Lactobacillus",
+        "Faecalibacterium"
+      ],
+      "139": []
+    },
+    "notes": "Only amniotic-fluid community extracted. Shared maternal/neonatal prose could not establish AF-specific taxa. Visually verified supplementary PDF Figure S6 panel A (page 9), with S5 panels A/B corroborating Corynebacterium/Anoxybacillus. S8-S10 contain no genus labels. Manual figure transcription in S990.md is explicitly derived, not original machine-extracted text; human review priority.",
+    "n": 93,
+    "list_type": "differential_only",
+    "visual_genera": [
+      "Acinetobacter",
+      "Anoxybacillus",
+      "Corynebacterium",
+      "Streptococcus",
+      "Agrobacterium",
+      "Pseudomonas",
+      "Lactobacillus",
+      "Bacteroides",
+      "Oscillospira",
+      "Hyphomicrobium",
+      "Rhodococcus",
+      "Ochrobactrum",
+      "Coprococcus",
+      "Haemophilus",
+      "Ruminococcus",
+      "Prevotella"
+    ]
+  },
+  "PMC11746125": {
+    "tissue": "other_sterile",
+    "site": "follicular fluid",
+    "lines": [
+      143,
+      151,
+      191
+    ],
+    "method": "16S:143",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "top5": [
+      "Lactobacillus",
+      "Sphingomonas",
+      "Pseudomonas",
+      "Aquabacterium",
+      "Pelomonas"
+    ],
+    "list_type": "full_profile"
+  },
+  "PMC13079188": {
+    "tissue": "other_sterile",
+    "site": "aqueous humor",
+    "lines": [
+      115,
+      119
+    ],
+    "method": "shotgun:91",
+    "controls": "sequenced:91",
+    "decon": "unclear:215",
+    "qpcr": "no"
+  },
+  "PMC7952451": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [],
+    "method": "16S:71",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "yes:71",
+    "notes": "Plasma sequencing eligible but text/supplements give only phylum-level plasma results; fecal genus lists excluded."
+  },
+  "PMC8396677": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      55,
+      59,
+      71,
+      75,
+      87,
+      91,
+      95,
+      99,
+      103,
+      107,
+      111,
+      115
+    ],
+    "method": "host_seq_mining:51",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Own Slovak breast RNA-seq plus Chinese public breast RNA-seq comparison; simulated human-read controls are not experimental negative controls.",
+    "overrides": {
+      "71": [
+        "Bacteroides",
+        "Bifidobacterium",
+        "Collinsella",
+        "Hymenobacter",
+        "Methylobacterium",
+        "Pantoea",
+        "Peanibacillus",
+        "Sphingomonas"
+      ]
+    },
+    "review_taxonomy": "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  },
+  "PMC10964645": {
+    "tissue": "placenta_fetal",
+    "site": "placenta",
+    "lines": [
+      55,
+      71
+    ],
+    "method": "shotgun:7",
+    "controls": "sequenced:47",
+    "decon": "removed_control_taxa:47",
+    "qpcr": "yes:51"
+  },
+  "PMC13022639": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      115,
+      127,
+      143
+    ],
+    "method": "host_seq_mining:43",
+    "controls": "none_mentioned",
+    "decon": "literature_list:47",
+    "qpcr": "no",
+    "notes": "Blood leukocyte WGS mining plus RNA-seq validation; PD-MDCNC primary and PPMI external cohorts. Published contaminant list plus correlated taxa removed.",
+    "n": null
+  },
+  "PMC12314883": {
+    "tissue": "blood",
+    "site": "serum",
+    "lines": [
+      171
+    ],
+    "method": "16S:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "171": [
+        "Agathobacter",
+        "Akkermansia",
+        "Alistipes",
+        "Alloprevotella",
+        "Anaerostipes",
+        "Bacteroides",
+        "Bifidobacterium",
+        "Blautia",
+        "Butyricicoccus",
+        "Butyricimonas",
+        "Butyrivibrio",
+        "Catenibacterium",
+        "Colidextribacter",
+        "Coprococcus",
+        "Dorea",
+        "Enterorhabdus",
+        "Esherichia-Shigella",
+        "Faecalibacterium",
+        "Holdemanella",
+        "Intestinimonas",
+        "Lachnospira",
+        "Megamonas",
+        "Odoribacter",
+        "Oscillibacter",
+        "Parabacteroides",
+        "Parasutterella",
+        "Phascholarctobacterium",
+        "Prevotella",
+        "Proteus",
+        "Roseburia",
+        "Ruminococcus",
+        "Salmonella",
+        "Turicibacter"
+      ]
+    },
+    "review_taxonomy": "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  },
+  "PMC5675698": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      147
+    ],
+    "method": "16S:7",
+    "controls": "sequenced:147",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Full breast tissue supplement abundance table used; only columns with nonzero target tissue values retained, excluding oral/urine tables.",
+    "list_type": "full_profile",
+    "n": null,
+    "review_taxonomy": "Sporocarcinia, Granilucatella and Veillonela are unreviewed source spellings; not counted without taxonomy adjudication."
+  },
+  "PMC12914011": {
+    "tissue": "blood",
+    "site": "maternal whole blood",
+    "lines": [
+      87
+    ],
+    "method": "16S:175",
+    "controls": "included_not_sequenced:163",
+    "decon": "none",
+    "qpcr": "yes:7",
+    "notes": "Research profiling of maternal blood during PPROM, not a diagnostic sepsis series. Authors state no patients who developed sepsis were captured (main text line 111). Fifteen percent had clinical chorioamnionitis and nearly all received prophylactic antibiotics; retain this mixed obstetric context for human scope review. Two blood genera named; no available text supplement.",
+    "n": 110,
+    "scope_line": 111
+  },
+  "PMC13326317": {
+    "tissue": "tumour",
+    "site": "pancreas",
+    "lines": [
+      99,
+      111,
+      127,
+      135
+    ],
+    "method": "16S:23",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC12275360": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid",
+    "lines": [
+      55,
+      59
+    ],
+    "method": "16S:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "yes:43",
+    "n": 126
+  },
+  "PMC8744134": {
+    "tissue": "tumour",
+    "site": "liver",
+    "lines": [
+      67,
+      83,
+      99,
+      111
+    ],
+    "method": "16S:7",
+    "controls": "included_not_sequenced:43",
+    "decon": "none",
+    "qpcr": "yes:43",
+    "notes": "Human liver 16S results only; colony sequencing and mouse/cell experiments excluded.",
+    "list_type": "full_profile"
+  },
+  "PMC12271595": {
+    "tissue": "tumour",
+    "site": "liver",
+    "lines": [
+      119,
+      127
+    ],
+    "method": "16S:99",
+    "controls": "included_not_sequenced:99",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Human HCC/peritumoral/normal profiles only; mouse gut genera excluded.",
+    "list_type": "full_profile",
+    "n": null
+  },
+  "PMC11702424": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      119,
+      131,
+      147,
+      151,
+      163
+    ],
+    "method": "16S:47",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "147": [],
+      "163": []
+    },
+    "notes": "Yersinia and Staphylococcus infection pathway labels are not microbial detections and were excluded."
+  },
+  "PMC12605661": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      103,
+      135,
+      151
+    ],
+    "method": "host_seq_mining:55",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "public": 55,
+    "dataset": "TCGA-LUAD microbiome profiles",
+    "n": 561
+  },
+  "PMC7564876": {
+    "tissue": "tumour",
+    "site": "prostate",
+    "lines": [
+      35,
+      43,
+      47,
+      51,
+      55,
+      67,
+      79,
+      91,
+      163
+    ],
+    "method": "host_seq_mining:23",
+    "controls": "none_mentioned",
+    "decon": "tool:35",
+    "qpcr": "no",
+    "flagged": [
+      "Capnocytophaga",
+      "Propionigenium",
+      "Xanthomonas",
+      "Agrobacterium",
+      "Mycoplasma",
+      "Cellvibrio"
+    ]
+  },
+  "PMC9794006": {
+    "tissue": "tumour",
+    "site": "intrahepatic cholangiocarcinoma",
+    "lines": [
+      47,
+      63,
+      71,
+      75
+    ],
+    "method": "16S:31",
+    "controls": "sequenced:31",
+    "decon": "tool:31",
+    "qpcr": "yes:71"
+  },
+  "PMC13088536": {
+    "tissue": "tumour",
+    "site": "small cell lung cancer tissue",
+    "lines": [
+      71,
+      79,
+      87,
+      95,
+      115
+    ],
+    "method": "16S:47",
+    "controls": "included_not_sequenced:47",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  },
+  "PMC13680605": {
+    "tissue": "other_sterile",
+    "site": "orbital adipose tissue",
+    "lines": [
+      131
+    ],
+    "method": "16S:35",
+    "controls": "sequenced:131",
+    "decon": "tool:147",
+    "qpcr": "no",
+    "notes": "Orbital adipose 16S profiling, separate from host scRNA-seq. Main figure caption names only the ANPR composite; other genus labels require visual review."
+  },
+  "PMC13739529": {
+    "tissue": "brain_csf",
+    "site": "glioma tissue",
+    "lines": [
+      75,
+      211,
+      379,
+      419,
+      439
+    ],
+    "method": "16S:47",
+    "controls": "sequenced:55",
+    "decon": "removed_control_taxa:59",
+    "qpcr": "no",
+    "notes": "PCR water controls not sequenced, but paraffin/extraction blanks sequenced; overall sequenced-control classification reflects the latter.",
+    "list_type": "full_profile"
+  },
+  "PMC12095603": {
+    "tissue": "tumour",
+    "site": "liver",
+    "lines": [
+      35,
+      39
+    ],
+    "method": "2bRAD-M:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "notes": "Own human HCC 2bRAD-M profile plus TCGA BIC external microbial validation; mouse and NK-cell experimental results excluded."
+  },
+  "PMC8408135": {
+    "tissue": "tumour",
+    "site": "pancreas",
+    "lines": [
+      31,
+      35,
+      51,
+      59
+    ],
+    "method": "host_seq_mining:123",
+    "controls": "included_not_sequenced:111",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Own RNA-seq microbial mining with shotgun validation; PCR-only controls not evidence of sequenced negative controls.",
+    "list_type": "full_profile",
+    "n": 62
+  },
+  "PMC5507499": {
+    "tissue": "placenta_fetal",
+    "site": "placenta and fetal membranes",
+    "lines": [
+      127,
+      179,
+      227
+    ],
+    "method": "16S:55",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "yes:47",
+    "list_type": "full_profile",
+    "n": null
+  },
+  "PMC10989844": {
+    "tissue": "tumour",
+    "site": "adrenal",
+    "lines": [
+      51,
+      75
+    ],
+    "method": "host_seq_mining:35",
+    "controls": "none_mentioned",
+    "decon": "tool:35",
+    "qpcr": "no",
+    "public": 35,
+    "dataset": "TCGA-ACC Poore profiles",
+    "notes": "TCGA microbial profiles with separate FISH/IHC validation; no new sequenced tissue cohort. Compare cohort with existing ACC reanalyses before final models.",
+    "list_type": "full_profile",
+    "n": 79
+  },
+  "PMC13562036": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [],
+    "method": "EXCLUDE",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "exclude": "Blood metagenomic profiling in leukemia-associated febrile neutropenia, a suspected systemic-infection cohort."
+  },
+  "PMC12008866": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      91,
+      107,
+      151
+    ],
+    "method": "16S:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "91": [
+        "Bacteroides",
+        "Defluviitoga",
+        "Escherichia_Shigella"
+      ],
+      "151": [
+        "Faecalibacterium",
+        "Blautia",
+        "Bifidobacterium",
+        "Romboutsia"
+      ]
+    },
+    "list_type": "full_profile",
+    "n": 48,
+    "notes": " Same research team as PMC12034738, but Gansu People’s Hospital (24+24) versus Qinghai People’s Hospital (10+10); no confirmed sample reuse."
+  },
+  "PMC8052771": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      83,
+      87,
+      91,
+      95,
+      111,
+      115
+    ],
+    "method": "16S:47",
+    "controls": "sequenced:79",
+    "decon": "removed_control_taxa:79",
+    "qpcr": "yes:59",
+    "list_type": "full_profile"
+  },
+  "PMC5759273": {
+    "tissue": "other_sterile",
+    "site": "peripheral lung parenchyma",
+    "lines": [
+      47,
+      107
+    ],
+    "method": "16S:39",
+    "controls": "sequenced:35",
+    "decon": "removed_control_taxa:55",
+    "qpcr": "yes:7",
+    "flagged": [
+      "Lactobacillus"
+    ],
+    "notes": "Peripheral lung tissue only. Lactobacillus removed as control contaminant; lung source-model taxa included only where tissue occurrence explicit.",
+    "list_type": "full_profile"
+  },
+  "PMC12187763": {
+    "tissue": "tumour",
+    "site": "lung squamous cell carcinoma",
+    "lines": [
+      175
+    ],
+    "method": "host_seq_mining:79",
+    "controls": "none_mentioned",
+    "decon": "tool:79",
+    "qpcr": "no",
+    "public": 79,
+    "dataset": "TCGA-LUSC Narunsky-Haziza microbial profiles",
+    "notes": "Only TCGA-LUSC microbial results used. WIS paraffin controls described for upstream dataset do not constitute same-cohort TCGA controls."
+  },
+  "PMC9600380": {
+    "tissue": "placenta_fetal",
+    "site": "umbilical cord blood",
+    "lines": [
+      291,
+      323,
+      327,
+      331,
+      343,
+      347,
+      351,
+      367,
+      375,
+      383,
+      391,
+      399,
+      403,
+      451,
+      483,
+      499,
+      503,
+      507,
+      515,
+      519,
+      523,
+      535,
+      571,
+      647,
+      651
+    ],
+    "method": "16S:7",
+    "controls": "sequenced:279",
+    "decon": "tool:279",
+    "qpcr": "no"
+  },
+  "PMC9577097": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      239,
+      251,
+      259,
+      267,
+      271
+    ],
+    "method": "16S:39",
+    "controls": "included_not_sequenced:39",
+    "decon": "none",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "n": 210,
+    "notes": "70 ACS, 70 CCS and 70 healthy controls. Same regional research team as PMC9176212; exact participant overlap not established by shared methods citation."
+  },
+  "PMC7813997": {
+    "tissue": "blood",
+    "site": "whole blood",
+    "lines": [
+      299
+    ],
+    "method": "16S:7",
+    "controls": "included_not_sequenced:335",
+    "decon": "none",
+    "qpcr": "yes:335",
+    "overrides": {
+      "371": []
+    },
+    "notes": "Intact-bacterial-cell blood extraction plus supplementary blood genus/species tables; literature brain/oral taxa excluded. No-template-control evidence is from qPCR, not evidence that library blanks were sequenced.",
+    "list_type": "full_profile",
+    "n": null
+  },
+  "PMC6109311": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      27,
+      39,
+      51,
+      55,
+      63
+    ],
+    "method": "16S:7",
+    "controls": "sequenced:27",
+    "decon": "removed_control_taxa:27",
+    "qpcr": "no",
+    "flagged": [
+      "Halomonas",
+      "Herbaspirillum",
+      "Propionibacterium",
+      "Shewanella",
+      "Variovorax"
+    ],
+    "notes": "NCI-MD 16S discovery and TCGA RNA-seq validation. Removed control-associated genera flagged. Link overlap with other NCI-MD lung reports before final models.",
+    "list_type": "full_profile"
+  },
+  "PMC12846730": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      79,
+      107,
+      131,
+      135,
+      147,
+      163
+    ],
+    "method": "2bRAD-M:7",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Own 2bRAD-M lung tissue microbiota; PBS culture and FISH controls do not establish sequencing negative controls.",
+    "list_type": "full_profile",
+    "n": 35
+  },
+  "PMC3577789": {
+    "tissue": "placenta_fetal",
+    "site": "amniotic fluid cord blood",
+    "lines": [
+      439,
+      527
+    ],
+    "method": "16S:63",
+    "controls": "included_not_sequenced:63",
+    "decon": "none",
+    "qpcr": "no",
+    "hold": "Intra-amniotic infection/early-onset neonatal sepsis proof-of-concept study: resolve diagnostic-infection scope before inclusion."
+  },
+  "PMC13166237": {
+    "tissue": "other_sterile",
+    "site": "liver",
+    "lines": [
+      99,
+      107,
+      147
+    ],
+    "method": "metatranscriptomic:59",
+    "controls": "sequenced:59",
+    "decon": "removed_control_taxa:59",
+    "qpcr": "no",
+    "notes": "Intrahepatic metatranscriptomic community profiling with blank-informed WNS filtering. Enterobacter/Cronobacter reference-protein homology labels were excluded as they do not establish organism detection.",
+    "list_type": "full_profile"
+  },
+  "PMC13720179": {
+    "tissue": "tumour",
+    "site": "pancreas",
+    "lines": [
+      55,
+      59
+    ],
+    "method": "16S:135",
+    "controls": "sequenced:127",
+    "decon": "removed_control_taxa:127",
+    "qpcr": "no",
+    "notes": "Own pancreatic 16S cohort; public GEO used for host autophagy expression only. Control-derived 99th-percentile thresholds applied.",
+    "list_type": "full_profile",
+    "n": null
+  },
+  "PMC12550791": {
+    "tissue": "tumour",
+    "site": "liver",
+    "lines": [
+      51,
+      59,
+      71
+    ],
+    "method": "2bRAD-M:7",
+    "controls": "included_not_sequenced:31",
+    "decon": "none",
+    "qpcr": "yes:51",
+    "notes": "Own 2bRAD-M HCC profiles; control tube described but no explicit control-read result in main text.",
+    "list_type": "full_profile",
+    "n": 113
+  },
+  "PMC12363524": {
+    "tissue": "tumour",
+    "site": "lung",
+    "lines": [
+      99
+    ],
+    "method": "16S:39",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "notes": "Lung tissue 16S genera only; experimental LPS sources not counted as detections.",
+    "list_type": "full_profile"
+  },
+  "PMC12797839": {
+    "tissue": "tumour",
+    "site": "endometrium",
+    "lines": [
+      139
+    ],
+    "method": "16S:39",
+    "controls": "sequenced:47",
+    "decon": "removed_control_taxa:47",
+    "qpcr": "no",
+    "list_type": "full_profile",
+    "n": null
+  },
+  "PMC9885577": {
+    "tissue": "other_sterile",
+    "site": "liver",
+    "lines": [
+      91,
+      123,
+      127
+    ],
+    "method": "16S:39",
+    "controls": "sequenced:43",
+    "decon": "none",
+    "qpcr": "yes:43",
+    "notes": "Multicountry human liver biopsy cohort; controls sequenced, contamination considered negligible rather than taxa removed. Total bacterial load assessment described in supplementary qPCR/control comparison.",
+    "list_type": "full_profile"
+  },
+  "PMC9793878": {
+    "tissue": "tumour",
+    "site": "breast",
+    "lines": [
+      219,
+      227,
+      235,
+      255
+    ],
+    "method": "16S:27",
+    "controls": "none_mentioned",
+    "decon": "none",
+    "qpcr": "no",
+    "overrides": {
+      "219": [
+        "Halomonas",
+        "Shewanella",
+        "Pelomonas",
+        "Pseudomonas"
+      ],
+      "227": [
+        "Sphingomonas",
+        "Veillonella",
+        "Porphyromonas",
+        "Flavobacterium",
+        "Prevotella"
+      ],
+      "235": [
+        "Prevotella",
+        "Reyranella",
+        "Atopobium",
+        "Micrococcus",
+        "Butyrivibrio",
+        "Weissella",
+        "Ruminococcus",
+        "Hydrotalea",
+        "Paenibacillus",
+        "Yersinia"
+      ]
+    },
+    "public": 31,
+    "dataset": "Reanalysis of eight published 16S breast/stool studies",
+    "notes": "Published breast-tissue datasets pooled; primary-study overlap requires resolution before final analysis. Gut-only genera excluded.",
+    "list_type": "full_profile"
+  },
+  "PMC12856059": {
+    "tissue": "other_sterile",
+    "site": "follicular fluid",
+    "lines": [
+      171,
+      183,
+      187,
+      207
+    ],
+    "method": "16S:331",
+    "controls": "included_not_sequenced:295",
+    "decon": "abundance_filter_only:335",
+    "qpcr": "no",
+    "list_type": "full_profile"
+  }
+}

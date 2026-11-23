@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC7416914",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placental chorionic villi",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "09802ee99643bfb2a83f9f53b0c87d704df4971b8cb1c7e29ab1100ac2ea987b",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "lar techniques and high-throughput sequencing lead to some evidence for a low-biomass microbiome associated with the healthy placenta. Other studies failed to reveal evidence for a consistent presence of bacteria using either culture or mol"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0039",
+        "quote": "< 0.5% were identified as human in negative controls. Since KrakenUniq uses k-mer analysis, as opposed to direct sequence alignment for Bowtie, it is expected that some additional human reads might be mapped. Empty vectors or other exclusiv"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0036",
+        "quote": "[Fig 3 caption] 16S rRNA gene copy number in fetal membranes, umbilical cords, chorionic villi and extraction blanks collected after C-section with (A) or without (B) an Alexis ® or after vaginal delivery (C). CSA: cesarean section using an"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0038",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0039",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0039",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0039",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0039",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Shotgun chorionic-villus profiles only; cultured fetal-membrane organisms excluded. Authors attribute all named shotgun genera to contamination.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

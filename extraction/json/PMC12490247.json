@@ -1,0 +1,73 @@
+{
+  "pmcid": "PMC12490247",
+  "tissue_category": "tumour",
+  "sub_site": "melanoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ce38c4b3a5876e51ebc11238d9e1485b31585dcac0fe7e2cf2d14f31c75f0357",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "cal information from 8 ICI therapy cohorts ( Table S1 ). 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 After screening, we chose 7 cohorts and downloaded RNA-seq sequencing data of tumors, including melanoma, metastatic gastric cancer (mGC), NSCLC,"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": " we chose 7 cohorts and downloaded RNA-seq sequencing data of tumors, including melanoma, metastatic gastric cancer (mGC), NSCLC, resectable esophageal adenocarcinoma (rEAC), and RCC ( Figure 1 A). The baseline status of the TME determines "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Public host RNA-seq spanning eligible melanoma/NSCLC and excluded GI mucosal cancers. Requires cohort-specific genus attribution; mouse validation excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "pmcid": "PMC9850102",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "fetal bowel tissue",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Studies have shown that fetal immune cell activation may result from potential exposure to microbes, although the presence of microbes in fetus has been a controversial topic. Here, we combined metagenomic and virome techniques to investiga"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Agrococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylorubrum",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizobium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0069",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0069",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0069",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0069",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0069",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Fetal small intestine, cecum and rectum tissue, not stool/meconium. Adult gut comparator, archaeal genera and phage-host Clostridium excluded. Bacterial residual DNA reported in virome workflow retained as reported target DNA, not treated as viral genera.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "35d4bf3b2ec4186a204c48b099eb3c72125b767379b4df2d399694aec4328df2",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+  ]
+}

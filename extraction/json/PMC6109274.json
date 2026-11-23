@@ -1,0 +1,135 @@
+{
+  "pmcid": "PMC6109274",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid",
+  "year": 2018,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "a146a539249eddd8cb5e85306b6ea896f49a3d123955151281209310a06da746",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "ble regions 3 and 4 (V3-V4) of the 16S rRNA gene using modified 341F and 805R primers. Purified positive amplicons with different index sequences were pooled in equimolar amounts and then sequenced on a HiSeq2500 platform (Illumina, San Die"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 93,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "S990:L6",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "S990:L7",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "S990:L8",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "S990:L9",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agrobacterium",
+      "evidence_id": "S990:L10",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "S990:L11",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "S990:L12",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "S990:L13",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillospira",
+      "evidence_id": "S990:L14",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hyphomicrobium",
+      "evidence_id": "S990:L15",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "S990:L16",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "evidence_id": "S990:L17",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "S990:L18",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "S990:L19",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "S990:L20",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "S990:L21",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Only amniotic-fluid community extracted. Shared maternal/neonatal prose could not establish AF-specific taxa. Visually verified supplementary PDF Figure S6 panel A (page 9), with S5 panels A/B corroborating Corynebacterium/Anoxybacillus. S8-S10 contain no genus labels. Manual figure transcription in S990.md is explicitly derived, not original machine-extracted text; human review priority.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding.",
+    "Genus evidence is an explicitly labelled manual figure transcription; original PDF page must be reviewed during human check."
+  ],
+  "supplement_use": "No securely attributable main-text AF genus list; used visually verified supplementary Figure S6 A."
+}

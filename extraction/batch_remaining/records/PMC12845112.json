@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC12845112",
+  "tissue_category": "blood",
+  "sub_site": "CAD plasma cfRNA",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f81afdcfd83e3400db20362e1d14ab981a4b4f39ec632d66a4ed710442fd5615",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0024",
+        "quote": "re 2 A,B). The impact was strongly cohort-asymmetric: the TB cohort showed large shifts between modes in both TB-positive and TB-negative samples, whereas CAD exhibited only modest changes, with significant differences confined to CAD cases"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0024",
+        "quote": "igure 1 ). Comparing relaxed (“any-unmapped”) versus strict (“paired-unmapped”) filtering on identical raw data showed that host depletion definitions alone substantially reshape the apparent non-host fraction entering taxonomic profiling ("
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "CAD blood cohort retained as research profiling; TB diagnostic cohort excluded. No named CAD-specific bacterial genus list in main text.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

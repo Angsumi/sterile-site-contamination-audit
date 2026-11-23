@@ -1,0 +1,108 @@
+{
+  "pmcid": "PMC12605661",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "9d11e82fc37a180a48246e76ad168016ea3ecaf540ca364f825427da37b9d58d",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-LUAD microbiome profiles",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": ". Furthermore, the single-cell RNA sequencing data were acquired from the Gene Expression Omnibus (GEO, https://www.ncbi.nlm.nih.gov/gds ) repository dataset GSE149655 comprising two paired LUAD and normal tissues ( 18 ). A total of 11,699 "
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": " ). The corresponding intratumoral microbial abundance profile was retrieved from the online archive ( http://ftp.microbio.me/pub/cancer_microbiome_analysis ) ( 17 ). Furthermore, the single-cell RNA sequencing data were acquired from the G"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 561,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chitinivibrio",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collimonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Listeria",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteibacter",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marichromatium",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microvirga",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Succinimonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sutterella",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Synechococcus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

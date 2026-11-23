@@ -1,0 +1,134 @@
+{
+  "pmcid": "PMC10159858",
+  "tissue_category": "blood",
+  "sub_site": "whole blood (healthy cohorts)",
+  "year": 2023,
+  "country": "Singapore",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0028",
+        "quote": "The bioinformatic processing steps applied to the sequencing libraries are summarized in Fig. 1a . Read alignment of sequencing reads to the GRCh38 human reference genome was performed as described in a separate study 72 using BWA"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "batch-specific contamination filters",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "ling contamination, we used a series of stringent decontamination filters (Fig. 1a and Methods ). These filters are based on the observation that laboratory contaminants are often correlated with each other (within-batch consistency) and biased "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 9770,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fannyhessea",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rickettsia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0013",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Alcaligenes",
+      "evidence_id": "E0013",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Host whole-genome sequencing libraries; no negative blanks stated. Excluded representative removed contaminants Achromobacter/Pseudomonas/Alcaligenes from retained list (reported separately as flagged below). Does not claim consistent endogenous blood microbiome.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC12336454",
+ "tissue_category": "blood",
+ "sub_site": "peripheral blood mononuclear cells (PBMC), gastrointestinal cancer patients on chemo/immunotherapy",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0101", "quote": "A total of 164 samples were obtained from these patients before and after treatment"}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0106", "quote": "The variable regions (V3–V4) of the 16S rRNA gene were sequenced to assess the blood and fecal microbiomes."}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": [{"id": "E0083", "quote": "The Lactobacillus gene copy number in the blood was quantified using absolute bacterial quantification via quantitative polymerase chain reaction (qPCR)."}]},
+ "n_target_samples": 164,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Pseudomonas", "evidence_id": "E0072", "flagged_contaminant": false},
+  {"name": "Ralstonia", "evidence_id": "E0072", "flagged_contaminant": false},
+  {"name": "Lactobacillus", "evidence_id": "E0072", "flagged_contaminant": false},
+  {"name": "Vibrio", "evidence_id": "E0072", "flagged_contaminant": false},
+  {"name": "Cutibacterium", "evidence_id": "E0072", "flagged_contaminant": false}
+ ],
+ "top5": ["Pseudomonas", "Ralstonia", "Lactobacillus", "Vibrio", "Cutibacterium"],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "164 PBMC 16S samples (80 discovery + 84 validation set 1); validation set 2 (30) by Lactobacillus-specific qPCR only, so biomass_qpcr set 'no' (genus-specific, not total load). Mouse experiments ignored. No negative controls mentioned; Ralstonia/Pseudomonas/Cutibacterium among top genera not discussed as contaminants. Primary tumours are GI (non-target) but sample is blood.",
+ "extractor": "AI agent (Claude sub-agent, batch 10)",
+ "date": "2026-11-23"
+}

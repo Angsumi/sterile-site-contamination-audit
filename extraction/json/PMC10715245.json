@@ -1,0 +1,94 @@
+{
+  "pmcid": "PMC10715245",
+  "tissue_category": "other_sterile",
+  "sub_site": "lung tissues from tuberculosis and non-tuberculosis patients",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0053",
+        "quote": "Fragmentation of the DNA molecules was achieved by enzymatic shearing. DNA libraries were then constructed using the Nextera XT DNA Library Preparation Kit (Illumina, USA), undergoing end-repair, adap"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0053",
+        "quote": "No-template-control (NTC) samples were sequenced simultaneously to monitor contamination during the experiments."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0054",
+        "quote": "According to the information from NTC samples, the microbial taxa-bearing putative contamination introduced during the experiments was removed from the final profiles. The estimates of the percentage relative abundance of each species were "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 135,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Megasphaera",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vibrio",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Furfurilactobacillus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Community profiling aim explicitly stated E0005; primary research on lung tissue microbiome, not a diagnostic-accuracy study, although mNGS conducted clinically and subjects have pulmonary infection. Eligibility requires coordinator review for infection-context boundary.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

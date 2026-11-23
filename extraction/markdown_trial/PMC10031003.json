@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC10031003",
+  "title": "Comprehensive analysis of microbiota signature across 32 cancer types",
+  "year": 2023,
+  "tissue_category": "tumour",
+  "eligible_fulltext": true,
+  "eligibility_status": "provisional; eligible-site genus attribution unresolved",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "BIC / TCGA",
+    "evidence": [
+      {
+        "id": "fulltext.md:L27",
+        "quote": "the microbiota profiles of samples from 10,362 cases (including 9,687 tumor tissues and 675 adjacent normal tissues across 32 cancer types)"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "status": "inferred from reuse of TCGA-derived BIC profiles; sequencing provenance not detailed in this Markdown"
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "fulltext.md:L19",
+        "quote": "curated, decontaminated tissue-resident microbiota of 32 cancer types"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "n_all_tumour_samples": 9687,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "usable": false,
+  "needs_review": [
+    "Map TCGA sample barcodes in supplementary S4/S7 to cancer types, then restrict positive genus abundances to eligible tumour sites.",
+    "Pooled pan-cancer differential tables cannot establish eligible-site genera."
+  ],
+  "named_pooled_taxa": [
+    {
+      "as_written": "Ruminococcuss",
+      "evidence": [
+        {
+          "id": "fulltext.md:L87",
+          "quote": "g\\_Ruminococcuss"
+        }
+      ]
+    },
+    {
+      "as_written": "Acinetobacter",
+      "evidence": [
+        {
+          "id": "fulltext.md:L87",
+          "quote": "g\\_Acinetobacter"
+        }
+      ]
+    }
+  ],
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC10031003/fulltext.md",
+  "source_sha256": "f0e853806c75ecd738b962f5bb3d1ec2830ebe89f334fc193a0a483d53650356",
+  "extractor": "Codex single-Markdown trial",
+  "date": "2026-11-23",
+  "notes": "Main-text and supplementary Markdown reviewed; supplementary genera exported as candidates, not counted as eligible-site detections.",
+  "supplement_review": {
+    "file": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC10031003/supp_md/S1.md",
+    "sha256": "b5b1be1a3a6c77f1fa8f0b58c09bd24cd39458ade119b0ef52b82a8296a58d5c",
+    "tables_reviewed": [
+      "S1 cancer-type counts",
+      "S2 pooled differential taxa",
+      "S3 pooled LEfSe",
+      "S4 per-sample abundance matrix",
+      "S5 selected signatures",
+      "S6 pooled score-group LEfSe",
+      "S7 per-sample matrix"
+    ],
+    "n_genus_rows_S4": 62,
+    "result": "Genus abundance rows recovered, but columns have TCGA sample barcodes without a cancer-type annotation row. S1 gives aggregate cancer counts, not a sample-to-cancer mapping. Cannot assign positive abundances to eligible tumour types using these Markdown files alone.",
+    "candidate_table": "PMC10031003_supplement_genera.csv"
+  }
+}

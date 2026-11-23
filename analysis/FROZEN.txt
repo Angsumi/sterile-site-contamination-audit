@@ -1,0 +1,5 @@
+Frozen 2026-11-23 before the first run on the full data set (protocol amendment 0.8).
+ebf72897359253247fb73f0ccfc602a44c3e7daaac3b375270649d9d9046085f  analysis/run_models.py
+b29c6d674179a47a3dfe5dba49bff8a3038a7e411ecc1d5fe88576d8689d5324  data/studies.csv
+f404d0de35259140577c34ac6abdd521157071e91e59c2f26dcf1e68ef153ec5  data/genera.csv
+b9a8ae476f4e1fb532124917e03779b33646c9d323902b2a35469541a2a11d88  reference/genus_name_review.csv

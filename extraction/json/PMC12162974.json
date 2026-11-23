@@ -1,0 +1,63 @@
+{
+  "pmcid": "PMC12162974",
+  "tissue_category": "tumour",
+  "sub_site": "pancreas tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c33ab66b11188aab9ce33a7295c6e522db9f1c673ae7ca5d6c02546b0f922aa1",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "AC tumor samples were analyzed via 16S rDNA sequencing as well. These samples were processed and analyzed using the ZymoBIOMICS ® Targeted Sequencing Service (Zymo Research, Irvine, CA). DNA was extracted using either the ZymoBIOMICS ® -96 "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0218",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0218",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pancreatic biopsy sequencing separated from conventional culture and other perioperative sample types.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

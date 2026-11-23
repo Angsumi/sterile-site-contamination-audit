@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC12077203",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f28c5e072c8436f2bd7a1e4aa2a3c44ce51ecda583afba9502c0bed7001770b8",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "tics of BC study volunteers in the 16S sequencing study"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0056",
+        "quote": "ing bacterial contamination in the negative controls and excluding samples of low quality, we successfully identified a total of 1,574 species at the taxonomic level of species, 556 at the genus level, 159 at the family level, 74 at the ord"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0056",
+        "quote": "mples. After eliminating bacterial contamination in the negative controls and excluding samples of low quality, we successfully identified a total of 1,574 species at the taxonomic level of species, 556 at the genus level, 159 at the family"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phaeospirillum",
+      "evidence_id": "E0060",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agrobacterium",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoalteromonas",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own human breast 5R 16S profile; separate mice and scRNA analyses excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

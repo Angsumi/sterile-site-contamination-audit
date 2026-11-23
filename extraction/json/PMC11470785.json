@@ -1,0 +1,154 @@
+{
+  "pmcid": "PMC11470785",
+  "tissue_category": "tumour",
+  "sub_site": "kidney renal clear cell carcinoma",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-KIRC",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "All 532 KIRC samples were selected"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "A comprehensive analysis was conducted using RNA-Seq data from 532 patients with KIRC referenced on TCGA."
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "the decontam package in R (version 1.6.0)"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 613,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tumebacillus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leuconostoc",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Azoarcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudochrobactrum",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gluconobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptospirillum",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteimicrobium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cytobacillus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alicyclobacillus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodomicrobium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paludibacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Verrucomicrobium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pajaroellobacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Preistia",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "532 patients, 613 transcriptome datasets. Nonbacterial protozoa/fungi/viruses excluded. Preistia typo preserved for validation.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

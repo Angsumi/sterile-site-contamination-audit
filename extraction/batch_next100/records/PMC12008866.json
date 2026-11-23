@@ -1,0 +1,158 @@
+{
+  "pmcid": "PMC12008866",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "0cae0be02658a90ca239e68c600038351ba8dfb096737779897ab866bad66a5b",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": " These samples were analyzed using 16 S rRNA sequencing to characterize the microbial profiles across the three distinct microbial compartments. Differential analyses were conducted to find key differential microbiota for MI. Spearman’s ran"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 48,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Defluviitoga",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia_Shigella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allobaculum",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dubosiella",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Odoribacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pannonibacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedobacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Treponema",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": " Same research team as PMC12034738, but Gansu People’s Hospital (24+24) versus Qinghai People’s Hospital (10+10); no confirmed sample reuse.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

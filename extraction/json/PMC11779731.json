@@ -1,0 +1,32 @@
+{
+ "pmcid": "PMC11779731",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "placenta (maternal surface), preterm vs term",
+ "year": 2025,
+ "country": "Thailand",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "Molecular Signature in Pregnancy (MSP) cohort", "evidence": [{"id": "E0009", "quote": "A total of 54 pregnant women were included in this study with 18 PTB subjects and 36 matching controls."}]},
+ "method": {"value": "16S", "region": "V1-V3", "evidence": [{"id": "E0013", "quote": "the V1-V3 regions of the 16S rDNA were amplified using 27F forward primers"}]},
+ "controls": {"value": "included_not_sequenced", "types": "water negative controls", "n_sequenced": 0, "evidence": [{"id": "E0025", "quote": "To rule out the possibility of contamination, we run water samples as negative controls"}, {"id": "E0042", "quote": "In this study, our negative controls were not sequenced, and the risk of contamination was mainly assessed using computational methods."}]},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 48,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Lactobacillus", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Prevotella", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Neisseria", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Veillonella", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Ureaplasma", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Capnocytophaga", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Megasphaera", "evidence_id": "E0025", "flagged_contaminant": false}
+ ],
+ "top5": ["Lactobacillus", "Streptococcus", "Prevotella", "Neisseria", "Veillonella"],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Placenta from 54 women (18 PTB, 36 TB); 6 with membrane rupture >18 h excluded, so ~48 placentas (n inferred). Saliva and vaginal samples not extracted. FEAST source tracking used (unknown source 17-29%), not removal. Water controls run but explicitly not sequenced. top5 from 'most prevalent genera' list (order as written). Candidatus Saccharimonas not recorded.",
+ "extractor": "AI agent (Claude sub-agent, batch 03)",
+ "date": "2026-11-23"
+}

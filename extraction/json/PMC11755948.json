@@ -1,0 +1,158 @@
+{
+ "pmcid": "PMC11755948",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "amniotic fluid (second trimester amniocentesis and term caesarean delivery)",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "Women who underwent amniocentesis for prenatal diagnosis were enrolled at 19 ~ 21 weeks of gestation in Peking University First Hospital"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "The 16S rRNA gene V3\u2013V4 region was chosen for Illumina sequencing"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "sampling blank (sterile saline); extraction blank; PCR/amplification NTC",
+  "n_sequenced": 16,
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "sterile saline solution collected at the same time as amniocentesis or cesarean section (sampling control, SC, n = 8), DNA extraction kit buffers obtained in the laboratory (extraction control, EC, n = 4)"
+   },
+   {
+    "id": "E0019",
+    "quote": "The bacterial DNA of all the AF samples and control samples were assessed by 16S ribosomal RNA gene sequencing."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0028",
+    "quote": "the sequence data were filtered by the following criteria: (1) absence in negative controls and the second trimester AF in cohort 1"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0011",
+    "quote": "bacterial DNA copy number was detected using TaqMan quantitative PCR of the V3\u2013V4 regions of the 16S rRNA gene"
+   }
+  ]
+ },
+ "n_target_samples": 134,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Listeria",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enterococcus",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Propionibacterium",
+   "evidence_id": "E0023",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Megasphaera",
+   "evidence_id": "E0023",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0023",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0023",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Erwinia",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gardnerella",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ureaplasma",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Turicibacter",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bradyrhizobium",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ruminococcus",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anaeroplasma",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mucispirillum",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "not_claimed",
+ "notes": "Cohort 1: 55 second-trimester + 55 delivery AF (healthy); cohort 2: 24 second-trimester AF with later infection-related adverse outcomes. Authors interpret second-trimester-specific genera (E0023-24) as systemic contamination: flagged Propionibacterium, Megasphaera, Prevotella, Sphingomonas; Listeria, Enterococcus, Streptococcus, Bacteroides were in both second-trimester (contamination) and delivery lists, recorded unflagged (judgement call). Cohort-2 genera filtered against controls. Conclusion: no microorganisms in healthy AF.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

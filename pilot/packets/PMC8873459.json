@@ -1,0 +1,89 @@
+{
+ "pmcid": "PMC8873459",
+ "meta": {
+  "title": "Circulating microbial content in myeloid malignancy patients is associated with disease subtypes and patient outcomes",
+  "journal": "Nature Communications",
+  "year": "2022",
+  "doi": "10.1038/s41467-022-28678-x",
+  "pmid": "35210415"
+ },
+ "n_elements": 57,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0005",
+   "section": "Introduction",
+   "text": "Traditionally, human blood and bone marrow have been considered to be normally sterile, and therefore microbiome analysis of these entities would only be performed when deleterious infection was suspected. However, evidence is now accumulating for a normal blood microbiome in healthy individuals 17 . It is believed that microbiota in circulation is partially derived directly from the gut through bacterial translocation 18 , and therefore the established ability of intestinal flora to predict patient outcomes may also be valid for blood. Given this and the increasingly acknowledged relationships between microbial communities and response to treatment, we hypothesized analogous relationships between the bone marrow microbiome in myeloid malignancy patients and disease characteristics. To this end, we extracted bacterial, fungal, and viral sequence from deep shotgun sequencing of DNA in the bone marrow and blood of 1870 myeloid malignancy patients, as well as in the bone marrow of healthy donors. Our primary goal was to elucidate relationships between microbial content/abundance and clinical features, including disease subtype and outcomes, in the disease cohort. Although our ability to perform case/control comparisons was limited by a relatively small number of healthy controls, we were nonetheless able to observe some significant differences in microbial content between patients and healthy donors."
+  },
+  {
+   "evidence_id": "E0006",
+   "section": "Patient overview and microbiome ascertainment",
+   "text": "The cohort comprised 1870 myeloid malignancy patients. Bone marrow ( n = 1756) or peripheral blood ( n = 114) was taken at diagnosis and sent to the Munich Leukemia Laboratory between 2005 and 2017 for work-up. Disease subtypes included AML ( n = 612), MDS ( n = 640), MDS/MPN ( n = 264), and MPN ( n = 354). Patient characteristics are provided in Table 1 . Bone marrow samples from 12 healthy donors were also processed at the same site. DNA extracted from all samples was subjected to whole-genome sequencing, initially with the goal of comprehensively profiling somatic mutations in human DNA. Human genome average depth of coverage ranged between 76.8X and 183.8X (median 97.5X; Supplementary Data 1 ). We used PathSeq 19 —a tool that has been used in prior studies of tumor and blood microbes in cancer 16 —to identify reads derived from bacterial, fungal, and viral DNA. As shotgun metagenomic sequencing is known to be highly prone to artifacts (particularly for low-biomass samples such as blood), we followed strict filtering procedures. Briefly, two broad categories of reads were removed from consideration. First, we curated from the literature 16 , 20 – 23 a large list of 165 known problematic genera and 89 known problematic species (see the “Methods” section; Supplementary Data 2 ). Reads that aligned to any of these taxa were omitted from downstream analyses. Second, we manually inspected the breadth of genome coverage in species. Species showing read alignments only to very focal regions of their genomes indicate that the reads were derived from cryptic human sequences 20 , and thus reads aligning to such species were also filtered out. These extremely strict filtering steps removed 184,919,804 of 185,938,531 reads (99.45%) mapping to unique genera and 128,135,955 of 129,323,801 reads (99.08%) mapping to unique species. Using the remaining reads, the burden of a taxon in a sample was quantified as the number of reads from the sample unambiguously aligning to the taxon, normalized to the number of human reads sequenced in the sample (see the “Methods” section). Table 1 Patient characteristics. n Sex (% female) Mean age (years) (1st, 3rd quartiles) Karyotypic lesions (proportion) Normal −5/−5q −7 Trisomy 8 −Y a Complex Median survival (years) AML 612 45.8 63.42 (54.38,75.20) 0.367 0.077 0.088 0.103 0.066 0.203 1.41 MDS 640 42.7 71.07 (66.50,78.00) 0.609 0.189 0.025 0.044 0.114 0.028 6.14 MDS/MPN 264 40.2 74.71 (70.78,80.72) 0.712 0.008 0.042 0.131 0.045 0.027 5.36 MPN 354 36.7 62.79 (53.90,73.75) 0.555 0.012 0.009 0.046 0.039 0.028 18.64 overall 1870 42.2 67.51 (60.85,77.10) 0.533 0.095 0.046 0.076 0.074 0.086 5.71 a Calculated only from male patients."
+  },
+  {
+   "evidence_id": "E0011",
+   "section": "Human herpesviruses prevalent among myeloid malignancy patients and is associated with patient outcomes in MDS",
+   "text": "Differences in overall viral read presence were observed among the four disease subtypes, with MDS patients showing the highest prevalence (78.0% vs. 68.9% for all other diagnoses; logistic regression P = 2.51 × 10 −5 ) as well as the highest burden (median 14.0 vs. 6.9; Wilcoxon P = 1.12 × 10 −8 ). In MDS patients, worse overall survival was associated with EBV presence, even after adjusting for age (Fig. 2d ), suggesting potential for EBV as a biomarker for overall survival in MDS. None of the other disease subtypes (AML, MPN, or MDS/MPN) showed an association between EBV and overall survival. We validated our sequence-based inferences of EBV presence/absence and burden using qPCR in a subset of our MDS samples. The results were strongly concordant (Supplementary Fig. 10 )."
+  },
+  {
+   "evidence_id": "E0031",
+   "section": "Discussion",
+   "text": "The strengths of our study include a large cohort of disease cases, all processed and sequenced at the same facility along with 12 healthy controls. We used shotgun metagenomic sequencing, which has advantages over 16S sequencing, including better taxonomic resolution, with typically higher revealed diversity 55 . It also enables ascertainment of viral and fungal content along with bacterial content. We took a very aggressive approach to data filtering, taking care to remove all reads that were likely artifactual results of contamination or mis-mapping of human reads. The fact that our filtering approach removed more than 99% of the data serves as a warning that it is critically important to take great care in microbiome studies (particularly those analyzing low-microbial biomass samples)."
+  },
+  {
+   "evidence_id": "E0032",
+   "section": "Discussion",
+   "text": "Our study also had weaknesses. It did not include an independent validation cohort owing to the considerable expense in performing shotgun sequencing in a large sample of myeloid malignancy patients with disparate subtypes. It should be noted, however, that our disease subtype classifier was validated to some degree by building it on a subset of the cohort and testing it on the remaining samples. Another issue is that our data was derived from samples processed for human DNA analysis. Ideally, we would have included technical controls 56 in our study, to account for artifacts specific to our experimental protocols. Since the samples were originally collected in clinical practice for mutation profiling, such controls were not available. Nonetheless, our computational approach was conservative, omitting a large list of known reagent and kit contaminants along with other artifacts. Finally, we acknowledge that our study has a relatively small number of healthy controls as compared to cases. Overall, we felt that the importance of using controls well-matched to cases in terms of tissue source and processing/sequencing site outweighed the statistical power gained by seeking other sources of data. Using externally-processed controls could lead to batch effects and artifactual results. As our results show, however, we were still well-powered to uncover a number of differences in microbial composition between the two groups."
+  },
+  {
+   "evidence_id": "E0035",
+   "section": "Disease subtype assignment, sample acquisition and processing, and whole-genome sequencing",
+   "text": "For whole genome sequencing (WGS), peripheral blood or bone marrow aspirates were processed using the TruSeq DNA PCR-free library prep kit and 150 bp paired-end sequences were generated on a NovaSeq 6000 or HiSeqX instrument (Illumina, San Diego, CA). Fastq generation and read alignment to the human reference genome were performed using Illumina’s BaseSpace platform (whole genome sequencing app 5.0.0)."
+  },
+  {
+   "evidence_id": "E0036",
+   "section": "Identification and quantification of microbial reads",
+   "text": "Whole-genome bam files were converted back to fastq files using the GATK4 59 SamToFastq tool. The resulting fastq files were then aligned to the hg19 build of the human genome using bwa mem 60 , yielding bam files that served as input into PathSeq 19 , distributed as part of GATK 4.0.6.0. Briefly, PathSeq first removes all human genome-aligned reads, then aligns those remaining to an NCBI database of known microbial reference genomes. Default options were used with parameters --min-clipped-read-length 70 and --is-host-aligned true. Required reference files (microbe-fasta, microbe-bwa-image, and taxonomy-file) were downloaded as part of the GATK resource bundle. The output of PathSeq provides, for each taxon and patient, counts of reads that could be unambiguously assigned to that taxon. After filtering steps (see below), burden of taxon i in individual j was quantified as 1 \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$6.4\\,{{\\mbox{billion}}}\\times \\frac{{{\\mbox{number}}}\\,{{\\mbox{of}}}\\,{{\\mbox{reads}}}\\,{{\\mbox{aligning}}}\\,{{\\mbox{unambiguously}}}\\,{{\\mbox{to}}}\\,{{\\mbox{taxon}}}\\,i\\,{{\\mbox{in}}}\\,{{\\mbox{individual}}}\\,j}{{{\\mbox{number}}}\\,{{\\mbox{of}}}\\,{{\\mbox{reads}}}\\,{{\\mbox{aligning}}}\\,{{\\mbox{to}}}\\,{{\\mbox{the}}}\\,{{\\mbox{human}}}\\,{{\\mbox{genome}}}\\,{{\\mbox{in}}}\\,{{\\mbox{individual}}}\\,j}$$\\end{document} 6.4 billion × number of reads aligning unambiguously to taxon i in individual j number of reads aligning to the human genome in individual j The rationale for this measure is that it estimates the number of bases of the taxon DNA present per human cell, since there are ~6.4 billion bases of human sequence per human cell."
+  },
+  {
+   "evidence_id": "E0037",
+   "section": "Quality filtering",
+   "text": "Reads deemed unambiguously aligned by PathSeq were subjected to two filtering steps. First, we curated a list of genera and species that were reported in the literature as being problematic for various reasons, including: (i) contamination in commercially available kits and reagents; (ii) common low-read levels across tumor types; (iii) anticorrelation between measured abundance and analyte concentration; (iv) high frequency in negative blanks; and (v) artifactual human sequence within species reference genomes. Second, alignments of species were manually examined for their locations in the microbe genome. Species that had reads only aligning to focal regions of their genome were flagged as problematic. We removed all reads unambiguously aligned to these problematic taxa and propagated the removal up the taxonomic tree. For example, if a problematic genus had 20 unambiguously aligned reads in that patient, then 20 reads would also be removed from that genus’ parent family, order, class, and phylum. Furthermore, all daughter species of the genus and their reads would be removed from further analysis."
+  },
+  {
+   "evidence_id": "E0039",
+   "section": "Computing microbial landscape characteristics",
+   "text": "Bray–Curtis dissimilarity statistics were calculated for each pair of samples using burden. For each pair of samples x and y , Bray–Curtis dissimilarity is calculated across n genera as 2 \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\frac{{\\sum }_{i}^{n}{{{{{\\rm{|}}}}}}{x}_{i}-{y}_{i}{{{{{\\rm{|}}}}}}}{{\\sum }_{i}^{n}(x_{i}+y_{i})}$$\\end{document} ∑ i n ∣ x i − y i ∣ ∑ i n ( x i + y i ) where x i and y i denote the burden of genus i in sample x and y , respectively. Then the dissimilarity measures were used to generate principal coordinates of this neighborhood matrix using the pcnm function in the vegan package (version 2.5-6)."
+  },
+  {
+   "evidence_id": "E0040",
+   "section": "Computing microbial landscape characteristics",
+   "text": "The α-diversity for a taxonomic level was calculated for patient s as 3 \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$-\\mathop{\\sum }\\limits_{i}^{t}{p}_{i}\\,{{{{{\\rm{ln}}}}}}\\,{p}_{i}\\,$$\\end{document} − ∑ i t p i ln p i where \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${p}_{i}$$\\end{document} p i is the proportion of unambiguous reads at the taxonomic level that map to taxon i within patient s , and t is the total number of taxa observed in patient s within the taxonomic level."
+  },
+  {
+   "evidence_id": "E0044",
+   "section": "qPCR validation of EBV",
+   "text": "The total genomic DNA isolated from the patient-derived mononuclear cells were used for the EBV detection using real time quantitative polymerase chain reaction (RT-qPCR) 63 , 64 . Briefly, the primers for detection of EBV were designed to target the BamHI-W sequence in EBV using following pairs of forward and reverse primers: 5′-CCAGACGAGTCCGTAGAAGG-3′ and 5′-AGCCTAATCCCACCCAGACT-3′, respectively."
+  },
+  {
+   "evidence_id": "E0045",
+   "section": "qPCR validation of EBV",
+   "text": "The 96 ng of each of DNA samples were added in per PCR reaction for Sso Fast EvaGreen Super mix (Bio Rad) and subjected to 40 amplification cycles in C1000 Touch™ thermal cycler (Bio Rad Inc) interfaced with CFX 96 system manager software. The TAL57 region of the Human Beta-Globin (HBB) gene was used for control using 5′-TAGCAACCTCAAACAGACACCA-3′ and 5′-CAGCCTAAGGGTGGGAAAAT-3′ forward and reverse primers respectively. The C t values on RT-qPCR were collected by the CFX Manager Software (Bio Rad Inc) and the relative copies/µg DNA was calculated by ∆ C t method."
+  },
+  {
+   "evidence_id": "E0047",
+   "section": "Adjusting viral prevalence for genome length",
+   "text": "For a given viral species and a given patient, let r denote the number of reads mapping to that species in the patient sample, and let s denote the species’ reference genome length. If the species instead had a reduced genome of length only 2442 (the length of the smallest reference genome among all viruses we observed in our study), for each of the r reads, the probability of its mapping to a specific reduced genome, 442-base region is ~2442/ s , so the probability that all r reads do not map to the region (i.e. the probability that the virus is not observed in the patient) is (1−2442/ s ) r , giving the probability of observing the virus in the patient as 1−(1−2442/ s ) r . If we now consider all n patients, with number of reads mapping to the species’ actual genome denoted r i ( i = 1,…, n ), the expected number of patients in which at least one read maps to the reduced genome (i.e. the expected prevalence, adjusted for genome length) is therefore 4 \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\mathop{\\sum }\\limits_{i=1}^{n}\\left(1-{\\left(1-\\frac{2442}{s}\\right)}^{{r}_{i}}\\right)$$\\end{document} ∑ i = 1 n 1 − 1 − 2442 s r i"
+  }
+ ],
+ "italic_candidates": {
+  "Helicobacter": [
+   "E0004"
+  ],
+  "Kytococcus": [
+   "E0020"
+  ],
+  "Trichosporon": [
+   "E0014"
+  ]
+ }
+}

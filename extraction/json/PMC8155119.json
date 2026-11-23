@@ -1,0 +1,207 @@
+{
+  "pmcid": "PMC8155119",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "The method of 16S rRNA gene sequencing was described in a previous study 32 . The hypervariable region (V3\u2013V4) for genomic bacteria DNA was amplified according to Illumina 16S metagenomic sequencing protocols (Illumina, San Diego, CA, Unite"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 398,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dialister",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mucispirillum",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillospira",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leuconostoc",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "198 stroke patients and 200 healthy controls. Circulating EV DNA, not fecal microbiota. Repeated post-treatment sampling not assumed in target count.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "bbf0b9a908203ec969a06c6cf38c1f163a7d5660c6e52de76db31742b351c603",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

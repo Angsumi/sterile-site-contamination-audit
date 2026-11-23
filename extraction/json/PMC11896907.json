@@ -1,0 +1,101 @@
+{
+  "pmcid": "PMC11896907",
+  "tissue_category": "tumour",
+  "sub_site": "endometrial carcinoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA / cBioPortal",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Clinical information and RNA sequencing (RNA-seq) data for EC samples were acquired from the Cancer Genome Atlas (TCGA) database. Microorganism quantification data was obtained from the cBioPortal database. 502 EC samples with an overall su"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Clinical information and RNA sequencing (RNA-seq) data for EC samples were acquired from the Cancer Genome Atlas (TCGA) database. Microorganism quantification data was obtained from the cBioPortal database. 502 EC samples with an overall su"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 502,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Zooshikella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caldimonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Candidatus_Accumulibacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nonlabens",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseiflexus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptosporangium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Zavarzinella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Derxia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shigella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCGA/cBioPortal reuse; no own negative controls described. Candidatus label retained verbatim; taxonomy warning not silently fixed.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "031d4e17930e4bed6b73b90b033272e1d5116c063ca4b86ddc0b10ba837806e3",
+  "supplement_manifest": []
+}

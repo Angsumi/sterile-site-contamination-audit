@@ -1,0 +1,99 @@
+{
+  "pmcid": "PMC11031379",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour tissue",
+  "year": 2024,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0045",
+        "quote": "Briefly, DNA of the tissue sample was extracted and the V3 and V4 regions of the bacterial 16S rDNA gene were amplified."
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 58,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerostipes",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavonifractor",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Restricted list to lung tumour cohort. Normal-lung-only and plasma-only genera excluded; plasma cohort also reported. RT-PCR of Roseburia is targeted, not total bacterial biomass.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

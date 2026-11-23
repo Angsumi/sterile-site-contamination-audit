@@ -1,0 +1,61 @@
+{
+  "pmcid": "PMC6621972",
+  "tissue_category": "blood",
+  "sub_site": "blood at baseline",
+  "year": 2019,
+  "country": "France",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "s assessed by sequencing of variable regions (V3-V4) of the 16S rRNA bacterial gene at M0 (for correlation with citrulline, tumor response and clinical benefit) and M2 (for correlation with EUA), (Vaiomer, Toulouse, France). Briefly, PCR am"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 35,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Lewinella",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paludibaculum",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "72 treated patients, but blood profiling feasible for 35 baseline patients. Peptostreptococcaceae, Holophagae and Gemmatimonadaceae are higher ranks, excluded. Supplement contains figure captions without extra genus names.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "049ce1bc5411ee9d270f00e9f4b64d6549bf81b64627fc3930167776b8df558e",
+  "supplement_manifest": []
+}

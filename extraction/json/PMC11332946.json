@@ -1,0 +1,174 @@
+{
+  "pmcid": "PMC11332946",
+  "tissue_category": "other_sterile",
+  "sub_site": "PBC liver tissue",
+  "year": 2024,
+  "country": "Japan",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V2,V4,V8,V3,V6-7,V9",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "of the 16S rRNA gene (16S metagenomics kit, Thermo Fisher Scientific)."
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 4,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0076",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Providencia",
+      "evidence_id": "E0077",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0078",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0080",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0082",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Scardovia",
+      "evidence_id": "E0083",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0084",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0085",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylorubrum",
+      "evidence_id": "E0086",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0087",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0088",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lawsonella",
+      "evidence_id": "E0089",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bartonella",
+      "evidence_id": "E0090",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0091",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gluconobacter",
+      "evidence_id": "E0092",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0094",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Planococcus",
+      "evidence_id": "E0095",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thalassospira",
+      "evidence_id": "E0096",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Devosia",
+      "evidence_id": "E0097",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0098",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chloracidobacterium",
+      "evidence_id": "E0099",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0100",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Segniliparus",
+      "evidence_id": "E0101",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "claimed",
+  "notes": "Restricted to Table 4 liver tissue genus list; serum-only genera excluded. Candidatus_hamiltonella spelling unresolved, retained in notes for review. Targeted validation PCR is not total bacterial biomass.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "pmcid": "PMC9282817",
+    "source_assertions_passed": 5,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC7049446",
+    "source_assertions_passed": 6,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC9718202",
+    "source_assertions_passed": 0,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC4419820",
+    "source_assertions_passed": 2,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC8904948",
+    "source_assertions_passed": 9,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC7355471",
+    "source_assertions_passed": 3,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC7946554",
+    "source_assertions_passed": 5,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC6844652",
+    "source_assertions_passed": 4,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC9257056",
+    "source_assertions_passed": 3,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC13318943",
+    "source_assertions_passed": 7,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC12066232",
+    "source_assertions_passed": 0,
+    "failures": 0
+  },
+  {
+    "pmcid": "PMC5946436",
+    "source_assertions_passed": 1,
+    "failures": 0
+  }
+]

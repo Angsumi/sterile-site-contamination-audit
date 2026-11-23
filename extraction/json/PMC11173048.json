@@ -1,0 +1,74 @@
+{
+  "pmcid": "PMC11173048",
+  "tissue_category": "other_sterile",
+  "sub_site": "aqueous humour",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "The locus-specific V3 and V4 primers were trimmed from the sequencing reads"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "DCA revealed clustering of all samples related to the surgical patients, including the corresponding dry swab negative controls."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "UNCROSS",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "The resulting ASV abundance table was then filtered for possible barcode bleed-in contaminations using the UNCROSS algorithm."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 3,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0011",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Target samples cluster with controls; all three genera interpreted as environmental background.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

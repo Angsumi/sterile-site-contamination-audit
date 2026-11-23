@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC12363524",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "87acbb7d162b0477554db1710e294574ce2479508a286d042e590072874f86fa",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "to amplify the V3−V4 region of the 16S rRNA gene, and the product was sequenced at Novogene Co. Ltd. (Beijing, China). Standard bioinformatics producers were used to filter and control the raw data. After quality control, poorly sequenced s"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenophilus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Lung tissue 16S genera only; experimental LPS sources not counted as detections.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

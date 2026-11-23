@@ -1,0 +1,94 @@
+{
+  "pmcid": "PMC10484612",
+  "tissue_category": "tumour",
+  "sub_site": "ovarian cancer and benign ovarian tissues",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "2bRAD-M",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "manufacturer\u2019s instructions (Tiangen, China). The 2bRAD-M library preparation followed the previous research ( Wang et al., 2012 ; Sun et al., 2022 ). Briefly, the DNA (\u2264200 ng) was digested using BcgI restriction enzyme (NEB, America) at 37\u00b0C f"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "ralstonia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "chlamydophila",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "sphingomonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "cutibacterium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lawsonella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus_D",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "GTDB-style Brevibacillus_D recorded as written. Lowcase genus spellings in results preserved. CAG-873 placeholder omitted because not validated genus. G-score threshold removes false positive marker assignments, not stated contaminant removal.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

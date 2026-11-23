@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-22",
+ "note": "Feasibility counts; final search to be re-run at the start of the review.",
+ "method_block_pubmed": "(microbiome[tiab] OR microbiota[tiab] OR \"16S rRNA\"[tiab] OR \"16S rDNA\"[tiab] OR metagenom*[tiab] OR \"bacterial DNA\"[tiab] OR \"microbial DNA\"[tiab])",
+ "method_block_epmc": "(ABSTRACT:\"microbiome\" OR ABSTRACT:\"microbiota\" OR ABSTRACT:\"16S rRNA\" OR ABSTRACT:\"16S rDNA\" OR ABSTRACT:\"metagenomic\" OR ABSTRACT:\"metagenomics\" OR ABSTRACT:\"bacterial DNA\" OR ABSTRACT:\"microbial DNA\")",
+ "tissues": {
+  "tumour": {
+   "pubmed_query": "(microbiome[tiab] OR microbiota[tiab] OR \"16S rRNA\"[tiab] OR \"16S rDNA\"[tiab] OR metagenom*[tiab] OR \"bacterial DNA\"[tiab] OR \"microbial DNA\"[tiab]) AND (sequencing[tiab] OR \"16S\"[tiab] OR metagenom*[tiab]) AND (intratumoral[tiab] OR intratumoural[tiab] OR intratumor[tiab] OR intratumour[tiab] OR \"tumor microbiome\"[tiab] OR \"tumour microbiome\"[tiab] OR \"tumor microbiota\"[tiab] OR \"tumour microbiota\"[tiab] OR \"tumor tissue\"[tiab] OR \"tumour tissue\"[tiab] OR \"cancer tissue\"[tiab] OR \"tumor tissues\"[tiab] OR \"tumour tissues\"[tiab] OR \"cancer tissues\"[tiab]) NOT (animals[mh] NOT humans[mh]) NOT (review[pt] OR \"systematic review\"[pt] OR comment[pt] OR editorial[pt]) AND (\"2012/01/01\"[dp] : \"2026/11/22\"[dp])",
+   "pubmed_count": 663,
+   "epmc_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"intratumoral\" OR \"intratumoural\" OR \"intratumor\" OR \"intratumour\" OR \"tumor microbiome\" OR \"tumour microbiome\" OR \"tumor microbiota\" OR \"tumour microbiota\" OR \"tumor tissue\" OR \"tumour tissue\" OR \"cancer tissue\" OR \"tumor tissues\" OR \"tumour tissues\" OR \"cancer tissues\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026]",
+   "epmc_count": 1320,
+   "epmc_oa_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"intratumoral\" OR \"intratumoural\" OR \"intratumor\" OR \"intratumour\" OR \"tumor microbiome\" OR \"tumour microbiome\" OR \"tumor microbiota\" OR \"tumour microbiota\" OR \"tumor tissue\" OR \"tumour tissue\" OR \"cancer tissue\" OR \"tumor tissues\" OR \"tumour tissues\" OR \"cancer tissues\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026] AND OPEN_ACCESS:Y AND HAS_FT:Y",
+   "epmc_oa_fulltext_count": 764
+  },
+  "placenta_fetal": {
+   "pubmed_query": "(microbiome[tiab] OR microbiota[tiab] OR \"16S rRNA\"[tiab] OR \"16S rDNA\"[tiab] OR metagenom*[tiab] OR \"bacterial DNA\"[tiab] OR \"microbial DNA\"[tiab]) AND (sequencing[tiab] OR \"16S\"[tiab] OR metagenom*[tiab]) AND (placenta*[tiab] OR \"amniotic fluid\"[tiab] OR meconium[tiab] OR fetal[tiab] OR foetal[tiab] OR \"in utero\"[tiab] OR chorioamni*[tiab]) NOT (animals[mh] NOT humans[mh]) NOT (review[pt] OR \"systematic review\"[pt] OR comment[pt] OR editorial[pt]) AND (\"2012/01/01\"[dp] : \"2026/11/22\"[dp])",
+   "pubmed_count": 598,
+   "epmc_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(placenta* OR \"amniotic fluid\" OR \"meconium\" OR \"fetal\" OR \"foetal\" OR \"in utero\" OR chorioamnionitis) NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026]",
+   "epmc_count": 1550,
+   "epmc_oa_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(placenta* OR \"amniotic fluid\" OR \"meconium\" OR \"fetal\" OR \"foetal\" OR \"in utero\" OR chorioamnionitis) NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026] AND OPEN_ACCESS:Y AND HAS_FT:Y",
+   "epmc_oa_fulltext_count": 822
+  },
+  "blood": {
+   "pubmed_query": "(microbiome[tiab] OR microbiota[tiab] OR \"16S rRNA\"[tiab] OR \"16S rDNA\"[tiab] OR metagenom*[tiab] OR \"bacterial DNA\"[tiab] OR \"microbial DNA\"[tiab]) AND (sequencing[tiab] OR \"16S\"[tiab] OR metagenom*[tiab]) AND (\"blood microbiome\"[tiab] OR \"blood microbiota\"[tiab] OR \"circulating microbiome\"[tiab] OR \"circulating microbiota\"[tiab] OR \"blood bacterial DNA\"[tiab] OR \"plasma microbiome\"[tiab] OR \"serum microbiome\"[tiab] OR \"circulating bacterial DNA\"[tiab] OR \"microbial cell-free DNA\"[tiab] OR \"blood microbial\"[tiab]) NOT (animals[mh] NOT humans[mh]) NOT (review[pt] OR \"systematic review\"[pt] OR comment[pt] OR editorial[pt]) AND (\"2012/01/01\"[dp] : \"2026/11/22\"[dp])",
+   "pubmed_count": 274,
+   "epmc_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"blood microbiome\" OR \"blood microbiota\" OR \"circulating microbiome\" OR \"circulating microbiota\" OR \"blood bacterial DNA\" OR \"plasma microbiome\" OR \"serum microbiome\" OR \"circulating bacterial DNA\" OR \"microbial cell-free DNA\" OR \"blood microbial\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026]",
+   "epmc_count": 353,
+   "epmc_oa_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"blood microbiome\" OR \"blood microbiota\" OR \"circulating microbiome\" OR \"circulating microbiota\" OR \"blood bacterial DNA\" OR \"plasma microbiome\" OR \"serum microbiome\" OR \"circulating bacterial DNA\" OR \"microbial cell-free DNA\" OR \"blood microbial\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026] AND OPEN_ACCESS:Y AND HAS_FT:Y",
+   "epmc_oa_fulltext_count": 231
+  },
+  "brain_csf": {
+   "pubmed_query": "(microbiome[tiab] OR microbiota[tiab] OR \"16S rRNA\"[tiab] OR \"16S rDNA\"[tiab] OR metagenom*[tiab] OR \"bacterial DNA\"[tiab] OR \"microbial DNA\"[tiab]) AND (sequencing[tiab] OR \"16S\"[tiab] OR metagenom*[tiab]) AND (\"brain microbiome\"[tiab] OR \"brain microbiota\"[tiab] OR \"brain tissue\"[tiab] OR \"brain tissues\"[tiab] OR \"post-mortem brain\"[tiab] OR \"postmortem brain\"[tiab] OR \"cerebrospinal fluid\"[tiab]) NOT (animals[mh] NOT humans[mh]) NOT (review[pt] OR \"systematic review\"[pt] OR comment[pt] OR editorial[pt]) AND (\"2012/01/01\"[dp] : \"2026/11/22\"[dp])",
+   "pubmed_count": 829,
+   "epmc_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"brain microbiome\" OR \"brain microbiota\" OR \"brain tissue\" OR \"brain tissues\" OR \"post-mortem brain\" OR \"postmortem brain\" OR \"cerebrospinal fluid\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026]",
+   "epmc_count": 1356,
+   "epmc_oa_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"brain microbiome\" OR \"brain microbiota\" OR \"brain tissue\" OR \"brain tissues\" OR \"post-mortem brain\" OR \"postmortem brain\" OR \"cerebrospinal fluid\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026] AND OPEN_ACCESS:Y AND HAS_FT:Y",
+   "epmc_oa_fulltext_count": 778
+  },
+  "other_sterile": {
+   "pubmed_query": "(microbiome[tiab] OR microbiota[tiab] OR \"16S rRNA\"[tiab] OR \"16S rDNA\"[tiab] OR metagenom*[tiab] OR \"bacterial DNA\"[tiab] OR \"microbial DNA\"[tiab]) AND (sequencing[tiab] OR \"16S\"[tiab] OR metagenom*[tiab]) AND (\"synovial fluid\"[tiab] OR \"adipose tissue microbio*\"[tiab] OR \"liver tissue\"[tiab] OR \"atherosclerotic plaque*\"[tiab] OR \"heart valve*\"[tiab] OR \"intraocular\"[tiab] OR \"vitreous\"[tiab] OR \"aqueous humor\"[tiab] OR \"follicular fluid\"[tiab] OR \"breast tissue\"[tiab] OR \"lung tissue\"[tiab] OR \"thrombus\"[tiab] OR \"kidney tissue\"[tiab] OR \"tissue microbiome\"[tiab] OR \"tissue microbiota\"[tiab]) NOT (animals[mh] NOT humans[mh]) NOT (review[pt] OR \"systematic review\"[pt] OR comment[pt] OR editorial[pt]) AND (\"2012/01/01\"[dp] : \"2026/11/22\"[dp])",
+   "pubmed_count": 815,
+   "epmc_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"synovial fluid\" OR \"adipose tissue microbiome\" OR \"adipose tissue microbiota\" OR \"liver tissue\" OR \"atherosclerotic plaque\" OR \"atherosclerotic plaques\" OR \"heart valve\" OR \"heart valves\" OR \"intraocular\" OR \"vitreous\" OR \"aqueous humor\" OR \"follicular fluid\" OR \"breast tissue\" OR \"lung tissue\" OR \"thrombus\" OR \"kidney tissue\" OR \"tissue microbiome\" OR \"tissue microbiota\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026]",
+   "epmc_count": 1692,
+   "epmc_oa_query": "ABSTRACT:(\"microbiome\" OR \"microbiota\" OR \"16S rRNA\" OR \"16S rDNA\" OR \"metagenomic\" OR \"metagenomics\" OR \"bacterial DNA\" OR \"microbial DNA\") AND ABSTRACT:(\"synovial fluid\" OR \"adipose tissue microbiome\" OR \"adipose tissue microbiota\" OR \"liver tissue\" OR \"atherosclerotic plaque\" OR \"atherosclerotic plaques\" OR \"heart valve\" OR \"heart valves\" OR \"intraocular\" OR \"vitreous\" OR \"aqueous humor\" OR \"follicular fluid\" OR \"breast tissue\" OR \"lung tissue\" OR \"thrombus\" OR \"kidney tissue\" OR \"tissue microbiome\" OR \"tissue microbiota\") NOT PUB_TYPE:\"review\" AND PUB_YEAR:[2012 TO 2026] AND OPEN_ACCESS:Y AND HAS_FT:Y",
+   "epmc_oa_fulltext_count": 880
+  }
+ },
+ "epmc_oa_unique_records": 3380
+}

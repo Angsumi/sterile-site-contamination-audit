@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC4964003",
+  "tissue_category": "other_sterile",
+  "sub_site": "lung parenchyma",
+  "year": 2016,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "961d4a59b6fcf2103a55591d8ae734c94e381af561874245bffb467866c9e922",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0031",
+        "quote": "endation. The V3–V4 regions of the 16S rRNA gene were amplified and sequenced on an Illumina MiSeq instrument using the 300 paired-end protocol at the Institute of Genome Sciences, Genomic Resource Center, University of Maryland School of M"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "We sequenced four negative controls at the same time as our original lung tissue analysis to test PCR amplification and sequencing (“PCR negative controls”). Moreover, we sequenced an additional 20 negative controls that were subjected to D"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "We sequenced four negative controls at the same time as our original lung tissue analysis to test PCR amplification and sequencing (“PCR negative controls”). Moreover, we sequenced an additional 20 negative controls that were subjected to D"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Legionella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Primary nonmalignant lung specimens with smaller paired tumour subset; shared-control-OTU removal was a sensitivity analysis.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

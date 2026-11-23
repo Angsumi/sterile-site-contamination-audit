@@ -1,0 +1,137 @@
+{
+ "pilot_papers_read": 21,
+ "eligible_fulltext": 19,
+ "usable": 16,
+ "fulltext_eligibility_rate": 0.905,
+ "usable_rate": 0.842,
+ "projection_by_block": {
+  "tumour": {
+   "oa_records": 252,
+   "screen_include_rate": 0.533,
+   "projected_usable": 102.4
+  },
+  "placenta_fetal": {
+   "oa_records": 62,
+   "screen_include_rate": 0.5,
+   "projected_usable": 23.6
+  },
+  "blood": {
+   "oa_records": 157,
+   "screen_include_rate": 0.6,
+   "projected_usable": 71.8
+  },
+  "brain_csf": {
+   "oa_records": 40,
+   "screen_include_rate": 0.133,
+   "projected_usable": 4.1
+  },
+  "other_sterile": {
+   "oa_records": 298,
+   "screen_include_rate": 0.167,
+   "projected_usable": 37.8
+  }
+ },
+ "projected_usable_total": 239.7,
+ "blocks_with_15_plus": [
+  "tumour",
+  "placenta_fetal",
+  "blood",
+  "other_sterile"
+ ],
+ "controls": {
+  "sequenced": 8,
+  "none_mentioned": 7,
+  "included_not_sequenced": 4
+ },
+ "decontamination": {
+  "tool": 4,
+  "unclear": 1,
+  "abundance_filter_only": 2,
+  "none": 9,
+  "removed_control_taxa": 2,
+  "literature_list": 1
+ },
+ "method": {
+  "16S": 11,
+  "2bRAD-M": 2,
+  "host_seq_mining": 4,
+  "16S+shotgun": 1,
+  "shotgun": 1
+ },
+ "figures_only_or_partial": 4,
+ "share_list_primary_environmental": {
+  "median": 0.179,
+  "mean": 0.201,
+  "min": 0.0,
+  "max": 0.636
+ },
+ "share_list_strict": {
+  "median": 0.155,
+  "mean": 0.139,
+  "min": 0.0,
+  "max": 0.5
+ },
+ "share_list_broad": {
+  "median": 0.762,
+  "mean": 0.728,
+  "min": 0.429,
+  "max": 1.0
+ },
+ "primary_share_by_controls": {
+  "sequenced": {
+   "n": 5,
+   "median": 0.222
+  },
+  "none_mentioned": {
+   "n": 7,
+   "median": 0.176
+  },
+  "included_not_sequenced": {
+   "n": 4,
+   "median": 0.274
+  }
+ },
+ "studies_with_any_primary_hit": 14,
+ "most_common_primary_genera": [
+  [
+   "Sphingomonas",
+   6
+  ],
+  [
+   "Bradyrhizobium",
+   4
+  ],
+  [
+   "Burkholderia",
+   3
+  ],
+  [
+   "Ralstonia",
+   3
+  ],
+  [
+   "Rhodococcus",
+   3
+  ],
+  [
+   "Cupriavidus",
+   2
+  ],
+  [
+   "Bacillus",
+   2
+  ],
+  [
+   "Dietzia",
+   2
+  ],
+  [
+   "Comamonas",
+   2
+  ],
+  [
+   "Deinococcus",
+   2
+  ]
+ ]
+}

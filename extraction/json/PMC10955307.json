@@ -1,0 +1,119 @@
+{
+  "pmcid": "PMC10955307",
+  "tissue_category": "tumour",
+  "sub_site": "endometrial carcinoma and adjacent tissue",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-UCEC via Poore Kraken-TCGA Voom-SNM Plate-Center-Filtering",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "s identified in EC patients and data obtained from the Cancer Genome Atlas Uterine Corpus Endometrial Carcinoma (TCGA-UCEC) database, which includes microbiome abundance data ( http://ftp.microbio.me/pub/cancer_microbiome_analysis/TCGA/Krak"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "microbial community samples are obtained from both the genome and transcriptome levels, they are merged by the TCGA_ID of the sample (taking the maximum value). The microbial abundance of each sample was obtained from the microbiome and the"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "Poore Voom-SNM / plate-center filtering (source dataset)",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "pub/cancer_microbiome_analysis/TCGA/Kraken/Kraken-TCGA-Voom-SNM-Plate-Center-Filtering-Data.csv ), microbiome clinical data ( http://ftp.microbio.me/pub/cancer_microbiome_analysis/TCGA/Kraken/Metadata-TCGA-Kraken-17625-Samples.csv ), and ge"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 355,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Marinobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrobacter",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycetocola",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Zobellia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ottowia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leifsonia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cyclobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitriliruptor",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Saccharicrinis",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Buchnera",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Elizabethkingia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "239 cancer and 116 paracancerous profiles; microbial genome/transcriptome data merged. Discussion includes two own-study prognostic genera; literature-only taxa excluded.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

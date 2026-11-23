@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC11462025",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "",
+ "year": 2024,
+ "country": "",
+ "eligible_fulltext": false,
+ "exclusion_reason": "only mucosal/high-biomass samples (maternal vaginal and rectal swabs, infant stool); no sterile-site sample profiled",
+ "data_source": {},
+ "method": {},
+ "controls": {},
+ "decontamination": {},
+ "biomass_qpcr": {},
+ "n_target_samples": null,
+ "list_type": "",
+ "genera": [],
+ "top5": [],
+ "figures_only": "",
+ "authors_conclusion": "",
+ "notes": "",
+ "extractor": "AI agent (Claude sub-agent, batch 11)",
+ "date": "2026-11-23"
+}

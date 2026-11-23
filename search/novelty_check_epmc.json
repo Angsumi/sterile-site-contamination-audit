@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-22",
+ "query": "TITLE_ABS:(contaminant OR contamination OR kitome) AND TITLE_ABS:(\"low biomass\" OR \"low-biomass\" OR placenta OR tumor OR tumour OR blood OR brain) AND TITLE_ABS:(\"systematic review\" OR \"meta-analysis\" OR \"meta-research\" OR audit) AND TITLE_ABS:(microbiome OR microbiota OR 16S)",
+ "hits": 7,
+ "records": [
+  {
+   "pmid": "42104576",
+   "pmcid": null,
+   "doi": "10.1111/aji.70246",
+   "pubYear": "2026",
+   "title": "The Microbiome Signature of the Placenta and its Role in Spontaneous Preterm Birth: A Systematic Review and 16S rRNA Re-Analysis."
+  },
+  {
+   "pmid": "42701680",
+   "pmcid": "PMC13545701",
+   "doi": "10.7759/cureus.114047",
+   "pubYear": "2026",
+   "title": "Microbiological and Histopathological Features of Gynecologic Cancers: A Systematic Review of Current Evidence and Future Directions."
+  },
+  {
+   "pmid": "41642392",
+   "pmcid": null,
+   "doi": "10.1007/s11011-026-01797-w",
+   "pubYear": "2026",
+   "title": "The gut-brain axis in arsenic-induced toxicity: mechanisms, consequences, and therapeutic perspectives."
+  },
+  {
+   "pmid": "39998222",
+   "pmcid": "PMC11980574",
+   "doi": "10.1128/mbio.02658-24",
+   "pubYear": "2025",
+   "title": "Blanking on blanks: few insect microbiota studies control for contaminants."
+  },
+  {
+   "pmid": null,
+   "pmcid": null,
+   "doi": "10.1101/2024.08.30.610589",
+   "pubYear": "2024",
+   "title": "Blanking on Blanks: Few Insect Microbiota Studies Control for Contaminants - A Systematic Review"
+  },
+  {
+   "pmid": "37345006",
+   "pmcid": "PMC10216300",
+   "doi": "10.3390/cancers15102668",
+   "pubYear": "2023",
+   "title": "Evaluation of the Oesophagogastric Cancer-Associated Microbiome: A Systematic Review and Quality Assessment."
+  },
+  {
+   "pmid": "29780369",
+   "pmcid": "PMC5945997",
+   "doi": "10.3389/fmicb.2018.00840",
+   "pubYear": "2018",
+   "title": "Identification and Removal of Contaminant Sequences From Ribosomal Gene Databases: Lessons From the Census of Deep Life."
+  }
+ ],
+ "pubmed_query": "(contaminant*[tiab] OR contamination[tiab] OR kitome[tiab] OR \"negative control*\"[tiab]) AND (\"low biomass\"[tiab] OR \"low-biomass\"[tiab] OR placenta*[tiab] OR intratumor*[tiab] OR \"tumor microbiome\"[tiab] OR \"blood microbiome\"[tiab] OR \"brain microbiome\"[tiab]) AND (\"systematic review\"[tiab] OR \"meta-analysis\"[tiab] OR \"meta-research\"[tiab] OR audit[tiab] OR \"reporting quality\"[tiab] OR \"quality assessment\"[tiab]) AND (microbiome[tiab] OR microbiota[tiab] OR 16S[tiab])",
+ "pubmed_hits": "7",
+ "pubmed_records": [
+  {
+   "pmid": "42542225",
+   "year": "2026",
+   "title": "Micro(nano)plastics as dynamic vectors for hazardous agents: Bridging environmental transport to health impacts."
+  },
+  {
+   "pmid": "42104576",
+   "year": "2026",
+   "title": "The Microbiome Signature of the Placenta and its Role in Spontaneous Preterm Birth: A Systematic Review and 16S rRNA Re-Analysis."
+  },
+  {
+   "pmid": "39998222",
+   "year": "2025",
+   "title": "Blanking on blanks: few insect microbiota studies control for contaminants."
+  },
+  {
+   "pmid": "37345006",
+   "year": "2023",
+   "title": "Evaluation of the Oesophagogastric Cancer-Associated Microbiome: A Systematic Review and Quality Assessment."
+  },
+  {
+   "pmid": "34883392",
+   "year": "2022",
+   "title": "The evidence for placental microbiome and its composition in healthy pregnancies: A systematic review."
+  },
+  {
+   "pmid": "32776793",
+   "year": "2020",
+   "title": "Is there evidence for bacterial transfer via the placenta and any role in the colonization of the infant gut? - a systematic review."
+  },
+  {
+   "pmid": "29780369",
+   "year": "2018",
+   "title": "Identification and Removal of Contaminant Sequences From Ribosomal Gene Databases: Lessons From the Census of Deep Life."
+  }
+ ]
+}

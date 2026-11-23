@@ -1,0 +1,11 @@
+{
+ "pmcid": "PMC12654703",
+ "tissue_category": "other_sterile",
+ "sub_site": "abdominal aortic atherosclerotic plaque",
+ "year": 2025,
+ "eligible_fulltext": false,
+ "exclusion_reason": "species-specific PCR only (no sequencing-based community profiling)",
+ "notes": "Conventional PCR for 5 periodontal pathogens in aortic plaque and subgingival biofilm.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

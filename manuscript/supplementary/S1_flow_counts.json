@@ -1,0 +1,30 @@
+{
+ "records_v1": 3380,
+ "records_v2": 782,
+ "unique_records": 3462,
+ "excluded_title_abstract": 2938,
+ "excluded_title_abstract_by_reason": {
+  "Animal / non-human / in vitro": 938,
+  "Mucosal or high-biomass sites only": 943,
+  "Diagnostic / infection (mNGS)": 614,
+  "Not primary research": 218,
+  "No sequencing-based profiling": 197,
+  "Other": 28
+ },
+ "full_text_sought": 524,
+ "full_text_not_retrieved": 1,
+ "full_text_assessed": 523,
+ "excluded_full_text": 48,
+ "excluded_full_text_by_reason": {
+  "No sequencing-based profiling": 21,
+  "Animal or in-vitro only": 7,
+  "Not primary research": 6,
+  "Mucosal/high-biomass samples only": 5,
+  "Diagnostic / infection study": 4,
+  "Other (virome-only, unverifiable, off-aim)": 3,
+  "Duplicate cohort": 2
+ },
+ "eligible": 475,
+ "eligible_lt3_genera": 77,
+ "usable": 398
+}

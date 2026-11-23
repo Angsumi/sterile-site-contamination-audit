@@ -1,0 +1,118 @@
+{
+  "pmcid": "PMC11981758",
+  "tissue_category": "tumour",
+  "sub_site": "intrahepatic cholangiocarcinoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c57fea6bed408340e03f1547a7a0e15703d3284fe1e960ebdef5e6b8311dbf34",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "Multiple published bile/tumour sequencing cohorts plus new bile cohort",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "Raw sequencing data from all cohorts were downloaded in FASTQ format. Meta-sequence processing across multiple cohorts was conducted following established protocols [26] . Strict quality control was implemented at each processing step using"
+      }
+    ]
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "), including our newly established 16S rRNA gene profiling (n = 42), to elucidate these microbiota transitions. The concordance of bacteria between CCA bile and intraCCA tissue, represented by Enterococcus and Staphylococcus, suggested micr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylorubrum",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermomonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only IntraCCA tissue genera retained; bile-only genera and biletype biomarkers excluded. Multi-study reuse needs linkage audit.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

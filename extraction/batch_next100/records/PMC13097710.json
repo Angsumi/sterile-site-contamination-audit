@@ -1,0 +1,12 @@
+{
+  "pmcid": "PMC13097710",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Virome-only amniotic-fluid profiling; no bacterial community results.",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "d2b97ebfc478c03b519472931914085ecd85310238d1ce470b92cddebd88644c"
+}

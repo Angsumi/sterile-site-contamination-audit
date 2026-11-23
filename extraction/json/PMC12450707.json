@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12450707",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Tumour Akkermansia assessed by immunohistochemistry; RNA-seq used for host expression, not microbial community profiling.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "9df10bbeac2957d2329b8a47be2e22a1ed9e2c41e9c28a8d964aa88e6ed87693",
+  "notes": "",
+  "review_flags": []
+}

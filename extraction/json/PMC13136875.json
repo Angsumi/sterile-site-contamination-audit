@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC13136875",
+ "tissue_category": "tumour",
+ "sub_site": "clear cell renal cell carcinoma tissue (FFPE)",
+ "year": 2026,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0011", "quote": "Clinical samples from patients with ccRCC were collected from the Second Affiliated Hospital of Harbin Medical University"}]},
+ "method": {"value": "2bRAD-M", "region": "", "evidence": [{"id": "E0013", "quote": "Paraffin-embedded tissue blocks were sent to Oebiotech for 2bRAD-M microbiome sequencing"}]},
+ "controls": {"value": "sequenced", "types": "paraffin blank (FFPE negative control)", "n_sequenced": null, "evidence": [{"id": "E0048", "quote": "The majority of microbes in the negative control samples (paraffin) were Acinetobacter and Aeromonas"}]},
+ "decontamination": {"value": "unclear", "tool": "2bRAD-M pipeline false-positive filtering", "evidence": [{"id": "E0013", "quote": "qualitative and quantitative analyses, and false-positive filtering"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 49,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Aquabacterium", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Acidovorax", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Comamonas", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Lawsonella", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Acetilactobacillus", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Escherichia", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Klebsiella", "evidence_id": "E0048", "flagged_contaminant": false},
+  {"name": "Pseudomonas", "evidence_id": "E0048", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Paraffin negative controls sequenced (Acinetobacter, Aeromonas in controls; not recorded). Top-50 genus heatmap only in Fig 1C/F; text names genera characterising PAZ-S vs PAZ-R groups. No contaminant removal described beyond 2bRAD-M false-positive filtering. Also bacterial culture, FISH, IF staining.",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

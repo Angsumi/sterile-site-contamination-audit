@@ -1,0 +1,142 @@
+{
+  "pmcid": "PMC13749659",
+  "tissue_category": "blood",
+  "sub_site": "blood",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": " nearly full-length V1-V9 region of the bacterial 16S rRNA gene was amplified using universal primers 27F (5\u2019-AGAGTTTGATCMTGGCTCAG-3\u2019) and 1492R (5\u2019-ACCTTGTTACGACTT-3\u2019). A negative control consisting of sterile PBS was included in each DNA "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "3\u2019) and 1492R (5\u2019-ACCTTGTTACGACTT-3\u2019). A negative control consisting of sterile PBS was included in each DNA extraction batch. Purified PCR amplicons were subjected to single molecule, real-time sequencing on the Pacific Biosciences Sequel "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "rence database (v.138.1). Since environmental DNA contamination is inevitable in the low biomass of circulating cell-free DNA, prevalence-based decontamination using the decontam R package (threshold = 0.5) was performed as describe by Liet"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 31,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micropruina",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidibacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Zoogloea",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidithiobacillus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenophaga",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alterirhizorhabdus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Niallia",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "20 recurrent spontaneous abortion and 11 healthy postpartum controls. Environmental taxa mentioned in methods were excluded from core differential analysis, not added as retained taxa.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "09139b9b626d89db4406a39e4fa54f8b6394ca47d96f40cff321f4d34e28a3ec",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

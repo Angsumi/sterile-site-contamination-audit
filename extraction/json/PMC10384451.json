@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC10384451",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "mid-gestation amniotic fluid (amniocentesis)",
+ "year": 2023,
+ "country": "Australia",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0021", "quote": "The current study utilised samples from 39 women in the original cohort."}]},
+ "method": {"value": "16S", "region": "full-length (27F/1492R, PacBio)", "evidence": [{"id": "E0010", "quote": "Extracted DNA was amplified using the PacBio uni-tagged 27F/1492R primers"}]},
+ "controls": {"value": "sequenced", "types": "extraction blank (sterile PBS); PCR NTC", "n_sequenced": 5, "evidence": [{"id": "E0022", "quote": "Of the three DNA extraction controls included, two produced reads ( Table 1 ); both PCR controls produced no reads."}]},
+ "decontamination": {"value": "none", "tool": "", "evidence": [{"id": "E0015", "quote": "no computational removal of potential contaminant sequences was performed"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 31,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Novosphingobium", "evidence_id": "E0025", "flagged_contaminant": true},
+  {"name": "Sphingomonas", "evidence_id": "E0025", "flagged_contaminant": true},
+  {"name": "Fusobacterium", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Bacillus", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Burkholderia", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Pelomonas", "evidence_id": "E0026", "flagged_contaminant": false},
+  {"name": "Lactobacillus", "evidence_id": "E0029", "flagged_contaminant": false},
+  {"name": "Ralstonia", "evidence_id": "E0030", "flagged_contaminant": false},
+  {"name": "Acidovorax", "evidence_id": "E0030", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "unclear",
+ "notes": "31 amniotic fluid samples analysed (11 preterm, 20 term). Control OTUs listed in Table 1; no computational removal, but dominant Novosphingobium/Sphingomonas interpreted as extraction-kit contaminants (remain in profile; shown removed in Fig 4 only). Authors: bacterial DNA unlikely from controls in 20/31 samples, but viability uncertain; profiles not predictive of PTB. Genera Lactobacillus, Ralstonia, Acidovorax named from own data in Discussion.",
+ "extractor": "AI agent (Claude sub-agent, batch 03)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,127 @@
+{
+  "pmcid": "PMC13073471",
+  "tissue_category": "blood",
+  "sub_site": "plasma cell-free DNA",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "eparation kit (Illumina, San Diego, CA, USA), and sequencing was conducted on the NextSeq 550Dx platform (Illumina, San Diego, CA, USA) using the NextSeq High Output Kit (Illumina, San Diego, CA, USA). Sequencing was performed using paired-"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "literature_list",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "rpreting microbial signals. To mitigate potential contamination effects, downstream analyses incorporated computational filtering strategies based on previously reported contaminant taxa and cross-validation-based procedures to reduce syste"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 168,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aeromonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Diaphorobacter",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ectopseudomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Janthinobacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "80 lung cancer and 88 noncancer controls after 14 exclusions. Retrospective shallow cfDNA sequencing; no reagent controls. Possible host-directed assay mining versus designed microbial shotgun needs review. No confirmed cohort link to independent Chen et al. plasma study.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ab3cda21a6729ed81427ce173999a6b0694e67aecd02b7730a32330e1543cfba",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

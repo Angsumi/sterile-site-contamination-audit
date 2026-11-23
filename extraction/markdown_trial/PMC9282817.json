@@ -1,0 +1,62 @@
+{
+  "pmcid": "PMC9282817",
+  "tissue_category": "other_sterile",
+  "sub_site": "cerebral arterial thrombus",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S",
+    "region": "V1-V9"
+  },
+  "controls": {
+    "value": "sequenced",
+    "evidence": [
+      {
+        "id": "fulltext.md:L27",
+        "quote": "Negative controls (water) were included in all sample preparation and sequencing experiments."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none"
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "n_target_samples": 4,
+  "sample_count_note": "4 thrombi from 4 patients",
+  "genera": [
+    {
+      "name": "Acetobacter",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "list_type": "mixed",
+  "authors_conclusion": "claimed",
+  "extractor": "Codex; single Markdown small-batch trial",
+  "date": "2026-11-23",
+  "supplement_files_available": [],
+  "status": "provisional; separate from analysis dataset",
+  "notes": "Ralstonia mentioned only as a literature example of contamination; excluded. Qubit total DNA quantification is not bacterial-load qPCR."
+}

@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC6585368",
+ "tissue_category": "other_sterile",
+ "sub_site": "cerebral thrombus",
+ "year": 2019,
+ "country": "",
+ "eligible_fulltext": false,
+ "exclusion_reason": "qPCR-only (species-specific TaqMan qPCR on cerebral thrombi); no sequencing-based community profiling",
+ "data_source": {},
+ "method": {},
+ "controls": {},
+ "decontamination": {},
+ "biomass_qpcr": {},
+ "n_target_samples": null,
+ "list_type": "",
+ "genera": [],
+ "top5": [],
+ "figures_only": "",
+ "authors_conclusion": "",
+ "notes": "",
+ "extractor": "AI agent (Claude sub-agent, batch 11)",
+ "date": "2026-11-23"
+}

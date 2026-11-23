@@ -1,0 +1,16 @@
+{
+ "source_counts": {
+  "v1_2026-11-22": 3380,
+  "v2_2026-11-22": 782,
+  "v1_2026-11-23": 3380,
+  "v2_2026-11-23": 782
+ },
+ "unique_keys": 3462,
+ "no_pmcid": 3,
+ "doi_or_pmid_duplicates": 0,
+ "unique_after_dedup": 3462,
+ "in_v1_only": 2680,
+ "in_v2_only": 82,
+ "in_both": 700,
+ "only_in_rerun": 0
+}

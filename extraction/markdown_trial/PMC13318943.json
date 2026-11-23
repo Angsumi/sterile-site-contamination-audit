@@ -1,0 +1,79 @@
+{
+  "pmcid": "PMC13318943",
+  "year": 2026,
+  "eligible_fulltext": true,
+  "tissue_category": "tumour",
+  "sub_site": "prostate tissue",
+  "n_target_samples": 40,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S"
+  },
+  "controls": {
+    "value": "sequenced",
+    "evidence": [
+      {
+        "id": "fulltext.md:L35",
+        "quote": "Given the low microbial biomass nature of FFPE tissue samples, strict laboratory precautions were implemented to minimize environmental and reagent contamination. DNA extraction blank controls and PCR negative controls were processed in parallel with all clinical samples throughout DNA extraction and amplification procedures to monitor background contamination."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "evidence": [
+      {
+        "id": "fulltext.md:L67",
+        "quote": "To address potential contamination in this low-biomass dataset, all taxa detected in the NTC extraction blank were manually cross-referenced against the patient OTU matrix. Taxa present in the NTC but absent from patient samples (Aquirufa, Dictyoglomus) were excluded. Enterobacter was excluded using a conservative NTC count threshold of \u226540 reads, justified by its substantially higher abundance in the E. coli positive control (6,692 reads versus 36 reads in the NTC), confirming the NTC signal represents reagent contamination rather than biological carryover. Methylobacterium and Bradyrhizobium , the two flagship taxa, were completely absent from the NTC (0 reads), supporting their classification as genuine tissue-associated biological signals ( Supplementary Tables 3A, S3B )."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "genera": [
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "fulltext.md:L95",
+      "evidence_quote": "Taxonomic profiling identified 256 bacterial genera across all samples. Among these, Methylobacterium, Bradyrhizobium , and Micrococcus were enriched in PCa tissues ( Figure 2 ). Gram-negative bacteria predominated in both groups. Genus-level comparisons between PCa and BPH samples are presented in Supplementary Figure 2 . Differential abundance analyses were adjusted for multiple testing using the Benjamini\u2013Hochberg false discovery rate (FDR).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "fulltext.md:L95",
+      "evidence_quote": "Taxonomic profiling identified 256 bacterial genera across all samples. Among these, Methylobacterium, Bradyrhizobium , and Micrococcus were enriched in PCa tissues ( Figure 2 ). Gram-negative bacteria predominated in both groups. Genus-level comparisons between PCa and BPH samples are presented in Supplementary Figure 2 . Differential abundance analyses were adjusted for multiple testing using the Benjamini\u2013Hochberg false discovery rate (FDR).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "fulltext.md:L95",
+      "evidence_quote": "Taxonomic profiling identified 256 bacterial genera across all samples. Among these, Methylobacterium, Bradyrhizobium , and Micrococcus were enriched in PCa tissues ( Figure 2 ). Gram-negative bacteria predominated in both groups. Genus-level comparisons between PCa and BPH samples are presented in Supplementary Figure 2 . Differential abundance analyses were adjusted for multiple testing using the Benjamini\u2013Hochberg false discovery rate (FDR).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "fulltext.md:L103",
+      "evidence_quote": "Correlation matrix analysis demonstrated co-occurrence patterns among several genera, particularly Methylobacterium, Bradyrhizobium, and Phenylobacterium ( Figure 3A ). Although Methylobacterium abundance did not differ significantly across Gleason categories, higher abundance was observed in high-grade and deceased PCa patients; however, these differences were not statistically significant (p= NS; one-way ANOVA for Gleason groups; unpaired t-test for survival status; Figures 3B, C ). Predicted functional pathway analysis (PICRUSt2 inference) indicated enrichment of carbohydrate and nitrogen metabolism pathways, including galactarate and creatinine metabolism, as well as increased microbial membrane transport activity in PCa samples ( Figure 4 ). Enzyme class predictors showed higher representation of ATPases, dehydratases, and ligases. KEGG annotations suggested enrichment of stress-related and transport-associated functions in PCa compared to BPH. These functional findings are based on inference from 16S rRNA data and should be considered hypothesis-generating.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "fulltext.md:L67",
+      "evidence_quote": "To address potential contamination in this low-biomass dataset, all taxa detected in the NTC extraction blank were manually cross-referenced against the patient OTU matrix. Taxa present in the NTC but absent from patient samples (Aquirufa, Dictyoglomus) were excluded. Enterobacter was excluded using a conservative NTC count threshold of \u226540 reads, justified by its substantially higher abundance in the E. coli positive control (6,692 reads versus 36 reads in the NTC), confirming the NTC signal represents reagent contamination rather than biological carryover. Methylobacterium and Bradyrhizobium , the two flagship taxa, were completely absent from the NTC (0 reads), supporting their classification as genuine tissue-associated biological signals ( Supplementary Tables 3A, S3B ).",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "23 prostate cancers plus 17 BPH tissues. Aquirufa and Dictyoglomus absent from patients, excluded. Source inconsistently describes 36 NTC reads and \u226540 threshold for Enterobacter removal; review required.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC13318943/fulltext.md",
+  "source_sha256": "5c4ea566065fc9a2b3265ec565cda391daad442699869bc01c99e69b5bc0b8d7",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named"
+}

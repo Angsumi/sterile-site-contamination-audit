@@ -1,0 +1,66 @@
+{
+  "pmcid": "PMC7049446",
+  "tissue_category": "tumour",
+  "sub_site": "primary renal tumour",
+  "year": 2020,
+  "eligible_fulltext": true,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "host_seq_mining"
+  },
+  "controls": {
+    "value": "none_mentioned"
+  },
+  "decontamination": {
+    "value": "unclear",
+    "evidence": [
+      {
+        "id": "fulltext.md:L39",
+        "quote": "We removed PhiX and Cutibacterium acnes as known dominant contaminants prior to analysis."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "n_target_samples": 6,
+  "sample_count_note": "PMC7049446: 6 primary tumour samples from 6 patients; 18 total tissues. PMC13478868: 10 lesion biopsies + 6 lung controls.",
+  "genera": [
+    {
+      "name": "Micrococcus",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "fulltext.md:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "fulltext.md:L39",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "list_type": "mixed",
+  "authors_conclusion": "claimed",
+  "extractor": "Codex; single Markdown small-batch trial",
+  "date": "2026-11-23",
+  "supplement_files_available": [],
+  "status": "provisional; separate from analysis dataset",
+  "notes": "Removal of known contaminants stated; neither own negative controls nor published contaminant-list basis specified, hence unclear. Staphylococcus reported in thrombus abstract, excluded from primary renal tumour list. Literature-only Parvimonas/Peptostreptococcus excluded."
+}

@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC13708057",
+  "tissue_category": "blood",
+  "sub_site": "blood qPCR only",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Blood bacterial DNA and viral DNA measured by real-time PCR only.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "9dccd164db8201662783e825e1bb9b9ba703c1c8e43a9cad7e31c7956ad1db28",
+  "notes": "",
+  "review_flags": []
+}

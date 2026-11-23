@@ -1,0 +1,83 @@
+{
+  "pmcid": "PMC11757874",
+  "tissue_category": "tumour",
+  "sub_site": "liver",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "7ed9a5f28c9b7dac64c382d84a83b1e4e0f68f52bec3c5a89b6ea9b99455f382",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "d PD-1 inhibitors were analyzed by 16S rRNA gene amplicon sequencing. Additionally, microbial community profiles of tumor tissues of patients with HCC and normal liver tissues were analyzed. Results In our investigation, we observed that pa"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caballeronia",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own normal liver (L, n=15) and HCC tissue (I, n=19) profiles. Prose inconsistently calls the L/I comparison “gut”, but methods explicitly identify surgical liver specimens; stool T/U comparisons excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

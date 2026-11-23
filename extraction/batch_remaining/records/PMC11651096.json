@@ -1,0 +1,73 @@
+{
+  "pmcid": "PMC11651096",
+  "tissue_category": "tumour",
+  "sub_site": "eligible internal TCGA cohorts",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "074eb7a8c9d3b2949e8d1b48dafb3188e7c33689657b2429576e53854f57cebc",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "cancer that are represented in the TCGA database. These types of cancer affect a wide range of organs and tissues throughout the body, and 15 of them have clinical stage information defined by the AJCC Cancer Staging System ( 2 ) ( Fig. 1a "
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "cancer that are represented in the TCGA database. These types of cancer affect a wide range of organs and tissues throughout the body, and 15 of them have clinical stage information defined by the AJCC Cancer Staging System ( 2 ) ( Fig. 1a "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Afipia",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Centipeda",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Isoptericola",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Public TCGA host RNA-mining reanalysis; eligible strata only.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

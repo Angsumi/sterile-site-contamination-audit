@@ -1,0 +1,11 @@
+{
+ "papers": 21,
+ "eligible_fulltext": 19,
+ "usable_list": 16,
+ "controls_classified": 19,
+ "checks": 279,
+ "check_fails": 0,
+ "usable_rate": 0.842,
+ "controls_rate": 1.0,
+ "check_pass_rate": 1.0
+}

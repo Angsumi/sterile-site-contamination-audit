@@ -1,0 +1,64 @@
+{
+  "pmcid": "PMC9257056",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour EUS-FNA",
+  "n_target_samples": 30,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "DNA extraction from the samples, preparation of a 16S rRNA library, and sequencing were conducted at Takara Bio, Inc (Kusatsu, Japan) using the MiSeq system (Illumina, San Diego, Calif) according to the manufacturer's protocol. DNA was extr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0039",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0039",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "30 sampled; 24 yielded analysable tumour sequencing. Stomach/duodenum microbiota excluded.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9257056/fulltext.md",
+  "source_sha256": "ad382793e71ceb2915c1148b0ff0eac8f675fb497c73fd84f09c033b1f4fe87f",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named",
+  "exclusion_reason": "",
+  "country": ""
+}

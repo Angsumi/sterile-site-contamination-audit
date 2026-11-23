@@ -1,0 +1,6 @@
+{
+  "data/studies.csv": "25a185f9100d79a881b6a31fed8f11712e82da8cb86a33bf3060e5e0ac2488d7",
+  "data/genera.csv": "8732927b2aaeb726f5f351f41bc144c41f6f1736ed0dfbb7a119a1397accc16f",
+  "data/check_summary.json": "6ccab1dc50210cb6b14b72386f793c52ff564909824d94696d3a7c7722e5249a",
+  "analysis/run_models.py": "112abf376a93cb8fc14b669e53cfd5692eb2c28f39ef0175ee621b85aec5e596"
+}

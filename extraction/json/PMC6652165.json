@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC6652165",
+  "tissue_category": "other_sterile",
+  "sub_site": "breast implant capsules",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "16S–23S interspace PCR fragment-length profiling (IS-pro) without community sequencing.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e5b20aab3723c8ea3729c85e604d11381577b30cbed39f62bdfdbf29c0ccda39",
+  "notes": "",
+  "review_flags": []
+}

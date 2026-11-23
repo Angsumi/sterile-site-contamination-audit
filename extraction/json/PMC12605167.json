@@ -1,0 +1,112 @@
+{
+  "pmcid": "PMC12605167",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour and adjacent tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "The bacterial 16S rRNA gene was amplified via PCR by targeting the V3\u2013V4 region, according to a previously established protocol ( 31 ). The PCR products were purified with VAHTS\u2122 DNA Clean Beads (Vazyme, Nanjing, China) and quantified with "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 78,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Gottfriedia",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neobacillus",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylophilus",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudochrobactrum",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecousia",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "39 paired resections. Source inconsistently spells Faecousia/Faecalusia; retain one explicitly reported genus, flag for review. Unclassified JC017 and SIO2C1 excluded. Clostridium_T counted as genus Clostridium. Contaminant removal stated without interpretable procedure.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e71d453c2bbff4f87569c7b3b9f69682ac4fed2257c2cfc21e8abbed745b2dea",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

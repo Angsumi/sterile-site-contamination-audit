@@ -1,0 +1,79 @@
+{
+  "pmcid": "PMC9917689",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "chorionic villi and amniotic fluid",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0036",
+        "quote": "ples was performed by sequencing region V3 of the 16S rRNA gene. Briefly, a qPCR targeting the V1-V3 region of the 16S rRNA gene (500 bp) was performed by employing the U534R primer and the degenerated primer 27FYM. Subsequently, a semi-nes"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "e computed the core microbiome of the no template controls, identifying features present in at least 30% of these samples, including Ralstonia pickettii , Escherichia coli , Bacillus pseudofirmus , Cutibacterium acnes, and Pseudomonas fulva"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "We computed the core microbiome of the no template controls, identifying features present in at least 30% of these samples, including Ralstonia pickettii , Escherichia coli , Bacillus pseudofirmus , Cutibacterium acnes, and Pseudomonas fulv"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0036",
+        "quote": "encing region V3 of the 16S rRNA gene. Briefly, a qPCR targeting the V1-V3 region of the 16S rRNA gene (500 bp) was performed by employing the U534R primer and the degenerated primer 27FYM. Subsequently, a semi-nested PCR was carried out wi"
+      }
+    ]
+  },
+  "n_target_samples": 60,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "23 CVS and 37 AF; 22 positive after control filtering. Supplement S3/S4 taxa are maternal oral/vaginal/rectal biomarkers, excluded from fetal list. Kitome-only taxa excluded. Additional target figure taxa unresolved.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "0cc0505a7ae75bdd358b6f6ff485568150c43ef1055f126c3b8c6c664ae5743a",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+  ]
+}

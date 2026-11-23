@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC12931691",
+  "tissue_category": "other_sterile",
+  "sub_site": "adipose tissue",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "54294fd9837c811c15fa22a1b2c0c8fec1f4c1dbdd7cea54cdb18ed5b82a70c4",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "vidence have described profiles of 16S rDNA sequences in host tissues, notably in fat pads that are significantly overrepresented and can serve as signatures of metabolic disease. However, these recent and original observations need to be f"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Our controls suggest that any exogenous bacterial contamination is at least 10 times lower than the tissue signal, meaning that it is likely to be negligible and to have only a limited impact on the taxonomic profiles of the samples, as pre"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Adipose depot-specific results are largely family-level; “Clostridium family XI” is a family label and was not counted as genus Clostridium. Supplementary genus-level labels require figure transcription.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

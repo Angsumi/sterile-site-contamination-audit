@@ -1,0 +1,288 @@
+# pmcid	decision	tissue_category	reason	source
+PMC13212450	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4973241	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9917689	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8344975	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8416267	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9203731	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10300872	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12094337	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9249531	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10580896	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13391134	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13610634	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7970190	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9655846	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8578860	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12144443	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10269740	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9761711	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9229211	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6974454	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10458976	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12298374	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12072589	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8417804	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11234499	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8719507	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10434204	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7748213	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9411061	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10282653	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13336981	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9909298	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4977686	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10728494	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13038528	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12938880	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12090731	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11258998	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12747540	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9016060	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11514760	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12106397	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9923924	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13039525	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7524391	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC3655727	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10072283	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11076999	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9831678	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11993446	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12742473	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9868672	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6092344	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8865290	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12619421	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11600705	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12524044	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6170155	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9168217	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11667224	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13614546	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10641399	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7930383	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8506159	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11538710	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10833227	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11452938	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11698707	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9736682	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9616903	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11223424	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12990424	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8349100	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10937280	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12796086	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10082026	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9664093	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7679384	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10974889	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13582187	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12665775	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13506372	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12918369	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11802558	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12505984	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12566430	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9950574	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13184318	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10968020	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10641272	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10180705	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10009945	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5782380	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11947164	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8460623	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9648016	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6243071	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9824396	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11915794	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12488368	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11411070	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8110246	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9850102	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8293572	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9849372	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11051999	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10009559	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4926221	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11543871	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5224923	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9319634	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8440111	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9820596	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9879758	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12000735	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10058358	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6996904	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4678059	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12654703	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4132904	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13340065	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6325556	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4456152	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12452477	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10155967	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10885698	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12688743	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC3623776	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6585368	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4239404	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC3816876	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4609377	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7530676	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13708057	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6553719	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8382971	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6475589	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4285853	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6509720	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7804304	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6282820	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12533616	exclude		no sequencing-based community profiling	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9143112	exclude		no target sterile site	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13106386	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13181211	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6253928	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5833211	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6522172	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5678348	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8790452	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13323847	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6946017	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12130564	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7805158	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6340419	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7902651	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13078193	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12558793	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12094980	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11645288	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12336292	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13098623	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11043573	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11909482	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13557220	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11026355	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9012281	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7805227	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6687017	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10276551	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9033202	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13454761	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9299070	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9853382	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12711772	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8976360	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11551669	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11512786	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7663313	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11427411	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8892252	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12147107	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13158933	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7158062	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10734456	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5411182	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12730867	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC3750567	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13740647	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10091326	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5057415	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12462350	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11265120	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9901442	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11153416	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9185487	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11737710	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11445011	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13003647	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12640582	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12685805	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7610361	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13337762	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10030822	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7805186	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10179101	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13054261	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7342825	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8413945	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7045118	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7059503	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10574755	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5460404	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10822138	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13147963	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12688851	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9710366	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10734080	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8777067	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7805060	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9623926	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10832095	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12993565	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12019022	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11487608	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13629944	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12646876	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8512189	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7237967	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10029985	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13478868	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11646375	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7968155	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8742395	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11529280	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12877887	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9138209	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9032700	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8902384	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13589538	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9130323	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7158098	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11301095	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9087857	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7083179	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11794157	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11964453	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13404615	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6373022	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12688727	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13236175	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12909175	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6373012	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13710831	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11981387	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12498551	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9268759	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7668451	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11439307	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6340014	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13155386	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9561593	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13386217	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7857647	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13185545	needs_abstract		title does not settle it	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12663706	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12380003	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12478913	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10377397	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12703050	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8519114	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC9254435	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10259343	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12833310	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8588729	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12273363	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC6717641	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12754327	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC5665675	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12420793	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC10559231	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC13525525	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC7490198	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC4880931	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC8726709	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC12701970	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23
+PMC11102145	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title, 2026-11-23

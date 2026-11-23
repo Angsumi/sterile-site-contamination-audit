@@ -1,0 +1,9 @@
+{
+ "pmcid": "PMC4172075",
+ "tissue_category": "tumour",
+ "year": 2014,
+ "eligible_fulltext": false,
+ "exclusion_reason": "Methods/assay development paper: PathoChip microarray (not sequencing-based community profiling) applied to oral squamous cell carcinoma (mucosal tumour); viral (HPV) detection focus.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

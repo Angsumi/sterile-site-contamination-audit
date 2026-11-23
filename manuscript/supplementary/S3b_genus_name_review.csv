@@ -1,0 +1,42 @@
+name,action,count_as,reason
+Bosea,count_as,Bosea,"valid bacterial genus (LPSN); NCBI moved the name to Allobosea, name kept to match the contaminant list"
+Mycolicibacterium,count_as,Mycolicibacterium,valid bacterial genus (LPSN); not a current NCBI genus node
+Jensenia,count_as,Jensenia,"bacterial genus (Jensenia canicruria, Corynebacteriales); not an NCBI genus node"
+Thioflexothrix,count_as,Thioflexothrix,"bacterial (Candidatus) genus, Thiotrichaceae"
+Kinetoplastibacterium,count_as,Kinetoplastibacterium,Candidatus bacterial endosymbiont genus
+Sulcia,count_as,Sulcia,Candidatus bacterial endosymbiont genus
+Candidatus_Arthromitus,count_as,Arthromitus,Candidatus bacterial genus
+Candidatus_Babela,count_as,Babela,Candidatus bacterial genus
+Candidatus_Obscuribacter,count_as,Obscuribacter,Candidatus bacterial genus
+Candidatus_Accumulibacter,count_as,Accumulibacter,Candidatus bacterial genus
+Candidatus_Udaeobacter,count_as,Udaeobacter,Candidatus bacterial genus
+Candidatus_Adlerbacteria,do_not_count,,"candidate phylum-level lineage, not a genus"
+Myxobacterium,do_not_count,,not a genus (informal group name)
+Actinobacter,count_as,Acinetobacter,"misspelling (e.g. ""Actinobacter lwoffii"")"
+Acinetobacteria,count_as,Acinetobacter,misspelling; paper lists it among genera
+Veillonela,count_as,Veillonella,misspelling
+Veilonella,count_as,Veillonella,misspelling
+Probionibacterium,count_as,Propionibacterium,misspelling
+Rizobium,count_as,Rhizobium,misspelling
+Lelliotta,count_as,Lelliottia,misspelling
+Phenobacterum,count_as,Phenylobacterium,misspelling
+Preistia,count_as,Priestia,misspelling
+Colinsella,count_as,Collinsella,misspelling
+Faecalibaterium,count_as,Faecalibacterium,misspelling
+Esherichia,count_as,Escherichia,misspelling
+Phascholarctobacterium,count_as,Phascolarctobacterium,misspelling
+Vaulcaiibacterium,count_as,Vulcaniibacterium,misspelling
+Lutemonas,count_as,Luteimonas,misspelling
+Paracocccus,count_as,Paracoccus,misspelling
+Sporocarcinia,count_as,Sporosarcina,misspelling
+Granilucatella,count_as,Granulicatella,misspelling
+Norcadioides,count_as,Nocardioides,misspelling in source
+Norcardia,count_as,Nocardia,misspelling
+Ruminococcus2,count_as,Ruminococcus,SILVA numbered clade label (Ruminococcus_2)
+Allicycliphilus,count_as,Alicycliphilus,misspelling
+Cirtrobacter,count_as,Citrobacter,misspelling
+Peanibacillus,count_as,Paenibacillus,misspelling
+Clostridoides,count_as,Clostridioides,misspelling
+Sphihgomonas,count_as,Sphingomonas,misspelling
+Lodobacter,count_as,Iodobacter,misreading of Iodobacter
+Ochrobacterium,count_as,Ochrobactrum,misspelling

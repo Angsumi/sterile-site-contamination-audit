@@ -1,0 +1,84 @@
+{
+  "pmcid": "PMC4971513",
+  "tissue_category": "tumour",
+  "sub_site": "breast tissue in benign and malignant disease",
+  "year": 2016,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "To generate 16S amplicons, in a 50 ul reaction, typically 50 ng of gDNA was used as template, with 0.3 uM of V3-V5 barcoded primers targeting 357F and 926R of the bacterial 16S gene (5\u2032AATGATACGGCGACCACCGAGATCTACACTATGGTAATTGTCCTACGGGAGGCAG"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "ed 34 . In total, 15,156,581 reads passed quality control. Paired-end reads were analyzed according to the pipeline described in the IM-TORNADO bioinformatics pipeline 34 . Taxonomy was assigned against a Greengenes reference database (v13."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 33,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Atopobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gluconacetobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenophaga",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Prospective Mayo Clinic cohort of 33 women. Skin tissue/swabs and buccal swabs excluded. Later histology follow-up PMC8971327 reuses this cohort; retain this paper as longer named-genus list under protocol overlap rule.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "fddbdea21630e0ab3de934e8e2620c982854b8bb418dd57caaefd54a4425c5fe",
+  "excluded_archaeal_labels": [],
+  "review_flags": [],
+  "overlap_with": "PMC8971327",
+  "overlap_decision": "keep_longer_genus_list"
+}

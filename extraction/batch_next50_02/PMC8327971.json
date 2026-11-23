@@ -1,0 +1,154 @@
+{
+  "pmcid": "PMC8327971",
+  "tissue_category": "blood",
+  "sub_site": "blood",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "althy controls, before and after treatment, using 16S rDNA sequencing and liquid chromatography coupled to tandem mass spectrometry. Results: The baseline blood microbiome in patients with a major depressive episode was distinct from that o"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aggregatibacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Curvibacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Janthinobacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kocuria",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parvimonas",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidimonas",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hymenobacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rubrobacter",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tetrasphaera",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bosea",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "112 participants (56 depression cases and 56 matched controls), with repeat post-treatment sampling. Exact total specimen count not assumed. Genus-specific validation classifications retained; Bosea logged for taxonomy review.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c371bdb856a222721f11622b8e686167eab0a26fdb629948bb4978c26cb354f5",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+  ]
+}

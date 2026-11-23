@@ -1,0 +1,149 @@
+{
+ "pmcid": "PMC12531316",
+ "tissue_category": "tumour",
+ "sub_site": "hepatocellular carcinoma tissue and paired adjacent non-tumour liver",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "Tumor and adjacent normal tissues from 72 HCC surgical patients were analyzed"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V4",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "to amplify the V4 region of the bacterial 16S rRNA gene in diluted DNA samples"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0025",
+    "quote": "To quantify the total DNA amount, we employed universal 16S rRNA primers"
+   }
+  ]
+ },
+ "n_target_samples": 144,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Porphyromonas",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Shigella",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Synechococcus",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Georgenia",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Arenimonas",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Selenomonas",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Propionibacterium",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leptolyngbya",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Marivita",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cupriavidus",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycoplasma",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Variovorax",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "72 tumour + 72 adjacent non-tumour liver samples (both target sites). Only differential genera named (Fig. 1E, LEfSe, paired t-test); KD1_23 and OPB41 not genus names. Genus qPCR for Propionibacterium/Mycoplasma/Pseudomonas. No negative controls or decontamination described; Propionibacterium/Ralstonia/Cupriavidus reported as tumour-enriched without contamination discussion.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,163 @@
+{
+  "pmcid": "PMC11702424",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4a4d95b9cd781e95db9de4ec31274da8c002d66273fd8ffadcf4028bde00fd63",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "mers targeting the V3–V4 region of 16S rRNA (338F: 5′‐ACTCCTACGGGAGGCAGCAG‐3′ and 806R: 5′‐GGACTACHVGGGTWTCTAAT‐3′). After purification and quality assessment, final products were sequenced on an Ion S5™ XL platform (Thermo Fisher Scientifi"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Aerococcus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerovorax",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Donghicola",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dubosiella",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnospira",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marivivens",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Glycomyces",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenispora",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylophilus",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillospira",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pantoea",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptococcus",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pusillimonas",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobacterium",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Woeseia",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthobacter",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Yersinia and Staphylococcus infection pathway labels are not microbial detections and were excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

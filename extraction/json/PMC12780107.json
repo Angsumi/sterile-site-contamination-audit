@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC12780107",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "d4cf09c272d4bcf9fbfb3e3be9e5be25736720d559bd113fec45f872338077f1",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "other",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ung tissue using three data types: 16S rRNA gene sequencing (16S), whole-genome sequencing (WGS) with paired blood, and RNA-seq. We observe very low biomass and few microbiome associations in LCINS using 16S and WGS tissue. Using RNA-seq, w"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "ed in silico. For 16S samples, PCR negative controls were used to calculate bacterial contamination fractions with the SCRuB 67 algorithm, using PCR well location information to track well-to-well leakage. The WGS and RNA-seq datasets were "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "SCRuB; literature filtering",
+    "evidence": [
+      {
+        "id": "E0055",
+        "quote": "16S sequencing samples were decontaminated on a plate-by-plate basis using the SCRuB algorithm 67 with default parameters and PCR well location information to track well leakage (Supplementary Fig. 13 )."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0058",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own WGS, 16S and host RNA-seq analyses of lung cancers in never smokers; method labelled other to preserve mixed assay design.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

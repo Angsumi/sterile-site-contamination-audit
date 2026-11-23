@@ -1,0 +1,108 @@
+{
+ "pmcid": "PMC10341653",
+ "tissue_category": "blood",
+ "sub_site": "whole blood (IBD outpatients)",
+ "year": 2023,
+ "country": "Sweden",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0019",
+    "quote": "blood samples were drawn from 19 outpatients with CD and 14 outpatients with UC"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4 (nested after V1-V4 PCR)",
+  "evidence": [
+   {
+    "id": "E0020",
+    "quote": "the purified amplicons were used as a template for 16S V3\u2013V4 amplicon sequencing"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "non-template control carried from DNA extraction through sequencing",
+  "n_sequenced": 1,
+  "evidence": [
+   {
+    "id": "E0020",
+    "quote": "A non-template control (NTC) was included from the DNA extraction and downstream of sequencing."
+   },
+   {
+    "id": "E0007",
+    "quote": "Contamination from the environment or reagents was detected in the NTC."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 33,
+ "list_type": "full_profile",
+ "genera": [
+  {
+   "name": "Achromobacter",
+   "evidence_id": "E0009",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Probionibacterium",
+   "evidence_id": "E0009",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0009",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0009",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Rothia",
+   "evidence_id": "E0009",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0009",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0009",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paracoccus",
+   "evidence_id": "E0009",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Thermicanus",
+   "evidence_id": "E0009",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Single NTC sequenced; no taxa removed. Probionibacterium (sic), Staphylococcus, Streptococcus, Rothia flagged because authors report them as shared with the NTC and contrast them with blood-only genera 'less likely' to be contamination (judgement call). Achromobacter dominant (63.8%) and authors say it may be contamination but leave it open - not flagged. Top-10 genera only in Fig. 2; Table S1 not available.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

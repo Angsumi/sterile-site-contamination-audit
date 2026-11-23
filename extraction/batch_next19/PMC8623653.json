@@ -1,0 +1,71 @@
+{
+  "pmcid": "PMC8623653",
+  "tissue_category": "tumour",
+  "sub_site": "thymoma tissue",
+  "year": 2021,
+  "country": "Japan",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "Although there is no hypervariable region of the 16S gene that allows an accurate classification of all bacterial strains at the domain to the species level, there is a known region that allows the near-perfect prediction at a specific taxo"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "identified in the 22 samples, while no OTU was found in the negative control samples (without any tissue). The dominant (>1% average relative abundance) classifiable OTUs belonged to four families: namely, Sphingomonadaceae (abundance: 62.0"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 22,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phyllobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "22 thymoma tissue samples from 19 patients. Separate 30 pancreatic specimens are comparator, excluded from genus list.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4eeb46340fe1e8cb535fbc3b445562c4a59851c5250d1711e9084f2fc11a38f8",
+  "supplement_manifest": []
+}

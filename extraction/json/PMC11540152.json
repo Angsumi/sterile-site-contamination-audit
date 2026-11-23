@@ -1,0 +1,143 @@
+{
+ "pmcid": "PMC11540152",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic ductal adenocarcinoma tumour and normal adjacent pancreas",
+ "year": 2024,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "We collected matched tumor and normal adjacent tissue (NAT) samples from 105 PDAC patients"
+   }
+  ]
+ },
+ "method": {
+  "value": "2bRAD-M",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0092",
+    "quote": "The 2bRAD-M library preparation method was primarily based on the original protocol developed by Wang et al."
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "operating-room and laboratory air samples (environmental negative controls)",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0092",
+    "quote": "The present study employed air samples from laboratory and surgical environments as negative controls"
+   },
+   {
+    "id": "E0092",
+    "quote": "Contaminants were identified based on tissue samples and environmental control samples using microDecon’s decon function and decontam’s isContaminant function."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "tool",
+  "tool": "decontam + microDecon + FEAST",
+  "evidence": [
+   {
+    "id": "E0064",
+    "quote": "Using a combination of decontam, microDecon, and FEAST, background microorganisms were deducted based on the negative controls."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 105,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cutibacterium",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Limnohabitans",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacterium",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pelomonas",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dialister",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dietzia",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0070",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0070",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brevundimonas",
+   "evidence_id": "E0070",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0073",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "105 patients, matched tumour + NAT. GTDB names (Limnohabitans_A, Bacillus_A, Pseudomonas_E) recorded as base genus. Overall profile only in Fig. S1; text lists differential and prognostic taxa only.",
+ "extractor": "AI agent (Claude sub-agent, batch 09)",
+ "date": "2026-11-23"
+}

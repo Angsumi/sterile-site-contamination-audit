@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC13478868",
+  "tissue_category": "tumour",
+  "sub_site": "Langerhans cell histiocytosis lesions",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "14e34d0ea5ea1ebcc1276943caf92013384af5db8ce444ac67fb87e13a9f43da",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0002",
+        "quote": "Shareable abstract Shotgun metagenomics of pulmonary and extrapulmonary Langerhans cell histiocytosis lesions revealed no infectious pathogens and no microbiome differences from control lung tissue, which does not support an infectious role"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "il-senhaji/MetaG4K_pipeline ). The negative controls were processed throughout. Statistical analyses were performed in R (v4.3.2). Alpha diversity (Observed, Shannon, Simpson) was computed with phyloseq/vegan and compared with Wilcoxon test"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "Bacterial diversity profiled, but no target bacterial genus reported as detected; Mycobacterium explicitly absent. Named fungi/viruses not counted.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+ "pmcid": "PMC10893466",
+ "tissue_category": "other_sterile",
+ "sub_site": "lung allograft tissue (donor lung at transplantation and explanted CLAD lung)",
+ "year": 2024,
+ "country": "South Korea",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0004",
+    "quote": "Their tissue was obtained from the Pusan National University Yangsan Hospital (PNUYH) Biobank"
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "Sequencing reads that could not be aligned with known human reference genomes were mapped against a comprehensive database of known bacterial, archaeal, and viral microbial genomes using the ultrafast Kraken2 algorithm"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "abundance_filter_only",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "Taxa with less than 10 counts, the default of the Bracken analysis, were removed"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 8,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Xanthomonas",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pasteurella",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Klebsiella",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aerococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Caldisericum",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Croceibacter",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leptolyngbya",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pulveribacter",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dolichospermum",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stappia",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kinetoplastibacterium",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Pseudomonas",
+  "Xanthomonas",
+  "Bacillus",
+  "Pasteurella",
+  "Rhodococcus"
+ ],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Human WGS (DNBSEQ-T7) of FFPE-kit-extracted lung tissue mined with Kraken2/miniKraken; 4 patients x 2 time points. Authors assert no contamination occurred but report no controls. Top-30 genera shown only in Fig. 2B; text lists five dominant genera (order not strictly ranked). 'Caldiericum' in text is a misspelling of Caldisericum (recorded as Caldisericum). Dolichospermum/Leptolyngbya are cyanobacteria.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

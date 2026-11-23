@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC13485531",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "682f510f7ae5d7f2eda75da92ff71bbb70d22034a0d0f13ee0e9edeb181f3d0c",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "16S rRNA gene sequencing and primary bioinformatics were performed by Shanghai Biotree Biotech Co., Ltd. (Shanghai, China) using 5R 16S rRNA sequencing, which amplifies five regions (R1–R5) of the bacterial 16S rRNA gene via multiplex PCR t"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "with total reads <1,000 (including negative controls) were removed; taxa with relative abundance <1×10–4 were filtered. Potential contaminants were identified by comparing taxa detected in tissue samples with those present in sampling contr"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": " evidence of background or reagent contamination were excluded from downstream analyses, and the remaining taxa were used for beta-diversity, differential abundance, and correlation analyses. For microbiome profiling, 19 paired tumor (T) an"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limosilactobacillus",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

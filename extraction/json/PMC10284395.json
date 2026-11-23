@@ -1,0 +1,28 @@
+{
+ "pmcid": "PMC10284395",
+ "tissue_category": "brain_csf",
+ "sub_site": "CSF of children with hydrocephalus at initial surgery",
+ "year": 2023,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0001", "quote": "CSF was obtained at initial surgical intervention."}]},
+ "method": {"value": "shotgun", "region": "", "evidence": [{"id": "E0015", "quote": "DNA was extracted from CSF samples and amplified with the REPLI-g Mini Kit (Qiagen, CN: 150023). A random-fragment library was prepared and sequenced on the HiSeq 2500 Illumina platform."}]},
+ "controls": {"value": "sequenced", "types": "extraction controls (used in decontam)", "n_sequenced": null, "evidence": [{"id": "E0016", "quote": "Taxonomic assignments, extraction control samples, and qPCR DNA concentrations were used."}]},
+ "decontamination": {"value": "tool", "tool": "decontam (frequency + prevalence)", "evidence": [{"id": "E0016", "quote": "To assess the potential impact of contaminants on WGAS results, we used the computational package decontam R [ 22 ]."}]},
+ "biomass_qpcr": {"value": "yes", "evidence": [{"id": "E0014", "quote": "The total bacterial loads for all 66 CSF samples were quantified using broad-range 16S rRNA gene quantitative PCR (qPCR)"}]},
+ "n_target_samples": 12,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Escherichia", "evidence_id": "E0116", "flagged_contaminant": false},
+  {"name": "Klebsiella", "evidence_id": "E0116", "flagged_contaminant": false},
+  {"name": "Pseudomonas", "evidence_id": "E0116", "flagged_contaminant": false},
+  {"name": "Staphylococcus", "evidence_id": "E0116", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "unclear",
+ "notes": "66 CSF samples; 16S qPCR on all, culture in STGG/standard; WGAS (whole-genome amplification + shotgun, Kraken2) only on 11 STGG-positive + 1 standard-culture-positive sample. Only the most abundant WGAS organism per sample reported (Table 2). Culture-only genera (Cutibacterium, Lactobacillus, Neisseria, Streptococcus, Dermacoccus, Niallia, Paenibacillus) not recorded as they are not sequencing results. Authors: cannot rule out bacteria but may be contaminants. Multi-centre (includes Canadian sites); country left blank.",
+ "extractor": "AI agent (Claude sub-agent, batch 03)",
+ "date": "2026-11-23"
+}

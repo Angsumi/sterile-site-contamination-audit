@@ -1,0 +1,139 @@
+{
+ "pmcid": "PMC7820181",
+ "tissue_category": "blood",
+ "sub_site": "plasma (smokers, aviremic ART-treated HIV+, SLE, and healthy controls)",
+ "year": 2021,
+ "country": "USA; China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0005",
+    "quote": "The tobacco-smoking cohort included 20 tobacco smokers and 21 non-smokers; the HIV cohort included 40 aviremic ART-treated HIV-infected individuals and 51 healthy controls"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V4",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "the 16S V4 variable region was amplified"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "water controls: direct sequencing, through cfDNA isolation, mock blood draw procedure blank, skin-surface water",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "control iii was the water control obtained through mimicking the whole procedure of drawing blood and plasma collection, cfDNA isolation, and sequencing"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "tool": "user-defined filtering factor vs blank control, plus abundance/prevalence filters",
+  "evidence": [
+   {
+    "id": "E0015",
+    "quote": "If the taxa abundance in the water controls multiplied by the filtering factor was more than the taxa abundance in the plasma samples, the taxa present in the water control were considered contaminations"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 181,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Veillonella",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Haemophilus",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Arthrobacter",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Fusobacterium",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Altererythrobacter",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cryobacterium",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anaerococcus",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Desulfoconvexum",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Desulfofrigus",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Desulfovibrio",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Draconibacterium",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Planococcus",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Psychrilyobacter",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Methods paper: >97% of ASVs removed by abundance/prevalence + control-ratio filtering. Genera only those differential by disease group (smoking, HIV, SLE); removed contaminant ASVs not named in text. Smoker cohort from China, HIV/SLE cohorts USA. Plus 25 healthy plasma in pilot; n_target=181 counts the three cohorts.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

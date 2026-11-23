@@ -1,0 +1,38 @@
+{
+ "pmcid": "PMC12462036",
+ "tissue_category": "other_sterile",
+ "sub_site": "",
+ "year": 2025,
+ "country": "",
+ "eligible_fulltext": false,
+ "exclusion_reason": "rat model (animal); screening error at title/abstract",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "extract bacterial DNA from rat follicular fluid samples"
+   }
+  ]
+ },
+ "controls": {},
+ "decontamination": {},
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": null,
+ "list_type": "",
+ "genera": [],
+ "top5": [],
+ "figures_only": "",
+ "authors_conclusion": "",
+ "notes": "",
+ "extractor": "AI agent (Claude Opus 5.5), pilot 2026-11-22; converted 2026-11-23",
+ "date": "2026-11-22"
+}

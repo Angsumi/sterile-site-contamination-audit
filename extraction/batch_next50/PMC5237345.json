@@ -1,0 +1,134 @@
+{
+  "pmcid": "PMC5237345",
+  "tissue_category": "tumour",
+  "sub_site": "aggressive prostate tumour tissue",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "ee custom primers were used for sequencing of the 16S rRNA V4 region amplicons as described in [ 11 ] and the 16S rRNA V2-V3 region amplicons as adapted from Caporaso et al. (2011) [ 11 ]. The libraries were sequenced by using the MiSeq\u00ae 50"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "s, Forster City, CA, USA). Negative amplification controls included dH 2 O and TE buffer and the positive amplification control was Salmonella typhimurium (0.5 ng/\u03bcL). Cycling conditions were as follows: 95 \u00b0C for 5 min, 35 cycles at 95 \u00b0C "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aerococcus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Curvibacter",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidimonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lutemonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "20 samples from 10 patients. Bacterial list from 16S; shotgun metagenomics mainly viral work. Actinobacter/Lutemonas retained as written and not silently corrected. Australian cohort overlap review lead.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "91ea4556d504f0aca1d69eb4edc85d0f721d71e95b00a6037ed2374213481b00",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence."
+  ]
+}

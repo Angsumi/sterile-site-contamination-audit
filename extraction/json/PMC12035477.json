@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC12035477",
+ "tissue_category": "tumour",
+ "sub_site": "triple-negative breast cancer pretreatment tumour tissue",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "GDPH and FPHF cohorts", "evidence": [{"id": "E0014", "quote": "Frozen tissues of 60 patients from our center and 29 patients from the First People’s Hospital of Foshan"}]},
+ "method": {"value": "16S", "region": "", "evidence": [{"id": "E0051", "quote": "we first performed 16S-seq on pretreatment tissues from 57 patients (35 in pCR group and 22 in non-pCR group) from the GDPH cohort"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "unclear", "tool": "", "evidence": [{"id": "E0051", "quote": "Contamination was removed following the standard procedure ( online supplemental figure S2 ). After removing contaminant amplicon sequence variants"}]},
+ "biomass_qpcr": {"value": "yes", "evidence": [{"id": "E0053", "quote": "Our RT-qPCR analysis of tumors in the GDPH cohort using the relative quantification method demonstrated that bacterial load was significantly greater"}]},
+ "n_target_samples": 86,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Acinetobacter", "evidence_id": "E0051", "flagged_contaminant": false},
+  {"name": "Escherichia", "evidence_id": "E0051", "flagged_contaminant": false},
+  {"name": "Streptomyces", "evidence_id": "E0058", "flagged_contaminant": false},
+  {"name": "Clostridium", "evidence_id": "E0058", "flagged_contaminant": false},
+  {"name": "Ralstonia", "evidence_id": "E0058", "flagged_contaminant": false},
+  {"name": "Salmonella", "evidence_id": "E0058", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0058", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "16S on 57 GDPH + 29 FPHF tumours; also scRNA-seq microbial reads on 7 tumours (Escherichia top in scRNA; Streptomyces, Clostridium, Ralstonia, Salmonella, Streptococcus from scRNA). Detailed 16S methods, controls and decontamination procedure only in online supplement (not available); main text only says contaminant ASVs removed. Acinetobacter most abundant genus by 16S. Genus profiles mostly in supplementary figures.",
+ "extractor": "AI agent (Claude sub-agent, batch 03)",
+ "date": "2026-11-23"
+}

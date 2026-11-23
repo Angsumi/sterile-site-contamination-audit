@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC13233812",
+  "tissue_category": "tumour",
+  "sub_site": "liver",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "a878317c1e97e9f625b416c89c50f259e0df2b24137001e7f99517f6a0c0347e",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "tumoral microbiota profiling by 5R 16S rRNA sequencing, together with a stringent contamination-controlled workflow, identified enrichment of Staphylococcus in advanced-stage (Barcelona Clinic Liver Cancer [BCLC] C) HCC and enabled isolatio"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Providencia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human HCC sequencing genera only; culture-isolated Bacillus/Enterobacter/Klebsiella not automatically included.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

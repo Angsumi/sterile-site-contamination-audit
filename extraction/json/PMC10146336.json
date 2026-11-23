@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC10146336",
+  "tissue_category": "blood",
+  "sub_site": "plasma",
+  "year": 2023,
+  "country": "USA",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "culating DNA from frozen plasma was processed for shallow-shotgun sequencing [ 23 ] and mapped to the Web of Life database [ 24 ] using Bowtie 2 [ 25 ], followed by stringent decontamination in R using decontam ( p * = 0.5; prevalence and freque"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "24 ] using Bowtie 2 [ 25 ], followed by stringent decontamination in R using decontam ( p * = 0.5; prevalence and frequency modes) [ 26 ] as described [ 17 ]. The resulting BIOM tables were processed in QIIME 2 v2020.2 [ 27 ] for phylogenetic an"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "PRI paramagnetic beads (Beckman Coulter). For the quantitative detection of bacterial DNA via qPCR, we used the degenerated forward primer 341F (5\u2032- CCTACGGGNGGCWGCAG-3\u2032) and reverse primer 805R (5\u2032-GACTACHVGGGTATCTAATCC-3\u2032), targeting the regio"
+      }
+    ]
+  },
+  "n_target_samples": 151,
+  "list_type": "differential_only",
+  "genera": [],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "claimed",
+  "notes": "Results report class-level taxa only. Nitrospira is explicitly treated as a class here, not a genus. No supplement available. Decontam described by reference without explicit sequenced blanks in this paper.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

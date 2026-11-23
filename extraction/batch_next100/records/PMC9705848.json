@@ -1,0 +1,128 @@
+{
+  "pmcid": "PMC9705848",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "025391902c0ab5a160783b007503b5270d3c32ad494cd02210efd65d3852ceac",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "t (Qiagen, Germany). The bacterial 16S rRNA gene (targeted V1–V3 region) was amplified based on the protocol for preparing a 16S metagenomics sequencing library with the MiSeq system (Illumina, Inc., USA) described previously [ 29 ], and th"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "uantification Kit (Toyobo, Japan). Negative controls were included at every step to check contamination, and 8 negative controls (5 of empty cryotube for check operation room, 1 of DNA-free water added to the DNA extraction kit and 1 of the"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Raw sequence reads were analyzed using CLC genomics workbench v.11.0.1 with the Microbial Genomics Module (Qiagen) as described previously [ 29 , 34 ]. Briefly, raw sequences were merged, and sequences with short read-lengths (< 430 bp of m"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "h serial log-concentrations of the copy number of bacterial 16S rRNA gene from Escherichia coli K12 W3110, and each reaction was performed in triplicate. The calculated rRNA gene copy numbers were divided by 4.2 (the average copy number of "
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Brochothrix",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Myroides",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoxanthomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

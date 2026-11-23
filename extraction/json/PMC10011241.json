@@ -1,0 +1,244 @@
+{
+  "pmcid": "PMC10011241",
+  "tissue_category": "other_sterile",
+  "sub_site": "aqueous humour",
+  "year": 2023,
+  "country": "India",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "re prepared by amplifying the V3\u2013V4 region of the 16S rRNA gene using fusion primer, followed by index PCR with Nextera XT index kit (Illumina). The quality of the final libraries was checked with 2200 TapeStation (Agilent) using a high-sensitiv"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": " in our earlier studies [ 7 , 8 , 18 , 20 , 21 ]. Negative controls (reagents of the respective isolation protocols without the samples) were also processed simultaneously."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "microDecon",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": " described in our earlier studies [ 7 , 8 , 29 ]. Contamination was removed from all sequences using the functions remove.count, remove.thresh and decon.diff in microDecon [ 25 ]. Sparse OTUs (< 0.001% of the total HQ reads) were not considered "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 12,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Shuttleworthia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Succinivibrio",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ornithinimicrobium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicibacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridioides",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dialister",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyrivibrio",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Barnesiella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parasutterella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Subdoligranulum",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kurthia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sarcina",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Atopobium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia\u2013Shigella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megasphaera",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidaminococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Asteroleplasma",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megamonas",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mitsuokella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only aqueous humour values extracted from shared gut/eye table; all listed genera have nonzero aqueous values. Controls processed; sequencing not explicitly stated.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

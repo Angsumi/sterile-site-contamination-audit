@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12823436",
+  "tissue_category": "other_sterile",
+  "sub_site": "adipose-linked study stool microbiome",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Adipose-linked metabolic study with gut/stool microbiome profiling, not adipose microbial community sequencing.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "7eb9ae400e2c8bcc2da57036212f686c62eb6e4a888c15deeff19ad6268466e3",
+  "notes": "",
+  "review_flags": []
+}

@@ -1,0 +1,9 @@
+{
+ "pmcid": "PMC9570029",
+ "tissue_category": "tumour",
+ "year": 2022,
+ "eligible_fulltext": false,
+ "exclusion_reason": "Archaea-only profiling (Pathoscope 2.0 with an archaeal-only reference library on TCGA LUAD/LUSC RNA-seq); no bacterial genera reported - treated like virome-/fungi-only exclusion. Borderline: lung tumour tissue, TCGA host_seq_mining, Spearman-correlation contaminant removal.",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,106 @@
+{
+  "pmcid": "PMC5946436",
+  "year": 2018,
+  "eligible_fulltext": true,
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid",
+  "n_target_samples": 24,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S",
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": "One thousand fifty microliters of amniotic fluid was centrifuged (7000 g , 10 min). Extraction buffer was added to the pellet, which was disrupted by bead beating, and DNA was extracted using QIAamp DNA stool Mini Kit in a decontaminated st"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "We next considered the possibility that amniotic fluid harbored a qualitatively different set of bacterial DNA than the reagents, i.e., that there was discrete bacterial microbiota present at low abundance in amniotic fluid. If so, bacteria"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "To quantify the bacterial biomass in amniotic fluid specimens, we performed a qPCR assay to measure the absolute number of 16S rRNA gene copies. The mean 16S rRNA gene copies in amniotic fluid samples were 944 copies/mL (SD 374), a very low"
+      }
+    ]
+  },
+  "genera": [],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "yes",
+  "authors_conclusion": "not_claimed",
+  "notes": "Downloaded bacterial OTU count matrix (MOESM3), sample metadata (MOESM2), OTU FASTA (MOESM4), demographics and viral matrix. OTU matrix has numeric identifiers and no taxonomy; FASTA headers inspected: numeric OTU IDs only, no published genus assignment available. Do not infer bacteria from viral host names or use new taxonomic analysis without protocol amendment.",
+  "supplement_status": "Retrieved available PMC OA media; originals and markitdown copies kept locally.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/fulltext.md",
+  "source_sha256": "adf1d16395eab170944e9e496d1bf64036ffeca7b80b35fa6790995374cb3b23",
+  "extractor": "Codex Markdown trial; native evidence cross-check; AI first pass",
+  "date": "2026-11-23",
+  "review_status": "supplements/figures reviewed; provisional; not merged",
+  "genus_list_status": "not_usable_unannotated_OTU_table",
+  "additional_source_manifest": [
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp/40168_2018_475_MOESM3_ESM.csv",
+      "sha256": "baca3b8e8560a4c4e63933857c90b333a54ca81939f5312964f004abd5ceea25"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp/40168_2018_475_MOESM2_ESM.txt",
+      "sha256": "abb7981cf5b6bca4267864d2fe3c9f5d94af7749510eae5f0645b9c7afe06ff6"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp/40168_2018_475_MOESM1_ESM.docx",
+      "sha256": "7112dcbb15a78728eea4937fbec6c06944e21b2739047024a195032bfc118b4f"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp/40168_2018_475_MOESM5_ESM.csv",
+      "sha256": "3b08f7274cf3101e7683a52a39c9d07b18d1fedefbbcae293fe953a1403bd161"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp/40168_2018_475_MOESM4_ESM.fa",
+      "sha256": "186899aa4236d5cecefa09c9ab00b4b057aae8cf548b8600b34579384db3e78d"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp_md/40168_2018_475_MOESM3_ESM.md",
+      "sha256": "f6f987cfb17f02a9fcc67922ab8507dba40b4b51dac3e5597903b35f3f9f3393"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp_md/40168_2018_475_MOESM2_ESM.md",
+      "sha256": "38969d40d6a60267d39a255a8e0d1985169cf32317a7745521d777cc6c590e7c"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp_md/40168_2018_475_MOESM5_ESM.md",
+      "sha256": "7e393ec5456f505a53fb1877180b619d95dae70cf454e90e760ffd5f7644516b"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/supp_md/40168_2018_475_MOESM1_ESM.md",
+      "sha256": "d78833c3f4696ad16ff8f69633f13aeb7ce2e9c51ddabda6f2c23fac0c48fe49"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/figures/40168_2018_475_Fig1_HTML.jpg",
+      "sha256": "bfce4c64c450af5b5f4181ced4eb92e109f509bfb734edf5943fcf185ce1870b"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/figures/40168_2018_475_Fig3_HTML.jpg",
+      "sha256": "d79d55c29a05a153327d4d2bd2733f66660881204deb92617d1c60b3823e7cf6"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC5946436/figures/40168_2018_475_Fig2_HTML.jpg",
+      "sha256": "cae0220cce6fbd206bc0ecb62d8a2eb7ce85971eacf76cb3a2efcc2d7ddd3f98"
+    }
+  ],
+  "exclusion_reason": ""
+}

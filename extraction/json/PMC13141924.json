@@ -1,0 +1,208 @@
+{
+  "pmcid": "PMC13141924",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "a5029a41732c3146f6ce1fe4ce60bfc4b8ef055efbdec309e9c59556d7418e5f",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0029",
+        "quote": "16S rRNA sequencing and microbial analysis of patient tissues were performed by Majorbio Bio-Pharm Technology Co. Ltd. (Majorbio, China). The bacterial 16S rDNA gene V3–V4 highly variable region was amplified using the following primers (33"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0030",
+        "quote": "ntamination, sequences detected in negative controls were modeled and removed using SCRuB ( 23 ). Prior to downstream analyses, ASVs annotated as chloroplast or mitochondrial sequences were excluded, and low-prevalence features were filtere"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "SCRuB",
+    "evidence": [
+      {
+        "id": "E0030",
+        "quote": "Sequencing reads were quality-filtered using fastp (v0.23.4) and merged using FLASH (v1.2.11). Merged reads were processed in QIIME 2 using the DADA2 plugin with default parameters for denoising, chimera removal, and inference of amplicon s"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 51,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Devosia",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ketobacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dubosiella",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Jeotgalibaca",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseateles",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sellimonas",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobium",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermobifida",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pusillibacter",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Saccharomonospora",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Trichococcus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Macellibacteroides",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Albibacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arenibacter",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Carnobacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cellvibrio",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibaculum",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Planococcus",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedobacter",
+      "evidence_id": "E0051",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

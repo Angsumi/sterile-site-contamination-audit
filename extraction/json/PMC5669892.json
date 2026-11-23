@@ -1,0 +1,139 @@
+{
+  "pmcid": "PMC5669892",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "7514f3d0ad84b24e3e879b7b70829f10eba5c45b812eb137b0e032b02149eaeb",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "mina MiSeq sequencing of bacterial 16S rRNA gene V3 region for 20 placenta samples collected from the two groups. The estimated sample coverage (Good’s coverage) was about 99% and the correlation between duplicate samples was more than 99.5"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0079",
+        "quote": "equences were used as positive and negative controls in the PCR reactions. Due to the concern for bias in low-abundance samples of placenta tissue, all specimens were extracted and sequenced in triplicate. Sequences from all the three extra"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geothrix",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitratireductor",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Novosphingobium",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracocccus",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudonocardia",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Woodsholea",
+      "evidence_id": "E0067",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0070",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dyella",
+      "evidence_id": "E0070",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limnobacter",
+      "evidence_id": "E0070",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0070",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0070",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0070",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding.",
+    "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  ]
+}

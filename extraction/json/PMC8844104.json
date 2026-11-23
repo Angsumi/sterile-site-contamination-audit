@@ -1,0 +1,89 @@
+{
+ "pmcid": "PMC8844104",
+ "tissue_category": "tumour",
+ "sub_site": "non-small cell lung cancer tumour tissue (surgery or biopsy)",
+ "year": 2022,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "other",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0005",
+    "quote": "We used all the collected tumor samples to perform the pathogen-targeted sequencing."
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 53,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Serratia",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Actinomyces",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Haemophilus",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enterobacter",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Clinical pathogen-targeted sequencing panel (Pathogeno One, commercial) rather than untargeted community profiling; eligibility borderline. Only genera associated with clinical variables are named. 53 patients sequenced, 47 analysed. Country inferred (Shanghai sequencing company), not explicitly stated for sampling.",
+ "extractor": "AI agent (Claude sub-agent, batch 11)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,9 @@
+{
+ "pmcid": "PMC9180740",
+ "tissue_category": "tumour",
+ "year": 2022,
+ "eligible_fulltext": false,
+ "exclusion_reason": "Aim is not community profiling of the site: targeted look-up of three pre-selected alpha-GalCer-producing species (B. fragilis, B. vulgatus, P. copri) in the published Nejman 2020 supplementary table and TCMA; plus mouse experiments. Borderline (Prevotella copri reported in bone, GBM, breast, ovary tumours).",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

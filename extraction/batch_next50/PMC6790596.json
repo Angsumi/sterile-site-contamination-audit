@@ -1,0 +1,194 @@
+{
+  "pmcid": "PMC6790596",
+  "tissue_category": "tumour",
+  "sub_site": "prostate tumour tissue",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "metagenomic analysis of host\u2010derived whole\u2010genome sequencing data, the microbial content within prostate tumor tissue from 22 men. What is unique about this study is that patients were separated by ethnicity, African vs European, and enviro"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 22,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alicycliphilus",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Odoribacter",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0039",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0043",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dechlorosoma",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0047",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pantoea",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0051",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0052",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "E0053",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0055",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0057",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "evidence_id": "E0060",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "African/Australian host WGS study. Table 2 current-study Present rows added, absent taxa and published-comparator-only genera excluded. Potential relation to Australian prostate tissue study flagged.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "67cfcf7a0e6c32024471bd667264bc229f5f67ff4e89d060f3b5b99857fdc071",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence."
+  ]
+}

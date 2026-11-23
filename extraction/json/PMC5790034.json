@@ -1,0 +1,225 @@
+{
+ "pmcid": "PMC5790034",
+ "tissue_category": "blood",
+ "sub_site": "whole blood and isolated neutrophils (severe acute pancreatitis patients incl. infected/septic, and healthy controls)",
+ "year": 2018,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0052",
+    "quote": "we sequenced 16S rRNA gene amplicons of blood samples from 50 patients with SAP and 12 healthy subjects"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3",
+  "evidence": [
+   {
+    "id": "E0041",
+    "quote": "The hypervariable V3 region of the 16S rRNA gene was amplified using universal primer set 357f"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "reagent/extraction solution and sterile water negative controls checked by qPCR only",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0042",
+    "quote": "The data showed that the background signal, represented by negative controls (NC), was far lower than those of blood samples"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0052",
+    "quote": "we conducted a quantitative polymerase chain reaction (qPCR) assay to determine the concentration of 16S rRNA gene copies in the whole blood of each subject"
+   }
+  ]
+ },
+ "n_target_samples": 62,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia/Shigella",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Serratia",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhizobium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paracoccus",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Phascolarctobacterium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Alistipes",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Parabacteroides",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Faecalibacterium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paraprevotella",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Clostridium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactococcus",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dietzia",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Flavobacterium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingobium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brevundimonas",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Fusobacterium",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Eubacterium",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Legionella",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anaerococcus",
+   "evidence_id": "E0056",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chryseobacterium",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methylobacterium",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enterococcus",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Oscillibacter",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Bacteroides",
+  "Escherichia/Shigella",
+  "Acinetobacter",
+  "Stenotrophomonas",
+  "Serratia"
+ ],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Eligibility borderline: 33/50 SAP patients were infected or septic (bloodstream infection suspected); 17 uninfected SAP + 12 healthy qualify. Profiling study, not diagnostic. Neutrophil-associated microbiome genera also recorded (blood-derived). Top5 = patient blood ranking. Clostridium = Clostridium XlVa.",
+ "extractor": "AI agent (Claude sub-agent, batch 09)",
+ "date": "2026-11-23"
+}

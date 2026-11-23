@@ -1,0 +1,178 @@
+{
+ "pmcid": "PMC10857729",
+ "meta": {
+  "title": "Enrichment of infection-associated bacteria in the low biomass brain bacteriota of Alzheimer’s disease patients",
+  "journal": "PLOS ONE",
+  "year": "2024",
+  "doi": "10.1371/journal.pone.0296307",
+  "pmid": "38335187"
+ },
+ "n_elements": 77,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Alzheimer’s disease (AD) is a neurodegenerative disease accompanied by neuroimmune inflammation in the frontal cortex and hippocampus. Recently, the presence of bacteria in AD-affected brains has been documented, prompting speculation about their potential role in AD-associated neuroinflammation. However, the characterization of bacteriota in human brains affected by AD remains inconclusive. This study aimed to investigate potential associations between specific bacteria and AD pathology by examining brain tissues from AD-associated neurodegenerative regions (frontal cortex and hippocampus) and the non-AD-associated hypothalamus. Employing 16S rRNA gene sequencing, 30 postmortem brain tissue samples from four individuals with normal brain histology (N) and four AD patients were analyzed, along with three blank controls. A remarkably low biomass characterized the brain bacteriota, with their overall structures delineated primarily by brain regions rather than the presence of AD. While most analyzed parameters exhibited no significant distinction in the brain bacteriota between the N and AD groups, the unique detection of Cloacibacterium normanense in the AD-associated neurodegenerative regions stood out. Additionally, infection-associated bacteria, as opposed to periodontal pathogens, were notably enriched in AD brains. This study’s findings provide valuable insights into potential link between bacterial infection and neuroinflammation in AD."
+  },
+  {
+   "evidence_id": "E0004",
+   "section": "Introduction",
+   "text": "Although precise pathways of bacterial invasion into brain tissue and their contributions to AD progression remain elusive, considerable efforts have been made to investigate AD-associated bacteria in brain tissue. A study using bacteria-specific immunofluorescence and PCR reported polymicrobial infections in AD brain tissue, but the results of immunofluorescence and PCR did not always coincide [ 17 ]. The results of two studies utilizing 16S rRNA gene sequencing analysis did not coincide each other, and both studies lacked blank controls or elimination of off-target amplicons [ 18 , 19 ]. Consequently, the presence of the AD-associated bacteriota in brain tissue remains uncertain."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "Introduction",
+   "text": "To address this issue, we conducted 16S rRNA gene sequencing analysis on 30 brain tissue samples from four AD patients and four control individuals, alongside three negative blank controls. By analyzing brain tissues from both AD-associated neurodegenerative regions (frontal cortex and hippocampus) and the hypothalamus as a non-AD-associated region, we aimed to explore whether specific bacteria are associated with AD pathology."
+  },
+  {
+   "evidence_id": "E0040",
+   "section": "DNA extraction",
+   "text": "The tissues were subjected to genomic DNA extraction using the DNeasy PowerSoil Pro Kits (Qiagen, 47014, Hilden, Germany) that includes a mechanical agitation step with glass beads. Extracted DNA was eluted with 50 μL DNA elution buffer. A260/280 ratio of all samples was between 1.8 and 2, and DNA concentrations varied from 9.2 to 187 ng/μL. In addition to these DNA samples, one negative control sample in which DNA extraction had been conducted without a tissue was included."
+  },
+  {
+   "evidence_id": "E0041",
+   "section": "Quantification of bacterial copy numbers in samples",
+   "text": "Real-time quantitative PCR (qPCR) was performed in a total volume of 20 μL, including 2 μL of genomic DNA, 0.2 μM of each universal primer (27F) ( AGTCACTGACGAGTTTGATCMTGGCTCAG ) and 518R ( CAGTGACTACWTTACCGCGGCTGCTGG ), and 10 μL of SYBR using a StepOnePlus™ Real-Time PCR System (Applied Biosystems™, 4376600, Waltham, MA, USA) with the cycling conditions: 4 min denaturation at 95°C followed by 40 cycles of denaturation at 95°C for 15 s, annealing at 60°C for 15 s, and extension at 70°C for 33 s. A standard curve generated using P . gingivalis genomic DNA template was used to calculate copy number."
+  },
+  {
+   "evidence_id": "E0042",
+   "section": "16S rRNA sequencing",
+   "text": "Bacteria 16S rRNA gene sequencing was performed by CJ Bioscience, Inc. (Jung-gu, Seoul, Republic of Korea). Briefly, the V3-V4 regions of the 16S rRNA gene were amplified using loci-specific primers, 341F ( CCTACGGGNGGCWGCAG ) and 806R ( GACTACHVGGGTATCTAATCC ) with overhang adapters ( TCGTCGGCAGCGTC-AGATGTGTATAAGAGACAG for forward; GTCTCGTGGGCTCGG-AGATGTGTATAAGAGACAG for reverse). PCR was performed in a total of 25 μL, comprising 2 μL genomic DNA and 10 pmol of each primer using the following cycling condition: initial denaturation at 95°C for 3 min followed by 25 cycles of denaturation at 95°C for 30 s, annealing at 55°C for 30 s, and extension at 72°C for 30 s, and the final extension at 72°C for 5 min. The amplicons were re-amplified using index primers that target terminal 14/15 nucleotides of the overhang adapters of primers used in the first PCR. The second PCR was performed in a total of 25 μL, comprising 2 μL of cleaned 1 st PCR product and 10 pmol of each primer using the following cycling condition: initial denaturation at 95°C for 3 min followed by 8 cycles of denaturation at 95°C for 30 s, annealing at 55°C for 30 s, and extension at 72°C for 30 s, and the final extension at 72°C for 5 min. Three negative controls, one DNA extraction control (NC1) and two no-template controls (NC2 and NC3) were included in the PCR and sequencing to exclude potential contaminants from the data. After clean-up and quantification, the PCR products were pooled and subjected to sequencing using Illumina MiSeq (Illumina, San Diego, CA, USA) sequencing system. The sequence data are available in the NCBI Sequence Read Archive under the accession number PRJNA1013214 ( https://www.ncbi.nlm.nih.gov/sra/PRJNA1013214 )."
+  },
+  {
+   "evidence_id": "E0044",
+   "section": "Bacteriota analysis",
+   "text": "[Fig 1 caption] Workflow of filtering steps of valid reads for microbiome analysis. (A) Summary of filtering steps and the valid reads after each filter is presented. The 16S rRNA sequencing was performed on 30 human brain tissues from four normal individuals and four AD patients, and three negative controls. In the initial filtration phase, low-quality, off-target, and chimeric amplicons were eliminated from the dataset (Filter 1). Subsequently, species that displayed valid reads with ≤2 across all samples were excluded (Filter 2). The final filtration step involved the application of an exact binomial test to discern potential contaminants. Any identified potential contaminant was subsequently removed from the dataset (Filter 3) (B) The valid reads and (C) the copy number from the Filter 3 depending on groups are illustrated as box and whisker plots. The significance among the HT, F, and HC and between N and AD was examined by the Kruskal–Wallis test and Mann–Whitney U test, respectively."
+  },
+  {
+   "evidence_id": "E0047",
+   "section": "Strategy for AD-associated bacteriota analysis in human brain tissues",
+   "text": "We hypothesized that AD-associated bacteria would be present or increased specifically in the AD-associated neurodegenerative regions (frontal cortex and hippocampus) of AD patients, while being absent in the same regions of control individuals (N) and in the non-AD-associated region (hypothalamus). We originally planned to obtain brain tissues from all three areas from each donor. However, due to limited tissue availability, we were only able to obtain brain tissues from all three areas for donors N1, AD1, and AD4. AD2 lacked hippocampus tissue as well ( Table 1 ). To ensure the integrity of our analysis of low biomass microbial communities, we included three negative control samples (NC1-NC3) for validation purposes."
+  },
+  {
+   "evidence_id": "E0048",
+   "section": "Strategy for AD-associated bacteriota analysis in human brain tissues",
+   "text": "From the 16S rRNA sequencing, an average of 64,954 ± 22,151 total reads were obtained from the brain tissues, and 4,410 ± 5,007 total reads from the NCs. After filtering out non-specific amplicons, non-target sequences (archaea and eukarya), and chimera reads (Filter 1), an average of 2,290 ± 2,759 valid reads remained for the brain tissues, and 3,817 ± 4,223 valid reads for the NCs, with a taxonomic assignment to 1,585 OTUs at the species level. Notably, 85.6% to 99.8% of total reads were removed as non-specific amplicons in brain tissue samples, indicating off-target amplification of the host genome in these samples. In contrast, only 7.7% to 19.1% of reads were removed from the NCs. After applying Filter 2 to exclude low-abundance taxa (valid reads with ≤ 2 in each sample), a total of 961 OTUs remained. Finally, potential contaminants were removed using the exact binomial test (Filter 3), resulting in 710 OTUs being retained for subsequent analysis ( Fig 1A ). Although the number of the final valid reads obtained from each sample was quite small, the Good’s coverage of library was higher than 95% except for five samples, namely, N1–HT, N1–F, N4–F (1), AD1–HT, AD1–F."
+  },
+  {
+   "evidence_id": "E0049",
+   "section": "Strategy for AD-associated bacteriota analysis in human brain tissues",
+   "text": "Interestingly, the number of valid reads were significantly higher in the hippocampus than in the frontal cortex or hypothalamus. However, no significant differences were observed between the N and AD groups, irrespective of whether the hypothalamus samples from AD patients were grouped as N or AD ( Fig 1B and S1A Fig ). Similarly, the copy numbers determined by qPCR trended to be higher in the hippocampus than in the frontal cortex or hypothalamus, although not statistically significant, and similar median values were observed between the N and AD groups ( Fig 1C )."
+  },
+  {
+   "evidence_id": "E0062",
+   "section": "Source compositions of brain bacteriota",
+   "text": "When the sources of bacteria detected in N and AD were compared, human others and others were significantly abundant in the AD group when the AD hypothalamus samples were grouped as AD ( Fig 4C ). The bacteria uniquely detected in the AD brain tissues and categorized as human pathogens included Anaerococcus tetradius , Pseudomonas stutzeri , Massilia consociate , Massilia timonae , Nocardia nova , and Helicobacter pullorum . Importantly, bacteria originated from human others or others were not detected in negative controls, limiting the possibility that these differences may be attributed to contamination ( Fig 4A )."
+  },
+  {
+   "evidence_id": "E0063",
+   "section": "Discussion",
+   "text": "To investigate potential associations between specific bacteria and AD pathology, we analyzed 30 postmortem brain tissue samples from four controls and four AD patients, including both AD-associated neurodegenerative regions (frontal cortex and hippocampus) and the hypothalamus as a non-AD-associated region. Our findings reveal no significant differentiation in the low-biomass brain bacteriota attributed to the presence of AD pathology, except for the distinctive detection of C . normanense and the notable enrichment of infection-associated bacteria."
+  },
+  {
+   "evidence_id": "E0064",
+   "section": "Discussion",
+   "text": "In low-biomass microbiome studies, the elimination of off-target amplicons and potential contaminants is crucial. A recent investigation involving human brain tissues (olfactory bulb and pre-frontal cortex) from healthy subjects and patients with Parkinson’s disease highlighted off-target amplification as a major confounding factor in studies characterized by low bacterial but high host DNA content [ 21 ]. In that study, mapping against human reference genome using minimap2 removed 34.2% OTUs as off-target products, but seemingly brain-enriched microbes turned out to be human DNA sequences in further analysis, leading to a conclusion that evidence for the presence of a brain bacteriota is absent. In contrast, in the current study, an average of 96.6% of total reads were removed as off-target amplicons by utilizing the nhmmer program. This rigorous filtering ensured free of off-target issues, and most reads annotated as known species presented > 99% sequence homology. We treated reads with low abundance (≤2) or those consistently distributed across the three NC and 30 brain tissue samples as potential contaminants. Although some studies eliminate all taxa detected in NC samples, this approach may lead to false-negatives. For example, Acidovorax , Acinetobacter , Corynebacterium , Deinococcus , and Streptococcus are reported as contaminant genera detected in the sequencing of negative blank controls but also identified in the blood of healthy humans after thorough filtering for contaminants [ 22 , 23 ]."
+  },
+  {
+   "evidence_id": "E0065",
+   "section": "Discussion",
+   "text": "The first characteristic of brain bacteriota observed in the current study was an extremely low biomass. All studies, including the current one, amplified more than 30 cycles to sequence 16S rRNA gene and used a second PCR consisting of a total of 69–80 cycles to detect specific bacterial genes within human brain tissues [ 15 , 17 – 20 ]. This indicates the inherent challenges in amplifying bacterial DNA from such tissues. In our previous study, intratissue bacteriota in human gingival tissues with periodontitis were examined using the same sequencing and bioinformatic platforms, in which more than 17,000 valid reads per sample were obtained without a second PCR [ 24 ]. In this study, however, less than 1,000 valid reads were acquired in half of the brain tissue samples, despite the additional amplification with eight cycles."
+  },
+  {
+   "evidence_id": "E0066",
+   "section": "Discussion",
+   "text": "Interestingly, the number of valid reads detected in the hippocampus was significantly higher than those in the hypothalamus and frontal cortex ( Fig 1B ). This might be attributed to the unique physiological characteristics of the hippocampus, that is, its heightened BBB permeability in comparison with other brain regions [ 25 ]. Although estimation of the true microbial biomass usually entails qPCR, the presence of more than 85% off-target amplicons in our study suggests that our qPCR results ( Fig 1C ) may not accurately reflect the genuine microbial biomass. A multitude of factors, including library quantitation for pooling, off-target amplification, and exogenous contamination, can affect the number of valid reads obtained from 16S rRNA sequencing. Notably, hippocampal samples exhibited higher total read numbers but lower proportions of off-target amplicons compared to the hypothalamus and frontal cortex ( S2 Fig ), which raises the possibility that the higher valid reads observed in the hippocampus might stem from experimental artifacts."
+  },
+  {
+   "evidence_id": "E0067",
+   "section": "Discussion",
+   "text": "The second intriguing finding of our study was that the overall structure of the brain bacteriota varied by brain regions rather than by the presence of AD ( Fig 2C ). However, this needs replication in future studies because the small number of specimens used in the current study limited the power to detect statistical significance. Although most analyzed parameters revealed no distinction in the brain bacteriota between the N and AD groups, C . normanense was uniquely detected in AD-associated neurodegenerative regions ( Fig 3E ). C . normanense is a Gram-negative, non-motile bacterium commonly found in human gut and wastewater [ 20 , 26 ]. Its role in host interaction remains uncharacterized, making it a focal point for future research on its potential involvement in AD pathogenesis. Cutibacterium (formerly Propionibacterium ) acnes , a species previously suggested as a potential contributor to neuroinflammation [ 18 ], was identified in the initial dataset, reaching up to 5.5% (0 to 42 reads per sample), but was subsequently excluded as a contaminant in the filter 3. Emery et al. [ 18 ] interpreted the elevated bacterial reads (both total and C . acnes ) in AD brains as indicative of increased bacterial levels. However, as mentioned earlier, read counts do not accurately represent the true microbial biomass. The predominance of C . acnes in AD brains was not replicated in a subsequent study by the same group [ 19 ], though differences in the brain regions studied (temporal cortex vs. hippocampus and locus coeruleus) could account for this inconsistency."
+  },
+  {
+   "evidence_id": "E0070",
+   "section": "Discussion",
+   "text": "Contrary to our anticipation, we failed to find substantial evidence linking AD to periodontal pathogens. While P . gingivalis was detected in the brains of both N and AD groups ( Fig 3E ), no other periodontal pathogens were identified. Despite some studies reporting the preferential detection of P . gingivalis LPS or gingipains in AD brain tissues compared to controls [ 14 , 15 ], the 16S rRNA gene was prevalently detected in both control and AD brain tissues in the same study [ 15 ]. Immunofluorescence findings by Pool et al. also indicated the absence of other periodontal pathogens, namely, Treponema denticola and Tannerella forsythia , in both control and AD brain tissues [ 14 ]. These coincide with the facts that P . gingivalis , but not either T . denticola or T . forsythia , is enriched within the gingival tissue of periodontitis patients and identified as blood bacteriota [ 23 , 24 ]. Although the gingipain inhibitor COR388 successfully prevented P . gingivalis -induced neuroinflammation and neurotoxicity in a mouse model, its clinical trial failed to show statistically significant efficacy [ 41 ]. Therefore, the epidemiological association between periodontitis and AD might be mediated by increased inflammatory mediators in circulation rather than the direct involvement of periodontal pathogens in the brain."
+  },
+  {
+   "evidence_id": "E0071",
+   "section": "Discussion",
+   "text": "Several potential pathways for bacterial translocation into the brain have been proposed, including bacterial breach through the transcytosis of endothelial cells in the BBB or transportation across the BBB within infected immune cells [ 42 – 46 ]. However, whether live bacteria or bacterial components are present in the brain remains uncertain. Previous research demonstrated the transient translocation of bacterial extracellular vesicles (EVs) into the brain within an hour after intraperitoneal injection in mice [ 47 ]. To explore this possibility, we quantified the DNA content of P . gingivalis EVs using 16S rRNA gene qPCR. Remarkably, 1 μg of P . gingivalis EVs, secreted from approximately 1.5 × 10 11 cells, contained only 64 DNA copies. If the bacterial DNA detected in brain tissues originates from EV particles rather than from whole cells, the observed low biomass in our study might correspond to a much higher presence of bacterial components [ 48 , 49 ]. This underlines the need for further exploration into the role of EVs in bacterial translocation to the brain."
+  },
+  {
+   "evidence_id": "E0072",
+   "section": "Discussion",
+   "text": "In conclusion, the low-biomass brain bacteriota exhibited only subtle changes due to AD pathology, raising new questions on the role of bacterial infection in neuroinflammation."
+  },
+  {
+   "evidence_id": "E0074",
+   "section": "Supplementary",
+   "text": "[supplement] S2 Fig Potential contaminants ratio from total reads in human brain tissues. Total reads, non-specific amplicon/total reads, and contaminants/total reads in different brain areas are depicted. The significance among the HT, F, and HC was examined by the Kruskal–Wallis test. (TIF) Click here for additional data file. "
+  }
+ ],
+ "italic_candidates": {
+  "Acidovorax": [
+   "E0064"
+  ],
+  "Acinetobacter": [
+   "E0064"
+  ],
+  "Anaerococcus": [
+   "E0062"
+  ],
+  "Bradyrhizobium": [
+   "E0057",
+   "E0068"
+  ],
+  "Cloacibacterium": [
+   "E0001",
+   "E0056",
+   "E0057",
+   "E0058"
+  ],
+  "Corynebacterium": [
+   "E0064"
+  ],
+  "Cutibacterium": [
+   "E0067"
+  ],
+  "Deinococcus": [
+   "E0064"
+  ],
+  "Helicobacter": [
+   "E0062"
+  ],
+  "Massilia": [
+   "E0062"
+  ],
+  "Nocardia": [
+   "E0062"
+  ],
+  "Porphyromonas": [
+   "E0003",
+   "E0056"
+  ],
+  "Propionibacterium": [
+   "E0067"
+  ],
+  "Proteus": [
+   "E0056",
+   "E0057"
+  ],
+  "Pseudomonas": [
+   "E0062"
+  ],
+  "Stenotrophomonas": [
+   "E0057"
+  ],
+  "Streptococcus": [
+   "E0064"
+  ],
+  "Tannerella": [
+   "E0070"
+  ],
+  "Treponema": [
+   "E0070"
+  ]
+ }
+}

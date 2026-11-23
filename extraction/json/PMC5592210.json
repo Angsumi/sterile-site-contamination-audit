@@ -1,0 +1,129 @@
+{
+  "pmcid": "PMC5592210",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "1c0529b1c062e0ebd013031ce15f010286c60146c2321fedfcef170bafd684c8",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0032",
+        "quote": "is. For each sample, the bacterial 16S ribosomal RNA (rRNA) gene was amplified using bar-coded universal primers targeting the V3-V4 region, listed as: 338F 5′-ACTCCTACGGGAGGCAGCA-3′ and 806R 5′-GGACTACHVGGGTWTCTAAT-3′, and the barcode is a"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0032",
+        "quote": "template were used as positive and negative controls in the PCR reactions, respectively. Replicate amplicons were pooled and bead purified using the AxyPrep DNA Gel Extraction Kit (Axygen Biosciences, Union City, CA, USA). Reaction products"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Brevibacillus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brocadia",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dyella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geothrix",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sulfuricella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thauera",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0072",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0072",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allobaculum",
+      "evidence_id": "E0073",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0073",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0073",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0073",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0073",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding.",
+    "Source spellings and candidate genus labels preserved literally; unresolved names are not counted until taxonomy review."
+  ]
+}

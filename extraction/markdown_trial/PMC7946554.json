@@ -1,0 +1,69 @@
+{
+  "pmcid": "PMC7946554",
+  "year": 2021,
+  "eligible_fulltext": true,
+  "tissue_category": "other_sterile",
+  "sub_site": "cerebral arterial thrombus",
+  "n_target_samples": 4,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S"
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes"
+  },
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "fulltext.md:L47",
+      "evidence_quote": "Of the 4 patients undergoing thrombectomy for diagnosis of ischemic stroke, all thrombi recovered for bacterial DNA in qPCR were positive. More than 27 bacteria were present in 4 thrombus samples. The majority of bacteria were Lactobacillus , Staphylococcus , and Stenotrophomonas in all 4 thrombi. Other abundant bacteria were Pseudomonas putida , Staphylococcus epidermidis , Staphylococcus hominis , and Finegoldia magna , as well as many others shown in Fig. 1 . In fact, the majority of bacterial species in abundance in heat color map ( Fig. 1 ) may reveal them to be commensal or low-grade pathogens around the human body. Their transgression into the bloodstream from the oral cavity, gut, or skin may render them to be lodged in carotid plaque during transient bacteremia without overt sepsis.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "fulltext.md:L47",
+      "evidence_quote": "Of the 4 patients undergoing thrombectomy for diagnosis of ischemic stroke, all thrombi recovered for bacterial DNA in qPCR were positive. More than 27 bacteria were present in 4 thrombus samples. The majority of bacteria were Lactobacillus , Staphylococcus , and Stenotrophomonas in all 4 thrombi. Other abundant bacteria were Pseudomonas putida , Staphylococcus epidermidis , Staphylococcus hominis , and Finegoldia magna , as well as many others shown in Fig. 1 . In fact, the majority of bacterial species in abundance in heat color map ( Fig. 1 ) may reveal them to be commensal or low-grade pathogens around the human body. Their transgression into the bloodstream from the oral cavity, gut, or skin may render them to be lodged in carotid plaque during transient bacteremia without overt sepsis.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "fulltext.md:L47",
+      "evidence_quote": "Of the 4 patients undergoing thrombectomy for diagnosis of ischemic stroke, all thrombi recovered for bacterial DNA in qPCR were positive. More than 27 bacteria were present in 4 thrombus samples. The majority of bacteria were Lactobacillus , Staphylococcus , and Stenotrophomonas in all 4 thrombi. Other abundant bacteria were Pseudomonas putida , Staphylococcus epidermidis , Staphylococcus hominis , and Finegoldia magna , as well as many others shown in Fig. 1 . In fact, the majority of bacterial species in abundance in heat color map ( Fig. 1 ) may reveal them to be commensal or low-grade pathogens around the human body. Their transgression into the bloodstream from the oral cavity, gut, or skin may render them to be lodged in carotid plaque during transient bacteremia without overt sepsis.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "fulltext.md:L47",
+      "evidence_quote": "Of the 4 patients undergoing thrombectomy for diagnosis of ischemic stroke, all thrombi recovered for bacterial DNA in qPCR were positive. More than 27 bacteria were present in 4 thrombus samples. The majority of bacteria were Lactobacillus , Staphylococcus , and Stenotrophomonas in all 4 thrombi. Other abundant bacteria were Pseudomonas putida , Staphylococcus epidermidis , Staphylococcus hominis , and Finegoldia magna , as well as many others shown in Fig. 1 . In fact, the majority of bacterial species in abundance in heat color map ( Fig. 1 ) may reveal them to be commensal or low-grade pathogens around the human body. Their transgression into the bloodstream from the oral cavity, gut, or skin may render them to be lodged in carotid plaque during transient bacteremia without overt sepsis.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "fulltext.md:L47",
+      "evidence_quote": "Of the 4 patients undergoing thrombectomy for diagnosis of ischemic stroke, all thrombi recovered for bacterial DNA in qPCR were positive. More than 27 bacteria were present in 4 thrombus samples. The majority of bacteria were Lactobacillus , Staphylococcus , and Stenotrophomonas in all 4 thrombi. Other abundant bacteria were Pseudomonas putida , Staphylococcus epidermidis , Staphylococcus hominis , and Finegoldia magna , as well as many others shown in Fig. 1 . In fact, the majority of bacterial species in abundance in heat color map ( Fig. 1 ) may reveal them to be commensal or low-grade pathogens around the human body. Their transgression into the bloodstream from the oral cavity, gut, or skin may render them to be lodged in carotid plaque during transient bacteremia without overt sepsis.",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "qPCR positivity stated in results. More taxa shown in heatmap; images not recovered by Markdown.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7946554/fulltext.md",
+  "source_sha256": "ea148aab075a2e0c4810bd633950c1d1cb40027d01a620002a399c4363fc2c4d",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named"
+}

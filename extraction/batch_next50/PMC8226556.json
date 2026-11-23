@@ -1,0 +1,102 @@
+{
+  "pmcid": "PMC8226556",
+  "tissue_category": "blood",
+  "sub_site": "peripheral blood mononuclear cells",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "GEO GSE152418",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "RNA-seq data of 17 PBMC normal samples and 17 PBMC COVID-19 samples were downloaded from GEO (accession code GSE152418 https://www.ncbi.nlm.nih.gov/geo/ accessed 15 July 2020), 8 lung biopsy normal samples and 8 lung biopsy COVID-19 samples"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Pathoscope 2.0 (Boston University School of Medicine, Boston, MA, USA) was used to separate the microbe-specific reads incorporated in the human reads of high-throughput RNA-seq and align it to the reads in a target library, producing level"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Pathoscope 2.0 (Boston University School of Medicine, Boston, MA, USA) was used to separate the microbe-specific reads incorporated in the human reads of high-throughput RNA-seq and align it to the reads in a target library, producing level"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 34,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermoanaerobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermoanaerobacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "GEO GSE152418; 17 COVID-19 plus 17 normal PBMC samples. BALF and lung-biopsy-only genera excluded. Host RNA-seq mining; library/batch correction not coded as control sequencing.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4e99eb4a661c9c6e122fcae600d28cc105900c99b390f5f99f8b8dbd6b07ba29",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

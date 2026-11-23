@@ -1,0 +1,99 @@
+{
+  "pmcid": "PMC10326795",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour, paratumour and distal normal lung tissue",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "agarose gels. To amplify the V3\u2013V4 regions of the 16S rRNA, the isolated DNA of tissues was diluted to a concentration of 1 ng/\u00b5L using sterile water. Specific primers containing the barcodes and Phusion \u00ae High-Fidelity PCR Master Mix (New Engla"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 48,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limosilactobacillus",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rubellimicrobium",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fictibacillus",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysobacter",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aureimonas",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "16 participants, 3 eligible parenchymal sites each. Excludes bronchial-only differential Qipengyuania and Bdellovibrio; other core genera stated across all sites.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

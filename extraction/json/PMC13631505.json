@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC13631505",
+ "tissue_category": "other_sterile",
+ "sub_site": "non-cancerous breast tissue (uninvolved breast of breast cancer patients; reduction mammoplasty cohort)",
+ "year": 2026,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0008", "quote": "Breast tissue uninvolved by tumor was obtained on the day of surgery from women undergoing mastectomy"}]},
+ "method": {"value": "16S", "region": "V4", "evidence": [{"id": "E0012", "quote": "to target Eubacteria and Archaea, respectively, which cover the hypervariable region V4"}]},
+ "controls": {"value": "included_not_sequenced", "types": "water negative control (not stated as sequenced)", "n_sequenced": null, "evidence": [{"id": "E0011", "quote": "lab-grade diethyl pyrocarbonate–treated water is used as a negative control"}]},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 206,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Akkermansia", "evidence_id": "E0002", "flagged_contaminant": false},
+  {"name": "Corynebacterium", "evidence_id": "E0040", "flagged_contaminant": false},
+  {"name": "Staphylococcus", "evidence_id": "E0040", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0040", "flagged_contaminant": false},
+  {"name": "Pseudomonas", "evidence_id": "E0041", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "MSKCC cohort n=80 (20 per group) + reduction mammoplasty cohort n=126 samples from 63 women; A. muciniphila described as most prevalent species. Mouse experiments not extracted. Abstract says 'metagenomic sequencing' but methods describe 16S V4 (CosmosID).",
+ "extractor": "AI agent (Claude sub-agent, batch 07)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,50 @@
+{
+ "pmcid": "PMC6417675",
+ "meta": {
+  "title": "Fecal and blood microbiota profiles and presence of nonalcoholic fatty liver disease in obese versus lean subjects",
+  "journal": "PLoS ONE",
+  "year": "2019",
+  "doi": "10.1371/journal.pone.0213692",
+  "pmid": "30870486"
+ },
+ "n_elements": 164,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Pathophysiological background in different phenotypes of nonalcoholic fatty liver disease (NAFLD) remains to be elucidated. The aim was to investigate the association between fecal and blood microbiota profiles and the presence of NAFLD in obese versus lean subjects. Demographic and clinical data were reviewed in 268 health checkup examinees, whose fecal and blood samples were available for microbiota analysis. NAFLD was diagnosed with ultrasonography, and subjects with NAFLD were further categorized as obese (body mass index (BMI) ≥25) or lean (BMI <25). Fecal and blood microbiota communities were analyzed by sequencing of the V3-V4 domains of the 16S rRNA genes. Correlation between microbiota taxa and NAFLD was assessed using zero-inflated Gaussian mixture models, with adjustment of age, sex, and BMI, and Bonferroni correction. The NAFLD group (n = 76) showed a distinct bacterial community with a lower biodiversity and a far distant phylotype compared with the control group (n = 192). In the gut microbiota, the decrease in Desulfovibrionaceae was associated with NAFLD in the lean NAFLD group (log2 coefficient (coeff.) = -2.107, P = 1.60E-18), but not in the obese NAFLD group (log2 coeff. = 1.440, P = 1.36E-04). In the blood microbiota, Succinivibrionaceae showed opposite correlations in the lean (log2 coeff. = -1.349, P = 5.34E-06) and obese NAFLD groups (log2 coeff. = 2.215, P = 0.003). Notably, Leuconostocaceae was associated with the obese NAFLD in the gut (log2 coeff. = -1.168, P = 0.041) and blood (log2 coeff. = -2.250, P = 1.28E-10). In conclusion, fecal and blood microbiota profiles showed different patterns between subjects with obese and lean NAFLD, which might be potential biomarkers to discriminate diverse phenotypes of NAFLD."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "DNA extraction and sequence data generation",
+   "text": "Fecal samples were immediately frozen after collection. Buffy coat consisting mainly of leukocytes was used for blood samples. 16S rRNA genes were extracted and amplified from specimens using the MO-BIO PowerSoil DNA Isolation Kit (MO-BIO Laboratories, Carlsbad, CA) according to the manufacturer’s instructions. Amplification and sequencing were performed in the same batch as previously described for analysis of bacterial communities. The genomic DNA was amplified using fusion primers targeting 16S V3-V4 rRNA gene with indexing barcodes. All samples were pooled for sequencing on the Illumina Miseq platform according to the manufacturer’s specifications.[ 29 ]"
+  },
+  {
+   "evidence_id": "E0009",
+   "section": "Sequence analysis",
+   "text": "Quality filtering, chimera removal, and de novo operational taxonomic unit (OTU) clustering were carried out using the UPARSE pipeline,[ 30 ] which identifies highly accurate OTU from amplicon sequencing data. The reads were dereplicated, sorted, and clustered into candidate OTU with removing chimeric OTU. Taxonomic assignment for OTU was annotated by RDP reference (version 16) with an identity threshold of 97% using UTAX command in the UPARSE pipeline. OTU table with taxonomic assignments was transformed to “biom” format for the compatibility of QIIME software (version 1.9; http://qiime.org ).[ 31 ] Finally, 5,668,793 reads/227 OTUs with a mean of 21,152 (SD = 12,674) sequences per fecal sample and 9,786,870 reads/4,066 OTUs with a mean of 36,518 (SD = 24,966) sequences per blood sample were included for the QIIME analysis. Alpha diversity was calculated using chao1 and phylogenetic diversity (PD) by QIIME, which significant difference between case/control was calculated with 999 Monte Carlo permutation and Bonferroni multiple correction. Beta diversity on Cumulative Sum Scaling (CSS) normalized OTU tables by QIIME was performed using the weighted UniFrac distance metrics based on the phylogenetic distance comparison between communities showing principal coordinate analysis plots.[ 32 ] Permutational ANOVA for distance matrix was calculated with 999 Monte Carlo permutation and Bonferroni multiple correction."
+  }
+ ],
+ "italic_candidates": {
+  "Faecalibacterium": [
+   "E0081",
+   "E0095"
+  ],
+  "Fastidiosipila": [
+   "E0081",
+   "E0094"
+  ],
+  "Leuconostoc": [
+   "E0107",
+   "E0115"
+  ],
+  "Ruminococcus": [
+   "E0003"
+  ],
+  "Weissella": [
+   "E0081",
+   "E0092",
+   "E0107"
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC12016845",
+ "tissue_category": "tumour",
+ "sub_site": "BALT lymphoma tissue (FFPE); non-cancerous lung tissue comparator",
+ "year": 2025,
+ "country": "South Korea",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0006", "quote": "A total of 21 FFPE tissue samples obtained from 16 patients were utilized in this study."}]},
+ "method": {"value": "16S", "region": "", "evidence": [{"id": "E0001", "quote": "16S rRNA gene was amplified by polymerase chain reaction. Amplicons were sequenced using a Nanopore platform."}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 21,
+ "list_type": "differential_only",
+ "genera": [],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Analysis reported only at family level (Burkholderiaceae, Bacillaceae etc.); no genus names in results; no supplements available. Nanopore full-length 16S, WIMP classification. 12 BALT lymphoma + 9 non-cancerous lung FFPE (both target sites). Seven lung carcinoma samples mentioned, data not shown.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

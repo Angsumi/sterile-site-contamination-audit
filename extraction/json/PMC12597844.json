@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC12597844",
+ "tissue_category": "tumour",
+ "sub_site": "lung tumour tissue (LUAD, LUSC) and normal adjacent lung tissue",
+ "year": 2025,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "public_reuse", "dataset": "four public lung-tissue 16S datasets from NCBI SRA (listed in Table S1)", "evidence": [{"id": "E0020", "quote": "eight publicly available lung microbiome datasets from NCBI SRA were initially identified"}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0021", "quote": "subjected to 16S rRNA gene sequencing for the purpose of microbiome profiling, employing the V3-V4 region"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": null,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Streptococcus", "evidence_id": "E0033", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "Ecological neutral-model re-analysis of 4 public SRA datasets (Kraken2+Bracken on 16S V3-V4); no taxon profile in text, only Streptococcus named as tumour-selected taxon (Discussion, own interpretation). Total sample count not stated in main text (Table S1). No supplement converted. Eligibility borderline (aim = assembly mechanisms).",
+ "extractor": "AI agent (Claude sub-agent, batch 08)",
+ "date": "2026-11-23"
+}

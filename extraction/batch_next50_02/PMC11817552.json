@@ -1,0 +1,84 @@
+{
+  "pmcid": "PMC11817552",
+  "tissue_category": "tumour",
+  "sub_site": "brain tumour adjacent tissue and blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "gut samples of the five patients were analyzed by 16S rRNA and ITS-based sequencing in order to determine the bacterial and fungal composition. The gut microbiome and mycobiome composition showed individual and tissue-specific signatures in"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only six genera explicitly reported across the pooled sterile target compartments retained; gut-only and fungal genera excluded. Separate brain-versus-blood attribution and exact specimen count require review.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5b72fb5ecd5aa761af41650ee2d7d1054a67413d7249398438a908d3a534d213",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+  ]
+}

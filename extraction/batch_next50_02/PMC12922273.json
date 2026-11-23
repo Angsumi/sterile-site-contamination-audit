@@ -1,0 +1,76 @@
+{
+  "pmcid": "PMC12922273",
+  "tissue_category": "tumour",
+  "sub_site": "papillary thyroid carcinoma",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": null,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "Unidentified bacterial sequence database",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "The DNA sequences of potential intratumoral bacteria in PTC were analyzed from the database. The findings demonstrate that Bacillus cereus and Staphylococcus aureus were the primary bacteria coexisting in PTC, and both were also found in th"
+      }
+    ]
+  },
+  "method": {
+    "value": "other",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "The DNA sequences of potential intratumoral bacteria in PTC were analyzed from the database. The findings demonstrate that Bacillus cereus and Staphylococcus aureus were the primary bacteria coexisting in PTC, and both were also found in th"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Delftia",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Held provenance/method: bacterial DNA profiles are said to come from a database, while own clinical experiments address host gene expression. Microbiome database and sequencing technology not established. Source alternates Delftia lacustris with merged/misspelled Delftialacustiris.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f1bcd4a0809c4d0f9a54d5a471385bf3438b104ee7b2f7129a2cd34ffe32007c",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals.",
+    "Identify microbial dataset and sequencing provenance before establishing full-text eligibility."
+  ],
+  "eligibility_review": "Identify microbial dataset and sequencing provenance before establishing full-text eligibility."
+}

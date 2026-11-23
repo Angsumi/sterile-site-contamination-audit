@@ -1,0 +1,163 @@
+{
+  "pmcid": "PMC9880005",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "60fd6e16d21632f02d1a72fb848d5377f6ccbf0ef0c5c678d6aa4fd430dbc764",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-BRCA Kraken raw profiles (Poore)",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "Normalized RNA sequencing TCGA breast cancer dataset was retrieved from Broad GDAC Firehose ( http://firebrowse.org/?cohort=BRCA&download_dialog=true%27 ). For metagenomic information, Kraken-TCGA-Raw-Data ( n = 17,625) and Metadata-TCGA-Kr"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "Normalized RNA sequencing TCGA breast cancer dataset was retrieved from Broad GDAC Firehose ( http://firebrowse.org/?cohort=BRCA&download_dialog=true%27 ). For metagenomic information, Kraken-TCGA-Raw-Data ( n = 17,625) and Metadata-TCGA-Kr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Aestuariibacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aminiphilus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Amorphus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Amycolatopsis",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerovorax",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aphanizomenon",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catellicoccus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chlorobium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halonatronum",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leucobacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Planctopirus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizobium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Succinimonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sulfurovum",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrabacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Trichormus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridioides",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+ "pmcid": "PMC12432769",
+ "tissue_category": "tumour",
+ "sub_site": "breast tumour and normal adjacent breast tissue",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0032",
+    "quote": "A total of 31 adult female patients diagnosed with BC, who were treated at The Second Hospital of Shanxi Medical University"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V2, V3, V5, V6, V8 (SMURF)",
+  "evidence": [
+   {
+    "id": "E0015",
+    "quote": "for the PCR amplification of five variable regions of the 16S rRNA gene (i.e., V2, V3, V5, V6, and V8)"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 62,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0076",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0076",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0076",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Comamonas",
+   "evidence_id": "E0095",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0095",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methylobacterium",
+   "evidence_id": "E0095",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0096",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0099",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brevundimonas",
+   "evidence_id": "E0101",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Pseudomonas",
+  "Acinetobacter",
+  "Massilia"
+ ],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "31 tumour + 31 NAT. Nine BC-enriched genera shown only in Figure 2B (not named). top5 has only the three named dominant genera in order given. No negative controls or decontamination mentioned.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

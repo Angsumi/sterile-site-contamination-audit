@@ -1,0 +1,48 @@
+{
+  "pmcid": "PMC10230216",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour (FF and FFPE)",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "The bacterial 16S rRNA gene hypervariable region V3\u2013V4 was amplified using specific primers with the barcode (338F: 5\u2032-ACTCCTACGGGAGGCAGCAG-3'; 806R: 5\u2032-GGACTACHVGGGTWTCTAAT-3\u2032) by an ABI GeneAmp\u00ae 9700 PCR thermocycler (ABI, CA, USA). After puri"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 60,
+  "list_type": "",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "30 participants with paired fresh frozen/FFPE samples. Reports primarily higher taxonomic ranks; no genus names in target results; no supplemental genus list available. Explicitly states no separate paraffin negative control.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

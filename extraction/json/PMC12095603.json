@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC12095603",
+  "tissue_category": "tumour",
+  "sub_site": "liver",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "00c6d1b96914c01288460181f63d50225f8f0010884861b7c12868d71e5469ef",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "2bRAD-M",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "antitumor immunity. In this study, 2bRAD-M analysis was performed on patient hepatocellular carcinoma and paired tissues to determine the composition of the intratumoral microbiota. Mass cytometry, flow cytometry, co-immunoprecipitation, im"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own human HCC 2bRAD-M profile plus TCGA BIC external microbial validation; mouse and NK-cell experimental results excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "pmcid": "PMC4802384",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta and amniotic fluid",
+  "year": 2016,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "s 27F and 533R was used to amplify 500 bps of the 16S rRNA genes covering the hypervariable regions V1 to V3 (V1\u2013V3). The PCR was carried out using a high-fidelity KAPA-HiFi polymerase (Kappa Biosystems, US) with an annealing temperature of"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 30,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "15 mother-infant pairs. Colostrum, meconium, infant stool and cultured reference strains excluded. Composite Escherichia/Shigella counted once.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "99fb8cf204eff25716f1ca8e9aa612fd8498835e49cd248b3248127a2934542e",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,319 @@
+{
+  "pmcid": "PMC12052825",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0004",
+        "quote": "s studies, such as traditional culture or 16s RNA sequencing, are less sensitive and accurate than metagenomic next generation sequencing (mNGS) 16 . Therefore, percutaneous lung biopsy specimens from 130 patients (including lung cancer, no"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 50,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidibacillus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Azoarcus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Keratinibaculum",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Komagataeibacter",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polaribacter",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizobium",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vibrio",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Abiotrophia",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Algibacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyrivibrio",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caloramator",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chlamydia",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridioides",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cronobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Listeria",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mucilaginibacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phreatobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phyllobacterium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pyramidobacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bordetella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysobacter",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Variovorax",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Legionella",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salinisphaera",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "50 lung-cancer tissues retained; 53 pulmonary infection and 27 non-infectious pulmonary comparators not pooled into target count. Nonbacterial eukaryotic genera excluded. Mycolicibacterium source spelling logged separately where present.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f61bd27711d8d98a870e98a1640995e055dd40d8dae915c1e23b64b49806a6a1",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Target selection or cohort attribution requires human confirmation; see notes."
+  ]
+}

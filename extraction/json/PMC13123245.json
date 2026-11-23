@@ -1,0 +1,123 @@
+{
+  "pmcid": "PMC13123245",
+  "tissue_category": "tumour",
+  "sub_site": "pulmonary lesions",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "27e6b6d561aead18f2420e78fab449482322022893830202a106e595a0267cdf",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "V5, V6, and V8) (Table S1 ) of the 16S rRNA gene. After amplification, PCR products were purified and analyzed using a Synergy HTX microplate reader (Biotek, USA) before sequencing on the Illumina NextSeq 2000 platform (PE250) by Majorbio B"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "l procedures and specimen storage, negative controls were implemented throughout DNA extraction (extraction blanks) and PCR amplification (PCR blanks), including blank paraffin blocks corresponding to the FFPE specimens. As shown in Fig. 1 "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": " and PCR controls were included to exclude reagent and environmental contamination. The Short MUlitiple Regions Framework (SMURF) method was applied to combine read counts from the five regions into a coherent profiling results solving a ma"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 98,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Kocuria",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nocardia",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Proteus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Knoellia",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Myroides",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptostreptococcus",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyrobacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xylanimicrobium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

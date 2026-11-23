@@ -1,0 +1,224 @@
+{
+  "pmcid": "PMC10218745",
+  "tissue_category": "other_sterile",
+  "sub_site": "non-tumour lung tissue in NTM pulmonary disease",
+  "year": 2023,
+  "country": "South Korea",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "To analyze the bacterial microbiome of the lung tissue DNA, region V3 to V4 from the bacterial 16S rRNA gene was amplified using primers 341F ( TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG ) and 805R ( GTCTCGTGGGCTCGGAGATGTG"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 46,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limnohabitans",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rahnella",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillibacter",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0078",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0078",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0078",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0078",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnospira",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylotenera",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megamonas",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gaiella",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Subdoligranulum",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rheinheimera",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "E0102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0104",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0104",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0104",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agathobaculum",
+      "evidence_id": "E0104",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0139",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0120",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0111",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Eligible community-composition study using paired involved/noninvolved resected lung parenchyma, not a diagnostic mNGS assay. 23 participants,46 samples; long-term antimycobacterial therapy. No negative-control or contaminant-removal step stated.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

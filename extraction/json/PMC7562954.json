@@ -1,0 +1,67 @@
+{
+  "pmcid": "PMC7562954",
+  "tissue_category": "other_sterile",
+  "sub_site": "lung tissue",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f898957b4cce3e3e6746c2dc1e38ae6c9859d8c2c6301e9742e818629db14497",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "d Illumina sequencing of bacterial 16S rRNA and fungal ITS genes. Bioinformatic modeling revealed that a large part of microbiome from lung tissue is composed of microbial contaminants, although our controls clustered separately from biolog"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "the 16S rRNA and ITS genes of four negative controls yielded (mean ± SD, 5689 ± 3268 bacterial sequences per sample (22,756 reads in total) and 18,259 ± 5228 fungal sequences per sample (73,037 reads in total). In comparison, sequencing of "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "as a consequence the impact of the removal of reads due to potential contamination on the samples was relatively low. To ensure that the microorganisms detected in our samples were not completely a result of contamination, we compared the m"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0052",
+        "quote": "and fungal DNA were assessed using qPCR method by amplifying the human β-actin, the bacterial 16S rRNA, and the 18S rDNA gene of fungi, respectively. qPCRs were carried out in 10 μl reactions containing 2 μl of diluted template (~ 10 ng/μl)"
+      }
+    ]
+  },
+  "n_target_samples": 7,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Human autopsy lung methods comparison. Main text/supplement text lacks extractable target bacterial genus names; genus-level figures require visual adjudication.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

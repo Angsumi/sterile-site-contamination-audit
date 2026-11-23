@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC11748541",
+  "tissue_category": "brain_csf",
+  "sub_site": "glioma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "55955ea1fef82edf93093186224a30082a20b69365a886b7c80201caa1b6b402",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": " Slides were stained for bacterial 16S rRNA (Cy3-labeled EUB338 probes, Future Biotech #FBFPC001) or negative control (Cy3-labeled nonspecific complement probe, Future Biotech #FBFPC001) using the direct fluorescent bacteria in situ hybridi"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": " prevent a false-positive rate, 15 negative controls, including 5 environmental controls, 5 DNA extraction controls, and 5 PCR controls, were prepared and sequenced alongside the tissue samples. In order to correct for contamination, binomi"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": "To prevent a false-positive rate, 15 negative controls, including 5 environmental controls, 5 DNA extraction controls, and 5 PCR controls, were prepared and sequenced alongside the tissue samples. In order to correct for contamination, bino"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Intestinimonas",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limosilactobacillus",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Longibaculum",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pasteurella",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

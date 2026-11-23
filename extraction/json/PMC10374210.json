@@ -1,0 +1,114 @@
+{
+  "pmcid": "PMC10374210",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta tissue and placenta-derived bacterial extracellular vesicles",
+  "year": 2023,
+  "country": "USA",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "High throughput sequencing of the bacterial 16S rRNA gene was performed using DNA extracted from the BEV and placenta samples. Sequencing libraries for each isolate were generated using the Quick-16S Plus NGS Library Prep Kit (D6420, Zymo Resear"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0034",
+        "quote": "We next assessed the profile of the 16S rRNA gene sequences in placental and BEV DNA samples using V3-V4 sequencing using 341f and 806r primers because they are expected to detect 84.2% of bacteria and 75.8% of archaea ( Klindwort"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "brary preparation. Any OTUs which appeared in the negative controls were excluded from any analysis. All the samples underwent library preparation in the same batch and were sequenced on a single sequencing run."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 59,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Elizabethkingia",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Janthinobacterium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Yersinia",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobacterium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicibacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "35 placentae collected;59 placenta/BEV sequenced specimens. BEV microbial signal claimed; does not support actual resident placental microbiome. Positive-control Escherichia excluded; negative-control-only Streptococcus excluded.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

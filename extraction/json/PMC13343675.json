@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC13343675",
+  "tissue_category": "brain_csf",
+  "sub_site": "meningioma",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "d3e106c046dbd37b2af190400d9cc56a07d6fce7b3f43b846090829785048eba",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "s functional significance. Methods 16 S rRNA sequencing was performed on 80 meningioma specimens (44 benign, 36 non-benign). Microbial findings were validated via fluorescence in situ hybridization (FISH) and transmission electron microscop"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": " Cutadapt (v3.5), sequence quality control, denoising, paired-end merging, and chimera removal were performed using DADA2 (v1.24.0) [ 27 ] to generate ahigh-resolution Amplicon Sequence Variant (ASV) Table [ 28 ]. Taxonomic classification o"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": " (Version 138) with a 97% identity threshold. To further control for potential contamination, stringent background subtraction was performed: using the sequencing results from three sterile water blank controls (their ASV list and taxonomic"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Blautia",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kosakonia",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Photobacterium",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Romboutsia",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

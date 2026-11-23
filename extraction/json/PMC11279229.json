@@ -1,0 +1,118 @@
+{
+ "pmcid": "PMC11279229",
+ "tissue_category": "blood",
+ "sub_site": "plasma (healthy adults)",
+ "year": 2024,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0005",
+    "quote": "22 healthy African American (AA) and 16 healthy Caucasian American (CA) people were included"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V4",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "The V4 variable region of the bacterial 16S rDNA gene was amplified using PCR primers 515/806"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "extraction/water control",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "Endotoxin-free water was used as a control. To maintain consistency, all the samples were sequenced simultaneously."
+   },
+   {
+    "id": "E0007",
+    "quote": "removed genera detected in the water controls from the samples at the OTU level"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "removed genera detected in the water controls from the samples at the OTU level as described in our previous study"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 38,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Lelliotta",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anoxybacillus",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Azospirillum",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gemmatimonas",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kurthia",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Phycisphaera",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Reyranella",
+   "evidence_id": "E0015",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Actinomyces",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Noviherbaspirillum",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Protochlamydia",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Abstract says V3-4 but methods say V4 (515/806). Genera only differential (race) or IL-6-correlated; 122 correlated genera only in figures. 'Lelliotta' as spelled (Lelliottia). Phyllobacterium only used in culture experiment, not recorded.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

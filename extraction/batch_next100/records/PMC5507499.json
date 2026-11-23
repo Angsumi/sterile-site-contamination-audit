@@ -1,0 +1,108 @@
+{
+  "pmcid": "PMC5507499",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta and fetal membranes",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ba0f42e6df493184f085f4209015e7da83ce5906923460550019332194a2f4eb",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "all custom database of full length 16S rDNA sequences. Any sequences that failed to match at 97% were assigned against the full Greengenes database. Mock communities of known quantities of bacterial DNA from a mix of species were sequenced "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "were screened for bacteria using a quantitative PCR (qPCR) SYBR green fluorescent dye assay. The following primer pair targeted the V5-7 regions of the 16S rRNA gene, 785F: 5′-GGATTAGATACCCBRGTAGTC-3′ , 1175R: 5′-ACGTCRTCCCCDCCTTCCTC-3′ [ 7"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sneathia",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptostreptococcus",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

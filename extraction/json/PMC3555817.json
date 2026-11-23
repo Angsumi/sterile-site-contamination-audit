@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC3555817",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2013,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Blood bacterial and Proteobacteria load measured by qPCR only.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4c62dbab26d77d3c9fa8bc4d8ae0af81466c08adb2d5d1a4a66a5f7d82c4ea92",
+  "notes": "",
+  "review_flags": []
+}

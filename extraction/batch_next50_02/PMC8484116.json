@@ -1,0 +1,82 @@
+{
+  "pmcid": "PMC8484116",
+  "tissue_category": "blood",
+  "sub_site": "serum",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "according to our previously published methods. 31 16S and Internal Transcribed Spacer (ITS) ribosomal RNA (rRNA) copy numbers (per microliter [\u03bcl] of serum) were assessed using quantitative polymerase chain reaction (qPCR) in samples of 32 "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "sed using quantitative polymerase chain reaction (qPCR) in samples of 32 (of 34) patients who had sufficient samples for DNA quantification using qPCR primers for 16S (F: 5'-TCC TAC GGG AGG CAG CAG T-3', and R: 5'-GGA CTA CCA GGG TAT CTA AT"
+      }
+    ]
+  },
+  "n_target_samples": 34,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Dermacoccus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermoanaerobacterium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "17 cardiovascular-death ESRD cases and 17 controls. Total 16S quantified by qPCR in 32/34 with sufficient material. Fungal ITS counts excluded.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "b2ecd292e096ea006a876d43ccbc912ff177693b4d179c29a10111cff8235ded",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

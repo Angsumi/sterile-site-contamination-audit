@@ -1,0 +1,61 @@
+# pmcid	decision	tissue_category	reason	source
+PMC4269394	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4341202	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4419820	include	placenta_fetal	placenta with neonatal faeces (n=2 pairs)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4466679	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); Fusobacterium qPCR	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4517813	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease); meconium	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4555154	include	placenta_fetal	placenta 16S, low birth weight	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4559171	unclear	other_sterile	in silico re-analysis of plaque metagenomes	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4609377	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4636327	unclear	other_sterile	tissue 16S pipeline; host species unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4668051	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4671185	unclear	placenta_fetal	amniotic fluid discharge in PPROM	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4725837	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4735302	exclude		not primary research (review, editorial, protocol, meta-analysis); cohort profile	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4742105	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4743419	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4787314	exclude		case report	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4802384	include	placenta_fetal	placenta and amniotic fluid	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4803347	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4807572	exclude		diagnostic sequencing or infection study (C1 scope)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4845009	include	blood	serum and ascitic fluid 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4876793	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4904006	exclude		diagnostic sequencing or infection study (C1 scope); neonatal sepsis	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4912142	exclude		in vitro or cell-line study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4928817	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4964003	include	other_sterile	non-malignant lung tissue	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4968547	include	tumour	breast tumour and normal adjacent tissue	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4971513	include	tumour	breast benign and malignant tissue	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4991892	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC4997733	exclude		diagnostic sequencing or infection study (C1 scope)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5042890	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour); ileum	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5063344	include	other_sterile	carotid plaques	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5114783	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour); BAL	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5138828	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5193428	unclear	other_sterile	coronary thrombi bacterial DNA; method unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5216046	include	brain_csf	CSF metagenomics, MS	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5225515	exclude		case report	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5233749	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5237345	include	tumour	prostate cancer tissue 16S and RNA-seq	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5287452	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); qPCR array	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5328378	include	other_sterile	coronary and femoral artery tissue	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5345907	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5378909	include	placenta_fetal	placenta with oral and gut	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5391965	exclude		diagnostic sequencing or infection study (C1 scope)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5409013	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5420800	unclear	other_sterile	lung tissue EVs; sample type unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5460277	include	placenta_fetal	placenta with oral and gut	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5503244	exclude		in vitro or cell-line study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5504100	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5507499	include	placenta_fetal	placental tissues chorioamnionitis	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5557263	exclude		case report	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5558959	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5561317	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5583988	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5585605	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5592210	include	placenta_fetal	placenta GDM	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5593928	include	placenta_fetal	placenta spatial	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5609768	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5610236	include	placenta_fetal	amniotic fluid	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5640887	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC5669892	include	placenta_fetal	placenta macrosomia	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23

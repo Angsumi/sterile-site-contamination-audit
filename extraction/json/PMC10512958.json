@@ -1,0 +1,174 @@
+{
+ "pmcid": "PMC10512958",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic adenocarcinoma (TCGA-PAAD)",
+ "year": 2023,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "public_reuse",
+  "dataset": "TCGA-PAAD microbiome data via cBioPortal (Poore et al. Kraken-TCGA)",
+  "evidence": [
+   {
+    "id": "E0005",
+    "quote": "Microbiome data of PC were obtained via the cBioPortal platform"
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0016",
+    "quote": "Totally 1406 genera were obtained from the pancreatic tumour microenvironment through the cBioPortal platform"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 178,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Azohydromonas",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chlamydia",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Derxia",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Domibacillus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Francisella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gemmatimonas",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Halothermothrix",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Histophilus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Holospora",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Hylemonella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Indibacter",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mesoplasma",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Natronolimnobius",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paucibacter",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudarthrobacter",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Puniceibacterium",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Riemerella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ruegeria",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Runella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Silanimonas",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Starkeya",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Vagococcus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Xanthobacter",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Only 26 prognostic genera (intersection of Cox and KM) named; 2 are viruses (Alpharetrovirus, Carlavirus, not recorded) and Natronolimnobius is archaeal. Full 1406-genus list in Supplementary Table S1 (not converted). Number of samples with microbiome data not explicitly stated (178 PC tissues with transcriptome). No mention of contamination handling in this paper.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

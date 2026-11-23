@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC8978520",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Community sequencing performed on mouse mammary glands, mouse tumours and skin; human cancer cell lines only, no human target-site profiling.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8c0ac5038fa40bc005ee2bfbf1e636a3643a6f90d798baddbb60d05434f52f6b",
+  "notes": "",
+  "review_flags": []
+}

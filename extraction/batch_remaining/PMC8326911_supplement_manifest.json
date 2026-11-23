@@ -1,0 +1,18 @@
+[
+  {
+    "file": "Table_1.XLS",
+    "alias": "S900.md",
+    "bytes": 571904,
+    "sha256": "8c1d806b64f000a3b762a0dc7fb9e3c8d2f174bf38c40867daff660b31bb84b7",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8326911.1/Table_1.XLS",
+    "md_bytes": 298945
+  },
+  {
+    "file": "Table_2.XLS",
+    "alias": "S910.md",
+    "bytes": 326144,
+    "sha256": "d25fb2f71470c68b9a9b1e3f67126ca54e27aa4373a019af77d5a4e9e7108850",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8326911.1/Table_2.XLS",
+    "md_bytes": 364670
+  }
+]

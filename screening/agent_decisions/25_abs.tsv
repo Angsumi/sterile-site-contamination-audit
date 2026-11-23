@@ -1,0 +1,61 @@
+# pmcid	decision	tissue_category	reason	source
+PMC7492325	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour); vaginal and endometrial catheter tip	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7509481	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7524391	include	placenta_fetal	amniotic fluid with meconium (PacBio)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7530676	unclear	other_sterile	coronary thrombi bacterial DNA; method unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7542661	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7562954	include	other_sterile	autopsy lung tissue extraction methods with sequencing	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7563179	include	tumour	pancreatic tumour EV-derived 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7563524	include	tumour	pancreatic tumour lesion with bile, duodenum, stool	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7564876	include	tumour	TCGA prostate cancer RNA-seq	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7565819	include	tumour	TCGA pancreatic adenocarcinoma	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7570768	exclude		in vitro or cell-line study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7572361	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7576717	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7583822	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7583952	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7590830	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7592794	exclude		diagnostic sequencing or infection study (C1 scope); virus search	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7663925	exclude		mucosal or high-biomass site only (gut, stool, oral, vaginal, airway, mucosal tumour); ocular surface	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7668451	exclude		not primary research (review, editorial, protocol, meta-analysis); protocol	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7676714	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); fungal only	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7683275	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7686807	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7691449	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7695159	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7699086	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7709364	unclear	blood	blood 16S DNA after colon surgery; sequencing extent unclear	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7710283	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); metabolome	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7738622	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); targeted	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7767148	exclude		not primary research (review, editorial, protocol, meta-analysis)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7776645	include	blood	plasma microbiome after liver transplant	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7790758	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7793570	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7804131	exclude		no target sterile-site samples profiled (e.g. gut or oral microbiome related to a disease)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7804304	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7820181	include	blood	plasma 16S method and cohorts	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7836174	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7860596	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7894104	include	blood	blood after periodontal treatment	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7900526	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7946554	include	other_sterile	cerebral artery thrombi NGS	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7961033	include	blood	blood large vessel vasculitis	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7985333	include	other_sterile	mitral valves (rheumatic) with gut and oral	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7993125	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7996337	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7997424	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism); ddPCR of selected genera	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC7999772	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8004470	include	brain_csf	brain tissue 16S, PD	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8021752	exclude		not primary research (review, editorial, protocol, meta-analysis); cohort profile	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8022255	include	tumour	LUAD tumour and adjacent 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8052771	include	tumour	breast tissue 16S, breast cancer	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8053823	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8064568	include	tumour	NSCLC tumour and adjacent 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8080616	include	other_sterile	coronary thrombi with gut and oral	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8080655	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8080813	include	blood	serum EV metagenome (and brain tissue), brain tumours	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8097987	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8110246	include	placenta_fetal	fetal intestinal meconium in utero 16S	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8134445	include	tumour	HCC tumour-associated microbiota	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8135039	exclude		animal, environmental or other non-human study	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23
+PMC8147753	exclude		no sequencing-based community profiling (culture, PCR/qPCR, FISH, metabolomics or single organism)	AI agent (Claude Opus 5.5), title+abstract, 2026-11-23

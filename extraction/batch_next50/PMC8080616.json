@@ -1,0 +1,67 @@
+{
+  "pmcid": "PMC8080616",
+  "tissue_category": "other_sterile",
+  "sub_site": "coronary thrombus",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "he sequencing library was prepared using Illumina 16S Metagenomic Sequencing Library protocols to amplify the V3 and V4 regions. Input gDNA (2 ng) was amplified via PCR with 1\u00d7 reaction buffer, 1 nM dNTP mix, 500 nM each of the universal F/"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 22,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only 4/22 thrombi yielded microbial DNA. Christensenella was 0% in thrombi, excluded; stool/oral-only taxa excluded. Library qPCR not bacterial biomass quantification.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ddc05dd0d90360aee05ee384ddc6fa757d1b106b0238700da3ba62a9a8900403",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

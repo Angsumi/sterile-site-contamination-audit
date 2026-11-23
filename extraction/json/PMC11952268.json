@@ -1,0 +1,29 @@
+{
+ "pmcid": "PMC11952268",
+ "tissue_category": "blood",
+ "sub_site": "whole blood (CRC cases, intestinal adenoma, colonoscopy controls)",
+ "year": 2025,
+ "country": "Italy",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0008", "quote": "An aliquot of 0.25 ml of whole blood was used for DNA extraction."}]},
+ "method": {"value": "16S", "region": "", "evidence": [{"id": "E0008", "quote": "MiSeq Illumina technology was applied to compute 16S rRNA gene taxonomic profiling."}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "yes", "evidence": [{"id": "E0008", "quote": "The number of bacterial 16S rRNA gene copies per µl of blood was measured as the abundance of 16S rRNA by qPCR in triplicate"}]},
+ "n_target_samples": 296,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Cutibacterium", "evidence_id": "E0051", "flagged_contaminant": false},
+  {"name": "Sphingomonas", "evidence_id": "E0051", "flagged_contaminant": false},
+  {"name": "Gaiella", "evidence_id": "E0051", "flagged_contaminant": false},
+  {"name": "Delftia", "evidence_id": "E0051", "flagged_contaminant": false},
+  {"name": "Romboutsia", "evidence_id": "E0051", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "300 subjects (100 CRC, 100 IA, 100 controls); 4 excluded for low reads -> 296 profiled. Only aspirin-differential genera named (full table in S1 File, not converted). Vaiomer pipeline; no negative controls mentioned in this paper (may be in earlier cohort paper ref 14).",
+ "extractor": "AI agent (Claude sub-agent, batch 06)",
+ "date": "2026-11-23"
+}

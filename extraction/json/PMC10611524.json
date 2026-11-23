@@ -1,0 +1,89 @@
+{
+  "pmcid": "PMC10611524",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour EUS-FNA and surgical tissue",
+  "year": 2023,
+  "country": "USA",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V4",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "r 69516) automated on the QIAcube Connect instruments. 16S rRNA and ITS2 gene sequencing methods were adapted from those developed for the NIH-Human Microbiome Project and the Earth Microbiome Project ( 11 , 12 ). The 16S rDNA region v4 was"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "literature_list",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": ", there is a high propensity to be biased by microbial contaminants as well as intrinsic biases associated with 16S and ITS sequencing methods. In order to remove spurious genera commonly found as contaminants in 16S rRNA sequencing due to "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 15,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veilonella",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Veilonella spelling preserved from paper; literature-only duodenal genera excluded. No own negative controls stated.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

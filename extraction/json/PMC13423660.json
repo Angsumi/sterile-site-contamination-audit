@@ -1,0 +1,108 @@
+{
+  "pmcid": "PMC13423660",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta and amniotic fluid",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f474a5f8944b0add040433d1698c0b6966c22e8a9d77c724edd1cef62abdff17",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ion, microbiome profiling based on 16S rRNA gene sequencing was performed. Results The analysis did not demonstrate significant differences in microbiota composition between late preterm and term pregnancies, in either mothers or neonates. "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": ".0.0.90), incorporating laboratory blank controls throughout the process [micRoclean: Microbial contamination removal toolkit. R package version 0.0.0.90.]. The resulting amplicon sequence variant (ASV) table was then imported into a phylos"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "micRoclean",
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": "38.0) ( 16 ). Raw reads were first filtered and trimmed with the filterAndTrim function, after which chimeric sequences were identified and removed using removeBimeraDenovo. Taxonomic assignment of the 16S rRNA gene sequences was performed "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Chryseolinea",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Deinococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmatimonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rheinheimera",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizobacter",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "Maternal/infant multisite study; only placenta/amniotic-fluid named genera retained.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

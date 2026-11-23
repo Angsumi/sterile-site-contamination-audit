@@ -1,0 +1,173 @@
+{
+ "pmcid": "PMC7609904",
+ "meta": {
+  "title": "The Association Between Gestational Diabetes and Microbiota in Placenta and Cord Blood",
+  "journal": "Frontiers in Endocrinology",
+  "year": "2020",
+  "doi": "10.3389/fendo.2020.550319",
+  "pmid": "33193081"
+ },
+ "n_elements": 117,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Objective: Early life is a critical period for gut microbial development. It is still controversial whether there is placental microbiota during a healthy pregnancy. Gestational diabetes mellitus (GDM) is associated with increased risk of metabolic syndrome in the offspring, and the mechanisms are unclear. We sought to explore whether microbiota in placenta and cord blood may be altered in GDM. Methods: Placenta and cord blood samples were collected from eight GDM and seven euglycemic (control) term pregnancies in cesarean deliveries without evidence of clinical infections. The Illumina MiSeq Sequencing System was used to detect the microbiota based on the V3–V4 hypervariable regions of the 16S ribosomal RNA gene. Results: The microbiota were detectable in all placental samples. Comparing GDM vs. controls, there were more operational taxonomic units (OTUs) (mean ± SE = 373.63 ± 14.61 vs. 332.43 ± 9.92, P = 0.024) and higher ACE index (395.15 ± 10.56 vs. 356.27 ± 8.47, P = 0.029) and Chao index (397.67 ± 10.24 vs. 361.32 ± 8.87, P = 0.04). The placental microbiota was mainly composed of four phyla: Bacteroidetes, Firmicutes, Actinobacteria , and Proteobacteria at the phylum level and 10 dominant genera at the genus level in both GDM and controls. Despite the dominant similarity in microbiota composition, at the OTU level, the abundance of Ruminococcus, Coprococcus, Paraprevotella , and Lactobacillus were higher, whereas Veillonella was lower in the placentas of GDM vs. controls. The microbiota was detected in one of the 15 cord blood samples, and its components were similar as to the corresponding placental microbiota at both phylum and genus levels suggesting placental microbiota as the potential source. Conclusions: The most abundant phyla and genus of placental microbiota were similar in GDM and euglycemic pregnancies, but GDM was associated with higher diversity of placental microbiota. Further study is needed to confirm the existence of microbiota in cord blood in pregnancies without clinical infection."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "Study Design, Participants, and Sample Collection",
+   "text": "Cord blood and placenta specimens were collected following a strict aseptic protocol to control potential contamination ( 26 – 28 ). Specifically, cord blood sample from umbilical vein was collected with a sterile injector and put into a 20-mL sterilized tube by a study obstetrician immediately after the baby birth at the delivery room. Following cesarean delivery, placenta was placed in a sterile container and then transported to a sterilized cutting-off bench in the room next to delivery room. The placenta was sampled by two study clinicians. First, the amniotic membrane was removed from surface of the fatal side of placenta with sterile scalpel and forceps. Then, four 1 × 1 × 1-cm placental biopsies were sampled from the fetal side of the placenta at each of its four quadrants with sterilized scalpel and forceps and placed in a sterile cryovial. Both cord blood and placental samples were stored at −80°C until assays."
+  },
+  {
+   "evidence_id": "E0009",
+   "section": "DNA Extraction and V3–V4 Region of 16S rRNA Gene Sequencing",
+   "text": "Microbial DNA was extracted from placenta and cord blood samples using beads-beating method ( 29 ). Alongside the placental and cord blood samples, the background negative control was set and subjected to the same DNA extraction procedure and analysis protocol for each step of the entire experimental procedure using laboratory reagents of the same LOT number in a class II biological safety cabinet (to avoid environmental contamination). The detailed description of the methods is available in Appendix 1 . Specifically, the V3–V4 region of the bacterial 16S ribosomal RNA (16S rRNA) gene in all samples (including placenta and cord blood sample and negative control sample) was amplified by polymerase chain reaction (PCR) using bar-coded universal primers F1 and R2 (5′- CCTACGGGNGGCWGCAG-3′ and 5′-GACTACHVGGGTATCTAATCC-3′) corresponding to positions 341 to 805. In the above primers, “W” represents A or T, “H” represents A, T, or C; and the “V” represents G, A, or C. During PCR reactions, blank PCR reagents were also set to avoid regents and environmental contamination. PCR reactions were carried out with the following recipe: 2 μL dNTPs (2.5 mM), 5 μL 5 × FastPfu Buffer, 0.5 μL FastPfu Polymerase, 1 μL each forward and reverse primer (5 μM), 10 ng template DNA, and PCR-grade water in a final volume of 20 μL on a GeneAmp® PCR System 9700 (Thermo Fisher Scientific Inc., Waltham, MA, USA) with the conditions: 94°C for 3 min followed 94°C for 30 s, 55°C for 30 s, 72°C for 30 s for 21 cycles, and a final extension of 8 min at 72°C ( 30 ). Amplicons were sequenced using the Illumina MiSeq platform (Illumina, San Diego, CA, USA) with paired-end 300 cycle MiSeq Reagent Kit V2 (Illumina) ( 31 ). Nuclease-free materials were used throughout the process of DNA extraction, 16S rRNA gene amplification, and library preparation, and gloves were changed between handling each sample to prevent accidental cross-contamination between samples. The laboratory technicians were blinded to the clinical status (GDM or control) of study participants."
+  },
+  {
+   "evidence_id": "E0010",
+   "section": "Analysis of 16S rRNA V3–V4 Sequence Data",
+   "text": "High-quality sequence alignments, sequence clustering, and operational taxonomic unit (OTU) delineation were conducted based on previously established method ( 32 ). On the Quantitative Insights Into Microbial Ecology (QIIME) platform, all subsequent analyses were conducted. The analysis data were extracted from the raw data using USEARCH 8.0 ( 33 ), of which the detailed process of data clean and filtering criteria is shown in Appendix 2 . OTUs were classified based on 97% similarity after the chimeric sequences were removed using UPARSE (version 7.1 http://drive5.com/uparse/ ). The phylogenetic affiliation of each 16S rRNA gene sequence was analyzed by RDP Classifier ( http://rdp.cme.msu.edu/ ) against the Silva (SSU123) 16S rRNA database using the confidence threshold of 70% ( 34 ). The alpha diversity was calculated with observed OTUs, ACE index, Chao index, and Shannon index for each sample and compared between GDM and control groups using Wilcoxon signed rank test. Beta diversity was evaluated by principal coordinate analysis (PCoA) based on Bray–Curtis distance ( 35 , 36 ). Sample clustering in beta diversity was tested by Adonis using R package vegan ( http://www.R-project.org/ ). For those placental microbiota OTUs that differed between GDM and non-GDM pregnancies, the Spearman correlation coefficients were calculated with maternal clinical parameters and birth outcomes."
+  },
+  {
+   "evidence_id": "E0012",
+   "section": "Data Availability",
+   "text": "The raw sequence data of the 16S rRNA gene supporting the results of this article are available in the NCBI Sequence Read Archive (SRA) under access number SRA958249 ."
+  },
+  {
+   "evidence_id": "E0040",
+   "section": "Characteristics of 16S rRNA Gene Sequencing in Placenta and Cord Blood Samples",
+   "text": "Bacteria 16S rRNA can be detected in all of the 15 placental specimens, but in only one of the 15 cord blood specimens. Negative control sample from DNA isolation and blank PCR reagent were both negative after PCR step, which was considered as having no contamination from reagents and environment."
+  },
+  {
+   "evidence_id": "E0108",
+   "section": "Discussion",
+   "text": "There is some controversy concerning whether the placenta without clinical infection contains microbiota. Most existing studies reported that placentas harbored the microbiota ( 9 , 11 , 24 , 25 , 37 ). These studies showed that the placenta microbiota at phylum level was dominantly composed of Proteobacteria, Bacteroidetes, Firmicutes, Actinobacteria , and Cyanobacteria phylum ( 9 , 11 , 24 , 25 , 37 ), which was consistent with the results in this study. Among these studies, we are aware of only two small studies on placental microbiota in GDM pregnancies ( 24 , 37 ). One study ( 24 ) observed that the number of OTUs was higher for placenta microbiota in GDM ( n = 10 GDM and 10 controls), which was consistent with our study finding. In contrast, another study reported reduced OTUs in placenta microbiota of GDM pregnancies ( n = 11 GDM and 11 controls) ( 37 ). Some studies argued that healthy placentas had no microbiota ( 6 , 7 , 38 , 39 ). Previous studies emphasize that negative control is important ( 28 ), and sterile technical precautions during sample collection and processing are necessary. In our study, we set background negative control, which was subjected to the same DNA extraction procedure and analysis protocol alongside the placental and cord blood samples as quality control. We detected microbiota in all placental samples but not in the negative control sample. The association between GDM and microbiota has been studied in feces and meconium microbiota in recent years ( 18 , 19 , 40 , 41 ). A study reported that the gut microbiota of women with GDM had a higher α-diversity and higher relative abundance of Firmicutes and lower relative abundance of Bacteroidetes and Actinobacteria phylum ( 40 ). A recent study found that microbiota in salivary samples had lower abundance at OTU level in GDM women during late pregnancy and postpartum period, suggesting reduced diversity ( 42 ). Our finding in the placentas is in agreement with the previous finding on GDM and gut microbiota ( 40 )."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0004"
+  ],
+  "Actinobacteria": [
+   "E0046",
+   "E0054",
+   "E0105",
+   "E0108"
+  ],
+  "Alistipes": [
+   "E0105"
+  ],
+  "Anaerotruncus": [
+   "E0068",
+   "E0084"
+  ],
+  "Bacteroides": [
+   "E0059",
+   "E0067",
+   "E0105",
+   "E0109",
+   "E0111"
+  ],
+  "Bacteroidetes": [
+   "E0001",
+   "E0004",
+   "E0046",
+   "E0053",
+   "E0105",
+   "E0107",
+   "E0108"
+  ],
+  "Bifidobacterium": [
+   "E0062",
+   "E0067"
+  ],
+  "Blautia": [
+   "E0058",
+   "E0067",
+   "E0105",
+   "E0107"
+  ],
+  "Coprococcus": [
+   "E0068",
+   "E0074",
+   "E0109"
+  ],
+  "Cyanobacteria": [
+   "E0108"
+  ],
+  "Data": [
+   "E0039"
+  ],
+  "Dorea": [
+   "E0068",
+   "E0086"
+  ],
+  "Escherichia": [
+   "E0067"
+  ],
+  "Faecalibacterium": [
+   "E0060",
+   "E0067"
+  ],
+  "Firmicutes": [
+   "E0004",
+   "E0046",
+   "E0052",
+   "E0105",
+   "E0108"
+  ],
+  "Lachnospiraceae": [
+   "E0110"
+  ],
+  "Lactobacillus": [
+   "E0001"
+  ],
+  "Paraprevotella": [
+   "E0068",
+   "E0097"
+  ],
+  "Prevotella": [
+   "E0057",
+   "E0067",
+   "E0068",
+   "E0090",
+   "E0103"
+  ],
+  "Proteobacteria": [
+   "E0001",
+   "E0003",
+   "E0004",
+   "E0046",
+   "E0055",
+   "E0105",
+   "E0107",
+   "E0108"
+  ],
+  "Pseudomonadales": [
+   "E0004"
+  ],
+  "Rhodococcus": [
+   "E0061",
+   "E0067",
+   "E0105"
+  ],
+  "Ruminococcus": [
+   "E0001",
+   "E0068",
+   "E0092",
+   "E0107",
+   "E0109"
+  ],
+  "Sediminibacterium": [
+   "E0111"
+  ],
+  "Veillonella": [
+   "E0001",
+   "E0068",
+   "E0080",
+   "E0103",
+   "E0107"
+  ]
+ }
+}

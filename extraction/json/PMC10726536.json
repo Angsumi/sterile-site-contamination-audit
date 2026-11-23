@@ -1,0 +1,9 @@
+{
+ "pmcid": "PMC10726536",
+ "tissue_category": "blood",
+ "year": 2023,
+ "eligible_fulltext": false,
+ "exclusion_reason": "qPCR-only: blood bacterial DNA quantified by 16S rRNA real-time qPCR; no sequencing-based community profiling (authors list lack of metagenomic analysis as a limitation)",
+ "extractor": "AI agent (Claude sub-agent, batch 02)",
+ "date": "2026-11-23"
+}

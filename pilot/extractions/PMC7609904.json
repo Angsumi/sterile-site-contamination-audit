@@ -1,0 +1,120 @@
+{
+ "pmcid": "PMC7609904",
+ "block": "placenta_fetal",
+ "tissue_category": "placenta_fetal",
+ "year": 2020,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "V3–V4 hypervariable regions of the 16S ribosomal RNA gene"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "evidence": [
+   {
+    "id": "E0040",
+    "quote": "Negative control sample from DNA isolation and blank PCR reagent were both negative after PCR step"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "evidence": [
+   {
+    "id": "E0108",
+    "quote": "We detected microbiota in all placental samples but not in the negative control sample."
+   }
+  ]
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Blautia",
+   "evidence_id": "E0058",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0059",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Faecalibacterium",
+   "evidence_id": "E0060",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodococcus",
+   "evidence_id": "E0061",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0062",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia-Shigella",
+   "evidence_id": "E0065",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Coprococcus",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anaerotruncus",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ruminococcus",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dorea",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paraprevotella",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Veillonella",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Prevotella",
+  "Blautia",
+  "Bacteroides",
+  "Faecalibacterium",
+  "Rhodococcus"
+ ],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "claimed",
+ "notes": "Controls judged negative by PCR band, not sequenced. Cord blood: 1/15 positive.",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

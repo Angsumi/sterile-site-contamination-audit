@@ -1,0 +1,102 @@
+{
+ "pmcid": "PMC10857729",
+ "block": "brain_csf",
+ "tissue_category": "brain_csf",
+ "year": 2024,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0042",
+    "quote": "the V3-V4 regions of the 16S rRNA gene were amplified"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0042",
+    "quote": "Three negative controls, one DNA extraction control (NC1) and two no-template controls (NC2 and NC3) were included in the PCR and sequencing"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "tool",
+  "evidence": [
+   {
+    "id": "E0048",
+    "quote": "potential contaminants were removed using the exact binomial test (Filter 3)"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0041",
+    "quote": "Real-time quantitative PCR (qPCR) was performed"
+   }
+  ]
+ },
+ "genera": [
+  {
+   "name": "Bradyrhizobium",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Proteus",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cloacibacterium",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anaerococcus",
+   "evidence_id": "E0062",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0062",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0062",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nocardia",
+   "evidence_id": "E0062",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Helicobacter",
+   "evidence_id": "E0062",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cutibacterium",
+   "evidence_id": "E0067",
+   "flagged_contaminant": true
+  }
+ ],
+ "top5": [],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "claimed",
+ "notes": "Bradyrhizobium most abundant in many samples after filtering. Genera in E0064 are cited literature, not results.",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

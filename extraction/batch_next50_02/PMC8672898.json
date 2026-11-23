@@ -1,0 +1,82 @@
+{
+  "pmcid": "PMC8672898",
+  "tissue_category": "brain_csf",
+  "sub_site": "cerebrospinal fluid",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "other",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0030",
+        "quote": "Shotgun sequencing was performed on the Illumina HiSeq platform for all samples (paired-end library with 150-bp read length). Approximately 25 Gb and 5 Gb of raw paired-end reads were obtained per sample in CSF DNA-positive and -negative sa"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0004",
+        "quote": "disorders, as well as one-to-one matched positive controls (oral and skin swab samples) and negative controls (normal saline). DNA/RNA extraction buffers and sterile swabs were collected as contamination controls. In total, 116 specimens we"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "We questioned whether these detected microbes were truly CSF inhabitants or simply brought in from external sources, such as skin, sampling equipment, and DNA extraction buffer. To reduce the exogenous DNA noise of CSF samples, we subtracte"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 23,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Hydrogenophilus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidimonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0008",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "DNA shotgun plus RNA metatranscriptomics; only 12 CSF specimens assayed for RNA. Viral host names excluded. Authors conclude no detectable community. Skin/oral controls excluded.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8f1d00a7bc39c3e48289e617bf5e608cfa7e3d2f13ea82d202cb0474e03e405d",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

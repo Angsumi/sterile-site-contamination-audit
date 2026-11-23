@@ -1,0 +1,146 @@
+{
+ "pmcid": "PMC9239270",
+ "meta": {
+  "title": "Composition and Functional Potential of the Human Mammary Microbiota Prior to and Following Breast Tumor Diagnosis",
+  "journal": "mSystems",
+  "year": "2022",
+  "doi": "10.1128/msystems.01489-21",
+  "pmid": "35642922"
+ },
+ "n_elements": 144,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "ABSTRACT Microbiota studies have reported changes in the microbial composition of the breast upon cancer development. However, results are inconsistent and limited to the later phases of cancer development (after diagnosis). We analyzed and compared the resident bacterial taxa of histologically normal breast tissue (healthy, H, n = 49) with those of tissues donated prior to (prediagnostic, PD, n = 15) and after (adjacent normal, AN, n = 49, and tumor, T, n = 46) breast cancer diagnosis ( n total = 159). DNA was isolated from tissue samples and submitted for Illumina MiSeq paired-end sequencing of the V3-V4 region of the 16S gene. To infer bacterial function in breast cancer, we predicted the functional bacteriome from the 16S sequencing data using PICRUSt2. Bacterial compositional analysis revealed an intermediary taxonomic signature in the PD tissue relative to that of the H tissue, represented by shifts in Bacillaceae , Burkholderiaceae , Corynebacteriaceae , Streptococcaceae , and Staphylococcaceae . This compositional signature was enhanced in the AN and T tissues. We also identified significant metabolic reprogramming of the microbiota of the PD, AN, and T tissue compared with the H tissue. Further, preliminary correlation analysis between host transcriptome profiling and microbial taxa and genes in H and PD tissues identified altered associations between the human host and mammary microbiota in PD tissue compared with H tissue. These findings suggest that compositional shifts in bacterial abundance and metabolic reprogramming of the breast tissue microbiota are early events in breast cancer development that are potentially linked with cancer susceptibility. IMPORTANCE The goal of this study was to determine the role of resident breast tissue bacteria in breast cancer development. We analyzed breast tissue bacteria in healthy breast tissue and breast tissue donated prior to (precancerous) and after (postcancerous) breast cancer diagnosis. Compared to healthy tissue, the precancerous and postcancerous breast tissues demonstrated differences in the amounts of breast tissue bacteria. In addition, breast tissue bacteria exhibit different functions in pre-cancerous and post-cancerous breast tissues relative to healthy tissue. These differences in function are further emphasized by altered associations of the breast tissue bacteria with gene expression in the human host prior to cancer development. Collectively, these analyses identified shifts in bacterial abundance and metabolic function (dysbiosis) prior to breast tumor diagnosis. This dysbiosis may serve as a therapeutic target in breast cancer prevention."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "INTRODUCTION",
+   "text": "In this study, we compared the microbiota of healthy (H) and prediagnostic (PD) breast tissues to that of adjacent normal (AN) and tumor (T) tissues isolated from women diagnosed with breast cancer ( n = 159). We used 16S rRNA gene sequencing to determine the composition of the bacterial microbiota in these mammary tissues. In addition, we applied the metagenome prediction tool, PICRUSt2, in conjunction with the Kyoto Encyclopedia of Genes and Genomes (KEGG), to predict the functional bacteriome ( 12 , 13 ). Using these bioinformatic strategies, we were able to identify shifts in bacterial abundance in PD tissue, suggesting that these bacterial shifts preclude the development of breast tumors. Further, our work suggests the breast tissue microbiota is responding to tumor development, as evidenced by the decreased functionality of the bacteriome in PD, AN, and T tissue. Expanding on these findings, we analyzed host-microbiota associations in H and PD tissues and identified altered bacterial associations with the host transcriptome between the two tissue types. Although preliminary, this finding proposes variable interaction of the microbiota with the breast tissue microenvironment prior to cancer diagnosis."
+  },
+  {
+   "evidence_id": "E0110",
+   "section": "Associations between the host transcriptome and the breast microbiota are altered in PD tissues relative to H tissues.",
+   "text": "[TABLE 3 row] K00467 | Carbohydrate metabolism | ENSG00000211639 | IGLV4-60 | 1 | 8.69E−28"
+  },
+  {
+   "evidence_id": "E0111",
+   "section": "Associations between the host transcriptome and the breast microbiota are altered in PD tissues relative to H tissues.",
+   "text": "[TABLE 3 row] K14470 | Microbial metabolism in diverse environments | ENSG00000211639 | IGLV4-60 | 1 | 8.69E−28"
+  },
+  {
+   "evidence_id": "E0117",
+   "section": "DISCUSSION",
+   "text": "A significant strength of our study is our characterization of the human mammary microbiota composition and functional potential prior to cancer development, which has not been previously conducted. To conduct this analysis, we used a nested PCR to enrich bacterial sequences in these low-biomass breast tissue samples. This nested library preparation has been suggested to enhance the ability to interpret microbiota variations in low-biomass samples ( 24 ). Additionally, the H and PD breast tissues used in this study are precious and limited in availability. PICRUSt2’s metagenome prediction is highly comparable to shotgun metagenomic analysis of the microbiota ( 14 ), maximizing the utilization of these tissues for a variety of future genomic analyses."
+  },
+  {
+   "evidence_id": "E0121",
+   "section": "Subject selection.",
+   "text": "For the prediagnostic cohort (PD), tissue cores donated by 15 women were selected for microbiota analysis based on sample availability. For the healthy subset (H), we requested samples from women meeting the following criteria: healthy individuals with no prior breast surgery within 3 months of donating, no lactation or pregnancy at the time of sample collection, no personal history of cancer or benign breast disease, and no antibiotic use at the time of sample collection. For the women with cancer, we selected adjacent normal (AN) and tumor (T) tissue from women meeting the following criteria (prioritizing women who donated both tumor and adjacent normal tissue): no lactation or pregnancy at the time of sample collection, no prior breast disease (where possible), and no antibiotic use at the time of sample collection. Based on these criteria, our cohort consisted of 141 women: 76 women donated either T tissue ( n = 25), AN tissue ( n = 27), or both ( n = 24), 50 women donated H tissue, and 15 women donated PD tissue. In addition, subsequent to screening based upon respective health histories, 6 samples containing fewer than 10,000 sequencing reads were removed from further study (1 H sample, 2 AN samples, and 3 T samples) to avoid inclusion of samples with immoderately low bacterial biomass. Following completion of microbiome sequence preprocessing and decontamination, our final cohort consisted of 137 women, 73 of whom donated either T tissue, AN tissue, or both, 49 women who donated H tissue, and 15 women who donated PD tissue ( Fig. 1 ). Collectively, these 137 women donated 159 breast tissue samples (H = 49, PD = 15, AN = 49, and T = 46) to be analyzed for microbiota composition and function."
+  },
+  {
+   "evidence_id": "E0123",
+   "section": "DNA extraction.",
+   "text": "In addition to the DNA isolation from the mammary tissues, we also isolated DNA from a positive control (ZymoBIOMICS microbial community standard [catalog no. D6300]) and performed 9 extractions from negative controls (see Fig. S6A to C in the supplemental material). Approximately two extraction negative controls were isolated for each DNA extraction kit utilized in this study. The extraction negative controls consisted solely of the reagents and buffers used for DNA isolation to account for any possible reagent contamination. These negative controls were subjected to all steps of the sample preparation process (extraction, library preparation, and sequencing). These negative extraction controls, along with the positive-control microbial standard, represent published strategies to account for possible reagent contamination in low-biomass samples ( 25 , 26 )."
+  },
+  {
+   "evidence_id": "E0124",
+   "section": "16S microbial community analysis. (i) Library preparation and sequencing.",
+   "text": "Extracted DNA from 165 tissue samples, 9 negative extraction controls, and 1 positive control was submitted to the University of California Davis Host Microbe Systems Core Lab for library preparation and sequencing. Samples were subjected to a nested library preparation procedure. First, primers spanning the full-length 16S rRNA gene (27F/1492R) are applied to amplify and enrich for the full-length bacterial 16S rRNA gene. Second, a traditional two-step PCR process is applied to these full-length 16S amplicons to amplify the V3-V4 regions (primers 319F and 806R) of the 16S gene and add indices for sample identification after sequencing is complete. Amplicons resulting from this nested library preparation were quantified and subsequently pooled to equalize concentrations for Illumina MiSeq sequencing. In addition to the extraction negative controls, which were subjected to all sequencing preparation steps (extraction, library preparation, and sequencing), PCR-specific no template controls were included in the 16S enrichment and index PCR steps. These PCR-specific no template controls yielded no amplification. Following library preparation, samples were pooled and sequenced via Illumina MiSeq bidirectional paired-end sequencing (2 × 300 bp; Illumina, San Diego, CA, USA)."
+  },
+  {
+   "evidence_id": "E0125",
+   "section": "(ii) Sequence preprocessing.",
+   "text": "Overlapping paired-end reads were processed into amplicon sequence variants (ASVs) with DADA2 ( 27 ). Unique ASVs were aligned to the SILVA reference database and assigned taxonomy using the assignTaxonomy function as outlined in the DADA2 tutorial ( 27 , 28 ). The only modification to the default DADA2 pipeline was in the length of the forward and reverse read trimming. Forward reads were trimmed to 260 bp, and reverse reads were trimmed to 190 bp prior to merging reads into contigs."
+  },
+  {
+   "evidence_id": "E0130",
+   "section": "Microbial composition analysis.",
+   "text": "Raw ASVs and taxa used in the following analyses are available at https://datadryad.org/stash/share/qq_3ZPf-f_QVPyhIEtbiy8AJm2_rYwHhyY9cno87YLY . Any contaminated sequences identified in the negative extraction controls ( n = 9) were removed from all samples using the decontam package ( 31 ). This removal was based on the prevalence of the ASV in the samples relative to the prevalence of the ASV in negative controls. This process removed 775,278 reads from our analysis. We also removed all nonbacterial reads ( Fig. S6D to F ). After decontamination, samples with fewer than 10,000 reads were removed from the data set, and the data were rarefied to the smallest sample depth of 18,441 reads. After rarefaction, we constructed a phylogenetic tree using the APE package in R ( 32 ). Next, we used the Phyloseq and vegan packages ( 33 , 34 ) in R to analyze alpha diversity based on the Chao1 and Shannon diversity indices and beta diversity based on the weighted and unweighted UniFrac distances. After analysis of alpha and beta diversity, ASVs with fewer than 20 reads were removed from this data set. In total, 8,225,367 reads passed decontamination and pruning ( Fig. S6G ). ASVs were transformed to percent abundance per sample prior to construction of relative abundance plots in Phyloseq and analysis with MaAsLin2 and LEfSe ( 35 , 36 ). Phylum abundance plots were constructed using all ASVs. We isolated the top 100 ASVs prior to constructing relative abundance plots at the family level. For identification of differentially abundant taxa in PD, AN, and T tissue relative to H tissue, we used a consensus-based approach, employing both MaAsLin2 and LEfSe ( 35 , 36 ). MaAsLin2 is a multivariate statistical model used to identify associations between microbial taxa or functional features and clinical metadata ( 30 ). We used MaAsLin2 under default settings with a q value threshold of 0.25 (Benjamini-Hochberg adjustment) for identification of differentially abundant ASVs. LEfSe uses the nonparametric Kruskal-Wallis test to identify significantly differentially abundant taxa between groups and then employs linear discriminant analysis (LDA) to estimate effect sizes of each identified microbial feature ( 36 ). LEfSe analysis was conducted on the Galaxy server ( https://huttenhower.sph.harvard.edu/galaxy/ ) using the following settings: alpha ≤ 0.05, 2 for LDA threshold, and one-against-all strategy for multiclass analysis. The betadisper test in vegan was used to determine relative heterogeneity of the H, PD, AN, and T microbiota ( 34 ). The betadisper function analyzes the variance of each sample from the centroid and returns statistically significant findings ( P ≤ 0.05) when comparing dispersal between tissues. The Shapiro-Wilk test for normality was applied to Chao1, observed ASV counts, and Shannon diversity indices, with a P value of ≤0.05 indicating that the samples are not normally distributed. Based on this test for normality, repeated-measures analysis of variance (ANOVA) and post hoc Tukey’s tests were applied to determine statistical differences in Shannon diversity indices between tissue types, and linear regression models were applied to analyze statistical differences in Chao1 diversity indices and observed ASV counts. All plots were created using the ggplot2 package ( 37 )."
+  },
+  {
+   "evidence_id": "E0131",
+   "section": "Microbial functional analysis.",
+   "text": "We used PICRUSt2 under default settings to infer a profile of putative microbial functions (via metagenome prediction) from the 16S rRNA after decontamination and removal of nonbacterial reads ( 14 ). Representative sequences were analyzed using PICRUSt2 and classified against the Kyoto Encyclopedia of Genes and Genomes (KEGG) Database according to 97% similarity ( 12 , 13 ). This analysis provides insight into the molecular and metabolic function of microbiota in the breast tissue. We identified 7,170 KEGG orthologies (KO), otherwise referred to as nodes or steps in KEGG pathway maps, using this prediction software. Each was assigned a KO identifier indicating its status as a functional ortholog, done by inserting our KO results into the KEGG orthology data-oriented entry point of the KEGG orthology annotation ortholog table (OT). Within each KEGG database OT entry for the KO numbers, both the predicted general metabolic function and specific metabolic activity were assigned to the corresponding KOs. The same samples removed from the ASV table for microbiome compositional analysis (samples with less than 10,000 reads) were also removed from the PICRUSt2 data set before identification of differentially abundant microbial pathways. These data were relativized, and we used MaAsLin2 (same settings as those described above) and LEfSe (same settings as those described above) to identify KOs associated with the breast tissue type (PD, AN, and T) relative to H tissue ( 35 , 36 )."
+  },
+  {
+   "evidence_id": "E0132",
+   "section": "Correlation analyses between host genes and microbial taxa and genes.",
+   "text": "RNA from 219 H and PD subjects ( n H = 204, n PD = 15) was analyzed for differential gene expression in two separate sequencing batches (available from Gene Expression Omnibus GSE164641 [batch I] and GSE166044 [batch II]) using Deseq2 . To control for batch effect, we included a categorical variable for batch when conducting the differential expression analysis in Deseq2 ( 38 ). Only genes identified as differentially expressed (DE) when controlling for the batch were included in our correlation analyses with the microbiome data. We identified 48 DE genes (alpha < 0.1) between H and PD subjects. Next, we isolated ASVs identified via either MaAsLin2 ( q ≤ 0.25) or LEfSe ( P ≤ 0.05) as differentially abundant in PD and H tissue from subjects for whom we also had microbiome data from the decontaminated and pruned ASV table. Using the psych package in R, we conducted a Spearman’s rank correlation analysis between DE host genes and these bacterial ASVs for the PD and H groups separately ( 39 ). We then isolated the KOs identified as differentially abundant from the PICRUSt2 predicted functional metagenome between the PD and H tissues via either MaAsLin2 ( q ≤ 0.25) or LEfSe ( P ≤ 0.05). Similar to the gene-ASV analysis, we used the psych package in R to conduct a Spearman’s rank correlation analysis between DE host genes and bacterial KOs for the PD and H subjects ( n H = 6, n PD = 6) from whom we also had microbiome data separately ( 39 ). All correlations reported are statistically significant at an adjusted P value cutoff of 0.05 (Holm’s method). Data used in these correlation analyses can be found in Table S2 ."
+  },
+  {
+   "evidence_id": "E0143",
+   "section": "Supplementary",
+   "text": "[supplement] 10.1128/msystems.01489-21.6 FIG S6 Positive controls, decontamination, and pruning of the ASV table. DNA was isolated from a positive microbial standard (ZymoBIOMICS microbial community standard [catalog no. D6300]) using the protocol outlined in the text. The phyla and family present within our extracted control (A and B) reflect the composition of the ZymoBIOMICS microbial standard at the genus level (C). Following assessment of the positive control, any contaminated sequences identified in the negative extraction controls ( n = 9) were removed from all samples using the decontam package in R. Removal was based on prevalence of the ASVs in samples relative to the prevalence of the ASVs in negative controls. This process removed 775,278 reads from our analysis. (D) Total read counts before and after decontamination. (E and F) Read counts of H, PD, AN, T, positive control (pos), and blanks before (E) and after (F) decontamination. (G) Phylum distribution in H, PD, AN, and T tissues after pruning ASVs with fewer than 20 reads and removal of samples with fewer than 10,000 reads. Download FIG S6, PDF file, 0.3 MB . Copyright © 2022 Hoskinson et al. 2022 Hoskinson et al. https://creativecommons.org/licenses/by/4.0/ This content is distributed under the terms of the Creative Commons Attribution 4.0 International license . "
+  }
+ ],
+ "italic_candidates": {
+  "Actinobacteria": [
+   "E0042",
+   "E0113"
+  ],
+  "Bacillaceae": [
+   "E0001",
+   "E0042",
+   "E0113",
+   "E0114"
+  ],
+  "Bacillus": [
+   "E0114"
+  ],
+  "Bradyrhizobium": [
+   "E0043"
+  ],
+  "Burkholderiaceae": [
+   "E0001",
+   "E0042",
+   "E0114"
+  ],
+  "Corynebacteriaceae": [
+   "E0001",
+   "E0114"
+  ],
+  "Corynebacterium": [
+   "E0043",
+   "E0114"
+  ],
+  "Enterobacteriaceae": [
+   "E0114"
+  ],
+  "Enterococcus": [
+   "E0043"
+  ],
+  "Firmicutes": [
+   "E0042",
+   "E0113"
+  ],
+  "Lodobacter": [
+   "E0043"
+  ],
+  "Phyloseq": [
+   "E0130"
+  ],
+  "Proteobacteria": [
+   "E0042",
+   "E0113"
+  ],
+  "Sphingomonas": [
+   "E0043",
+   "E0052"
+  ],
+  "Staphylococcaceae": [
+   "E0001",
+   "E0114"
+  ],
+  "Streptococcaceae": [
+   "E0001"
+  ],
+  "Xanthobacteraceae": [
+   "E0042"
+  ],
+  "Xanthobacteriaceae": [
+   "E0114"
+  ]
+ }
+}

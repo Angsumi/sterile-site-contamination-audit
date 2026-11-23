@@ -1,0 +1,153 @@
+{
+  "pmcid": "PMC9793878",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e4212623321cab4da66e791cf91518202f0418ee83357006c851beabd7e9691c",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "Reanalysis of eight published 16S breast/stool studies",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Raw sequencing data were retrieved from the National Center for Biotechnology Information Sequence Read Archive (NCBI-SRA) database using the following accession numbers (BioProject ID): PRJNA624822 for Nejman et al. (2020) , SRP076038 for "
+      }
+    ]
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "biota) AND (metagenomic or mNGS or 16S rRNA).” The search was limited to studies that fit the following criteria: 1) had original data, 2) used fecal or breast tissue samples, and 3) included breast disease and normal control populations. S"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Atopobium",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyrivibrio",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrotalea",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Reyranella",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Weissella",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Yersinia",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Published breast-tissue datasets pooled; primary-study overlap requires resolution before final analysis. Gut-only genera excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

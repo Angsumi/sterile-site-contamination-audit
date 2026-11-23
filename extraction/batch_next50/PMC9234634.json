@@ -1,0 +1,77 @@
+{
+  "pmcid": "PMC9234634",
+  "tissue_category": "tumour",
+  "sub_site": "primary liver tumour and adjacent tissue",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "jorbio Bio\u2010Pharm Technology Co., Ltd., China. The 16S rRNA gene sequencing methods were adapted from the methods developed for the Earth Microbiome Project(X) and the National Institutes of Health Human Microbiome Project (HMP). ( 17 , 18 ,"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 56,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Agrobacterium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermomonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastomonas",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Wolbachia",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "28 patients: HCC, iCCA and combined HCC-CCA. Family names excluded.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "310149aa73e5dcd69ed8cdd67afbf034bc4097e45bf8c838a51c35c1543891da",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

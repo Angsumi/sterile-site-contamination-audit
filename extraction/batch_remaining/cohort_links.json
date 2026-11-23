@@ -1,0 +1,44 @@
+[
+  {
+    "paper": "PMC6586825",
+    "linked_paper": "PMC6345098",
+    "status": "confirmed entire-cohort reuse; new record excluded",
+    "basis": "Main line151/ref47 identify same plasma samples; original has longer genus list"
+  },
+  {
+    "paper": "PMC13243561",
+    "linked_paper": "PMC8052771",
+    "status": "confirmed partial overlap; new record restricted to independent Cohort B",
+    "basis": "Main line31/ref17 identify 46 reused Cohort-A tumours; new Cohort B has 314 separate tumours"
+  },
+  {
+    "paper": "PMC9609265",
+    "linked_paper": "PMC6449216",
+    "status": "new primary cohort; old validation cohort not pooled",
+    "basis": "46 new stage-II patients versus old 16-tumour/17-normal validation data"
+  },
+  {
+    "paper": "PMC12649041",
+    "linked_paper": "PMC12485822",
+    "status": "possible overlap, unconfirmed",
+    "basis": "Shared team and CAMS; different counts and no participant mapping"
+  },
+  {
+    "paper": "PMC12269162",
+    "linked_paper": "PMC12008866",
+    "status": "possible overlap, unconfirmed",
+    "basis": "24+24 MI/healthy and Gansu recruitment; healthy recruitment sites differ"
+  },
+  {
+    "paper": "PMC12029928",
+    "linked_paper": "prior UAMS brain publication",
+    "status": "possible overlap, unresolved",
+    "basis": "Previous publication mentioned; same brain donors not established"
+  },
+  {
+    "paper": "PMC11309925",
+    "linked_paper": "PMC11786307",
+    "status": "possible overlap, unconfirmed",
+    "basis": "Renal disease serum EV studies; participant identities not matched"
+  }
+]

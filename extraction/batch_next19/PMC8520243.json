@@ -1,0 +1,60 @@
+{
+  "pmcid": "PMC8520243",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour and adjacent normal tissue",
+  "year": 2021,
+  "country": "USA",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "The V4 hypervariable region of the 16S rRNA gene was amplified using the 515F/806R primer set [ 20 ] by the University of Minnesota Genomics Center (UMGC, Minneapolis, MN, USA), as previously described [ 21 ]. Paired-end, dual indexed seque"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "The V4 hypervariable region of the 16S rRNA gene was amplified using the 515F/806R primer set [ 20 ] by the University of Minnesota Genomics Center (UMGC, Minneapolis, MN, USA), as previously described [ 21 ]. Paired-end, dual indexed seque"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "issue samples was determined by non-quantitative, real-time PCR. The V4 hypervariable region of the 16S rRNA gene was amplified using forward primer 515F (5\u2032- GTGYCAGCMGCCGCGGTAA \u2212 3\u2032) and reverse primer 806R (5\u2032- GGACTACNVGGGTWTCTAAT \u2212 3\u2032)"
+      }
+    ]
+  },
+  "n_target_samples": 54,
+  "list_type": "full_profile",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "26 qPCR-positive tissues sequenced, 13 malignant. Water controls in sequencing runs did not produce amplicons; do not assume successful sequencing. Results report families, not named genera. Quantitative results deemed unreliable; positivity assay noted.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "d45e4348d6d2d39c24a225a3e936063c35a020675b9be772d3143761ff26642a",
+  "supplement_manifest": []
+}

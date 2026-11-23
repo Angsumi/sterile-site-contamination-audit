@@ -1,0 +1,94 @@
+{
+  "pmcid": "PMC11766298",
+  "tissue_category": "tumour",
+  "sub_site": "lung NSCLC tumour and adjacent tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0033",
+        "quote": "the amplification and sequencing of the bacterial 16S ribosomal RNA (rRNA) gene, using the Ion Torrent\u2122 technology and reagents from Life Technologies (a division of Thermo Fisher Scientific, Waltham, MA, USA). The protocol followed for lib"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cryobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geodermatophilus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nakamurella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidicella",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Olsenella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "CRC tissue and stool-only taxa excluded. Sample count requires clarification. NSCLC tissue correlations support genus presence in paired tissues.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6834b4525854f820a7dc52caca4aae4b2d5272e52303b98696c27b0fcd52f51c",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Target selection or cohort attribution requires human confirmation; see notes."
+  ]
+}

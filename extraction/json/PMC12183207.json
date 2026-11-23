@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC12183207",
+  "tissue_category": "tumour",
+  "sub_site": "thyroid",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "82a7d675f09a2d9bef3d37712d2e8824570a7a91ab1a783bb7ffbbc5215c8e6c",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "PCR amplification of the bacterial 16S rRNA genes V3–V4 region was performed using the forward primer 338F (5’-ACTCCTACGGGAGGCAGCA-3’) and the reverse primer 806R (5’-GGACTACHVGGGTWTCTAAT-3’) . Notably, the electrophoresis profiles of two n"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "mplemented stringent contamination controls: (1) PCR negative controls (ddH 2 O) confirmed the absence of reagent contamination (reads <1000; no amplification bands); (2) sterile sample collection and environmental controls (validated by el"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": " exogenous DNA; (3) bioinformatics filtering excluded taxa with ≤3 reads or unverified by the mbodymap database. Importantly, Planococcus donghaensis —validated via FISH and functional assays—exhibited pro-tumorigenic effects, supporting it"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Limnobacter",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vulcaniibacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0051",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0055",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Planococcus",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthobacter",
+      "evidence_id": "E0061",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "PCR controls had <1000 reads and no amplification bands; environmental controls electrophoresis only. Taxa with <=3 reads or unverified by mbodymap removed; Planococcus validated.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

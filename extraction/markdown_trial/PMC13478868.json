@@ -1,0 +1,40 @@
+{
+  "pmcid": "PMC13478868",
+  "tissue_category": "tumour",
+  "sub_site": "lung and lymph-node LCH biopsies plus lung controls",
+  "year": 2026,
+  "eligible_fulltext": true,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "shotgun"
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "evidence": [
+      {
+        "id": "fulltext.md:L39",
+        "quote": "The negative controls were processed throughout."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none"
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "n_target_samples": 16,
+  "sample_count_note": "PMC7049446: 6 primary tumour samples from 6 patients; 18 total tissues. PMC13478868: 10 lesion biopsies + 6 lung controls.",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "list_type": "mixed",
+  "authors_conclusion": "unclear",
+  "extractor": "Codex; single Markdown small-batch trial",
+  "date": "2026-11-23",
+  "supplement_files_available": [],
+  "status": "provisional; separate from analysis dataset",
+  "notes": "Sequencing of negative controls not explicit. No positive bacterial genus detections named; Mycobacterium explicitly absent. No supplement available. Tissue-category assignment needs review (LCH lesions)."
+}

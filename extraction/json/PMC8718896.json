@@ -1,0 +1,117 @@
+{
+  "pmcid": "PMC8718896",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour and non-tumour tissue",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": " recommendation. The V3-V4 fragments of bacterial 16S rRNA gene were amplified using dual-indexing approach as described previously ( Fadrosh et al., 2014 ). The dual-indexed PCR amplification primers contained not only universal primers ta"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": "ips were used for all pipetting. Second, negative controls including DNA extraction blank and no-template amplification controls were involved in each experimental batch and sequenced in each sequencing run. A total of 60 negative controls "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": " According to the recommendations on dealing with contamination in low microbial biomass microbiome studies ( Nejman et al., 2020 ; Eisenhofer et al., 2019 ), we took the following precautions to avoid potential contaminations. First, each "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 241,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polaromonas",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoxanthomonas",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "143 patients, 118 tumour plus 123 non-tumour tissue samples retained. 60 sequenced negative controls; OTUs present in at least 3 controls removed.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "d3a176fe89d41bc37bc5ef580e67bf4ab4a9708ef1a6377644542b3f36b670c1",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,158 @@
+{
+  "pmcid": "PMC11839906",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ccb9ca7abf827df396abf3a974ca36c9abe4abebaf3a036edf7620907eb17fbc",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "critically evaluate the results of 16S targeted amplicon sequencing performed on total DNA collected from healthy donors' blood samples while incorporating specific negative controls aimed at addressing potential bias to supplement and stre"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0048",
+        "quote": "The most abundant phyla in blood samples were Proteobacteria (60.67%), Actinobacteriota (16.37%), Firmicutes (10.42%), Actinobacteriota (16.37%), and Verrucomicrobiota (2.01%) (Fig. 3A ) while the five most represented genera were Burkholde"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0048",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Burkholderia‐Caballeronia‐Paraburkholderia",
+      "evidence_id": "E0048",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Leifsonia",
+      "evidence_id": "E0048",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "E0055",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0055",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "E0055",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia‐Shigella",
+      "evidence_id": "E0023",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0027",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium‐Methylorubrum",
+      "evidence_id": "E0030",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0032",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0035",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0043",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Subdoligranulum",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Known-contaminant column preserved as flags; remaining detections do not establish resident blood microbes. Authors reject support for a healthy resident microbiome.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

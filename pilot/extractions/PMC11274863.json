@@ -1,0 +1,38 @@
+{
+ "pmcid": "PMC11274863",
+ "block": "brain_csf",
+ "tissue_category": "brain_csf",
+ "year": 2024,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0004",
+    "quote": "using 16S rRNA gene sequencing"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "water blank reagent control samples were run through every step of the process from DNA extraction to sequencing"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "unclear",
+  "evidence": []
+ },
+ "biomass_qpcr": {},
+ "genera": [],
+ "top5": [],
+ "genera_in_figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "Results reported at phylum, class and order level only; no genus list in text or tables.",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

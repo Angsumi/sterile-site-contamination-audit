@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC8375156",
+  "tissue_category": "blood",
+  "sub_site": "serum vesicle molecular phenotyping",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Serum nanovesicle ultrastructural, immunolabelling and molecular measurements without bacterial community sequencing.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "543185cca2f59556dfaf9d4db73b009ef0b4ed6b8e249e215efa028598acb7b0",
+  "notes": "",
+  "review_flags": []
+}

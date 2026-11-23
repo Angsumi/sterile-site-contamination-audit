@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC12029928",
+  "tissue_category": "brain_csf",
+  "sub_site": "brain",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f53be08dba6667ac52ede9b0a40bc15cac747dbcee9a1a572bae7f01b5ac46d9",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ted, semiquantitative, full-length 16S rRNA gene pan-domain amplification protocol followed by high-fidelity circular consensus sequencing performed on a Pacific Biosciences Sequel IIe instrument. Statistical analyses showed no significant "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Four blank extraction controls (comprised of all reagents used during sample processing but without sample input) were processed in the same way as the true biological samples to allow identification of any contamination from reagents or du"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam; microDecon",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "was performed using the R packages decontam (v. 1.22.0) [ 19 ] and microDecon (v. 1.0.2) [ 20 ]. In decontam, contaminating OTUs were detected based on their occurrence in negative controls compared to biological samples (prevalence method)"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Novosphingobium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

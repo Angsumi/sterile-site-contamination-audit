@@ -1,0 +1,76 @@
+{
+  "pmcid": "PMC3885448",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and paired normal tissue",
+  "year": 2014,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "e breast cancer (clinical data reported in Table S1 ) using 16S pyrosequencing. Across the samples, the five richest phyla consisting of Proteobacteria, Firmicutes, Actinobacteria, Bacteroidetes and Verrucomicrobia, accounted for an average"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "qPCR was performed using universal bacterial rDNA primers 63F (forward, 5\u2032-GCA GGC CTA ACA CAT GCA AGT C-3\u2032) and 355R (reverse, 5\u2032-CTG CTG CCT CCC GTA GGA GT-3\u2032) on microbial DNA extracted from FFPE tissue. All samples from pyrosequencing w"
+      }
+    ]
+  },
+  "n_target_samples": 40,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "20 paired tumour/normal cases for sequencing; additional samples for qPCR not included in sequencing count. Sphingomonas sequencing detection retained despite tumour qPCR nondetection.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "98cd6840197ef3bbf46f7ffed1e610d72f64994798130cb3e7f8b620ca3b019e",
+  "supplement_manifest": []
+}

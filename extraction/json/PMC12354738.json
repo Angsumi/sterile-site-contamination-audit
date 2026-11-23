@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12354738",
+  "tissue_category": "tumour",
+  "sub_site": "colorectal primary tumour",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Profiles are from primary colorectal tumour specimens classified by liver-metastasis status, not liver metastatic tissue; primary colorectal tumours excluded.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "61e42188c1da18520dabc917d6b9c82bee3f8517c3f10fa9e1bf57c7450ebbd2",
+  "notes": "",
+  "review_flags": []
+}

@@ -1,0 +1,69 @@
+{
+  "pmcid": "PMC6844652",
+  "year": 2019,
+  "eligible_fulltext": true,
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "n_target_samples": 80,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Peripheral blood samples were obtained from all subjects. Here, 2.5 ml of whole blood from each subject was collected directly into the PAXgene Blood RNA Tube (PreAnalytiX GmbH, Hombrechtikon, Switzerland) and then cryopreserved until RNA p"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "66 cirrhotic and 14 healthy participants. Akkermansia detected in healthy target blood, reported as 0% in cirrhosis. RNA-derived 16S amplicons. Family-level taxa excluded.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC6844652/fulltext.md",
+  "source_sha256": "88c040aa1fcbab1cb4f275de3e0a19609fc6fa6ba45633b636333d66283fe11e",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named",
+  "exclusion_reason": "",
+  "country": ""
+}

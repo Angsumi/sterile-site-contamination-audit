@@ -1,0 +1,66 @@
+{
+  "pmcid": "PMC5610236",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid",
+  "year": 2017,
+  "country": "",
+  "eligible_fulltext": null,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0035",
+        "quote": "mplification of the variable region (V1\u20132) of the 16S rRNA gene. A 16S Metagenomic Sequencing Library was prepared according to the Illumina protocol (16S Metagenomic Sequencing Library Preparation, Part # 15044223 Rev. A; Illumina, San Die"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "uencing of 16S rDNA in 97 AF samples and 24 blank controls. Only one sample (N11) did not yield sufficient reads for metagenomic analysis. Operational taxonomic units (OTUs) were created and within-community (alpha) diversity was assessed b"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 97,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Eligibility held: primary objective is diagnosis of chorioamnionitis in suspected intra-amniotic infection, rather than resident-community profiling. 79 clinical cases plus 18 normal controls. Blank-control organisms not assigned to target samples.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8d37726236ab70fab269bd1da4bb2fe836f4d6544ca04729bbfe727cfcdab1cb",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.",
+    "Adjudicate diagnostic intra-amniotic infection scope versus microbiome profiling; do not impose an undocumented exclusion."
+  ],
+  "eligibility_review": "Adjudicate diagnostic intra-amniotic infection scope versus microbiome profiling; do not impose an undocumented exclusion."
+}

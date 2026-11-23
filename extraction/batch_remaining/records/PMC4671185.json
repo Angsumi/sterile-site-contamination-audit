@@ -1,0 +1,68 @@
+{
+  "pmcid": "PMC4671185",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2015,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "3a9c7071b8a8a08bf63fa1889a03178699f912b4c5ca01d10b90a21fffe5f89a",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "uencing of the V3–V5 region of the 16S rRNA gene was performed for all collected samples. Results. The results show that Lactobacilli species were markedly decreased when compared to vaginal swabs collected from uncomplicated pregnancy subj"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0038",
+        "quote": "Control samples consisted of five “empty collection” replicates. In brief, five swabs were immersed in the collection buffer and DNA was extracted, amplified, and sequenced using the same procedures and reagents used for the PPROM samples. "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Alicyclobacillus",
+      "evidence_id": "E0068",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0068",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Placental results only, vaginal longitudinal genus lists excluded. Corynebacterium discussed as potential contaminant; authors did not conclude it was proven contamination.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

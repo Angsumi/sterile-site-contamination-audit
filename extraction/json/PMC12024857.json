@@ -1,0 +1,107 @@
+{
+  "pmcid": "PMC12024857",
+  "tissue_category": "tumour",
+  "sub_site": "lacrimal gland tumour and IgG4-RD tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "ypervariable regions 3\u20134 (V3\u2013V4) of the bacterial 16S rRNA gene was performed using universal primers (343F: 5\u2032-TACGGRAGGCAGCAG-3\u2032; 798R: 5\u2032-AGGGTATCTAATCCT-3\u2032). The PCR products were purified using Agencourt AMPure XP beads (Beckman Coulte"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "h blank paraffin sections serving as the negative control. The demographic and clinical characteristics of the patients are detailed in Supplementary Table S1 . Significant differences in microbial composition were observed among the four g"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 89,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Garicola",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polaribacter",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brachybacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyricimonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cobetia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marinifilum",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "44 malignant, 21 pleomorphic adenoma and 24 IgG4-RD tissues. Blank paraffin controls mentioned; sequencing not explicit. Lachnospiraceae_UCG-010 excluded as unclassified.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c97e9878478509a4d11685a0b6008f9f185bdf22feae56e20652c927f922a60a",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

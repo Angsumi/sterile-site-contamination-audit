@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12539271",
+  "tissue_category": "other_sterile",
+  "sub_site": "liver regeneration",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Mouse liver-regeneration and faecal-transplantation study; paper explicitly states that human-cohort validation remains future work.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "d138c5e2d0742c00c52e20f117de0a339ec4a8617a880ee01e9c937770d076e7",
+  "notes": "",
+  "review_flags": []
+}

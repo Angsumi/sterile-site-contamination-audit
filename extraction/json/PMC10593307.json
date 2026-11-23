@@ -1,0 +1,69 @@
+{
+  "pmcid": "PMC10593307",
+  "tissue_category": "blood",
+  "sub_site": "whole blood of kidney transplant recipients",
+  "year": 2023,
+  "country": "Portugal",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "eting the V3–V4 hypervariable regions of the bacterial 16S rRNA gene as described previously.[ 8 17 ] The 476-base pair amplicon (base on Escherichia coli reference genome) was sequenced using the 2 × 300 paired-end Illumina MiSeq kit V3 as"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": ".5)[ 20 ] in all samples were removed; 6) OTUs with an abundance lower than 0.005% of the whole dataset were removed; and 7) OTUs with a strong similarity (coverage and identity ≥80%) with the phiX (used as a control for Illumina sequencing"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 6,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Uncertain multi-affiliated Enterobacteriaceae (possibly Escherichia or Enterobacter) not assigned as either genus; literature E. coli reference excluded.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

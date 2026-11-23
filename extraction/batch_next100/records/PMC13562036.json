@@ -1,0 +1,12 @@
+{
+  "pmcid": "PMC13562036",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Blood metagenomic profiling in leukemia-associated febrile neutropenia, a suspected systemic-infection cohort.",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "26446efa7d82b5acd88df78c7ac9ad7ed9f44f3ef1ea5d6179acaf7b4c3ab57d"
+}

@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC5216046",
+ "tissue_category": "brain_csf",
+ "sub_site": "cerebrospinal fluid (multiple sclerosis and other neurological conditions)",
+ "year": 2017,
+ "country": "Canada",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0001", "quote": "We conducted a metagenomic survey in cerebrospinal fluid (CSF) from 28 MS patients and 15 patients suffering other type of neurological conditions"}]},
+ "method": {"value": "shotgun", "region": "", "evidence": [{"id": "E0074", "quote": "For construction of metagenomics libraries, the Nextera XT (Illumina) technology was used"}, {"id": "E0075", "quote": "Demultiplexed reads were aligned against a customized database using the ultrafast metagenomic classification package Kraken"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "abundance_filter_only", "tool": "", "evidence": [{"id": "E0001", "quote": "Thirty-four out of 43 samples contained <1% bacterial reads, which we regard as cross- or environmental contamination"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 43,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Veillonella", "evidence_id": "E0059", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0059", "flagged_contaminant": false},
+  {"name": "Kocuria", "evidence_id": "E0059", "flagged_contaminant": false},
+  {"name": "Propionibacterium", "evidence_id": "E0061", "flagged_contaminant": true},
+  {"name": "Alteromonas", "evidence_id": "E0061", "flagged_contaminant": false},
+  {"name": "Pseudomonas", "evidence_id": "E0061", "flagged_contaminant": false},
+  {"name": "Bacteroides", "evidence_id": "E0061", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "not_claimed",
+ "notes": "No negative controls; authors treat samples with <1% bacterial reads as contamination and suspect rack-neighbour cross-contamination from sample 3C. P. acnes flagged as known library contaminant; Alteromonas mediterranea also 'most ubiquitous' (likely background, not explicitly called contaminant). Ralstonia only as spurious adapter-like hits of viral reads (not recorded). Full per-sample taxa in Supplementary Table 1 (not converted). Conclusion: CSF generally free of microbial DNA, with two bacteria-rich exceptions.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

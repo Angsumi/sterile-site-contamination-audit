@@ -1,0 +1,209 @@
+{
+ "pmcid": "PMC4136842",
+ "tissue_category": "blood",
+ "sub_site": "plasma cell-free DNA (CVD patients and healthy controls)",
+ "year": 2014,
+ "country": "India",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0022",
+    "quote": "Selected plasma DNA samples from 3 CVD patients (males = 3; females = 0) and 3 healthy subjects"
+   }
+  ]
+ },
+ "method": {
+  "value": "shotgun",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0022",
+    "quote": "were subjected to Shotgun sequencing using the Ion Torrent Personal Genome Machine (PGM)"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "qPCR no-template controls only",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0033",
+    "quote": "No fluorescence signal was detected from no template controls (NTC)"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0020",
+    "quote": "Circulating 16S rRNA and β-globin genes were quantitated by real-time PCR"
+   }
+  ]
+ },
+ "n_target_samples": 6,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Propionibacterium",
+   "evidence_id": "E0054",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0054",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0050",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0050",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acidaminococcus",
+   "evidence_id": "E0050",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Micrococcus",
+   "evidence_id": "E0050",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodococcus",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacterium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brachybacterium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Clavibacter",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nocardia",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kocuria",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mobiluncus",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Arthrobacter",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Actinobacillus",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptomyces",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cellulomonas",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leifsonia",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sinorhizobium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Myxobacterium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bradyrhizobium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methylobacterium",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodopseudomonas",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Shigella",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paracoccus",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "qPCR on 120 plasma samples (80 CVD, 40 healthy); shotgun (MDA-amplified, Ion Torrent) on only 6. Thermococcus (archaeal) not recorded. 'Myxobacterium' probably not a valid genus. Propionibacterium predominant in CVD, Pseudomonas in controls.",
+ "extractor": "AI agent (Claude sub-agent, batch 07)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,129 @@
+{
+  "pmcid": "PMC3577789",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid cord blood",
+  "year": 2013,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "1d52cec7ebc5ee288ea5bc4e811ad756ffe4d96603952a499771cbae2f327247",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": " used for PCR amplification of the 16S rRNA genes as previously described [7] . These primers were modified from the well-known universal primers “27F” and “1492R” [31] . In A17F, we deleted the first three nucleotides from the 5′ end (AGA)"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "by 1% agarose gel electrophoresis. Negative controls were included with each PCR reaction set to control for environmental or human contamination."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bergeyella",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Listeria",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sneathia",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0131",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding.",
+    "Intra-amniotic infection/early-onset neonatal sepsis proof-of-concept study: resolve diagnostic-infection scope before inclusion."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+ "pmcid": "PMC12815023",
+ "tissue_category": "tumour",
+ "sub_site": "salivary gland carcinoma (planned tumour smear microbiome)",
+ "year": 2026,
+ "country": "Germany",
+ "eligible_fulltext": false,
+ "exclusion_reason": "study protocol (ImmoGlandula), no microbiome results; salivary gland tumour smear is head-neck/mucosa-adjacent site",
+ "notes": "Protocol paper only; planned metagenomics of stool, saliva and tumour smear.",
+ "extractor": "AI agent (Claude sub-agent, batch 03)",
+ "date": "2026-11-23"
+}

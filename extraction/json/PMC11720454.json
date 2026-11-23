@@ -1,0 +1,153 @@
+{
+ "pmcid": "PMC11720454",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic ductal adenocarcinoma tissue and adjacent normal pancreas (frozen and FFPE)",
+ "year": 2024,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0031",
+    "quote": "All samples were collected in the operating room during resection of pancreatic tumors, using sterile procedures."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V4 (V3-V4 also tested)",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "Therefore, the V4 region was chosen for downstream analysis due to its more reliable and consistent amplification results."
+   },
+   {
+    "id": "E0036",
+    "quote": "sequencing was carried out on the Illumina MiSeq platform"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "extraction blank; PCR NTC",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0038",
+    "quote": "We included extraction-negative and PCR-negative controls in every sequencing batch to create a background contamination profile."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "tool",
+  "tool": "SCRuB",
+  "evidence": [
+   {
+    "id": "E0038",
+    "quote": "To minimize contamination effects, we applied the SCRuB [ 26 ] contamination modeling pipeline."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0014",
+    "quote": "bacterial DNA yields were very low\u2014reflected in Ct values close to those of our negative control"
+   }
+  ]
+ },
+ "n_target_samples": 66,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Skermanella",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ligilactobacillus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Akkermansia",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sporosarcina",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Fusobacterium",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Duganella",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Arthrobacter",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Serratia",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacterium",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "not_claimed",
+ "notes": "Frozen: 26 tumour + 15 adjacent normal; FFPE: 5 patients x (3 tumour + 2 normal) + paraffin blanks; n_target=66 approx. Genera from differential-abundance text only (E0012 FFPE, E0016-17 frozen). Authors conclude low biomass comparable to negative controls, partially contaminants. Pseudomonads most common gammaproteobacteria.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

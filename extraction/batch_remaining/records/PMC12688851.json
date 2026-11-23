@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12688851",
+  "tissue_category": "tumour",
+  "sub_site": "review",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Commentary/review; no new community profiling or eligible primary-data reanalysis.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "1a90ee878b5454f5496613af6816c82742f1e2d006c8e78198667cb4e2b0fe6f",
+  "notes": "",
+  "review_flags": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "oncotarget-08-88122-s001.pdf",
+    "alias": "S980.md",
+    "bytes": 2486420,
+    "sha256": "18b2e7e8acbbf22f15b91468786dfe7783ee299af17471bc7e9e9ea1c3c348d6",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5675698.1/oncotarget-08-88122-s001.pdf",
+    "md_bytes": 4305
+  },
+  {
+    "file": "oncotarget-08-88122-s002.xlsx",
+    "alias": "S990.md",
+    "bytes": 20800,
+    "sha256": "603a1e57ec96a29d3394ec7cb90b23882f50840869df3cdf5941126184792466",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5675698.1/oncotarget-08-88122-s002.xlsx",
+    "md_bytes": 16401
+  },
+  {
+    "file": "oncotarget-08-88122-s003.xlsx",
+    "alias": "S1000.md",
+    "bytes": 222154,
+    "sha256": "fbe0db93d81363c779b13d7562177281ddb2c2edfd6ed963dd4d1ee994f88ff0",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5675698.1/oncotarget-08-88122-s003.xlsx",
+    "md_bytes": 370538
+  },
+  {
+    "file": "oncotarget-08-88122-s004.xlsx",
+    "alias": "S1010.md",
+    "bytes": 16023,
+    "sha256": "7c30bcbe949ff188b3c23c37479d517214f10894b9edebab4d78494c3a232c17",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5675698.1/oncotarget-08-88122-s004.xlsx",
+    "md_bytes": 12940
+  }
+]

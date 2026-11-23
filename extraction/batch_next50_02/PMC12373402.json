@@ -1,0 +1,137 @@
+{
+  "pmcid": "PMC12373402",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA LUAD",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Abstract The interaction between intratumoral microbiome and the tumor microenvironment (TME) has furthered our understanding of tumor ecology. Yet, the implications of their interaction for lung cancer management remain unclear. In the cur"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Abstract The interaction between intratumoral microbiome and the tumor microenvironment (TME) has furthered our understanding of tumor ecology. Yet, the implications of their interaction for lung cancer management remain unclear. In the cur"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 478,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteibacter",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquimarina",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chlamydia",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Effusibacillus",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marinithermus",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Renibacterium",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrabacter",
+      "evidence_id": "E0035",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Public TCGA matched microbiome/host-transcriptome profiles. Gene-score coefficients are not abundance ranks. All explicitly microbial g_ model terms retained; human genes excluded.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6dd7f53575f2fe7bd6fe7e40d15169b56ba88f06081b194a33aaa147370d1cc2",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

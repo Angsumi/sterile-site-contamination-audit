@@ -1,0 +1,134 @@
+{
+  "pmcid": "PMC8535827",
+  "tissue_category": "blood",
+  "sub_site": "plasma-derived bacterial extracellular vesicles",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "se (New England Biolabs Limited, Hitchin, UK) and 16S universal primers targeting the V3\u2013V4 region of the bacterial 16S rRNA gene as outlined above. The resulting single amplicon target of approximately ~460 bp was amplified using a second "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0037",
+        "quote": "mple processing, taxonomic profiles from protocol control samples and plasma were compared. With respect to \u03b1-diversity (microbial richness), three controls (no boiling or EV lysis, and PCR only (water), and PCR only blank) exhibited lower "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0039",
+        "quote": "Sequence-based filtering was performed to remove representative protocol control reads with >20% prevalence in the plasma samples. Two further samples were removed from the analysis due to low read counts (HC6 and CD1). A total of 14,864 AS"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthobacter",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysobacter",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brachybacterium",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacterium",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only post-contamination-filter list used. Pre-filter Bradyrhizobium/Bacteroides are not added; spiked Bacillus subtilis not counted from spike experiment. Main post-filter list already exceeds 3, so downloaded ASV taxonomy supplements not used to expand the list.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "aff4d819b51ff097e4e69e6e45813d94906d69c5faadf9121f6b1ed5462589b1",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Exact target specimen count not established; do not infer from participant or mixed-compartment totals."
+  ]
+}

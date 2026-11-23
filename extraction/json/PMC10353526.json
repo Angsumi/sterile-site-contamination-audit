@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC10353526",
+ "tissue_category": "tumour",
+ "sub_site": "hepatocellular carcinoma tumour tissue (and paired adjacent liver tissue)",
+ "year": 2023,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0008", "quote": "In total, 115 patients with HCC who underwent hepatectomy at PUMCH were enrolled."}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0010", "quote": "Polymerase chain reaction (PCR) that targets the V3–V4 region of the 16S rRNA gene was performed"}]},
+ "controls": {"value": "sequenced", "types": "sampling blank (sterile saline exposed in operating room)", "n_sequenced": 4, "evidence": [{"id": "E0009", "quote": "Four cryovials of sterile saline that was kept exposed in the surgery room during sample collection were used as negative controls"}, {"id": "E0012", "quote": "ASVs with a relative abundance of more than 0.5% in the control samples were removed"}]},
+ "decontamination": {"value": "tool", "tool": "decontam (+ removal of ASVs >0.5% in controls, 10% prevalence filter)", "evidence": [{"id": "E0012", "quote": "ASVs of contamination were identified based on the ‘decontam’ algorithm"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 91,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Methylobacterium", "evidence_id": "E0078", "flagged_contaminant": false},
+  {"name": "Akkermansia", "evidence_id": "E0078", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Genus-level profiles only in figures/supplementary figures; text names only 2 genera (prognostic markers). No converted supplement available. 91 patients; 18 extra tumour samples from multiple lesions in 8 cases. FISH also used. Controls 'sequenced' inferred from use of control-sample abundances in decontamination.",
+ "extractor": "AI agent (Claude sub-agent, batch 08)",
+ "date": "2026-11-23"
+}

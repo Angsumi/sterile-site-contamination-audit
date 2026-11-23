@@ -1,0 +1,31 @@
+{
+ "pmcid": "PMC11665473",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic cancer tumour and paired para-tumour pancreatic tissue",
+ "year": 2024,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "Xiangya Hospital cohort (survival analysis also re-used Riquelme et al. MDACC/JHH data)", "evidence": [{"id": "E0006", "quote": "samples of tumor tissues and paired para-tumor normal tissues were collected from 53 patients who had undergone surgical resection in Xiangya Hospital"}]},
+ "method": {"value": "16S", "region": "", "evidence": [{"id": "E0007", "quote": "Microbial DNAs were isolated from 52 paired samples and 16S rDNA sequencing was performed."}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "unclear", "tool": "", "evidence": [{"id": "E0007", "quote": "After decontamination, 1079 ASVs were finally identified"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 104,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Pseudomonas", "evidence_id": "E0009", "flagged_contaminant": false},
+  {"name": "Proteus", "evidence_id": "E0009", "flagged_contaminant": false},
+  {"name": "Ralstonia", "evidence_id": "E0009", "flagged_contaminant": false},
+  {"name": "Enterococcus", "evidence_id": "E0013", "flagged_contaminant": false},
+  {"name": "Staphylococcus", "evidence_id": "E0013", "flagged_contaminant": false},
+  {"name": "Delftia", "evidence_id": "E0013", "flagged_contaminant": false},
+  {"name": "Propionibacterium", "evidence_id": "E0013", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "52 paired tumour/adjacent samples sequenced (53 patients enrolled). No Methods section in main text (methods in supplement, not available): region, controls and decontamination procedure unknown; only 'After decontamination' stated. Survival analysis used published Riquelme et al. MDACC/JHH data (not extracted).",
+ "extractor": "AI agent (Claude sub-agent, batch 03)",
+ "date": "2026-11-23"
+}

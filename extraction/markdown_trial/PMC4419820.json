@@ -1,0 +1,114 @@
+{
+  "pmcid": "PMC4419820",
+  "year": 2015,
+  "eligible_fulltext": true,
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "n_target_samples": 2,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S"
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "evidence": [
+      {
+        "id": "fulltext.md:L27",
+        "quote": "Specimens were collected one day before childbirth by wiping the posterior and side wall of the vagina with sterile cotton swabs. The placentas were collected after childbirth in delivery room or operating room to ensure sterility. The placenta samples were collected using sterile centrifuge tubes immediately after delivery of the placenta. To avoid the placenta being contaminated by the vagina, samples were collected from the inner surface of the placenta. The first feces of the neonates were also collected in the delivery room using sterile cotton swabs. All samples were immediately stored at \u221220\u00b0C. Sterile cotton swabs in the same environment were also analyzed as negative controls. Both mothers were 29 years of age and neither had experienced bacterial vaginosis during pregnancy. Both mothers and neonates did not receive any antibiotic treatment. Mother 1 delivered vaginally and mother 2 via Cesarean section. Ethics approval was granted by the First People Hospital of Yunnan Province, Yunnan, China."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "genera": [
+    {
+      "name": "Cellulosimicrobium",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Novosphingobium",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Curvibacter",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "figures/idmm-26-90-5.jpg:Figure5",
+      "flagged_contaminant": false,
+      "evidence_note": "Genus-labeled phylogenetic clade containing a placenta-labelled OTU; visual review."
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Figure 5 placenta-labelled OTUs used, excluding feces/vagina-only clades. Raoultella/Enterobacteriaceae-associated unresolved placenta clade not assigned to a genus; main family labels not counted. Figure-derived assignments need independent visual review.",
+  "supplement_status": "Retrieved available PMC OA media; originals and markitdown copies kept locally.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC4419820/fulltext.md",
+  "source_sha256": "89b78f6f9d1ce2e35fbeb3a87b029f35acf806c230b9e3182396313bc9c5ce50",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "supplements/figures reviewed; provisional; not merged",
+  "genus_list_status": "figure_genus_list_provisional",
+  "additional_source_manifest": [
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC4419820/figures/idmm-26-90-3.jpg",
+      "sha256": "ab1d1198028644d763490025dea0360ea0aa41276014be2b5569f60285a5005a"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC4419820/figures/idmm-26-90-5.jpg",
+      "sha256": "caf51ef19474031647243d7672ed6d481ecf48af85de0e6335fb46b67a601f7c"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC4419820/figures/idmm-26-90-2.jpg",
+      "sha256": "6fa8d6c362597131771d5e0abb26375f0ecfe57a2c29fab91ac30a0110b624cb"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC4419820/figures/idmm-26-90-4.jpg",
+      "sha256": "718532ce13ef13d2b90362d13148f6f12c2fc9e065a46ba74c4f11b4107904ae"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC4419820/figures/idmm-26-90-1.jpg",
+      "sha256": "a8784ad93ea81cc0495a4d64d335695ddd8f692f234b066570ae835ba3655233"
+    }
+  ]
+}

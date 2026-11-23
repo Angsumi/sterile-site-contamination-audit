@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC13720179",
+  "tissue_category": "tumour",
+  "sub_site": "pancreas",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "49ef015113cf9b510407c18a7e962c3387442311eb05627699e06ce7b0674ff3",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0033",
+        "quote": "N, and CP patients was used in the 16S rRNA protocol [ 66 , 67 ]. DNA quality was verified via NanoDrop spectrophotometry (A260/280 ratios), while quantification used Qubit fluorometry to ensure sufficient yield for 16S rRNA amplification ("
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0031",
+        "quote": " Kits under rigorous contamination control according to the instructions. The tissue pieces were homogenized with an electric Teflon homogenizer, sterilized for every tissue piece in order to avoid cross-contamination and to disrupt the bac"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0031",
+        "quote": "ples were used to compute a pooled threshold at the 99th percentile of the relative abundance distribution, as described recently by Nejman et al. [ 14 ], and results (PDF with graphs, Excel file with statistics and raw data, text with expl"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ligilactobacillus",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microvirga",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own pancreatic 16S cohort; public GEO used for host autophagy expression only. Control-derived 99th-percentile thresholds applied.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

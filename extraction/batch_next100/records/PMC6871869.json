@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC6871869",
+  "tissue_category": "other_sterile",
+  "sub_site": "synovial fluid",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "cab764621b89240f7d864632ccb04bda1b2f8f2341f29827209f8f2d2d896566",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "on and sequencing of the bacterial 16S rRNA gene and fungal internal transcribed spacer region 2 respectively. Synovial fluid concentrations of the cytokines IL-6, IL-17A, IL22 and IL-23 were determined by ELISA. Results Bacterial 16S rRNA "
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "t 72°C completed the reaction. Two controls were run in parallel with this process and these comprised a standard PCR negative control (in which template was replaced with UV irradiated molecular biology grade water) and the first round PCR"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Raoultella",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0076",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

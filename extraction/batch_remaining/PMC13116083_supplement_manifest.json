@@ -1,0 +1,5 @@
+[
+  {
+    "error": "Command '['/home/angsuman/extra_spac/META/metagenomics-meta-analysis/projects/sterile-site-contamination-audit/.venv/bin/markitdown', '/home/angsuman/extra_spac/META/metagenomics-meta-analysis/projects/sterile-site-contamination-audit/papers/PMC13116083/supp/ADVS-13-e04247-s001.doc', '-o', '/home/angsuman/extra_spac/META/metagenomics-meta-analysis/projects/sterile-site-contamination-audit/papers/PMC13116083/supp_md/S1010.md']' returned non-zero exit status 1."
+  }
+]

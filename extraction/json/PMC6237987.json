@@ -1,0 +1,77 @@
+{
+  "pmcid": "PMC6237987",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and paired normal biopsies",
+  "year": 2018,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": "m each clinical sample was amplified using an Ion 16S Metagenomic Kit (Life Technologies, Carlsbad, CA, USA). Using this kit we amplified seven of nine hypervariable regions of the 16S-rRNA gene through two sets of primers: one set for the "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 30,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "15 paired patients: nine core needle and six surgical excision biopsies. Multiple 16S regions; positive/reference controls mentioned but negative-control sequencing not established.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "2cda04274291adc8a7f977e11d3a45e9a8f4ea6e4d90e6c7857afd11e472d0c2",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,64 @@
+{
+  "pmcid": "PMC10697899",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma and adjacent lung",
+  "year": 2023,
+  "country": "Canada",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "a (LUAD)-resident microbial community, we analyzed the 16S RNA component of the bacterial ribosomal (rRNA) gene in tumors from 77 patients, 75 of which had paired non-malignant (NM) lung tissue taken at the surgical margin (at least 3 cm aw"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "wn 16S rRNA sequences using a de novo approach [ 31 ]. Extraction negatives (samples without lung tissue) were used as controls to exclude reads attributable to bacterial contamination from the DNA extraction process. Validation of bacteria"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "as controls to exclude reads attributable to bacterial contamination from the DNA extraction process. Validation of bacterial species diversity and abundance was performed in a second, independent cohort from The Cancer Genome Atlas using L"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 152,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Deinococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Primary BCCRC cohort 77 tumour/75 adjacent samples; TCGA RNA-seq validation also used. E. coli are experimental strains, Streptococcus explicitly not detected, Bifidobacterium is a pathway name. No converted supplements available.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

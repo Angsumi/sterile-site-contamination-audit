@@ -1,0 +1,117 @@
+{
+  "pmcid": "PMC4555154",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2015,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "cross, GA, USA). The V3-V4 region of the bacteria 16S ribosomal RNA gene were amplified by PCR using primers 338F 5\u2032-ACTCCTACGGGAGGCAGCA-3\u2032 and 806R 5\u2032-GGACTACHVGGGTWTCTAAT-3\u2032, where barcode is an N-base sequence (N represent a unique 6 to "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 24,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Jeotgalicoccus",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lawsonia",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megasphaera",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pediococcus",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sneathia",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobacterium",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "12 LBW and 12 normal-birth-weight placentae. Unclassified Cyanobacteria/DSSF69 are not bacterial genera.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f85b88d36ef2133653d5981449d6acfb2dda1600e496c8891942ae34e751a1aa",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

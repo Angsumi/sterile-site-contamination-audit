@@ -1,0 +1,39 @@
+{
+ "pmcid": "PMC6208038",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "placenta (maternal and fetal side biopsies), term and spontaneous preterm",
+ "year": 2018,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0005", "quote": "We thus obtained placenta tissue and control samples from 20 term and 20 spontaneous preterm births"}]},
+ "method": {"value": "16S+shotgun", "region": "V1-V2", "evidence": [{"id": "E0036", "quote": "The V1-V2 regions of the 16S rRNA gene was amplified in each sample using Golay-barcoded primers 27F and 338R"}, {"id": "E0038", "quote": "Samples were prepared for metagenomic sequencing with the Nextera XT DNA Library Prep Kit"}]},
+ "controls": {"value": "sequenced", "types": "air swab; extraction blank (empty tube); PCR-grade water", "n_sequenced": null, "evidence": [
+  {"id": "E0006", "quote": "swabs that were opened in the sample processing room and waved in the air (“Air Swab”)"},
+  {"id": "E0006", "quote": "empty tubes that were processed through the DNA extraction (“Blank”)"},
+  {"id": "E0019", "quote": "1.4 billion reads for placenta, 31 million for negative controls"}]},
+ "decontamination": {"value": "removed_control_taxa", "tool": "exclusion of lineages found in negative controls; removal of artefactual/barcode-misattributed taxa (shotgun)", "evidence": [
+  {"id": "E0024", "quote": "When we extracted lineages unique to placenta after excluding those found in negative controls"},
+  {"id": "E0025", "quote": "After filtering out probable artifacts and barcode misattributions (Alteromonas mediterranea, Methanosarcina mazei, and Vibrio campbellii)"}]},
+ "biomass_qpcr": {"value": "yes", "evidence": [{"id": "E0035", "quote": "Bacterial abundance was quantified using qPCR of the V1-V2 region of the 16S rRNA gene using a TaqMan-based assay"}]},
+ "n_target_samples": 40,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Ralstonia", "evidence_id": "E0011", "flagged_contaminant": true},
+  {"name": "Pseudomonas", "evidence_id": "E0011", "flagged_contaminant": true},
+  {"name": "Prevotella", "evidence_id": "E0011", "flagged_contaminant": false},
+  {"name": "Ureaplasma", "evidence_id": "E0011", "flagged_contaminant": false},
+  {"name": "Sneathia", "evidence_id": "E0011", "flagged_contaminant": true},
+  {"name": "Lactobacillus", "evidence_id": "E0011", "flagged_contaminant": true},
+  {"name": "Mycoplasma", "evidence_id": "E0015", "flagged_contaminant": false},
+  {"name": "Alteromonas", "evidence_id": "E0022", "flagged_contaminant": true},
+  {"name": "Vibrio", "evidence_id": "E0023", "flagged_contaminant": true},
+  {"name": "Kytococcus", "evidence_id": "E0025", "flagged_contaminant": true}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "not_claimed",
+ "notes": "Placenta indistinguishable from negative controls by qPCR, 16S and shotgun. Ralstonia/Pseudomonas = reagent/water contaminants; Sneathia/Lactobacillus interpreted as vaginal contamination at delivery; Alteromonas (artefact) and Vibrio (positive-control barcode misattribution) removed; Kytococcus suggested reagent contamination. Prevotella found in placenta and controls, origin left open (not flagged). Ureaplasma/Mycoplasma possibly authentic in a few preterm cases. Archaea (Methanosarcina, Acidiplasma) not recorded. 40 placentas, 160 biopsies (4 per placenta).",
+ "extractor": "AI agent (Claude sub-agent, batch 02)",
+ "date": "2026-11-23"
+}

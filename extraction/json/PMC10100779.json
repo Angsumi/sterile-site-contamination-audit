@@ -1,0 +1,129 @@
+{
+  "pmcid": "PMC10100779",
+  "tissue_category": "tumour",
+  "sub_site": "ovarian tumour (TCGA-OV)",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0048",
+        "quote": "For 373 patients with OV in TCGA, the clinical data, survival data, and both bam files and read counts of RNA sequencing data were downloaded for this study. Briefly, the raw bam files of RNA sequencing data were obtained from the"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0048",
+        "quote": "For 373 patients with OV in TCGA, the clinical data, survival data, and both bam files and read counts of RNA sequencing data were downloaded for this study. Briefly, the raw bam files of RNA sequencing data were obtained from the NCI Genomic Da"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam; batch; literature list",
+    "evidence": [
+      {
+        "id": "E0050",
+        "quote": "contamination as much as possible, we applied the decontamination pipeline described by Poore et al. ( 9 ). We first used the associated decontam R package ( 63 ) with the recommended hyperparameter threshold ( P = 0.1) to conduct the filtering."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 373,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Buchnera",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraburkholderia",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmatirosa",
+      "evidence_id": "E0030",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microcella",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Devosia",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ancylobacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCGA-OV host RNA-seq mining. Main analyses use likely decontamination set. Macrophage qPCR not target-sample bacterial biomass.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

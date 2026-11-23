@@ -1,0 +1,169 @@
+{
+ "pmcid": "PMC11673369",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic ductal adenocarcinoma tissue (surgical tumour + paracancerous; EUS-FNA tumour)",
+ "year": 2024,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "The hypervariable region V3-V4 of the bacterial 16S rRNA gene was amplified"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 66,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Achromobacter",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromicrobium",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Slackia",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Faecalibaculum",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromonas",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bradyrhizobium",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Selenomonas",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Turicibacter",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Faecalibacterium",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enterococcus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Veillonella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Novosphingobium",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Deinococcus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptomyces",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Romboutsia",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Thermus",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aggregatibacter",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Soonwooa",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Eubacterium",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Simiduia",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Jatrophihabitans",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Polynucleobacter",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Peptococcus",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "16 surgical patients (tumour + paracancerous tissue) + 34 FNA = 66 samples assumed. No negative controls or decontamination mentioned. Dominant genera Achromobacter (surgical) and Delftia (FNA); rest are LEfSe smoking differentials.",
+ "extractor": "AI agent (Claude sub-agent, batch 11)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,77 @@
+{
+ "pmcid": "PMC4917942",
+ "block": "placenta_fetal",
+ "tissue_category": "placenta_fetal",
+ "year": 2016,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "DNA samples were PCR amplified using bar-coded primers flanking the V1V2 region of the 16S rRNA gene"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0005",
+    "quote": "Three types of negative controls were collected."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "evidence": [
+   {
+    "id": "E0028",
+    "quote": "we can only conclude that we could not use our data to distinguish placental samples from contamination controls"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0037",
+    "quote": "Bacterial DNA abundance was quantified by quantitative PCR (qPCR) amplification of the V1V2 region of the 16S rRNA gene."
+   }
+  ]
+ },
+ "genera": [
+  {
+   "name": "Sediminibacterium",
+   "evidence_id": "E0015",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Methylobacterium",
+   "evidence_id": "E0015",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Propionibacterium",
+   "evidence_id": "E0015",
+   "flagged_contaminant": true
+  },
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0016",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Clostridium",
+   "evidence_id": "E0017",
+   "flagged_contaminant": true
+  }
+ ],
+ "top5": [],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "not_claimed",
+ "notes": "Placental signal indistinguishable from controls; genera presented as contaminants. Decontamination not applied (comparison only).",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

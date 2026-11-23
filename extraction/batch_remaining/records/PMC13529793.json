@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC13529793",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "32552f1bea6560958479e27ac14bea81d3d7122e05f1da76fe083dc99f82c7ea",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "ng integrated exome sequencing, 5R 16S rRNA profiling, and proteomics (Fig. 1a and Supplementary Table 1 ). Exome sequencing revealed heterogeneous mutational signature landscapes across the cohort, with a subset of tumors showing markedly "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": " rRNA profiling was performed with negative controls, which showed substantially lower bacterial read abundance than tissue samples; paired NAT and tumor samples also differed in richness and beta-diversity (Supplementary Fig. 1b–d ). We id"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human lung 5R 16S with sequenced negative controls; no clear taxon-removal rule in main text. Mouse/in-vitro findings excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

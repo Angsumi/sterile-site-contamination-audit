@@ -1,0 +1,89 @@
+{
+ "pmcid": "PMC13629101",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "placenta",
+ "year": 2026,
+ "country": "Turkey",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "Placental samples were collected by the physician at birth, frozen at -80 \u00b0C within 15 min"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0014",
+    "quote": "The V3\u2013V4 regions of the 16 S rRNA gene were amplified"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "extraction blank; PCR NTC",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0014",
+    "quote": "Potential contamination was monitored during laboratory processing using negative extraction controls and no-template PCR controls."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 20,
+ "list_type": "full_profile",
+ "genera": [
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0031",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0031",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Oscillospira",
+   "evidence_id": "E0031",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0031",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0031",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0031",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Fecal and placental samples from 20 pregnant women; only placenta extracted. Ralstonia dominant (~85-89%), a classic reagent contaminant, but not interpreted as such. Controls 'monitored', sequencing of controls not stated. Lactobacillus LEfSe result (E0029) refers to gut samples, not recorded. top5 left empty: text gives group-wise abundances, not an explicit ranking (Ralstonia > Stenotrophomonas > Delftia appear top 3).",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

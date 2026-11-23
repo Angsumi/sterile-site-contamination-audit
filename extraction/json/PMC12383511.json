@@ -1,0 +1,214 @@
+{
+  "pmcid": "PMC12383511",
+  "tissue_category": "tumour",
+  "sub_site": "prostate tumour",
+  "year": 2025,
+  "country": "Republic of Korea",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "Previously published same-team prostate 16S cohort; reference 22",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "This study reanalyzed previously generated and published 16S rRNA sequencing data [ 22 ], with a specific focus on investigating the association between intratumoral microbiota modulation and prostate cancer progression. It therefore provid"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 26,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lautropia",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "S920:L112",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoflavonifractor",
+      "evidence_id": "S920:L114",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "S920:L116",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "S920:L117",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "S920:L118",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillibacter",
+      "evidence_id": "S920:L120",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "S920:L122",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "S920:L123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "S920:L125",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "S920:L126",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "S920:L130",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "S920:L131",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lawsonella",
+      "evidence_id": "S920:L133",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "S920:L135",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "S920:L137",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Muribaculum",
+      "evidence_id": "S920:L138",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Psychrobacter",
+      "evidence_id": "S920:L140",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "S920:L141",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "S920:L142",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "S920:L144",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pediococcus",
+      "evidence_id": "S920:L145",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "S920:L146",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "S920:L147",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "S920:L149",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leuconostoc",
+      "evidence_id": "S920:L151",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "S920:L152",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chiayiivirga",
+      "evidence_id": "S920:L153",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Skermanella",
+      "evidence_id": "S920:L154",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteimonas",
+      "evidence_id": "S920:L155",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Explicit reanalysis of previously published same-team cohort; held from merge pending overlap resolution. Supplement Table S2 used; garbled merged row excluded. Reference 22 resolves to PMC9858038 (DOI 10.3390/diagnostics13020278). No extraction for that paper currently exists.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e62bd8aedb4afa54d05238e0b218785532616917f9f3893f6e2ae442ae1c1f4e",
+  "overlap_review": "Same-team earlier cohort identified via reference 22. Earlier report not yet extracted; this is the sole merged record from the pair. Compare genus-list lengths when earlier report is extracted and keep the longer, per protocol.",
+  "supplement_manifest": [
+    {
+      "source": "N19_biomedicines-3763762-supplementary.md",
+      "alias": "S920.md",
+      "sha256": "b33cc818700db80f942f9504f1cb773e9ccec235e391d1e9d1c18f3ac426caa4"
+    }
+  ],
+  "overlap_with": "PMC9858038"
+}

@@ -1,0 +1,139 @@
+{
+  "pmcid": "PMC10243058",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and adjacent nonpathological breast tissue",
+  "year": 2023,
+  "country": "Italy",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "ons of the variable V3\u2013V4 region of the bacterial 16s rRNA gene were sequenced in paired-end (2 \u00d7 300 cycles) on the Illumina MiSeq platform, according to the Illumina 16S Metagenomic Sequencing Library Preparation protocol. Lastly, the raw data"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": " of the DNA in original extracts and at least one negative control) and setting the stringency filter to 0.5. For the cluster analysis of the entire community, the abundance tables at the different ranks was first normalized using the total coun"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": " the help of the packages phyloseq 1.26.1 [ 22 ], decontam 1.2.1, DESeq2 1.22.2 [ 23 ], and other packages satisfying their dependencies, in particular, vegan 2.5-5 [ 24 ]. An initial screening step was performed using Bowtie2 [ 25 ] to identify"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 40,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clavibacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesoplasma",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Target findings described in Discussion were included only where explicitly describing own comparisons. Empty paraffin processed and negative controls used by combined decontam. Inconsistent Mycoplasma vs Mesoplasma/Mycobacterium naming recorded as written.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12325116",
+  "tissue_category": "tumour",
+  "sub_site": "animal-only HCC",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Murine HCC community sequencing and in-vitro co-culture study without human target tissue community data.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6240245632f1e9f667cdd242437f2bb0493964dc36a321e78b925b634b36af86",
+  "notes": "",
+  "review_flags": []
+}

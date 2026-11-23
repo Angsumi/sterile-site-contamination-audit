@@ -1,0 +1,79 @@
+{
+  "pmcid": "PMC10030461",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "umbilical cord blood and amniotic fluid",
+  "year": 2023,
+  "country": "South Korea",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "The 16S ribosomal ribonucleic acid (rRNA) gene was amplified using the two-step polymerase chain reaction (PCR) protocol in the 16S Metagenomic Sequencing Library Preparation (Illumina, San Diego, CA). In the first PCR step, the V3\u2013V4 hypervaria"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0030",
+        "quote": "e MiSeq Reagent Kit V3 (Illumina, San Diego, CA). Negative controls from the DNA extraction and library were sequenced."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0032",
+        "quote": "nto one ASV table. To detect and remove potential contaminants, we ran the decontam program on our samples, which looked for ASVs per sequencing batch that appeared at higher frequencies in low-concentration samples and were repeatedly found in "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 165,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nakamurella",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Target sites: 125 cord blood and 40 amniotic fluid samples. Table3 taxa for vaginal, meconium and neonatal gastric-liquid samples excluded. Main text reports 4 target genera so supplement not used.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

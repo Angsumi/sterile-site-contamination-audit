@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC11752883",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "om all 18 patients were collected for whole exome sequencing (WES). Tumor tissues and BALF were obtained from 17 patients for metagenomic next-generation sequencing (mNGS). Among these, two tumor tissues and corresponding BALF samples were "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodopseudomonas",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bosea",
+      "evidence_id": "E0046",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmatimonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parvimonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0048",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "18 patients, 17 mNGS collections with some low-biomass exclusions; final tumour count requires clarification. WES was for host mutations, not the bacterial profile. BALF-only taxa excluded; mixed key-microbe list at line 215 not used without site assignment.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f82fcaf344dd3f8603d96e2ba1e2925bfa849bfef62255be17b07b3ccff21bf2",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

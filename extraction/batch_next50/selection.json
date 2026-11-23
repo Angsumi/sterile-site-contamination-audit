@@ -1,0 +1,502 @@
+[
+  {
+    "pmcid": "PMC13207053",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13207053&retmode=xml",
+    "bytes": "122879",
+    "sha256": "4090a4ff532c9934101d0447d7647a32bf2c9a893f57aa4c604ca13518d33bd9",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9440687",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9440687&retmode=xml",
+    "bytes": "103938",
+    "sha256": "6099b1c7717da4266a154090cfb4e5f5bf0df5585a4f21cf7e031b5048ebb73c",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC10986527",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10986527&retmode=xml",
+    "bytes": "120612",
+    "sha256": "d235e54ee9245fd329d8a1500cf1924cf2594211b16e4549cb930fe310ff0569",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC7285296",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7285296&retmode=xml",
+    "bytes": "127727",
+    "sha256": "591265ebcc6bf8fdd4f13a081cd089abbfee0b7cb9a066a2f5b6ace8d95feb08",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC5378909",
+    "decision": "include",
+    "tissue_category": "placenta_fetal",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5378909&retmode=xml",
+    "bytes": "99514",
+    "sha256": "81dd94506a283aa65e101e2a0ba7e889b33f66d085a41f003add0f7a7f4c39c8",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8773292",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8773292&retmode=xml",
+    "bytes": "135205",
+    "sha256": "3b5803f8a2904a68ecb0e4fe5f818eaf46c2488380eb186138f6b9af00ebd04f",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12637401",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12637401&retmode=xml",
+    "bytes": "88642",
+    "sha256": "f5a512a7a8bfccab14dc6da2694a04e6dca1ae615961c059c5be8a1312acfa15",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9455596",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9455596&retmode=xml",
+    "bytes": "80043",
+    "sha256": "890a937cbf4208e04b12ca1e50330238b2afebc1c0f9fbf09013c2db959a2d57",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8080616",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8080616&retmode=xml",
+    "bytes": "80456",
+    "sha256": "ef026417083401fe68a2cac62c22cb0f58305b251aff7ce464cf960029f85059",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC5328378",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5328378&retmode=xml",
+    "bytes": "101824",
+    "sha256": "f5590384b9f6108159d8805081f0839a73661cdf0354f37fb83b78fd03112f50",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6697683",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6697683&retmode=xml",
+    "bytes": "77320",
+    "sha256": "a873f14c2cc431d8689aee9490941eaf2b6f165c57217f1af40ce8edcc1e30ef",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC11853128",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11853128&retmode=xml",
+    "bytes": "124972",
+    "sha256": "2e0679f1d5ce5fc7a9eb9f9325005df2ac33ae101ba9a701ba62c07f8efc6edb",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC7492258",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7492258&retmode=xml",
+    "bytes": "81888",
+    "sha256": "d12199279aba9dbf7aee079e6716d4769157c20d1d4f72be46916c853b5ded31",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12552862",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12552862&retmode=xml",
+    "bytes": "105381",
+    "sha256": "37d871fd2c84ba09cc7cec4b95f4b5b8c31698e1ccf52d2981d798d36814165c",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9787457",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9787457&retmode=xml",
+    "bytes": "91093",
+    "sha256": "b4542d348dcb527c1f74d1b06fd9cce340bac62dc3a33a35f1f794c5658f56e3",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9917689",
+    "decision": "include",
+    "tissue_category": "placenta_fetal",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9917689&retmode=xml",
+    "bytes": "107033",
+    "sha256": "8d9b228002f50e655f99877488e6c7e22785dcaaba7eb5861f5dab5c7f289915",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6060185",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6060185&retmode=xml",
+    "bytes": "91937",
+    "sha256": "a293f4f7050b5b3cc2f25b4e03882a419a4cf40d897fe9e710e1a964463c4e7f",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8263754",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8263754&retmode=xml",
+    "bytes": "119952",
+    "sha256": "37f19c25686c9094f1e832c3318d884ba59c384513db0a61939b31046db76eea",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC11767796",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11767796&retmode=xml",
+    "bytes": "120215",
+    "sha256": "c707a7d38c43aae7c9422747e4c3dd9bda4a4af922a57ab1aa89c273cdf611cc",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC4555154",
+    "decision": "include",
+    "tissue_category": "placenta_fetal",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4555154&retmode=xml",
+    "bytes": "79874",
+    "sha256": "ccacb3b4aae10603454a30bdf708876b51ccb0cbecd2b28dbed9541405f5b81d",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8467001",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8467001&retmode=xml",
+    "bytes": "130294",
+    "sha256": "2d2c7a05959056a1c191d1c41382e37cde4fc0e6423db11a2342915e97fbb62d",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6107834",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6107834&retmode=xml",
+    "bytes": "82279",
+    "sha256": "c28977a425141487851231a2225dfd2d1ddb2b7a643e6c91b33b68ac292c9d6a",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC11766298",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11766298&retmode=xml",
+    "bytes": "134772",
+    "sha256": "860a50d3e882fc5f496d2cd157d81da3c3b239e801736ebafa6f9762caa2318c",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12024857",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12024857&retmode=xml",
+    "bytes": "121179",
+    "sha256": "b00af75e462c3b3c93529eaade42f2fe6ed69a76ce4e5a6d9e675aaba73105f5",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12605253",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12605253&retmode=xml",
+    "bytes": "73207",
+    "sha256": "87946e3c8c76839ab142f53a39c0a8f452e8da11eeffff80d99528c80c273b43",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6528574",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6528574&retmode=xml",
+    "bytes": "93491",
+    "sha256": "8e74415e5948e6170a7d14b81145a055991b41a2f6583c586e57e102595aa984",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9669652",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9669652&retmode=xml",
+    "bytes": "85591",
+    "sha256": "467f6a7eb1c66459640ff7403584130c2cd142c10250599b4a1ab99dc17e6b87",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12692222",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12692222&retmode=xml",
+    "bytes": "144374",
+    "sha256": "3a7339e909f6176e7063511053f89aa86a4988d9b1d1dfbe44d97f161aef03b3",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6790596",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6790596&retmode=xml",
+    "bytes": "107019",
+    "sha256": "12e1fcececd536ec987cd87fc67ab7a7963b20f69b1f1b90dd7f2debd8d6c09e",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8226556",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8226556&retmode=xml",
+    "bytes": "108433",
+    "sha256": "6e8292430c2ed0c94d9a5cd6a2e99e50b07f71727763a911c8bde5b5a6c949a4",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8722097",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8722097&retmode=xml",
+    "bytes": "134625",
+    "sha256": "8f6eb3b26e60c43dbb91a95e227f133dd673f9caed189a4060a6c73a8d670394",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8448740",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8448740&retmode=xml",
+    "bytes": "67759",
+    "sha256": "9e865dbfe094da9efcda5b07398b142bfb6fea6de8a4385b6282e6960a118258",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8718896",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8718896&retmode=xml",
+    "bytes": "96098",
+    "sha256": "400df0d1d20c170f5f89acaee3c45dd3603d6c0692a0e25cd38a0b15dafbd3d1",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12004234",
+    "decision": "include",
+    "tissue_category": "placenta_fetal",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12004234&retmode=xml",
+    "bytes": "89249",
+    "sha256": "ce1e236693df2eca8f4c1db16fa794c273eb0d65f50d1c959c5c7e564682b5af",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC13176315",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13176315&retmode=xml",
+    "bytes": "108585",
+    "sha256": "dd51f6a28a740261ead92635c2da2131fd632aabdde6e07a2c0361c1895e627f",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC11752883",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11752883&retmode=xml",
+    "bytes": "92056",
+    "sha256": "64284893094322e4f6213777847b5578fc516914f825f98f717d34fcd7e18dd1",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9342854",
+    "decision": "include",
+    "tissue_category": "placenta_fetal",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9342854&retmode=xml",
+    "bytes": "87180",
+    "sha256": "3ca20446b869c40f66a4708f10595f64b73b5c3447dad4882ec4b774b6d5a278",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC7563179",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7563179&retmode=xml",
+    "bytes": "126697",
+    "sha256": "e5e8d762f77ac9cf2653d39e3c0b8cb54440ebc47ae4daad6e12513aae8c7cbc",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC8022255",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8022255&retmode=xml",
+    "bytes": "123500",
+    "sha256": "3ca5c31e69436e22388cd3453775d040975bd400661fd7b4a34c9e83126cc551",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9234634",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9234634&retmode=xml",
+    "bytes": "101093",
+    "sha256": "5813173975cc8dc31aeee5f77012194d1a5855c0fc3d353b50abdcbe5ecedce6",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12301127",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12301127&retmode=xml",
+    "bytes": "99353",
+    "sha256": "6b99440056c726fe58b8fa651a3c0f5a4fffc63d8cc764f9168f405256886161",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC11906328",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11906328&retmode=xml",
+    "bytes": "102854",
+    "sha256": "b013e21edba1b31df175d79ad8e0992c7cda5947b50260ac17d9d6f44fc87d05",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6023934",
+    "decision": "include",
+    "tissue_category": "placenta_fetal",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6023934&retmode=xml",
+    "bytes": "110966",
+    "sha256": "fc8682fa637e6565c75be0bb5e29bbc159d1ce521e669e326ff78e59af067efd",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC11834920",
+    "decision": "include",
+    "tissue_category": "other_sterile",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11834920&retmode=xml",
+    "bytes": "77587",
+    "sha256": "a99c05b85afc0ddf3323e91457a1fe71983f1017c8f8d01121cff5b8a9eb729e",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC6969417",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6969417&retmode=xml",
+    "bytes": "95730",
+    "sha256": "23f0304e799ade17191a81c9b822247652c4205629bb1c8c45eff37f159d21cf",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC5237345",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5237345&retmode=xml",
+    "bytes": "88727",
+    "sha256": "1005fde0009dd0249e028413735d4683a389931a416369ff54677422724e784b",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC9225573",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9225573&retmode=xml",
+    "bytes": "134305",
+    "sha256": "ebbfd50fe0e9e55877f2f69452b28a15fa2631981416fd64b7a6d126d02d2ab2",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC3587628",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3587628&retmode=xml",
+    "bytes": "91888",
+    "sha256": "524792f222a31132f2d498ca8f74a2c649ea40753d3b225c864bafafd69399ca",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC13749659",
+    "decision": "include",
+    "tissue_category": "blood",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13749659&retmode=xml",
+    "bytes": "97764",
+    "sha256": "a62a5442fbb2a6a9205181696c7ab9ad09ed06c1020024305e325dae4dd71932",
+    "retrieved": "2026-11-23"
+  },
+  {
+    "pmcid": "PMC12052825",
+    "decision": "include",
+    "tissue_category": "tumour",
+    "fulltext_ok": "1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12052825&retmode=xml",
+    "bytes": "94858",
+    "sha256": "083afded6a6d8a2dddd5fe400d7cb99d07cd87f8f3da4dba7a2b2ec2c550f9c7",
+    "retrieved": "2026-11-23"
+  }
+]

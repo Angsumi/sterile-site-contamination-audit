@@ -1,0 +1,83 @@
+{
+  "pmcid": "PMC13492822",
+  "tissue_category": "tumour",
+  "sub_site": "liver HCC",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "b2ad3cbf3f76691d1989238f982f1b8b394eaf88e396ceb1e2bd68a8297d1231",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0041",
+        "quote": "ly, the authors reanalyzed raw RNA sequencing data of 33 cancer types from TCGA using an improved microbial profiling pipeline designed to minimize host contamination. To ensure specificity, sequencing reads that did not align to the human "
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0041",
+        "quote": "riefly, the authors reanalyzed raw RNA sequencing data of 33 cancer types from TCGA using an improved microbial profiling pipeline designed to minimize host contamination. To ensure specificity, sequencing reads that did not align to the hu"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam (upstream TCMbio)",
+    "evidence": [
+      {
+        "id": "E0041",
+        "quote": "tly refined by Bracken. A rigorous decontamination protocol was applied to remove potential background contaminants. This involved batch-wise identification of contaminating features using the decontam R package based on sequencing plates, "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptomyces",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "HCC TCMbio microbial reanalysis; host gene pathways do not count as microbes.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "pmcid": "PMC13207053",
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour and adjacent tissue",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0032",
+        "quote": "The study employed a multiplexed 16S rDNA sequencing protocol that targets five short 16S regions (V2, V3, V5, V6, V8) to increase the coverage and resolution of bacterial species detection from FFPE-derived DNA (fragment length 250\u2013400 bp)"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "data were obtained from several types of negative controls: samples from various surfaces and equipment in the pathology and molecular genetics laboratories, 159 paraffin controls (paraffin sections without tissue), and blank controls from "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0034",
+        "quote": "axonomic annotations. Second, contaminants were identified and removed in a two-step procedure. Any taxon detected in reagent-only or swab extraction controls (prevalence > 0) was excluded. Finally, ASVs were decontaminated with the deconta"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Kocuria",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysobacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brachybacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Modestobacter",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Curtobacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "50 paired cases. Control-only genera excluded from retained list. Source also misspells Herbaspirillum as Herbaspillium.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "b86799894eb5b947b0362f6dbba795a253f851295456fd0ff2f85477166565ad",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Participant count is stated; number of target tissue specimens is not assumed equal or doubled."
+  ],
+  "n_participants": 50
+}

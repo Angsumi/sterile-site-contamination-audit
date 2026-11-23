@@ -1,0 +1,148 @@
+{
+  "pmcid": "PMC12388318",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c93cfbc31985ea987d2624563b4bcc4f257ce9a57d9f6467f6b57f394dde3059",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "acted from these samples underwent 16S rRNA gene sequencing and comprehensive bioinformatics analysis. Clinical assessments were based on the Positive and Negative Syndrome Scale and standard remission criteria. Peripheral cytokines (IL1β, "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0041",
+        "quote": "under the BioProject PRJNA1181866. Negative controls containing molecular-biology-grade ultrapure water instead of blood (no template controls, NTCs) were processed alongside the patients’ samples from extraction to sequencing."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0042",
+        "quote": "hich involved primer trimming, the filtering of reads to maintain a mean quality Phred score per read above 26 (max expected error = 0.5), and chimera removal. Extracted Amplicon Sequence Variants (ASVs) were taxonomically classified using "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0046",
+        "quote": "Total bacterial load of DNA samples was measured by quantitative Real-Time PCR (qRT-PCR) amplification of the 16S rRNA gene using universal forward and reverse primers sets [ 58 ] F, 5′-ACTCCTACGGGAGGCAGCAGT-3′, and R, 5′-TATTACCGCGGCTGCTGG"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Lacticaseibacillus",
+      "evidence_id": "E0063",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0068",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0068",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0068",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0068",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "E0097",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium-Methylorubrum",
+      "evidence_id": "E0097",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Morganella",
+      "evidence_id": "E0097",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "E0097",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0097",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0105",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0105",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aeromonas",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aliidiomarina",
+      "evidence_id": "E0076",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0077",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0086",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

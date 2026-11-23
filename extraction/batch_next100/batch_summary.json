@@ -1,0 +1,736 @@
+{
+  "date": "2026-11-23",
+  "selected": 100,
+  "merged": 99,
+  "eligible_added": 95,
+  "usable_added": 89,
+  "excluded": 4,
+  "held": 1,
+  "automatic_source_check_failures": 0,
+  "outcomes": {
+    "eligible usable": 89,
+    "excluded": 4,
+    "eligible below genus threshold": 6,
+    "held": 1
+  },
+  "before": {
+    "extracted": 319,
+    "eligible": 303,
+    "usable": 256
+  },
+  "after": {
+    "extracted": 418,
+    "eligible": 398,
+    "usable_ge3_genera": 345,
+    "papers_with_check_fails": 0,
+    "usable_by_tissue": {
+      "other_sterile": 39,
+      "tumour": 173,
+      "placenta_fetal": 45,
+      "blood": 80,
+      "brain_csf": 8
+    }
+  },
+  "records": [
+    {
+      "pmcid": "PMC13069727",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 10,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC11781185",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9705848",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 12,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9749999",
+      "outcome": "excluded",
+      "tissue_category": "other_sterile",
+      "n_genera": 0,
+      "notes": "Target aneurysm-wall and blood assays are RT-qPCR only; 16S community sequencing was restricted to stool."
+    },
+    {
+      "pmcid": "PMC8494912",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 8,
+      "notes": "Primary and replication splits of the COPDGene cohort; eight explicitly removed genera logged as flagged."
+    },
+    {
+      "pmcid": "PMC12617009",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 3,
+      "notes": "Only placenta/fetal membrane and cord-blood genera; maternal gut, breast milk, skin and infant stool excluded."
+    },
+    {
+      "pmcid": "PMC13125019",
+      "outcome": "excluded",
+      "tissue_category": "other_sterile",
+      "n_genera": 0,
+      "notes": "Follicular-fluid microbiota measured by targeted real-time PCR panel only; no microbial community sequencing."
+    },
+    {
+      "pmcid": "PMC13123245",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 12,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC4968547",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": "SourceTracker assesses contamination from sequenced PBS controls; check final treatment against published source fractions."
+    },
+    {
+      "pmcid": "PMC12940155",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 19,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7524391",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 8,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC5669892",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 15,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13485531",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 3,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC6029081",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 20,
+      "notes": "Lactobacillus, Veillonella and Mycoplasma OTUs were judged falsely flagged due to sample-to-control crossover and retained by authors. Propionibacterium removed."
+    },
+    {
+      "pmcid": "PMC12922691",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 5,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC8080813",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 26,
+      "notes": "Serum EV results only; a separate brain-tissue analysis is not pooled into this blood record."
+    },
+    {
+      "pmcid": "PMC9808057",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 8,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9046152",
+      "outcome": "eligible below genus threshold",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 0,
+      "notes": "Healthy mid-gestational AF profiling retained; infected positive-control AF taxa excluded. All four environmental target detections interpreted as contamination."
+    },
+    {
+      "pmcid": "PMC6945248",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 4,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC12717426",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 26,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC5063344",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 12,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC4964003",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 8,
+      "notes": "Primary nonmalignant lung specimens with smaller paired tumour subset; shared-control-OTU removal was a sensitivity analysis."
+    },
+    {
+      "pmcid": "PMC5593928",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 4,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC5592210",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 14,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC11903660",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 5,
+      "notes": "Human 16S thyroid results only; isolated Escherichia strain and animal/cell perturbations excluded."
+    },
+    {
+      "pmcid": "PMC8824227",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 27,
+      "notes": " Escherichia/Shigella composite represented once as Escherichia."
+    },
+    {
+      "pmcid": "PMC12580212",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 12,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC10986513",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 14,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC6345098",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 10,
+      "notes": "16S DNA profiles plus host whole-transcriptome mining; control-only genera and culture-only isolates excluded."
+    },
+    {
+      "pmcid": "PMC13446152",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 14,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7353057",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 20,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC8821101",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 14,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7416914",
+      "outcome": "eligible below genus threshold",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 0,
+      "notes": "Shotgun chorionic-villus profiles only; cultured fetal-membrane organisms excluded. Authors attribute all named shotgun genera to contamination."
+    },
+    {
+      "pmcid": "PMC11708301",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9294280",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 29,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13555953",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 15,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC6871869",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 6,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7352186",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 7,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC11839906",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 7,
+      "notes": "Known-contaminant column preserved as flags; remaining detections do not establish resident blood microbes. Authors reject support for a healthy resident microbiome."
+    },
+    {
+      "pmcid": "PMC9880005",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 21,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13474856",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 16,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC12222121",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 18,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9176212",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 10,
+      "notes": "29 MI and 19 healthy controls in Lanzhou; possible shared team/healthy-control recruitment with PMC9577097 requires participant-ID audit; not deduplicated based on institution alone."
+    },
+    {
+      "pmcid": "PMC11850547",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 7,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13483239",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": "Mixed public RNA mining and own 16S cohorts. Exact matching of negative controls to all public cohorts remains a human-check priority."
+    },
+    {
+      "pmcid": "PMC13381187",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 7,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC6987042",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 19,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7562954",
+      "outcome": "eligible below genus threshold",
+      "tissue_category": "other_sterile",
+      "n_genera": 0,
+      "notes": "Human autopsy lung methods comparison. Main text/supplement text lacks extractable target bacterial genus names; genus-level figures require visual adjudication."
+    },
+    {
+      "pmcid": "PMC12711707",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 74,
+      "notes": "Both methods profiled circulating blood. Supplement Table 4 core genera and Table 6 nonzero shotgun-only abundance columns used because main text lacks named genera."
+    },
+    {
+      "pmcid": "PMC12183207",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": "PCR controls had <1000 reads and no amplification bands; environmental controls electrophoresis only. Taxa with <=3 reads or unverified by mbodymap removed; Planococcus validated."
+    },
+    {
+      "pmcid": "PMC8064568",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 10,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC11981758",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 12,
+      "notes": "Only IntraCCA tissue genera retained; bile-only genera and biletype biomarkers excluded. Multi-study reuse needs linkage audit."
+    },
+    {
+      "pmcid": "PMC13097710",
+      "outcome": "excluded",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 0,
+      "notes": "Virome-only amniotic-fluid profiling; no bacterial community results."
+    },
+    {
+      "pmcid": "PMC7107015",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 10,
+      "notes": "Negative-control-only Casaltella, Acinetobacter and Rhodobacter not attributed to target AF. Reagent dsDNase treatment is not computational contaminant removal."
+    },
+    {
+      "pmcid": "PMC13141924",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 29,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9116393",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 9,
+      "notes": "Only pancreatic tissue community results; oral-only genera excluded. Composite rhizobial label counts once."
+    },
+    {
+      "pmcid": "PMC6109274",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 16,
+      "notes": "Only amniotic-fluid community extracted. Shared maternal/neonatal prose could not establish AF-specific taxa. Visually verified supplementary PDF Figure S6 panel A (page 9), with S5 panels A/B corroborating Corynebacterium/Anoxybacillus. S8-S10 contain no genus labels. Manual figure transcription in S990.md is explicitly derived, not original machine-extracted text; human review priority."
+    },
+    {
+      "pmcid": "PMC11746125",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 16,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13079188",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 3,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7952451",
+      "outcome": "eligible below genus threshold",
+      "tissue_category": "blood",
+      "n_genera": 0,
+      "notes": "Plasma sequencing eligible but text/supplements give only phylum-level plasma results; fecal genus lists excluded."
+    },
+    {
+      "pmcid": "PMC8396677",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 40,
+      "notes": "Own Slovak breast RNA-seq plus Chinese public breast RNA-seq comparison; simulated human-read controls are not experimental negative controls."
+    },
+    {
+      "pmcid": "PMC10964645",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 18,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13022639",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 18,
+      "notes": "Blood leukocyte WGS mining plus RNA-seq validation; PD-MDCNC primary and PPMI external cohorts. Published contaminant list plus correlated taxa removed."
+    },
+    {
+      "pmcid": "PMC12314883",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 31,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC5675698",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 43,
+      "notes": "Full breast tissue supplement abundance table used; only columns with nonzero target tissue values retained, excluding oral/urine tables."
+    },
+    {
+      "pmcid": "PMC12914011",
+      "outcome": "eligible below genus threshold",
+      "tissue_category": "blood",
+      "n_genera": 2,
+      "notes": "Research profiling of maternal blood during PPROM, not a diagnostic sepsis series. Authors state no patients who developed sepsis were captured (main text line 111). Fifteen percent had clinical chorioamnionitis and nearly all received prophylactic antibiotics; retain this mixed obstetric context for human scope review. Two blood genera named; no available text supplement."
+    },
+    {
+      "pmcid": "PMC13326317",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 10,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC12275360",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 7,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC8744134",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": "Human liver 16S results only; colony sequencing and mouse/cell experiments excluded."
+    },
+    {
+      "pmcid": "PMC12271595",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 8,
+      "notes": "Human HCC/peritumoral/normal profiles only; mouse gut genera excluded."
+    },
+    {
+      "pmcid": "PMC11702424",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 22,
+      "notes": "Yersinia and Staphylococcus infection pathway labels are not microbial detections and were excluded."
+    },
+    {
+      "pmcid": "PMC12605661",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 10,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC7564876",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 28,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9794006",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 16,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13088536",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 22,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC13680605",
+      "outcome": "eligible below genus threshold",
+      "tissue_category": "other_sterile",
+      "n_genera": 1,
+      "notes": "Orbital adipose 16S profiling, separate from host scRNA-seq. Main figure caption names only the ANPR composite; other genus labels require visual review."
+    },
+    {
+      "pmcid": "PMC13739529",
+      "outcome": "eligible usable",
+      "tissue_category": "brain_csf",
+      "n_genera": 7,
+      "notes": "PCR water controls not sequenced, but paraffin/extraction blanks sequenced; overall sequenced-control classification reflects the latter."
+    },
+    {
+      "pmcid": "PMC12095603",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 5,
+      "notes": "Own human HCC 2bRAD-M profile plus TCGA BIC external microbial validation; mouse and NK-cell experimental results excluded."
+    },
+    {
+      "pmcid": "PMC8408135",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 4,
+      "notes": "Own RNA-seq microbial mining with shotgun validation; PCR-only controls not evidence of sequenced negative controls."
+    },
+    {
+      "pmcid": "PMC5507499",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 10,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC10989844",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 6,
+      "notes": "TCGA microbial profiles with separate FISH/IHC validation; no new sequenced tissue cohort. Compare cohort with existing ACC reanalyses before final models."
+    },
+    {
+      "pmcid": "PMC13562036",
+      "outcome": "excluded",
+      "tissue_category": "blood",
+      "n_genera": 0,
+      "notes": "Blood metagenomic profiling in leukemia-associated febrile neutropenia, a suspected systemic-infection cohort."
+    },
+    {
+      "pmcid": "PMC12008866",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 21,
+      "notes": " Same research team as PMC12034738, but Gansu People’s Hospital (24+24) versus Qinghai People’s Hospital (10+10); no confirmed sample reuse."
+    },
+    {
+      "pmcid": "PMC8052771",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 50,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC5759273",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 14,
+      "notes": "Peripheral lung tissue only. Lactobacillus removed as control contaminant; lung source-model taxa included only where tissue occurrence explicit."
+    },
+    {
+      "pmcid": "PMC12187763",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 9,
+      "notes": "Only TCGA-LUSC microbial results used. WIS paraffin controls described for upstream dataset do not constitute same-cohort TCGA controls."
+    },
+    {
+      "pmcid": "PMC9600380",
+      "outcome": "eligible usable",
+      "tissue_category": "placenta_fetal",
+      "n_genera": 26,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9577097",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 14,
+      "notes": "70 ACS, 70 CCS and 70 healthy controls. Same regional research team as PMC9176212; exact participant overlap not established by shared methods citation."
+    },
+    {
+      "pmcid": "PMC7813997",
+      "outcome": "eligible usable",
+      "tissue_category": "blood",
+      "n_genera": 189,
+      "notes": "Intact-bacterial-cell blood extraction plus supplementary blood genus/species tables; literature brain/oral taxa excluded. No-template-control evidence is from qPCR, not evidence that library blanks were sequenced."
+    },
+    {
+      "pmcid": "PMC6109311",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 16,
+      "notes": "NCI-MD 16S discovery and TCGA RNA-seq validation. Removed control-associated genera flagged. Link overlap with other NCI-MD lung reports before final models."
+    },
+    {
+      "pmcid": "PMC12846730",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 14,
+      "notes": "Own 2bRAD-M lung tissue microbiota; PBS culture and FISH controls do not establish sequencing negative controls."
+    },
+    {
+      "pmcid": "PMC3577789",
+      "outcome": "held",
+      "tissue_category": "placenta_fetal",
+      "n_genera": null,
+      "notes": "Intra-amniotic infection/early-onset neonatal sepsis proof-of-concept study: resolve diagnostic-infection scope before inclusion."
+    },
+    {
+      "pmcid": "PMC13166237",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 16,
+      "notes": "Intrahepatic metatranscriptomic community profiling with blank-informed WNS filtering. Enterobacter/Cronobacter reference-protein homology labels were excluded as they do not establish organism detection."
+    },
+    {
+      "pmcid": "PMC13720179",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 5,
+      "notes": "Own pancreatic 16S cohort; public GEO used for host autophagy expression only. Control-derived 99th-percentile thresholds applied."
+    },
+    {
+      "pmcid": "PMC12550791",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 6,
+      "notes": "Own 2bRAD-M HCC profiles; control tube described but no explicit control-read result in main text."
+    },
+    {
+      "pmcid": "PMC12363524",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 10,
+      "notes": "Lung tissue 16S genera only; experimental LPS sources not counted as detections."
+    },
+    {
+      "pmcid": "PMC12797839",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 7,
+      "notes": ""
+    },
+    {
+      "pmcid": "PMC9885577",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 27,
+      "notes": "Multicountry human liver biopsy cohort; controls sequenced, contamination considered negligible rather than taxa removed. Total bacterial load assessment described in supplementary qPCR/control comparison."
+    },
+    {
+      "pmcid": "PMC9793878",
+      "outcome": "eligible usable",
+      "tissue_category": "tumour",
+      "n_genera": 19,
+      "notes": "Published breast-tissue datasets pooled; primary-study overlap requires resolution before final analysis. Gut-only genera excluded."
+    },
+    {
+      "pmcid": "PMC12856059",
+      "outcome": "eligible usable",
+      "tissue_category": "other_sterile",
+      "n_genera": 18,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "pmcid": "PMC12502792",
+  "tissue_category": "tumour",
+  "sub_site": "eligible GI internal tumours",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f98dcab111e675a6c2ab4f5b74e4c52363bd134cf3380daff202ef64d3542579",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "ion in microbiome studies based on TCGA sequencing data, we relied on microbiota profiles curated by the BIC database, which implements rigorous quality control and computational decontamination pipelines, including removal of likely enviro"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": "ion in microbiome studies based on TCGA sequencing data, we relied on microbiota profiles curated by the BIC database, which implements rigorous quality control and computational decontamination pipelines, including removal of likely enviro"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "upstream computational decontamination",
+    "evidence": [
+      {
+        "id": "E0026",
+        "quote": " quality control and computational decontamination pipelines, including removal of likely environmental and reagent contaminants, normalization across batches, and application of filtering thresholds to reduce noise ( 34 , 45 ). These prepr"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Carsonella",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catenuloplanes",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cosenzaea",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Formosa",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gelidibacter",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicella",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylopila",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbispora",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phaseolibacter",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Smithella",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Syntrophococcus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thioalkalispira",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicella",
+      "evidence_id": "E0006",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "GI pan-cancer model includes excluded mucosal cancers and eligible internal cancers; genus attribution restricted to eligible strata.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

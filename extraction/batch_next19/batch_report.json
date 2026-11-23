@@ -1,0 +1,197 @@
+[
+  {
+    "pmcid": "PMC13147963",
+    "status": "merged",
+    "genera_retained": 44,
+    "used_supplements": true,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11896907",
+    "status": "merged",
+    "genera_retained": 9,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [
+      "WARN genus Candidatus_Accumulibacter not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12383511",
+    "status": "merged",
+    "genera_retained": 31,
+    "used_supplements": true,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8520243",
+    "status": "merged",
+    "genera_retained": 0,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8908962",
+    "status": "merged",
+    "genera_retained": 0,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6135892",
+    "status": "merged",
+    "genera_retained": 6,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8251846",
+    "status": "merged",
+    "genera_retained": 2,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8134445",
+    "status": "merged",
+    "genera_retained": 3,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC7563524",
+    "status": "merged",
+    "genera_retained": 17,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [
+      "WARN genus Norcardia not an NCBI Bacteria/Archaea genus (will not be counted)",
+      "WARN genus Ruminococcus2 not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6621972",
+    "status": "merged",
+    "genera_retained": 2,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC6525191",
+    "status": "merged",
+    "genera_retained": 10,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC11806881",
+    "status": "merged",
+    "genera_retained": 125,
+    "used_supplements": true,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC3885448",
+    "status": "merged",
+    "genera_retained": 4,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9130259",
+    "status": "merged",
+    "genera_retained": 67,
+    "used_supplements": true,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC12734784",
+    "status": "merged",
+    "genera_retained": 3,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC9653960",
+    "status": "merged",
+    "genera_retained": 6,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8304615",
+    "status": "merged",
+    "genera_retained": 54,
+    "used_supplements": true,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": true,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8667931",
+    "status": "merged",
+    "genera_retained": 0,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  },
+  {
+    "pmcid": "PMC8623653",
+    "status": "merged",
+    "genera_retained": 3,
+    "used_supplements": false,
+    "source_check_failures": [],
+    "warnings": [],
+    "supplements_consulted": false,
+    "source_check": "pass"
+  }
+]

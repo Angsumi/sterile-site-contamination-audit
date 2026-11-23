@@ -1,0 +1,175 @@
+{
+ "pmcid": "PMC13628504",
+ "tissue_category": "other_sterile",
+ "sub_site": "kidney (renal biopsy, DKD; control non-neoplastic renal parenchyma)",
+ "year": 2026,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "The V3–V4 region of the bacterial 16S ribosomal RNA gene was"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "negative controls (unspecified; possibly external)",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0011",
+    "quote": "we excluded (i) taxa frequently detected in negative controls"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "literature_list",
+  "tool": "Borchmann 2021 strategy; knowledge-based removal informed by external negative controls (Agudelo 2024)",
+  "evidence": [
+   {
+    "id": "E0011",
+    "quote": "we adopted a knowledge-based contaminant removal approach informed by external negative controls"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 52,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Acidovorax",
+   "evidence_id": "E0038",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0038",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Afipia",
+   "evidence_id": "E0038",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0038",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sediminibacterium",
+   "evidence_id": "E0038",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Burkholderia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paenibacillus",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Azospirillum",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cupriavidus",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Veillonella",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kocuria",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0042",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mesorhizobium",
+   "evidence_id": "E0044",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Curvibacter",
+   "evidence_id": "E0044",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Peptostreptococcus",
+   "evidence_id": "E0044",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Azospira",
+   "evidence_id": "E0044",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Niastella",
+   "evidence_id": "E0044",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodococcus",
+   "evidence_id": "E0044",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhizobium",
+   "evidence_id": "E0064",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0064",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bosea",
+   "evidence_id": "E0064",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Acidovorax",
+  "Acinetobacter",
+  "Afipia",
+  "Ralstonia",
+  "Sediminibacterium"
+ ],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Contaminant filtering cites 'taxa frequently detected in negative controls' but it is not stated that the study's own negative controls were processed or sequenced; removal largely knowledge/external-control based. Removed taxa not named. Top 5 listed in text (order as written, may not be rank order).",
+ "extractor": "AI agent (Claude sub-agent, batch 11)",
+ "date": "2026-11-23"
+}

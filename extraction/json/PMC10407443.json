@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC10407443",
+ "tissue_category": "tumour",
+ "sub_site": "biliary tract cancer tissue (FFPE; cholangiocarcinoma, gallbladder carcinoma, ampullary carcinoma)",
+ "year": 2023,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0001", "quote": "Archived formalin-fixed paraffin-embedded tumor specimens were collected from patients with resected BTCs"}]},
+ "method": {"value": "16S", "region": "", "evidence": [{"id": "E0001", "quote": "analyzed using 16S rRNA gene sequencing"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 32,
+ "list_type": "differential_only",
+ "genera": [],
+ "top5": [],
+ "figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "Only class-level taxa (Clostridia, Firmicutes, Actinobacteria, Acidobacteria, Gitt_GS) named in text; genus-level heatmap only in Fig. 2D; Clostridium difficile used only in co-culture experiments. UV irradiation of reagents mentioned; no negative controls. No supplements available.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

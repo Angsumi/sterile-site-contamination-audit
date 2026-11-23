@@ -1,0 +1,87 @@
+{
+  "pmcid": "PMC12004234",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "CR primers targeting conserved regions within the 16S rRNA gene were designed. Amplification of V3-V4 regions within the 16S rRNA gene was achieved through PCR utilizing the following primer pair: forward primer -341F (5\u2019-CCTACGGGNGGCWGCAG-"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 59,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0056",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "33 neonates developed pneumonia after birth, 26 controls; sampled placenta, not neonatal airway.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "07ea415820804394cffab60e7bdce2f75ff35084172993f94f72db4ad4e07d15",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

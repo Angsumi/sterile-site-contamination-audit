@@ -1,0 +1,83 @@
+{
+  "pmcid": "PMC11903660",
+  "tissue_category": "tumour",
+  "sub_site": "thyroid",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "69fc48f65215609252baf7d9a3e7e05ab9ef656de1ad3d0a45bfc445c91de742",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": " is analyzed in 55 PTC patients by 16S rRNA gene sequencing. The CCK8 and Transwell assays determine the impact of bacteria on the proliferation and migration abilities of PTC cells. Xenograft tumor and bacterial colonization experiments ar"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": "eriled enzyme-free water served as negative control (NTC) for the reactions 25 , 36 . Tumor and feces were weighted followed by total DNA extraction using the DNeasy Blood & Tissue Kit (for tumor, QIAGEN, #69504) or HiPure Stool DNA Kit (fo"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Coprococcus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gaiella",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human 16S thyroid results only; isolated Escherichia strain and animal/cell perturbations excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

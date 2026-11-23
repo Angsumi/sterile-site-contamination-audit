@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12798661",
+  "tissue_category": "other_sterile",
+  "sub_site": "carotid plaque qPCR only",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Carotid plaque measured by targeted qRT-PCR; community sequencing restricted to oral samples.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "cf9e890721dd5fd8dab9f5393d4ebfd6b0edd5fa81977ace5f9bdc7f4784697b",
+  "notes": "",
+  "review_flags": []
+}

@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC10949464",
+ "tissue_category": "blood",
+ "sub_site": "plasma (peripheral blood) of healthy volunteers; stool and urine also profiled (not extracted)",
+ "year": 2024,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0001", "quote": "We collected blood, urine, and fecal samples from volunteers to compare their microbial information via 16S rDNA sequencing"}]},
+ "method": {"value": "16S", "region": "V3-V4 (341F/805R)", "evidence": [{"id": "E0048", "quote": "The forward primer 341F (CCTACGGGNGGCWGCAG) and reverse primer 805R (GACTACHVGGGTATCTAATCC)"}]},
+ "controls": {"value": "sequenced", "types": "skin-surface sampling swabs; DNA extraction blank (nuclease-free water); no-template PCR control", "n_sequenced": null, "evidence": [{"id": "E0047", "quote": "we included a range of control groups, such as sampling controls, DNA extraction controls, and no-template PCR amplification controls"}, {"id": "E0049", "quote": "rendering it impossible to further exclude microbial information detected in the negative control samples"}]},
+ "decontamination": {"value": "removed_control_taxa", "tool": "Nejman et al. style removal of taxa found in blank/negative controls", "evidence": [{"id": "E0049", "quote": "we utilized a similar method to exclude contaminant information, as described by Nejman et al."}, {"id": "E0049", "quote": "after excluding DNA information from human sources and blank controls"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 26,
+ "list_type": "mixed",
+ "genera": [{"name": "Herminiimonas", "evidence_id": "E0027", "flagged_contaminant": false}],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "36 plasma samples sequenced; 10 excluded after control-taxa removal left no/minimal reads; 26 blood samples analysed. Only Herminiimonas (>72% of blood reads) named for blood in text; genus profile in Fig 2B/3A and Tables S1-S2 (not converted). Genera listed as not detected in blood (Prevotella etc.) not recorded.",
+ "extractor": "AI agent (Claude sub-agent, batch 06)",
+ "date": "2026-11-23"
+}

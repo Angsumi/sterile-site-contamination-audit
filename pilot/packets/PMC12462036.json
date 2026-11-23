@@ -1,0 +1,232 @@
+{
+ "pmcid": "PMC12462036",
+ "meta": {
+  "title": "Exploration of the mechanism of PCOS induced by microenvironmental changes in follicular fluid based on 16 S rRNA and metabolomics",
+  "journal": "Journal of Ovarian Research",
+  "year": "2025",
+  "doi": "10.1186/s13048-025-01781-5",
+  "pmid": "40993751"
+ },
+ "n_elements": 48,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0009",
+   "section": "16s rRNA sequencing of rat follicular fluid",
+   "text": "Cetyltrimethylammonium Bromide (CTAB) method was applied to extract bacterial DNA from rat follicular fluid samples from the control and the PCOS groups, respectively. Using diluted DNA as the template, PCR amplification was performed using barcode-tagged specific primers and Phusion ® High-Fidelity PCR Master Mix with GC Buffer provided by New England Biolabs, targeting multiple regions including 16 S V4, 18 S V4, and ITS1 regions. After the qualified PCR products were purified by magnetic beads, the PCR products were collected using the AxyPrep DNA Gel Extraction Kit provided by Qiagen company. Subsequently, the library was built using TruSeq ® DNA PCR-Free Sample Preparation Kit and quantified by Qubit and Q-PCR, and finally high-throughput sequencing was performed using NovaSeq 6000."
+  },
+  {
+   "evidence_id": "E0010",
+   "section": "16s rRNA sequencing of rat follicular fluid",
+   "text": "After obtaining the download data, fastp (v0.22.0, https://github.com/OpenGene/fastp ) was used to filter raw reads to obtain high-quality reads, and both ends of the high-quality reads were spliced with FLASH (v1.2.11, http://ccb.jhu.edu/software/FLASH/ ) to obtain high-quality Tags data (Clean Tags); then, chimera filtering was performed to obtain effective Tags for further analyses. QIIME2 software (v2023.2) was used for data analyses, and DADA2 was used for noise reduction to generate the abundance matrix of Amplicon Sequence Variant (ASV) for subsequent series of analyses. The ASV sequence was annotated to obtain the abundance information of each sample in different taxonomic units such as phylum, class, order, family, genus, and species. Based on the ASV clustering results, we analyzed group differences, including α-diversity and β-diversity. Meanwhile, the T-test test was used to analyze whether there were significant differences in species diversity between groups. Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment pathway analysis was performed using Phylogenetic Investigation of Communities by Reconstruction of Unobserved States 2 (PICRUSt2) (v2.5.0) software."
+  },
+  {
+   "evidence_id": "E0016",
+   "section": "Detection of the abundance of Acinetobacter hemolyticus in the follicular fluid of rats",
+   "text": "Extraction kit of bacterial genomic DNA (Item No.: YDP302, Manufacturer: Tiangen, Beijing) was employed to extract bacterial DNAs from follicular fluid samples. Subsequently, the universal primer 27 F/1492R of the bacterial 16 S rRNA gene was amplified using PCR, where the primer sequences included 27 F: AGAGTTTGATCCTGGCTCAG, 1492R: GGTTACCTTGTTACGACTT. The PCR amplification system included 25 µL PCR Mix, 2 µL primers (2 µL each for 27 F and 1492R) and 1 µL template DNA. The PCR reaction procedures included pre-denaturation at 98 °C for 2 min, denaturation at 98 °C for 10 s, annealing at 57 °C for 20 s, extension at 72 °C for 30 s, for a total of 35 cycles, and final extension at 72 °C for 5 min. The amplified products were detected by agarose gel electrophoresis, and target bands were cut and used for subsequent sequencing. The sequencing results were compared and analyzed on the NCBI website ( https://blast.ncbi.nlm.nih.gov/Blast.cgi ), and the species with the highest consistency of 97% and above in the comparison results were usually selected as the species to be tested."
+  },
+  {
+   "evidence_id": "E0033",
+   "section": "Acinetobacter haemolyticus detected in rat follicular fluid and its ability to metabolize cilostazol",
+   "text": "Based on the 16 S rRNA sequencing results, we found a decreased abundance of Acinetobacter haemolyticus in the follicular fluid of PCOS rats. To confirm the presence of Acinetobacter haemolyticus in follicular fluid, we collected rat follicular fluid from both the Control and PCOS groups, and performed specific solid plate culturing. Single colonies were picked for sub-culturing, and genomic DNA was extracted. Using universal 16 S rDNA primers, we amplified the specific fragment, which was then sent for sequencing and identification. The results are shown in Fig. 6 . According to the BLAST alignment of the next-generation sequencing data (Fig. S2 ), the results indicated that Acinetobacter haemolyticus was present in the follicular fluid of rats."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0001",
+   "E0015",
+   "E0022",
+   "E0031",
+   "E0033",
+   "E0034",
+   "E0036",
+   "E0038"
+  ],
+  "Actinobacteria": [
+   "E0022"
+  ],
+  "Actinobacteriota": [
+   "E0022"
+  ],
+  "Aeromicrobium": [
+   "E0022"
+  ],
+  "Agrobacterium": [
+   "E0022"
+  ],
+  "Alphaproteobacteria": [
+   "E0022"
+  ],
+  "Atopobium": [
+   "E0038"
+  ],
+  "Bacilli": [
+   "E0022"
+  ],
+  "Bacteroidales": [
+   "E0022"
+  ],
+  "Bacteroidia": [
+   "E0022"
+  ],
+  "Bacteroidota": [
+   "E0022"
+  ],
+  "Bradyrhizobium": [
+   "E0023"
+  ],
+  "Brochothrix": [
+   "E0022"
+  ],
+  "Burkholderiales": [
+   "E0022"
+  ],
+  "Campylobacter": [
+   "E0038"
+  ],
+  "Campylobacterota": [
+   "E0022"
+  ],
+  "Caulobacter": [
+   "E0038"
+  ],
+  "Chryseobacterium": [
+   "E0022"
+  ],
+  "Clostridia": [
+   "E0022"
+  ],
+  "Comamonadaceae": [
+   "E0022"
+  ],
+  "Coriobacteriia": [
+   "E0022"
+  ],
+  "Cyanobacteria": [
+   "E0022"
+  ],
+  "Delftia": [
+   "E0022"
+  ],
+  "Desulfobacterota": [
+   "E0022"
+  ],
+  "Desulfobulbia": [
+   "E0022"
+  ],
+  "Elusimicrobiota": [
+   "E0022"
+  ],
+  "Enterobacterales": [
+   "E0022"
+  ],
+  "Firmicutes": [
+   "E0022"
+  ],
+  "Flavobacteriales": [
+   "E0022"
+  ],
+  "Fusobacteriia": [
+   "E0022"
+  ],
+  "Fusobacteriota": [
+   "E0022"
+  ],
+  "Gammaproteobacteria": [
+   "E0022"
+  ],
+  "Lactobacillaceae": [
+   "E0022"
+  ],
+  "Lactobacillales": [
+   "E0022"
+  ],
+  "Lactobacillus": [
+   "E0038"
+  ],
+  "Megasphaera": [
+   "E0038"
+  ],
+  "Moraxellaceae": [
+   "E0022",
+   "E0023"
+  ],
+  "Nocardioidaceae": [
+   "E0022"
+  ],
+  "Pelomonas": [
+   "E0038"
+  ],
+  "Peptoniphilus": [
+   "E0038"
+  ],
+  "Phyllobacterium": [
+   "E0022",
+   "E0023"
+  ],
+  "Propionibacteriales": [
+   "E0022"
+  ],
+  "Proteobacteria": [
+   "E0022"
+  ],
+  "Pseudomonadaceae": [
+   "E0022"
+  ],
+  "Pseudomonadales": [
+   "E0022"
+  ],
+  "Pseudomonas": [
+   "E0022"
+  ],
+  "Psychrobacter": [
+   "E0022"
+  ],
+  "Rhizobiaceae": [
+   "E0022"
+  ],
+  "Rhizobiales": [
+   "E0022"
+  ],
+  "Rhodopseudomonas": [
+   "E0038"
+  ],
+  "Salinivibrio": [
+   "E0022"
+  ],
+  "Shewanella": [
+   "E0023"
+  ],
+  "Shewanellaceae": [
+   "E0023"
+  ],
+  "Sphingomonas": [
+   "E0023",
+   "E0038"
+  ],
+  "Staphylococcaceae": [
+   "E0022"
+  ],
+  "Staphylococcus": [
+   "E0022"
+  ],
+  "Stenotrophomonas": [
+   "E0022",
+   "E0038"
+  ],
+  "Vibrionaceae": [
+   "E0022"
+  ],
+  "Weeksellaceae": [
+   "E0022"
+  ],
+  "Xanthobacteraceae": [
+   "E0023"
+  ],
+  "Xanthomonadaceae": [
+   "E0022"
+  ],
+  "Xanthomonadales": [
+   "E0022"
+  ]
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "pmcid": "PMC13143940",
+ "block": "placenta_fetal",
+ "tissue_category": "placenta_fetal",
+ "year": 2026,
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "method": {
+  "value": "16S",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "In this study, we amplified and sequenced the bacterial V4 region."
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "No template control was set for each batch, and the CT value was greater than 35."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "evidence": []
+ },
+ "biomass_qpcr": {},
+ "genera": [
+  {
+   "name": "Psychromicrobium",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Halomonas",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nesterenkonia",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nocardiopsis",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ralstonia",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dietzia",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cutibacterium",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Brevundimonas",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cupriavidus",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacterium",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Diaphorobacter",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aquabacterium",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Moraxella",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leifsonia",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pelomonas",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chroococcidiopsis",
+   "evidence_id": "E0051",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aerococcus",
+   "evidence_id": "E0051",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bosea",
+   "evidence_id": "E0052",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Psychromicrobium",
+  "Halomonas",
+  "Nesterenkonia",
+  "Sphingomonas",
+  "Nocardiopsis"
+ ],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "claimed",
+ "notes": "No decontamination mentioned (no evidence quote possible).",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

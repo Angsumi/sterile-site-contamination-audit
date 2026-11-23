@@ -1,0 +1,79 @@
+{
+  "pmcid": "PMC12914011",
+  "tissue_category": "blood",
+  "sub_site": "maternal whole blood",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "97823afcc592fc7119e0ee655963352f2b05d2365f4da05590a77070706e0d2b",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0043",
+        "quote": "Genomic DNA was extracted and the 16 S rRNA amplified using V4 primers. 16 S amplicon multiplex libraries were sequenced on Illumina platform at the Sequencing Facility of the Argonne National Laboratory and mapped to the SILVA database ( h"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0040",
+        "quote": " purchased as DNA and RNA-free and blank samples were processed in parallel to assess for possible environmental contamination."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ampled immediately after delivery. Bacterial load and diversity were analyzed via 16 S rDNA qPCR and sequencing. Maternal cytokines were quantified by multiplex immunoassay, and fetal inflammatory exposure (Triple I) assessed using histolog"
+      }
+    ]
+  },
+  "n_target_samples": 110,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Research profiling of maternal blood during PPROM, not a diagnostic sepsis series. Authors state no patients who developed sepsis were captured (main text line 111). Fifteen percent had clinical chorioamnionitis and nearly all received prophylactic antibiotics; retain this mixed obstetric context for human scope review. Two blood genera named; no available text supplement.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ],
+  "eligibility_evidence": [
+    {
+      "id": "E0027",
+      "quote": "ing cytokines. Given the rarity of sepsis in PPROM patients who are all receiving antibiotics by standard of care, we were unable to capture patients who developed sepsis, and this is a limitation of the current study."
+    }
+  ]
+}

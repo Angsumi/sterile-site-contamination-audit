@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC8904948",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour",
+  "n_target_samples": 37,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "other"
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "genera": [
+    {
+      "name": "Streptococcus",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptostreptococcus",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "fulltext.md:L115",
+      "evidence_quote": "The frequency of each positive PM in pathogen targeted sequencing is listed in Figure 1 . Together, we detected 49 PMs in the 37 tumor samples ( Figure 1A ), 28 PMs in the 4 BALF samples ( Figure 1B ), and 14 PMs in the plasma samples ( Figure 1C ). In tumors, the high-frequency PMs that we identified were Streptococcus pneumoniae , Acinetobacter Jungii , Haemophilus parainfluenzae , Enterococcus , and Haemophilus haemolyticus . In BALF, Streptococcus mitis , Enterococcus , Actinomyces Neesii , Peptostreptococcus , and Streptococcus constellatus were frequently observed. In blood, Enterococcus, Sphingomonas paucimobilis and Adenovirus were identified as high-frequency PMs. A Venn diagram was drawn to show the microorganism intersection of three sample types ( Figure 1D ). Overall, there were 5 common PMs in 3 types of samples, which were Haemophilus parainfluenzae , Enterococcus , Staphylococcus haemolyticus , Peptostreptococcus , and Defective anatrophic bacteria . Between the tumor and BALF samples, there were other 11 common elements, which were Streptococcus pneumoniae , Haemophilus haemolyticus , Streptococcus crista , Prevotella II , Haemophilus , Haemophilus influenzae , Actinomyces Neesii , Streptococcus constellatus , Streptococcus gordonii , human herpes virus type 7, and Neisseria lactose. Theoretically, these common PMs can cause lung infections when the immune system is compromised, and thus deserve more attention in LC development.",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pathogen-targeted sequencing of tumour; 16S applies only to BALF. Shared tumour/BALF taxa included; blood-only Sphingomonas excluded. Community-profile eligibility needs review due to targeted panel.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC8904948/fulltext.md",
+  "source_sha256": "91d9b40db3305b8fe9559ad4cdfb12db0e0d767559b96c1b8aa039f2c0e9cbad",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named"
+}

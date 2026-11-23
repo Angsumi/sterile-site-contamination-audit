@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC12072589",
+  "tissue_category": "blood",
+  "sub_site": "claimed circulating TCGA cervical cancer profile",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": null,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-CESC whole-transcriptome profiles; blood origin unverified",
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": "The microbiome data were derived from prior cancer microbiome studies, including whole-genome and transcriptomic sequencing data for cervical cancer from TCGA [ 45 ]. Advanced data processing tools were employed to minimize the sample conta"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0025",
+        "quote": "tudies, including whole-genome and transcriptomic sequencing data for cervical cancer from TCGA [ 45 ]. Advanced data processing tools were employed to minimize the sample contamination, ensuring that the data were solely based on whole-tra"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 240,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Amycolatopsis",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaplasma",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Apibacter",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aureimonas",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catonella",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halonatronum",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leifsonia",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oceanimonas",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodothermus",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Saccharomonospora",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stanieria",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xylella",
+      "evidence_id": "E0005",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Held source attribution: article calls the profiles circulating/blood but derives them from prior TCGA-CESC whole-transcriptome cancer microbiome data without establishing that the microbial source is blood. Do not substitute excluded cervical tumour tissue for blood.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "525bcdbf1848c862a9a0315b95c71ce93823d43af8b0b4d5d0216ddb318a4c1e",
+  "excluded_archaeal_labels": [
+    "Staphylothermus"
+  ],
+  "review_flags": [
+    "Confirm blood source of TCGA-CESC microbial profiles; cervical tumour tissue is an excluded mucosal site."
+  ],
+  "eligibility_review": "Confirm blood source of TCGA-CESC microbial profiles; cervical tumour tissue is an excluded mucosal site."
+}

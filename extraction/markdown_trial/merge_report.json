@@ -1,0 +1,83 @@
+[
+  {
+    "pmcid": "PMC9282817",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC7049446",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC9718202",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC7946554",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC6844652",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC9257056",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC13318943",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC12066232",
+    "status": "merged",
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC5946436",
+    "status": "merged",
+    "reasons": [],
+    "warnings": []
+  },
+  {
+    "pmcid": "PMC4419820",
+    "status": "held",
+    "reasons": [
+      "Figure-derived evidence requires independently checked, protocol-authorized source locators or unresolved eligibility/site attribution."
+    ]
+  },
+  {
+    "pmcid": "PMC7355471",
+    "status": "held",
+    "reasons": [
+      "Figure-derived evidence requires independently checked, protocol-authorized source locators or unresolved eligibility/site attribution."
+    ]
+  },
+  {
+    "pmcid": "PMC8904948",
+    "status": "held",
+    "reasons": [
+      "Figure-derived evidence requires independently checked, protocol-authorized source locators or unresolved eligibility/site attribution."
+    ]
+  },
+  {
+    "pmcid": "PMC13478868",
+    "status": "held",
+    "reasons": [
+      "Figure-derived evidence requires independently checked, protocol-authorized source locators or unresolved eligibility/site attribution."
+    ]
+  },
+  {
+    "pmcid": "PMC10031003",
+    "status": "held",
+    "reasons": [
+      "Figure-derived evidence requires independently checked, protocol-authorized source locators or unresolved eligibility/site attribution."
+    ]
+  }
+]

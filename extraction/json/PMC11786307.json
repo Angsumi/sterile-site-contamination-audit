@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC11786307",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "76b303bea3683dd7423ff96ec1ac0c71c528db27fd884f86d7f21343cb1f2373",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "on in adipose tissue. We undertook 16S rRNA metagenomic analysis of bacterial DNA in serum EVs from 77 patients with RCC (the derivation cohort). We discovered that DNAs from Enterobacteriaceae, Polaromonas, and Coxiellaceae were highly exp"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Polaromonas",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Serum EV profile; negative-control label in immunoblots is not an extraction/sequencing blank.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

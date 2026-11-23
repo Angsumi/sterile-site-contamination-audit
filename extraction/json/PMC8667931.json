@@ -1,0 +1,55 @@
+{
+  "pmcid": "PMC8667931",
+  "tissue_category": "tumour",
+  "sub_site": "lung tumour biopsies and adjacent lung tissue",
+  "year": 2021,
+  "country": "Switzerland",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": " as healthy lung control tissues (n = 10) were subjected to 16S rRNA sequencing using Illumina MiSeq technology, a platform for targeted resequencing, expression profiling and metagenomics. To this end, PCR amplification protocols were opti"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "UNCROSS",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "defined. OTU abundances were filtered for possible bleed-in contaminations making use of the UNCROSS algorithm. Sequences from the RDP 16S rRNA database served as reference and taxonomies were predicted using the SINTAX module included in t"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 48,
+  "list_type": "full_profile",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "38 tumour biopsies and 10 adjacent tissues. UNCROSS bleed-in contamination filtering; no negative controls stated. Publication analyses restricted to higher ranks; no genus list recovered.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "2ddbefc750d7faac10d65b602f2b3f9a2ea1322eafd3d57ad17ed0f81cee33f6",
+  "supplement_manifest": []
+}

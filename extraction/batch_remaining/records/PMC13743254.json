@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC13743254",
+  "tissue_category": "tumour",
+  "sub_site": "liver HCC",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "30069d5ba8da4737ab0d5601cde63ee12322b017bfe17392905c37fbeef1d6e6",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "al information for the primary HCC cohort were obtained from The Cancer Genome Atlas (TCGA). An independent validation cohort was sourced from the Gene Expression Omnibus (GEO) database ( GSE76427 ). Besides, GSE76427 (115 tumor samples and"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "ined from The Cancer Genome Atlas (TCGA). An independent validation cohort was sourced from the Gene Expression Omnibus (GEO) database ( GSE76427 ). Besides, GSE76427 (115 tumor samples and 52 adjacent non-tumor samples) was used to indepen"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "upstream TCGA profiling pipeline",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "e rigorous bioinformatics process (removing contaminants, constructing positive control, etc.), the intratumoral microbial abundance data of all cancer types were annotated ( https://github.com/knightlab-analyses/mycobiome ). Each cohort wa"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Alistipes",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptomyces",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

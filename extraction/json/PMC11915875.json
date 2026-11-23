@@ -1,0 +1,112 @@
+{
+  "pmcid": "PMC11915875",
+  "tissue_category": "tumour",
+  "sub_site": "early-stage pancreatic ductal adenocarcinoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA and ICGC PDAC",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ABSTRACT The pancreas tumor microbiota may influence tumor microenvironment and influence survival in early-stage pancreatic ductal adenocarcinoma (PDAC); however, current studies are limited and small. We investigated the relationship of t"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": ". We characterized the tumor microbiome using RNA-sequencing data. We examined the association of the tumor microbiome with overall survival (OS), via meta-analysis with the Cox PH model. A microbial risk score (MRS) was calculated from the"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 201,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Afipia",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alcaligenes",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chelatococcus",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hymenobacter",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shigella",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCGA and ICGC surgically resected cohorts, reused host-sequencing profiles. Distinct study groups do not imply independent patients; multi-cohort overlap logged for final sensitivity review.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "0a995b62f7093483e2d97cde832c8289dbff55655afc5910b3713991404dbf02",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,66 @@
+{
+  "pmcid": "PMC12066232",
+  "year": 2025,
+  "eligible_fulltext": true,
+  "tissue_category": "blood",
+  "sub_site": "peripheral blood leukocytes",
+  "n_target_samples": 47,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "The V3\u2013V4 regions of the 16S rDNA were amplified using universal primers (341F and 806R) linked to indices and sequencing adapters. PCR amplification was performed in 20-\u03bcL reactions containing 15\u00d7 polymerase mix (Life Technologies), 20 \u03bcM "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "genera": [],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "All four downloaded figures inspected. They show diversity, higher-rank bacterial classes/phyla, clinical associations and graphical abstract; no recoverable genus profile. No supplementary media listed in PMC dataset. No genus list can be extracted from available publication.",
+  "supplement_status": "Retrieved available PMC OA media; originals and markitdown copies kept locally.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC12066232/fulltext.md",
+  "source_sha256": "1a5fa9f4fc8068230ec86eff10b4b19a84be65c0fc92de6841a5f3e185af2e01",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "review_status": "supplements/figures reviewed; provisional; not merged",
+  "genus_list_status": "not_usable_no_reported_genus_names",
+  "additional_source_manifest": [
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC12066232/figures/j-phrp-2024-0329f3.jpg",
+      "sha256": "f915ce366f728a99d3fc5e9cbb12a4a7be89493306599116c0301aa8afa44f88"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC12066232/figures/j-phrp-2024-0329f4.jpg",
+      "sha256": "d661404b3a0fef3ada17500bdb56e15e843848329b29cd9ac04ad88fda6c0def"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC12066232/figures/j-phrp-2024-0329f1.jpg",
+      "sha256": "0654e62f2146d76473e538601e5b63a3858c255fb2335bf28999d3bef9ed0422"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC12066232/figures/j-phrp-2024-0329f2.jpg",
+      "sha256": "a9641b4b0fb06750d380d9e568ea00620ebecfd82d6b2beed0316c7418607067"
+    }
+  ],
+  "exclusion_reason": "",
+  "country": ""
+}

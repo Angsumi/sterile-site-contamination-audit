@@ -1,0 +1,128 @@
+{
+  "pmcid": "PMC9577097",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e4feb7a2ca7af13ceb139abe8be998c2a06aa7913a63b1a802a95f120ffe2142",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "nd implication of V3-V4 regions of 16Sr RNA gene were amplified by using 338F: 5’-ACTCCTACGGGAGGCAGCA-3’ and 806R: 5’-GGACTACHVGGGTWTCTAAT-3’ universal primer set by following our previous study protocols ( Khan et al., 2022b ). Followed by"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "yglyceride, and Body mass index. A negative control sample of sterile water was also utilized to purify DNA libraries ( Supplementary Figure S1 ). The importance of several factors was determined using a p -value less than 0.05."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 210,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ligilactobacillus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacterium",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chujaibacter",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kosakonia",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnospira",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pantoea",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parvimonas",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phenylobacterium",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0062",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0064",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "70 ACS, 70 CCS and 70 healthy controls. Same regional research team as PMC9176212; exact participant overlap not established by shared methods citation.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

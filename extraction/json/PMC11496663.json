@@ -1,0 +1,124 @@
+{
+  "pmcid": "PMC11496663",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2024,
+  "country": "Thailand",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": "The 16S rRNA sequencing of V3-V4 hypervariable region was performed"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": "removal of assigned genera not presenting on a list of blood bacterial signatures based on Tan et al. (2023)"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 60,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "not_claimed",
+  "notes": "Retained 14 reported genera but authors conclude no blood microbiota. Filtering used positive blood-signature whitelist and Disbiome, not conventional contaminant removal.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

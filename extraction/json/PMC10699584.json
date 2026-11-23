@@ -1,0 +1,89 @@
+{
+  "pmcid": "PMC10699584",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and non-malignant breast tissue",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V5 (abstract; methods list multiple loci)",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "Sequencing libraries were generated employing the TruSeq ® DNA PCR-Free Sample Preparation Kit, in congruence with the manufacturer’s stipulations. Index codes were integrated into the libraries. Libr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "environment. Concurrently with tissue specimens, these environmental controls were processed. All specimens were preserved at −80°C within a 4-h window post-receipt, pending conveyance to the laboratory for processing and analysis."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 144,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Succiniclasticum",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0054",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only breast results; fecal/salivary genera excluded. Environmental controls processed but sequencing not explicit.",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

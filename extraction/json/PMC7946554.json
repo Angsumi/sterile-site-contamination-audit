@@ -1,0 +1,79 @@
+{
+  "pmcid": "PMC7946554",
+  "year": 2021,
+  "eligible_fulltext": true,
+  "tissue_category": "other_sterile",
+  "sub_site": "cerebral arterial thrombus",
+  "n_target_samples": 4,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "For the sequencing, 16S Amplicon-Seq hypervariable regions V1\u2013V9 were amplified using primers, including the forward 16S primer 5\u2019-ATCGCCTACCGTGAC-barcode-AGAGTTTGATCMTGGCTCAG-3\u2019 and Reverse 16S primer 5\u2019-ATCGCCTACCGTGAC-barcode-CGGTTACCTTG"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Purpose The purpose of this study was to assess the microbiota in middle cerebral artery thrombi retrieved in mechanical thrombectomy arising out of symptomatic carotid plaque within 6 hours of acute ischemic stroke. Thrombi were subjected "
+      }
+    ]
+  },
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "qPCR positivity stated in results. More taxa shown in heatmap; images not recovered by Markdown.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7946554/fulltext.md",
+  "source_sha256": "ea148aab075a2e0c4810bd633950c1d1cb40027d01a620002a399c4363fc2c4d",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named",
+  "exclusion_reason": "",
+  "country": ""
+}

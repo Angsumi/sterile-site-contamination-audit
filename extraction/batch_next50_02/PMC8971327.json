@@ -1,0 +1,80 @@
+{
+  "pmcid": "PMC8971327",
+  "tissue_category": "tumour",
+  "sub_site": "breast tissue follow-up subset",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Same 33-woman Mayo Clinic cohort as PMC4971513; follow-up 27-subject histology subset. Keep PMC4971513, which reports the longer eligible genus list (5 versus 4).",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0002",
+        "quote": "nign (n=16) or malignant (n=17) disease underwent 16SrRNA sequencing with Illumina MiSeq and Hybrid-denovo pipeline processing. Breast tissue was scored for fibrosis and fat percentages and immune cell infiltrates (lobulitis) classified as "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "on and assay conditions with appropriate negative controls as detailed previously. Strengths of our work include the comprehensive histologic evaluation of the tissues in concert with deep sequencing microbiome data from a prospective study"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 27,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Adlercreutzia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Spirochaeta",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Explicit follow-up of 33-woman cohort reported in PMC4971513; 27-slide-review subset. Cohort duplicate exclusion applied after source validation; keep earlier paper with longer reported genus list.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "9b5dcc7b242dc0d2bcfbc2f27843ce4c3bbb01d548087b01d476962a8fc444f6",
+  "excluded_archaeal_labels": [],
+  "review_flags": [],
+  "eligible_fulltext_before_cohort_exclusion": true,
+  "overlap_with": "PMC4971513",
+  "overlap_decision": "exclude_this_report_keep_longer_genus_list"
+}

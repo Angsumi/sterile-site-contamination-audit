@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC4636327",
+  "tissue_category": "other_sterile",
+  "sub_site": "mouse tissue only",
+  "year": 2015,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Sequencing pipeline validated using mock communities and mouse tissues; no human target tissue community profiling.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "18428c4b6cb1cf1a735e2144d652ca65069912b1ea252e799937ff73e5eb28f4",
+  "notes": "",
+  "review_flags": []
+}

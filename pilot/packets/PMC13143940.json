@@ -1,0 +1,218 @@
+{
+ "pmcid": "PMC13143940",
+ "meta": {
+  "title": "A primary study: high-throughput sequencing analysis of amniotic fluid microbiota in 50 high-risk pregnant women during the second trimester",
+  "journal": "Frontiers in Cellular and Infection Microbiology",
+  "year": "2026",
+  "doi": "10.3389/fcimb.2026.1748232",
+  "pmid": "42100658"
+ },
+ "n_elements": 60,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0002",
+   "section": "Introduction",
+   "text": "The initial microbial colonization critically shapes early-life development, affecting immune, metabolic, and physiological functions with lasting health implications ( Lim et al., 2016 ). Although pivotal, the origin and exact timing of the first microbial colonization in humans remain controversial ( Banchi et al., 2023 ). For a long time, it has been widely believed that during a normal pregnancy, the growth and development of the fetus in the uterus occur in a sterile environment, unless pathological conditions arise ( Romero et al., 2007 ). Leveraging advances in metagenomics and 16S rRNA gene amplicon sequencing, recent studies have challenged this notion by detecting bacterial DNA in placental tissue, amniotic fluid, and even developing fetuses ( Collado et al., 2016 ; Seferovic et al., 2019 ; Collado and Segata, 2020 )."
+  },
+  {
+   "evidence_id": "E0004",
+   "section": "Introduction",
+   "text": "Existing studies on the microbiome of high-risk pregnant women have primarily focused on the vaginal microbiota, as vaginal dysbiosis during pregnancy appears to be linked to preterm birth or miscarriage ( Chang et al., 2020 ; Huang et al., 2022 ; Schuster et al., 2024 ). The upward migration of vaginal microbiota into the uterus may be one potential source of the amniotic fluid microbiome ( Dera et al., 2024 ). Investigating the amniotic fluid microbiome could play a crucial role in advancing research on maternal microbial ecology during pregnancy. Current researches predominantly characterized intrauterine microbiota using samples collected during delivery, which might be contaminated by vaginal or cutaneous microorganisms during the birthing process ( Zhu et al., 2018 ; Stinson et al., 2019 ; Campisciano et al., 2021 ). In contrast, amniotic fluid samples obtained via mid-trimester amniocentesis represent an ideal specimen type for accurately reflecting the authentic microbial composition within the uterine environment during pregnancy ( Zemet et al., 2025 ). Therefore, this preliminary study collected amniotic fluid samples in high-risk pregnant women during the second trimester through amniocentesis and analyzed bacterial DNA profiles in mid pregnancy human amniotic fluid through V4 region 16S rRNA gene sequencing."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "DNA extraction and 16S rRNA pyrosequencing",
+   "text": "In this study, we amplified and sequenced the bacterial V4 region. Microbial DNA was extracted from amniotic fluid using the QIAamp DNA Microbiome Kit (Qiagen) following the manufacturer’s instructions. The V4 region of qualified DNA products was amplified using primers (515F: GTGCCAGCMGCCGCGGTAA, 806R: GGACTACHVGGGTWTCTAAT). PCR amplification was performed under the following conditions: 95 °C for 5 min; 35 cycles of 95 °C for 30 s, 56 °C for 30 s, 72 °C for 30 s; and a final extension at 72 °C for 7 min. Quantification and purification of PCR products were performed using the Quant-iT™ PicoGreen ® dsDNA Assay Kit and QIAquick PCR Purification Kit (Qiagen), respectively. The recovered products were amplified in a second round with the introduction of Illumina bridge PCR-compatible primers. Amplification products were quantified by fluorometry (PicoGreen) and analyzed using an Agilent 2200 Bioanalyzer. After qualification, sequencing was performed on the Illumina MiSeq platform. All experimental procedures were conducted in strict accordance with the manufacturers’ protocols. In order to reduce background DNA pollution, we took the following measures: including (1) filtering all reagents with 0.2 µ M filter membrane; (2) Ung enzyme was added into the PCR premix to prevent carryover contamination; (3) No template control was set for each batch, and the CT value was greater than 35."
+  },
+  {
+   "evidence_id": "E0009",
+   "section": "Bioinformatics analysis",
+   "text": "Raw data obtained from the Illumina platform underwent quality control using fastp software to trim low-quality bases and adapter sequences. The DADA2 plugin in QIIME2 (version 2022.8) was employed for sequence denoising to generate amplicon sequence variants (ASVs) and the feature table. Subsequently, taxonomic annotation of ASV sequences was performed using the RDP classifier (version 2.13) with a confidence threshold of 0.7. The Silva 138.1 database served as the reference for bacterial taxonomy. Alpha diversity indices were calculated using mothur v1.43.0. Principal Coordinates Analysis (PCoA) was conducted with the vegan package v2.5–6 in R."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Actinobacteria": [
+   "E0056"
+  ],
+  "Actinobacteriota": [
+   "E0001",
+   "E0024",
+   "E0035",
+   "E0049",
+   "E0056",
+   "E0060"
+  ],
+  "Aerococcus": [
+   "E0038",
+   "E0051"
+  ],
+  "Aquabacterium": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Bacillota": [
+   "E0024",
+   "E0035",
+   "E0049",
+   "E0056"
+  ],
+  "Bacteroidota": [
+   "E0024",
+   "E0035",
+   "E0049"
+  ],
+  "Bifidobacterium": [
+   "E0055"
+  ],
+  "Bosea": [
+   "E0052"
+  ],
+  "Brevundimonas": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Chroococcidiopsis": [
+   "E0051"
+  ],
+  "Cupriavidus": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Cutibacterium": [
+   "E0001",
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0039",
+   "E0051",
+   "E0052",
+   "E0057"
+  ],
+  "Diaphorobacter": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Dietzia": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Halomonas": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052",
+   "E0056"
+  ],
+  "Leifsonia": [
+   "E0001",
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0039",
+   "E0051",
+   "E0052",
+   "E0057"
+  ],
+  "Microbacteriaceae": [
+   "E0056"
+  ],
+  "Moraxella": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0052"
+  ],
+  "Mycobacterium": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Nesterenkonia": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052",
+   "E0056"
+  ],
+  "Nitriliruptoraceae": [
+   "E0056"
+  ],
+  "Nocardiopsis": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Pelomonas": [
+   "E0026",
+   "E0037"
+  ],
+  "Prevotella": [
+   "E0055"
+  ],
+  "Proteobacteria": [
+   "E0001",
+   "E0024",
+   "E0035",
+   "E0049",
+   "E0056",
+   "E0060"
+  ],
+  "Psychromicrobium": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052",
+   "E0056"
+  ],
+  "Ralstonia": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Sphingomonas": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ],
+  "Staphylococcus": [
+   "E0026",
+   "E0037",
+   "E0038",
+   "E0051",
+   "E0052"
+  ]
+ }
+}

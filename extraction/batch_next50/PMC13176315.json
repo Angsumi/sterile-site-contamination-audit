@@ -1,0 +1,102 @@
+{
+  "pmcid": "PMC13176315",
+  "tissue_category": "other_sterile",
+  "sub_site": "temporomandibular synovial fluid",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "The full-length 16S rRNA gene (approximately 1,500 bp, covering variable regions V1\u2013V9) was sequenced to identify bacterial organisms at the species level. PCR amplification and preparation of barcoded DNA libraries for sequencing were perf"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0041",
+        "quote": "s. Each batch result was compared to the negative control of the batch. Several bacterial genera were detected in the negative controls, with varying read counts. Any genus detected in a negative control was excluded from the reported resul"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0041",
+        "quote": " likely reflects a combination of reagent-derived contaminants, environmental DNA, and stochastic amplification effects inherent to low-biomass samples, particularly with increased PCR cycle numbers. The top 20 bacterial genera detected in "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 64,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0045",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Simonsiella",
+      "evidence_id": "E0066",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lacticaseibacillus",
+      "evidence_id": "E0066",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leuconostoc",
+      "evidence_id": "E0066",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "41/64 fluid samples yielded bacteria; all genera seen in matched negative control excluded. Mock community is positive control, not target taxa.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "3a86fc0fdbc4b24261e7f06ff768bf5fe4aae1ea91020424c09dc03c60c13508",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC10989844",
+  "tissue_category": "tumour",
+  "sub_site": "adrenal",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6575d5677d0691bcacc21d4b07a8ddf25a848abee5f17a08a94a25ef29504f4f",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-ACC Poore profiles",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "by Poore et al. using whole‐genome sequencing (WGS) and RNA sequencing (RNA‐Seq) data from TCGA [ 5 ] (Figure 1 ). The intratumoral microbes comprised three types of microorganisms (i.e., viruses, archaea, and bacteria). Normalization and d"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "al. using whole‐genome sequencing (WGS) and RNA sequencing (RNA‐Seq) data from TCGA [ 5 ] (Figure 1 ). The intratumoral microbes comprised three types of microorganisms (i.e., viruses, archaea, and bacteria). Normalization and decontaminati"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "statistical / batch filtering",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": ", and bacteria). Normalization and decontamination were also included according to different criteria, yielding five microbial abundance matrixes comprising no contaminants removed (NR), likely contaminants removed (LR), contaminants remove"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 79,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptomyces",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysinimicrobium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCGA microbial profiles with separate FISH/IHC validation; no new sequenced tissue cohort. Compare cohort with existing ACC reanalyses before final models.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

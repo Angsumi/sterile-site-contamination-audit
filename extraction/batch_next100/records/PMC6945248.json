@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC6945248",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid placenta fetal membranes",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "61438a002c5482a3e18b21350321c376967d26c14df84ccdf22c5d2ac9395a77",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "sample, the bacterial and archaeal 16S rRNA gene was amplified with the barcoded primer set 515F [19] and 909R [20] containing the Illumina MiSeq adapter sequences. For all PCR amplifications, reactions were performed with pfu DNA MasterMix"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": " DNA extraction and PCR batch, two negative controls with the same reagents and consumables were operated as the same procedure. Amplicons were cleaned using the UltraClean PCR Clean-up kit (MO BIO, USA), and an equivalent amount of PCR pro"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tepidiphilus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

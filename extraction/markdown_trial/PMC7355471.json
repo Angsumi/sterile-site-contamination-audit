@@ -1,0 +1,174 @@
+{
+  "pmcid": "PMC7355471",
+  "year": 2020,
+  "eligible_fulltext": true,
+  "tissue_category": "other_sterile",
+  "sub_site": "histologically healthy lung tissue",
+  "n_target_samples": 13,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S"
+  },
+  "controls": {
+    "value": "sequenced",
+    "evidence": [
+      {
+        "id": "supp_md/microorganisms-08-00794-s001.md:L80",
+        "quote": "(only samples with > 100 reads were included)"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "evidence": [
+      {
+        "id": "fulltext.md:L51",
+        "quote": "We used geometric mean of pairwise ratios as the normalization method for zero-inflated sequencing data, a method developed recently to correct for bias introduced by variable sequencing depth [ 25 ]. We further ran the decontam algorithm using the frequency-method as implemented in R to assess contamination and decontaminate the sequencing data prior to further analysis [ 26 ]. See Table S3 for the removed taxa which were identified as contamination following the decontam algorithm."
+      }
+    ],
+    "tool": "decontam frequency method"
+  },
+  "biomass_qpcr": {
+    "value": "yes"
+  },
+  "genera": [
+    {
+      "name": "Paracoccus",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "supp/microorganisms-08-00794-s001.pdf:page2:FigureS3",
+      "flagged_contaminant": false,
+      "evidence_note": "Visually detectable positive heatmap cell in light-grey labelled HLT columns; provisional, independent visual check needed."
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Supplement Figure S3 read by sample type, not entire row labels alone. Cloacibacterium visible only in BAL excluded; unclassified labels excluded. Table S3 removed taxa logged separately since target-tissue presence is not stated.",
+  "supplement_status": "Retrieved available PMC OA media; originals and markitdown copies kept locally.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7355471/fulltext.md",
+  "source_sha256": "583dda4cc5a6280ce190e5ec016b06bd037e2b675b2d6c409813db4d55e8d1fe",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "supplements/figures reviewed; provisional; not merged",
+  "genus_list_status": "figure_genus_list_provisional",
+  "additional_source_manifest": [
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7355471/supp/microorganisms-08-00794-s001.pdf",
+      "sha256": "c1e5636bb912d010919b5e3400ce498fa90d356c24e9d12fa35864680a7c1445"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7355471/supp_md/microorganisms-08-00794-s001.md",
+      "sha256": "55321b9a63ac30f64f6087e20be8730f7a0784fc62921673153d426c103821c6"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7355471/figures/microorganisms-08-00794-g003.jpg",
+      "sha256": "5191dc313344d20a07a8dbd502f939f2a9bdfe3022d1cc1ce71545c179681aa0"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7355471/figures/microorganisms-08-00794-g002.jpg",
+      "sha256": "8dd5de27e68c383d1b814d835e5123cf74b98f4377106e767721a77a402c0c86"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC7355471/figures/microorganisms-08-00794-g001.jpg",
+      "sha256": "6f79734f68dd869effd26b927a15b25036528ab91ee587b9015265460c9d68a4"
+    }
+  ],
+  "removed_taxa_unassigned_to_target": [
+    "Hymenobacter",
+    "Chryseobacterium",
+    "Comamonas",
+    "Pseudonocardia"
+  ]
+}

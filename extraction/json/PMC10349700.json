@@ -1,0 +1,119 @@
+{
+  "pmcid": "PMC10349700",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2023,
+  "country": "Italy",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": " the V3-V4 hypervariable regions of the bacterial 16S rRNA gene with 100% specificity (i.e., no eukaryotic, mitochondrial, or Archaea DNA) and high sensitivity (16S rRNA of more than 95% of bacteria in Ribosomal Database Project database were am"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0016",
+        "quote": "ent and reagents through the inclusion of various negative controls and found that the background noise and blood contamination did not impact the microbiome analysis."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "ustering with an aggregation distance equal to 3. OTUs were removed when their relative abundance was lower than 0.005% of the whole dataset of reads. The reads are publicly available in the European Nucleotide Archive (ENA). Accession number is"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "and collected in a final 50 \u03bcL extraction volume. Real-time PCR amplification was performed using panbacterial primers EUBF 5\u2032-TCCTACGGGAGGCAGCAGT-3\u2032 and EUBR 5\u2032-GGACTACCAGGGTATCTAATCCTGTT-3\u2032 [ 25 ], which target the V3-V4 hypervariable regions "
+      }
+    ]
+  },
+  "n_target_samples": 296,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Modestobacter",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polynucleobacter",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bdellovibrio",
+      "evidence_id": "E0025",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "claimed",
+  "notes": "300 enrolled,4 failed sequencing threshold. Selected taxa table includes nonsignificant genera; all included. Negative controls mentioned, sequencing not explicitly stated.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

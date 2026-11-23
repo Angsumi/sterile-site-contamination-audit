@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC13209569",
+  "tissue_category": "tumour",
+  "sub_site": "pancreas tumour and healthy pancreas",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f652a6589a1b0cfd7140cb3e0d84f96c8094a9c856c5b26d2c0b8e47feb11a08",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "althy pancreas were analyzed using 16S rRNA gene sequencing. Microbial diversity was assessed using the Shannon index for alpha diversity and nMDS with PERMANOVA for beta diversity. Distinct microbial profiles were identified across body si"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pancreatic tissue only; pancreatic fluid, bile and duodenal genera excluded. Streptococcus anginosus named as tissue dominant. Main text dominant tissue Streptococcus is the only securely attributable genus; fluid-only findings not used.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

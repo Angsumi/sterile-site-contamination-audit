@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC4845009",
+ "tissue_category": "blood",
+ "sub_site": "serum (cirrhosis patients with/without ascites and healthy controls); ascitic fluid also profiled (not extracted)",
+ "year": 2016,
+ "country": "Spain",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0026", "quote": "We analyzed the microbiome of samples from healthy controls (stool, n = 17; serum, n = 7) and cirrhotic patients (stool, n = 27; serum, n = 27; ascitic fluid, n = 11)"}]},
+ "method": {"value": "16S", "region": "V4", "evidence": [{"id": "E0029", "quote": "the hyper-variable region (V4) of the bacterial and archaeal 16 S rRNA gene was amplified by PCR"}]},
+ "controls": {"value": "sequenced", "types": "extraction blanks; PCR blanks", "n_sequenced": 3, "evidence": [{"id": "E0031", "quote": "together with negative controls from the extraction and PCR methods, were analyzed with QIIME 1.8.0"}, {"id": "E0011", "quote": "negative controls added during the extraction (NEG1 and NEG2) and PCR (NEG3) procedures"}]},
+ "decontamination": {"value": "removed_control_taxa", "tool": "", "evidence": [{"id": "E0032", "quote": "OTUs detected in negative controls were also removed for downstream analyses"}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 34,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Pseudomonas", "evidence_id": "E0011", "flagged_contaminant": true},
+  {"name": "Halomonas", "evidence_id": "E0011", "flagged_contaminant": true}
+ ],
+ "top5": [],
+ "figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "No serum genus named in text after filtering (only 'unknown genus related to Cyanobacteria', Clostridiales family, Moraxellaceae); genus names in E0008/E0009 are stool only. Pseudomonas and Halomonas were the dominant genera in blanks and were subtracted from serum/ascites data; recorded as flagged contaminants (uncertain whether detected in serum). Gel-band intensity only (no qPCR). Healthy serum yielded no sequence data after filtering. No supplements available.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

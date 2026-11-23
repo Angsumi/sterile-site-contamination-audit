@@ -1,0 +1,601 @@
+{
+  "pmcid": "PMC9718202",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "tissue_category": "blood",
+  "sub_site": "plasma",
+  "n_target_samples": 70,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S",
+    "region": "V4"
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "evidence": [
+      {
+        "id": "supp_md/mmc2.md:L3",
+        "quote": "a blank composed of only DNA isolation reagents was included in the DNA extraction process and again in the library preparation."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "genera": [
+    {
+      "name": "Salinivibrio",
+      "as_written": "Salinivibrio",
+      "evidence_id": "supp_md/mmc1.md:L4",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Vibrionales; f\\_\\_Vibrionaceae; g\\_\\_Salinivibrio; s\\_\\_costicola | 0.998343 | 3.819048 | 0.726097 | 2.584012 | 1.395894 | 0.001543 | 0.059753 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "as_written": "Stenotrophomonas",
+      "evidence_id": "supp_md/mmc1.md:L5",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Xanthomonadales; f\\_\\_Xanthomonadaceae; g\\_\\_Stenotrophomonas | 0.999996 | 7.877964 | 0.538604 | 7.032636 | 1.018768 | 0.002213 | 0.059753 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geotoga",
+      "as_written": "Geotoga",
+      "evidence_id": "supp_md/mmc1.md:L6",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Thermotogae; c\\_\\_Thermotogae; o\\_\\_Thermotogales; f\\_\\_Thermotogaceae; g\\_\\_Geotoga; s\\_\\_ | 1.000000 | 2.421437 | 1.187384 | 0.922605 | 1.183092 | 0.000995 | 0.059753 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "as_written": "Halomonas",
+      "evidence_id": "supp_md/mmc1.md:L7",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Oceanospirillales; f\\_\\_Halomonadaceae; g\\_\\_Halomonas; s\\_\\_ | 0.797454 | 9.828156 | 0.572948 | 8.993535 | 0.944862 | 0.003589 | 0.070259 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agrobacterium",
+      "as_written": "Agrobacterium",
+      "evidence_id": "supp_md/mmc1.md:L8",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Rhizobiales; f\\_\\_Rhizobiaceae; g\\_\\_Agrobacterium; s\\_\\_ | 0.824376 | 5.520107 | 0.661239 | 4.736258 | 0.879181 | 0.005204 | 0.070259 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vibrio",
+      "as_written": "Vibrio",
+      "evidence_id": "supp_md/mmc1.md:L9",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Vibrionales; f\\_\\_Vibrionaceae; g\\_\\_Vibrio; s\\_\\_metschnikovii | 0.759884 | 9.636706 | 0.570832 | 8.816539 | 0.955743 | 0.004750 | 0.070259 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "as_written": "Ochrobactrum",
+      "evidence_id": "supp_md/mmc1.md:L10",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Rhizobiales; f\\_\\_Brucellaceae; g\\_\\_Ochrobactrum; s\\_\\_ | 0.966253 | 6.832069 | 0.576618 | 6.019038 | 1.055490 | 0.007790 | 0.078871 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Idiomarina",
+      "as_written": "Idiomarina",
+      "evidence_id": "supp_md/mmc1.md:L11",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Alteromonadales; f\\_\\_Idiomarinaceae; g\\_\\_Idiomarina; s\\_\\_ | 0.981840 | 2.865890 | 1.244238 | 1.583368 | 1.455181 | 0.007371 | 0.078871 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marinobacter",
+      "as_written": "Marinobacter",
+      "evidence_id": "supp_md/mmc1.md:L12",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Alteromonadales; f\\_\\_Alteromonadaceae; g\\_\\_Marinobacter; s\\_\\_ | 0.904258 | 4.234194 | 0.783541 | 3.501043 | 0.693924 | 0.010064 | 0.090577 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "as_written": "Chryseobacterium",
+      "evidence_id": "supp_md/mmc1.md:L13",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Flavobacteriia; o\\_\\_Flavobacteriales; f\\_\\_[Weeksellaceae]; g\\_\\_Chryseobacterium; s\\_\\_ | 0.999984 | 3.731981 | 0.587153 | 2.926676 | 1.109567 | 0.012426 | 0.091893 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "as_written": "Pseudomonas",
+      "evidence_id": "supp_md/mmc1.md:L14",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Pseudomonadales; f\\_\\_Pseudomonadaceae; g\\_\\_Pseudomonas | 0.922722 | 6.771508 | 0.538381 | 6.055046 | 1.026727 | 0.012479 | 0.091893 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "as_written": "Porphyromonas",
+      "evidence_id": "supp_md/mmc1.md:L15",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Bacteroidia; o\\_\\_Bacteroidales; f\\_\\_Porphyromonadaceae; g\\_\\_Porphyromonas; s\\_\\_ | 0.998686 | 2.541927 | 1.125112 | 1.537182 | 1.246985 | 0.027519 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Elizabethkingia",
+      "as_written": "Elizabethkingia",
+      "evidence_id": "supp_md/mmc1.md:L16",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Flavobacteriia; o\\_\\_Flavobacteriales; f\\_\\_[Weeksellaceae]; g\\_\\_Elizabethkingia; s\\_\\_meningoseptica | 0.999667 | 4.198749 | 0.680737 | 3.410112 | 1.288245 | 0.028628 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shinella",
+      "as_written": "Shinella",
+      "evidence_id": "supp_md/mmc1.md:L17",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Rhizobiales; f\\_\\_Rhizobiaceae; g\\_\\_Shinella; s\\_\\_granuli | 0.926760 | 3.479694 | 1.446914 | 2.793617 | 1.448117 | 0.025287 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "as_written": "Enterococcus",
+      "evidence_id": "supp_md/mmc1.md:L19",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Lactobacillales; f\\_\\_Enterococcaceae; g\\_\\_Enterococcus | 0.923272 | 6.576566 | 0.510275 | 5.876436 | 1.453580 | 0.029775 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alishewanella",
+      "as_written": "Alishewanella",
+      "evidence_id": "supp_md/mmc1.md:L20",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Alteromonadales; f\\_\\_[Chromatiaceae]; g\\_\\_Alishewanella; s\\_\\_ | 0.886668 | 5.530545 | 0.630647 | 4.843166 | 0.935855 | 0.032072 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "as_written": "Staphylococcus",
+      "evidence_id": "supp_md/mmc1.md:L21",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Staphylococcaceae; g\\_\\_Staphylococcus; s\\_\\_sciuri | 0.992513 | 6.408090 | 0.450282 | 5.890854 | 0.844153 | 0.033267 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "as_written": "Paenibacillus",
+      "evidence_id": "supp_md/mmc1.md:L22",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Paenibacillaceae; g\\_\\_Paenibacillus | 0.957975 | 5.500669 | 0.481805 | 4.779575 | 1.312577 | 0.021097 | 0.141824 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedobacter",
+      "as_written": "Pedobacter",
+      "evidence_id": "supp_md/mmc1.md:L23",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Sphingobacteriia; o\\_\\_Sphingobacteriales; f\\_\\_Sphingobacteriaceae; g\\_\\_Pedobacter; s\\_\\_ | 0.998952 | 3.227270 | 1.499824 | 2.420270 | 1.359871 | 0.039485 | 0.159914 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "as_written": "Streptococcus",
+      "evidence_id": "supp_md/mmc1.md:L24",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Lactobacillales; f\\_\\_Streptococcaceae; g\\_\\_Streptococcus; s\\_\\_minor | 0.984841 | 5.966830 | 0.452108 | 5.537126 | 0.710692 | 0.045969 | 0.177308 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "as_written": "Ralstonia",
+      "evidence_id": "supp_md/mmc1.md:L25",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Betaproteobacteria; o\\_\\_Burkholderiales; f\\_\\_Oxalobacteraceae; g\\_\\_Ralstonia; s\\_\\_ | 0.998261 | 6.278307 | 0.605611 | 5.640567 | 1.045725 | 0.066777 | 0.245863 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "as_written": "Achromobacter",
+      "evidence_id": "supp_md/mmc1.md:L26",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Betaproteobacteria; o\\_\\_Burkholderiales; f\\_\\_Alcaligenaceae; g\\_\\_Achromobacter; s\\_\\_ | 0.994655 | 2.358900 | 1.396433 | 1.408073 | 1.480263 | 0.089248 | 0.289164 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Myroides",
+      "as_written": "Myroides",
+      "evidence_id": "supp_md/mmc1.md:L27",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Flavobacteriia; o\\_\\_Flavobacteriales; f\\_\\_Flavobacteriaceae; g\\_\\_Myroides; s\\_\\_odoratimimus | 0.999993 | 2.077435 | 1.378063 | 1.290367 | 1.322375 | 0.085230 | 0.289164 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus",
+      "as_written": "Brevibacillus",
+      "evidence_id": "supp_md/mmc1.md:L28",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Paenibacillaceae; g\\_\\_Brevibacillus; s\\_\\_reuszeri | 0.844738 | 5.250155 | 0.560555 | 4.678612 | 1.226756 | 0.086329 | 0.289164 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "as_written": "Prevotella",
+      "evidence_id": "supp_md/mmc1.md:L29",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Bacteroidia; o\\_\\_Bacteroidales; f\\_\\_Prevotellaceae; g\\_\\_Prevotella; s\\_\\_copri | 0.999998 | 0.391819 | 0.849629 | 1.139492 | 1.523653 | 0.095409 | 0.297236 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "as_written": "Sphingomonas",
+      "evidence_id": "supp_md/mmc1.md:L30",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Sphingomonadales; f\\_\\_Sphingomonadaceae; g\\_\\_Sphingomonas; s\\_\\_ | 0.833715 | 6.869836 | 0.468249 | 6.416750 | 1.021126 | 0.100820 | 0.302460 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "as_written": "Anoxybacillus",
+      "evidence_id": "supp_md/mmc1.md:L31",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Bacillaceae; g\\_\\_Anoxybacillus; s\\_\\_kestanbolensis | 0.700898 | 7.156973 | 0.764694 | 6.806622 | 0.748544 | 0.124172 | 0.359211 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "as_written": "Bradyrhizobium",
+      "evidence_id": "supp_md/mmc1.md:L32",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Rhizobiales; f\\_\\_Bradyrhizobiaceae; g\\_\\_Bradyrhizobium | 0.795299 | 0.385862 | 0.856981 | 0.921467 | 1.238107 | 0.136565 | 0.381441 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "as_written": "Clostridium",
+      "evidence_id": "supp_md/mmc1.md:L33",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_Clostridium; s\\_\\_clostridioforme | 0.768066 | 2.241850 | 1.480976 | 3.151534 | 0.815701 | 0.146996 | 0.396890 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "as_written": "Corynebacterium",
+      "evidence_id": "supp_md/mmc1.md:L34",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Actinomycetales; f\\_\\_Corynebacteriaceae; g\\_\\_Corynebacterium; s\\_\\_ | 0.999965 | 2.652221 | 1.787830 | 2.109345 | 1.215725 | 0.162408 | 0.412680 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoramibacter",
+      "as_written": "Pseudoramibacter_Eubacterium",
+      "evidence_id": "supp_md/mmc1.md:L35",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Eubacteriaceae; g\\_\\_Pseudoramibacter\\_Eubacterium; s\\_\\_ | 1.000000 | 0.728402 | 1.143702 | 1.300079 | 1.366797 | 0.163034 | 0.412680 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "as_written": "Propionibacterium",
+      "evidence_id": "supp_md/mmc1.md:L36",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Actinomycetales; f\\_\\_Propionibacteriaceae; g\\_\\_Propionibacterium; s\\_\\_acnes | 0.950926 | 5.341003 | 0.872805 | 4.941053 | 0.982462 | 0.183345 | 0.450029 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "as_written": "Shewanella",
+      "evidence_id": "supp_md/mmc1.md:L37",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Alteromonadales; f\\_\\_Shewanellaceae; g\\_\\_Shewanella; s\\_\\_algae | 0.986432 | 1.474846 | 1.603209 | 0.809341 | 1.147937 | 0.204807 | 0.487922 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "as_written": "Actinomyces",
+      "evidence_id": "supp_md/mmc1.md:L38",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Actinomycetales; f\\_\\_Actinomycetaceae; g\\_\\_Actinomyces; s\\_\\_ | 0.996059 | 1.603179 | 1.448195 | 1.058619 | 1.284491 | 0.216575 | 0.501216 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geobacillus",
+      "as_written": "Geobacillus",
+      "evidence_id": "supp_md/mmc1.md:L39",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Bacillaceae; g\\_\\_Geobacillus; s\\_\\_vulcani | 0.838450 | 8.677366 | 1.151601 | 8.162367 | 1.098811 | 0.267555 | 0.555691 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionicimonas",
+      "as_written": "Propionicimonas",
+      "evidence_id": "supp_md/mmc1.md:L40",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Actinomycetales; f\\_\\_Nocardioidaceae; g\\_\\_Propionicimonas; s\\_\\_ | 0.943417 | 4.710803 | 0.728503 | 4.243985 | 1.155427 | 0.267529 | 0.555691 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "as_written": "Bacillus",
+      "evidence_id": "supp_md/mmc1.md:L41",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Bacillaceae; g\\_\\_Bacillus; s\\_\\_ | 0.976136 | 5.589356 | 0.724023 | 5.227561 | 1.124640 | 0.248860 | 0.555691 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "as_written": "Acinetobacter",
+      "evidence_id": "supp_md/mmc1.md:L42",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Gammaproteobacteria; o\\_\\_Pseudomonadales; f\\_\\_Moraxellaceae; g\\_\\_Acinetobacter; s\\_\\_lwoffii | 0.996502 | 0.577796 | 1.071128 | 1.135196 | 1.511299 | 0.263177 | 0.555691 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "as_written": "Microbacterium",
+      "evidence_id": "supp_md/mmc1.md:L43",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Actinomycetales; f\\_\\_Microbacteriaceae; g\\_\\_Microbacterium | 0.996271 | 2.250400 | 1.215585 | 1.749043 | 1.434228 | 0.308646 | 0.609764 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "as_written": "Parabacteroides",
+      "evidence_id": "supp_md/mmc1.md:L44",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Bacteroidia; o\\_\\_Bacteroidales; f\\_\\_Porphyromonadaceae; g\\_\\_Parabacteroides; s\\_\\_ | 0.999982 | 0.658156 | 1.022906 | 1.083358 | 1.321728 | 0.306613 | 0.609764 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "as_written": "Bifidobacterium",
+      "evidence_id": "supp_md/mmc1.md:L45",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Bifidobacteriales; f\\_\\_Bifidobacteriaceae; g\\_\\_Bifidobacterium; s\\_\\_pseudolongum | 0.841659 | 6.654192 | 1.193115 | 7.119610 | 0.864277 | 0.321955 | 0.620913 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicibacter",
+      "as_written": "Turicibacter",
+      "evidence_id": "supp_md/mmc1.md:L46",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Turicibacterales; f\\_\\_Turicibacteraceae; g\\_\\_Turicibacter; s\\_\\_ | 0.999993 | 3.549831 | 1.824361 | 3.661303 | 1.091272 | 0.343701 | 0.647437 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "as_written": "Comamonas",
+      "evidence_id": "supp_md/mmc1.md:L48",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Betaproteobacteria; o\\_\\_Burkholderiales; f\\_\\_Comamonadaceae; g\\_\\_Comamonas; s\\_\\_ | 0.944554 | 0.859255 | 1.592945 | 1.245189 | 1.567416 | 0.401509 | 0.722717 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "as_written": "Collinsella",
+      "evidence_id": "supp_md/mmc1.md:L49",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Coriobacteriia; o\\_\\_Coriobacteriales; f\\_\\_Coriobacteriaceae; g\\_\\_Collinsella; s\\_\\_aerofaciens | 0.965436 | 4.232085 | 1.510687 | 4.607938 | 1.024175 | 0.450871 | 0.730410 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megasphaera",
+      "as_written": "Megasphaera",
+      "evidence_id": "supp_md/mmc1.md:L50",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Veillonellaceae; g\\_\\_Megasphaera; s\\_\\_ | 1.000000 | 0.967458 | 1.357519 | 0.652688 | 1.141720 | 0.430148 | 0.730410 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catenibacterium",
+      "as_written": "Catenibacterium",
+      "evidence_id": "supp_md/mmc1.md:L51",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Erysipelotrichi; o\\_\\_Erysipelotrichales; f\\_\\_Erysipelotrichaceae; g\\_\\_Catenibacterium; s\\_\\_ | 0.998910 | 2.472205 | 1.389722 | 1.966435 | 1.638717 | 0.445186 | 0.730410 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Listeria",
+      "as_written": "Listeria",
+      "evidence_id": "supp_md/mmc1.md:L52",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Listeriaceae; g\\_\\_Listeria | 0.946124 | 3.130720 | 1.739765 | 3.410704 | 1.987952 | 0.449403 | 0.730410 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "as_written": "Blautia",
+      "evidence_id": "supp_md/mmc1.md:L53",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_Blautia; s\\_\\_ | 0.999933 | 5.838648 | 1.247123 | 6.171058 | 0.987013 | 0.450871 | 0.730410 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "as_written": "Faecalibacterium",
+      "evidence_id": "supp_md/mmc1.md:L54",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Ruminococcaceae; g\\_\\_Faecalibacterium; s\\_\\_prausnitzii | 0.997881 | 4.253819 | 1.327930 | 4.624171 | 0.966103 | 0.468773 | 0.744522 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "as_written": "Roseburia",
+      "evidence_id": "supp_md/mmc1.md:L55",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_Roseburia; s\\_\\_faecis | 0.804965 | 4.450241 | 1.628181 | 4.983789 | 0.866849 | 0.505813 | 0.787900 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "as_written": "Methylobacterium",
+      "evidence_id": "supp_md/mmc1.md:L56",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Rhizobiales; f\\_\\_Methylobacteriaceae; g\\_\\_Methylobacterium | 1.000000 | 1.584313 | 1.334510 | 1.295327 | 1.477783 | 0.545515 | 0.833712 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "as_written": "Lactococcus",
+      "evidence_id": "supp_md/mmc1.md:L57",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Lactobacillales; f\\_\\_Streptococcaceae; g\\_\\_Lactococcus; s\\_\\_ | 0.999991 | 4.257232 | 2.308379 | 4.948227 | 1.166858 | 0.564087 | 0.846130 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bilophila",
+      "as_written": "Bilophila",
+      "evidence_id": "supp_md/mmc1.md:L58",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Deltaproteobacteria; o\\_\\_Desulfovibrionales; f\\_\\_Desulfovibrionaceae; g\\_\\_Bilophila; s\\_\\_ | 0.999998 | 1.690225 | 2.081046 | 2.153796 | 1.930033 | 0.584203 | 0.860372 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "as_written": "[Ruminococcus]",
+      "evidence_id": "supp_md/mmc1.md:L59",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_[Ruminococcus]; s\\_\\_gnavus | 0.998280 | 5.364921 | 1.730223 | 5.697568 | 0.990587 | 0.668140 | 0.949463 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "as_written": "Mycobacterium",
+      "evidence_id": "supp_md/mmc1.md:L60",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Actinobacteria; o\\_\\_Actinomycetales; f\\_\\_Mycobacteriaceae; g\\_\\_Mycobacterium; s\\_\\_gordonae | 0.800918 | 0.506355 | 0.931054 | 0.690181 | 1.038053 | 0.657608 | 0.949463 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "as_written": "Thermus",
+      "evidence_id": "supp_md/mmc1.md:L61",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_[Thermi]; c\\_\\_Deinococci; o\\_\\_Thermales; f\\_\\_Thermaceae; g\\_\\_Thermus; s\\_\\_ | 1.000000 | 0.511793 | 0.960190 | 0.519692 | 0.919984 | 0.908832 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "as_written": "Lactobacillus",
+      "evidence_id": "supp_md/mmc1.md:L62",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Lactobacillales; f\\_\\_Lactobacillaceae; g\\_\\_Lactobacillus; s\\_\\_ | 0.999993 | 8.402284 | 1.116272 | 8.467352 | 0.972048 | 0.964627 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "as_written": "Desulfovibrio",
+      "evidence_id": "supp_md/mmc1.md:L64",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Deltaproteobacteria; o\\_\\_Desulfovibrionales; f\\_\\_Desulfovibrionaceae; g\\_\\_Desulfovibrio; s\\_\\_C21\\_c20 | 0.999999 | 3.953254 | 1.948030 | 3.811726 | 1.991016 | 0.952788 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "as_written": "Coprococcus",
+      "evidence_id": "supp_md/mmc1.md:L65",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_Coprococcus; s\\_\\_ | 0.969261 | 5.095724 | 1.814558 | 5.562707 | 0.908798 | 0.801576 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaeroplasma",
+      "as_written": "Anaeroplasma",
+      "evidence_id": "supp_md/mmc1.md:L66",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Tenericutes; c\\_\\_Mollicutes; o\\_\\_Anaeroplasmatales; f\\_\\_Anaeroplasmataceae; g\\_\\_Anaeroplasma; s\\_\\_ | 1.000000 | 4.341139 | 2.396595 | 5.016054 | 1.242330 | 0.941063 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "as_written": "Mesorhizobium",
+      "evidence_id": "supp_md/mmc1.md:L67",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Alphaproteobacteria; o\\_\\_Rhizobiales; f\\_\\_Phyllobacteriaceae; g\\_\\_Mesorhizobium; s\\_\\_ | 0.987085 | 1.102245 | 1.516733 | 1.218579 | 1.565948 | 0.775722 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "as_written": "Dorea",
+      "evidence_id": "supp_md/mmc1.md:L68",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_Dorea; s\\_\\_ | 0.835901 | 3.134957 | 1.800945 | 3.400662 | 1.547255 | 0.835687 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprobacillus",
+      "as_written": "Coprobacillus",
+      "evidence_id": "supp_md/mmc1.md:L70",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Erysipelotrichi; o\\_\\_Erysipelotrichales; f\\_\\_Erysipelotrichaceae; g\\_\\_Coprobacillus; s\\_\\_ | 0.999932 | 1.848806 | 1.712222 | 1.963343 | 1.611847 | 0.902817 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillospira",
+      "as_written": "Oscillospira",
+      "evidence_id": "supp_md/mmc1.md:L71",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Ruminococcaceae; g\\_\\_Oscillospira; s\\_\\_ | 0.999988 | 6.216935 | 1.445170 | 6.248078 | 1.062166 | 0.870818 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Adlercreutzia",
+      "as_written": "Adlercreutzia",
+      "evidence_id": "supp_md/mmc1.md:L72",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Actinobacteria; c\\_\\_Coriobacteriia; o\\_\\_Coriobacteriales; f\\_\\_Coriobacteriaceae; g\\_\\_Adlercreutzia; s\\_\\_ | 0.999753 | 5.617211 | 1.211647 | 5.587426 | 1.198806 | 0.929319 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "as_written": "[Eubacterium]",
+      "evidence_id": "supp_md/mmc1.md:L73",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Erysipelotrichi; o\\_\\_Erysipelotrichales; f\\_\\_Erysipelotrichaceae; g\\_\\_[Eubacterium]; s\\_\\_biforme | 1.000000 | 1.451680 | 1.552746 | 1.797048 | 1.520126 | 0.841462 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "as_written": "Akkermansia",
+      "evidence_id": "supp_md/mmc1.md:L74",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Verrucomicrobia; c\\_\\_Verrucomicrobiae; o\\_\\_Verrucomicrobiales; f\\_\\_Verrucomicrobiaceae; g\\_\\_Akkermansia; s\\_\\_muciniphila | 1.000000 | 6.671974 | 1.526800 | 6.419699 | 1.969906 | 0.964627 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "as_written": "Bacteroides",
+      "evidence_id": "supp_md/mmc1.md:L75",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Bacteroidia; o\\_\\_Bacteroidales; f\\_\\_Bacteroidaceae; g\\_\\_Bacteroides | 1.000000 | 4.484558 | 1.741006 | 4.828255 | 0.996945 | 0.847596 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allobaculum",
+      "as_written": "Allobaculum",
+      "evidence_id": "supp_md/mmc1.md:L78",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Erysipelotrichi; o\\_\\_Erysipelotrichales; f\\_\\_Erysipelotrichaceae; g\\_\\_Allobaculum; s\\_\\_ | 1.000000 | 6.730453 | 1.494600 | 6.788403 | 1.384936 | 0.778808 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmiger",
+      "as_written": "Gemmiger",
+      "evidence_id": "supp_md/mmc1.md:L79",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Ruminococcaceae; g\\_\\_Gemmiger; s\\_\\_formicilis | 0.853333 | 2.227835 | 1.823176 | 2.259984 | 1.645108 | 0.797545 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesonia",
+      "as_written": "Mesonia",
+      "evidence_id": "supp_md/mmc1.md:L80",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Bacteroidetes; c\\_\\_Flavobacteriia; o\\_\\_Flavobacteriales; f\\_\\_Flavobacteriaceae; g\\_\\_Mesonia; s\\_\\_ | 0.999367 | 0.511793 | 0.940475 | 0.483308 | 0.751617 | 0.911771 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sutterella",
+      "as_written": "Sutterella",
+      "evidence_id": "supp_md/mmc1.md:L81",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Proteobacteria; c\\_\\_Betaproteobacteria; o\\_\\_Burkholderiales; f\\_\\_Alcaligenaceae; g\\_\\_Sutterella; s\\_\\_ | 0.999929 | 4.257901 | 1.842154 | 4.274044 | 1.777809 | 0.941072 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerostipes",
+      "as_written": "Anaerostipes",
+      "evidence_id": "supp_md/mmc1.md:L82",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Lachnospiraceae; g\\_\\_Anaerostipes; s\\_\\_ | 0.996660 | 1.194387 | 1.657638 | 1.343020 | 1.560620 | 0.856229 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dehalobacterium",
+      "as_written": "Dehalobacterium",
+      "evidence_id": "supp_md/mmc1.md:L83",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Clostridia; o\\_\\_Clostridiales; f\\_\\_Dehalobacteriaceae; g\\_\\_Dehalobacterium; s\\_\\_ | 0.999997 | 1.893044 | 2.045335 | 2.262870 | 1.830237 | 0.758524 | 0.976685 |",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerobacillus",
+      "as_written": "Anaerobacillus",
+      "evidence_id": "supp_md/mmc1.md:L84",
+      "evidence_quote": "| k\\_\\_Bacteria; p\\_\\_Firmicutes; c\\_\\_Bacilli; o\\_\\_Bacillales; f\\_\\_Bacillaceae; g\\_\\_Anaerobacillus; s\\_\\_ | 0.870243 | 1.186498 | 1.591603 | 1.212812 | 1.563213 | 1.000000 | 1.000000 |",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "differential_only",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Supplement table lists plasma genera with node-group means; all named bacterial genera with positive group means retained, not only statistically significant rows. Blank included in library preparation; sequencing not explicitly reported. Non-genus/unvalidated labels and archaeal Methanobrevibacter not counted.",
+  "supplement_status": "Retrieved available PMC OA media; originals and markitdown copies kept locally.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/fulltext.md",
+  "source_sha256": "41a59076ec46daa55e1c38d5ed03dcf6a7b55ae37d4874d6e59dff2e32d01604",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "supplements/figures reviewed; provisional; not merged",
+  "genus_list_status": "supplement_named_genus_list",
+  "additional_source_manifest": [
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp/mmc2.docx",
+      "sha256": "762d5d254f2c4c42e7c15a93818ecd0497b498a90bc92c2bc5930e9d5207beb9"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp/mmc1.xlsx",
+      "sha256": "6064cc70debc5fbfcc91873969fbd6792c5b663464435f2940540a565302d40c"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp_md/mmc2.md",
+      "sha256": "1a690b1e34584b4241a35eaaafb288e0751e0023532cad3bf5319e7849bd024f"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp_md/mmc1.md",
+      "sha256": "8758ce3470b36c76bd9398f175c832144c07d7f832acd65963d6ab7358f30eb2"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/figures/gr1.jpg",
+      "sha256": "aa3902e8c0d4294c0f94113fa767f6b0fac17ece41a9225d269fd4c62fc81aa2"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/figures/gr2.jpg",
+      "sha256": "748b574fbd39a70fba891973cb5a888083a180e152690b85f7abf216a3af41a3"
+    }
+  ],
+  "not_counted_taxa": [
+    "Methanobrevibacter",
+    "rc4-4",
+    "SMB53"
+  ]
+}

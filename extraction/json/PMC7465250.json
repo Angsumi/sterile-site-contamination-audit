@@ -1,0 +1,30 @@
+{
+ "pmcid": "PMC7465250",
+ "tissue_category": "other_sterile",
+ "sub_site": "adipose tissue (creeping fat, mesenteric VAT, subcutaneous AT) in Crohn's disease and controls",
+ "year": 2020,
+ "country": "Spain",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0005", "quote": "Subjects were recruited at University Hospital Joan XXIII (Tarragona, Spain) and University Hospital Vall d´Hebrón (Barcelona, Spain)"}]},
+ "method": {"value": "16S", "region": "V2,V3,V4,V6-7,V8,V9 (Ion 16S Metagenomics Kit, from cDNA)", "evidence": [{"id": "E0008", "quote": "16S-rRNA gene sequences were amplified from cDNA using the 16S Metagenomics Kit"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 50,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Bacteroides", "evidence_id": "E0015", "flagged_contaminant": false},
+  {"name": "Escherichia", "evidence_id": "E0017", "flagged_contaminant": false},
+  {"name": "Fusobacterium", "evidence_id": "E0017", "flagged_contaminant": false},
+  {"name": "Faecalibacterium", "evidence_id": "E0017", "flagged_contaminant": false},
+  {"name": "Bifidobacterium", "evidence_id": "E0025", "flagged_contaminant": false},
+  {"name": "Streptococcus", "evidence_id": "E0025", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "RNA (cDNA)-based 16S, Ion Torrent. Adipose from 5 inactive CD (MES-VAT+SAT), 8 active CD (CF-VAT, MES-VAT, SAT), 8 non-CD controls (MES-VAT+SAT): ~50 samples (n inferred). Sequencing positive only in CF-VAT and MES-VAT of CD; negative in SAT and in all control fat (could act as informal negative comparison). No reagent negative controls mentioned. Bifidobacterium/Streptococcus from own non-significant trends reported in Discussion.",
+ "extractor": "AI agent (Claude sub-agent, batch 10)",
+ "date": "2026-11-23"
+}

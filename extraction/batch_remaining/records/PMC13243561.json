@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC13243561",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumours, independent Cohort B only",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "591cb7fb20b51da98e4006b217c30a7132f94ad1e872d173895f568e8236dbf7",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0037",
+        "quote": "d to research use only (RUO) grade RNA sequencing at HudsonAlpha (Huntsville, AL) or Fulgent Genetics (Temple City, CA). Qiagen RNAeasy plus mini kit was used to isolate nucleic acid and fragmented to an average insert size of 216 bp. Exons"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 314,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Cohort A explicitly reuses 46 tumours profiled in PMC8052771 (reference 17); exclude its genera from this record because the earlier paper reports a longer list. Extract only independent Cohort B (314 treatment-naive breast tumours), profiled by host RNA-seq microbial mining. Only Staphylococcus is reported for Cohort B; supplemental Cohort-A taxa not pooled. Requires human component-level linkage check.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

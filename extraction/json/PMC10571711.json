@@ -1,0 +1,179 @@
+{
+ "pmcid": "PMC10571711",
+ "tissue_category": "tumour",
+ "sub_site": "breast tumour (and paired normal-adjacent breast tissue)",
+ "year": 2023,
+ "country": "Ethiopia",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0017",
+    "quote": "fresh frozen tumor tissue and normal adjacent to tumor (NAT) specimens from 50 Ethiopian women diagnosed with BC"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V4",
+  "evidence": [
+   {
+    "id": "E0015",
+    "quote": "Bacterial 16S rRNA genes were PCR-amplified using dual-barcoded primers that target the V4 region of the bacterial genome"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "PCR template-free negative control; DNA extraction kit reagent blank",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0015",
+    "quote": "The potential for contamination was addressed by co-sequencing DNA amplified from specimens and from template-free negative controls and DNA extraction kit reagents processed the same way as the specimens."
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "unclear",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0016",
+    "quote": "using the Shannon index on raw ASV abundance tables after filtering out all contaminants"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 100,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Sphingobium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anaerococcus",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Exiguobacterium",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Varibaculum",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leifsonia",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Polaromonas",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Actinomyces",
+   "evidence_id": "E0023",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Alkanindiges",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Anoxybacillus",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhodopseudomonas",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Burkholderia",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Thermicanus",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paracoccus",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mogibacterium",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromonas",
+   "evidence_id": "E0024",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Citrobacter",
+   "evidence_id": "E0025",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enhydrobacter",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "50 tumours + 50 paired NAT (both eligible breast tissue). Controls co-sequenced; 'filtering out all contaminants' stated without method. Only 16 genera identified overall. 'Cuprivadus' (sic, Cupriavidus) in E0025 not recorded due to misspelling.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

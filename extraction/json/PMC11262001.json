@@ -1,0 +1,9 @@
+{
+ "pmcid": "PMC11262001",
+ "tissue_category": "tumour",
+ "year": 2024,
+ "eligible_fulltext": false,
+ "exclusion_reason": "Narrative review of breast microbiome and bacterial metabolites; no original sequencing analysis (only quotes the top-10 BRCA genera displayed by the BIC database).",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

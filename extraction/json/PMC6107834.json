@@ -1,0 +1,84 @@
+{
+  "pmcid": "PMC6107834",
+  "tissue_category": "tumour",
+  "sub_site": "breast needle biopsy tissue",
+  "year": 2018,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "To generate 16S rRNA gene amplicons, in a 50 ul reaction, typically 50 ng of DNA was used as a template, with 0.4 uM of V1-V2 barcoded primers targeting 27F and 355R of the bacterial 16S rRNA gene (5\u2032 AGAGTTTGATCMTGGCTCAG3\u2032 and 5\u2032 GCTGCCTCC"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 94,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Propionicimonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agrococcus",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "S950:L154",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "S950:L155",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "S950:L167",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "72 malignant, 22 benign biopsies. Supplement Table S2/S3 own biomarkers only; literature comparison Table S4 excluded.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "a919710d604963b3810304b53c242f3c211cd0af3a8fdc729d345811385b5b8a",
+  "excluded_archaeal_labels": [],
+  "review_flags": [],
+  "supplement_manifest": [
+    {
+      "source": "N50_Table_1.md",
+      "alias": "S950.md",
+      "sha256": "cf309102285fe7e9c088e116c15ded20cc48f679f072e1beb8e3b798759fa634"
+    }
+  ]
+}

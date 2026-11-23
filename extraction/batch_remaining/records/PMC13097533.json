@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC13097533",
+  "tissue_category": "tumour",
+  "sub_site": "lung squamous carcinoma",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "85c82e21d80b758389c892b5cb582a36ce5dae8d5a379c76ad9beba5486e3cbd",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "he raw data from all projects were downloaded in the SRA format and converted into fastq format using the SRA Toolkit (version 3.0.1). The raw fastq files were processed for quality control using the software FastQC (version 0.11.9) and Tri"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "The raw data from all projects were downloaded in the SRA format and converted into fastq format using the SRA Toolkit (version 3.0.1). The raw fastq files were processed for quality control using the software FastQC (version 0.11.9) and Tr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0034",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pasteurella",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridioides",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Empedobacter",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hymenobacter",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0041",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Only lung squamous-cell carcinoma genera included; skin, esophageal, head-neck and cervical-specific taxa excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

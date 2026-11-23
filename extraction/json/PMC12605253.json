@@ -1,0 +1,102 @@
+{
+  "pmcid": "PMC12605253",
+  "tissue_category": "tumour",
+  "sub_site": "thyroid tumour and normal tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "BIC / TCGA",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Tumor microbiome data from the BIC database ( http://bic.jhlab.tw/ ) ( 10 ). Transcriptome files were obtained from The Cancer Genome Atlas (TCGA) database ( https://portal.gdc.cancer.gov/ ). Clinical information was obtained from NCI Genom"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Tumor microbiome data from the BIC database ( http://bic.jhlab.tw/ ) ( 10 ). Transcriptome files were obtained from The Cancer Genome Atlas (TCGA) database ( https://portal.gdc.cancer.gov/ ). Clinical information was obtained from NCI Genom"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 565,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Actinoplanes",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Azotobacter",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptospira",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoclostridium",
+      "evidence_id": "E0038",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "506 tumours plus 59 normal tissues from BIC/TCGA. Published 55-case validation study mentioned in background is not this cohort.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "de5c3fffab190969019c27e64c6299eb307cdf43514f564b741b9e90c9a46b3c",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

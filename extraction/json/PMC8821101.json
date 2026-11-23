@@ -1,0 +1,138 @@
+{
+  "pmcid": "PMC8821101",
+  "tissue_category": "tumour",
+  "sub_site": "pancreas",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "756b451c6136cba8ecfd13ce08812a71a5044e489ca247c5557e7c63fc8c545a",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0003",
+        "quote": "previous study ( 7 ). The obtained 16S V4 region sequence was used for library construction with a second pair of primers containing adapters for sequencing and unique barcoding. All the samples were then pooled and sequenced on a MiSeq Pla"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0030",
+        "quote": "DNA was extracted from the samples and 16S rRNA sequencing was performed. An average sequencing depth of 62524 with a minimal sequencing depth of 31611 was obtained. ASVs were generated with DADA2. To eliminate any potential effect of conta"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0030",
+        "quote": "DNA was extracted from the samples and 16S rRNA sequencing was performed. An average sequencing depth of 62524 with a minimal sequencing depth of 31611 was obtained. ASVs were generated with DADA2. To eliminate any potential effect of conta"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": " DNA Microbiome Kit (cat # 51704). qPCR was performed with primers specific to Sphingomonas (Sph–spt 694f:GAGATCGTCCGCTTCCGC, Sph–spt 983r:CCGACCGATTTGGAGAAG) and Megasphaera (XA511-qF1: ACTACCTGCCCTCTGCCGATAA, XA511-qR1: CGAGCATAGCGGTCCCAT"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megasphaera",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aggregatibacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enhydrobacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megamonas",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC13681576",
+  "tissue_category": "tumour",
+  "sub_site": "lung single cell RNA mining",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "aa37e0706c5b54b8fb8e02bec2cc7d60683e6f0a36f388be339496234d89de67",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "The intratumor microbiome, one of the hallmarks of cancer, plays a crucial role in cancer progression through its interaction with the host. However, the underlying mechanisms remain poorly understood. In this study, six publicly available "
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "The intratumor microbiome, one of the hallmarks of cancer, plays a crucial role in cancer progression through its interaction with the host. However, the underlying mechanisms remain poorly understood. In this study, six publicly available "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "ll line experiments that served as negative controls. (B) Displays the number of distinct microbial species identified by single-cell analysis of host–microbiome interactions (SAHMI) in each dataset along with UpSet maps shared by dataset c"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "SAHMI and cell-line background filtering",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "ributed among all 6 datasets after decontamination with the cell line reads ( Figure 2 A). The colonization of Fusobacterium nucleatum in breast cancer has been reported to accelerate cancer development and progression [ 29 ], which was als"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "E0013",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Public lung scRNA-seq mining; cell-line datasets are computational background comparators rather than experimental extraction blanks.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

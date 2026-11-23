@@ -1,0 +1,91 @@
+{
+ "pmcid": "PMC13314463",
+ "meta": {
+  "title": "Integrated analysis of the aqueous humor microbiome and lens capsule transcriptome in high myopia cataract: a pilot study",
+  "journal": "Frontiers in Medicine",
+  "year": "2026",
+  "doi": "10.3389/fmed.2026.1845205",
+  "pmid": "42383066"
+ },
+ "n_elements": 51,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Introduction High myopia is a critical risk factor that accelerates cataract onset and increases surgical complexity, yet the underlying mechanisms remain incompletely understood. Methods In this study, we collected aqueous humor samples (6 from high myopia cataract patients and 6 from age-related cataract controls) and lens capsule samples (3 per group). 2bRAD-M gene sequencing was used to characterize the aqueous humor microbiome, while RNA-seq was performed to profile transcriptomic changes in the lens capsule. Results Patients with high myopia cataract exhibited significant alterations in aqueous humor microbial diversity, with decreased abundance of Escherichia and increased abundance of Neisseria , Capnocytophaga , Veillonella , Rhodococcus , Jensenia , and Corynebacterium . Functional predictions suggested shifts in local metabolic pathways. Transcriptomic analysis revealed reprogramming of metabolism-related genes in the lens capsule and activation of downstream signaling pathways including ErbB and HIF-1, which are associated with lens epithelial cell apoptosis. Discussion These findings suggest that alterations in the aqueous humor microbial community may be associated with the lens metabolic microenvironment and apoptotic pathway activation, thereby linking to cataract progression in high myopia. This study provides a novel perspective on the pathogenesis of high myopia-associated cataract."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "Introduction",
+   "text": "To address this gap, our study employs a multi-omics integration strategy to elucidate the potential mechanisms of high myopia-associated cataract. We simultaneously applied 2bRAD-M gene sequencing and transcriptome sequencing (RNA-seq). 2bRAD-M sequencing enables unbiased, high-throughput characterization of the overall structure, diversity, and species composition of microbial community ( 23 ). Conversely, RNA-seq comprehensively reveals the genome-wide expression profile changes in lens capsule tissue, providing a molecular map of host cellular functional reprogramming in the disease state ( 24 ). By integrating these datasets for correlation analysis, we aim to construct a potential “aqueous humor microbiome-lens transcriptome” interaction network, thereby opening new avenues for elucidating how microbial communities correlate with local tissue homeostasis."
+  },
+  {
+   "evidence_id": "E0009",
+   "section": "Identification of species-specific 2bRAD-M markers from a comprehensive genome database",
+   "text": "First, a total of 404,199 microbial genomes (including bacteria, fungi, and archaea) were downloaded from the GTDB and Ensembl databases. Then, built-in Perl scripts were used to sample restriction fragments from microbial genomes using each of 16 type 2B restriction enzymes, forming a comprehensive 2bRAD microbial genome database. The set of 2bRAD tags sampled from each genome was assigned under the corresponding GCF number, along with the taxonomic information of the GCF corresponding to the whole genome. Finally, all 2bRAD tags from each GCF occurring once within the genome were compared against all others. Those 2bRAD tags specific to a species-level taxon (having no overlap with other species) were developed as species-specific 2bRAD markers, collectively forming the 2bRAD marker database."
+  },
+  {
+   "evidence_id": "E0016",
+   "section": "Calculation of relative abundance and quality control",
+   "text": "Given the low-biomass nature of aqueous humor, we set up negative controls for identifying and removing contaminating sequences from the experimental samples. This process employed a sampling-ratio-based method to balance the quantitative relationship between the samples and the controls. Specifically, based on the ratio of the number of clean reads in a sample to the number of clean reads in the negative control, a certain number of sequences were randomly drawn from the negative control pool. For each sequence in the sample, we checked whether the sequence itself or its reverse complement was present in the sampled negative control sequences. If a match was found, the sequence was considered a contaminant and removed; otherwise, it was retained, ultimately yielding the contamination-removed sample sequences."
+  },
+  {
+   "evidence_id": "E0019",
+   "section": "Calculation of relative abundance and quality control",
+   "text": "N C : number of clean reads in the negative control."
+  },
+  {
+   "evidence_id": "E0021",
+   "section": "RNA isolation and library preparation",
+   "text": "Total RNA from patients’ lens capsule was extracted using TRIzol reagent (Invitrogen, CA, United States) according to the manufacturer’s protocol. RNA purity and quantification were evaluated using the NanoDrop 2000 spectrophotometer (Thermo Scientific, United States). RNA integrity was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, United States). Libraries were constructed using the VAHTS Universal V6 RNA-seq Library Prep Kit according to the manufacturer’s instructions. Transcriptome sequencing and analysis were conducted by OE Biotech Co., Ltd. (Shanghai, China)."
+  },
+  {
+   "evidence_id": "E0035",
+   "section": "Metabolic alterations in lens capsules of pathological myopia and age-related cataract patients",
+   "text": "To investigate metabolic changes associated with HMC in the context of cataract formation, we performed RNA-seq analysis on lens capsule tissues from patients with HMC and ARC. Functional enrichment and expression profiling were conducted to identify differentially regulated metabolic pathways and genes."
+  },
+  {
+   "evidence_id": "E0037",
+   "section": "Metabolic alterations in lens capsules of pathological myopia and age-related cataract patients",
+   "text": "[FIGURE 4 caption] Metabolic alterations in the lens capsules of patients with pathological myopia and age-related cataracts. (A) Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis based on RNA-seq data from cataract lens capsules. Upregulated differentially expressed pathways are shown; metabolism-related pathways are highlighted with red squares. (B) Changes in the number of genes associated with metabolic pathways between groups. (C) Heatmap displaying the expression profiles of metabolism-related genes, illustrating the specific changes between pathological myopia and age-related cataract samples."
+  },
+  {
+   "evidence_id": "E0045",
+   "section": "Discussion",
+   "text": "This study integrated intraocular microbiome analysis with host local tissue transcriptome analysis to elucidate the pathological process of high myopia-associated cataract. Using 2bRAD-M sequencing and RNA-seq, we systematically compared the aqueous humor microbial community structure and lens capsule gene expression profiles between patients with high myopia and cataract and those with age-related cataract. Preliminary results indicate significant alterations in aqueous humor microbial diversity and specific genus composition in the high myopia group, alongside metabolic reprogramming and activation of apoptosis-related signaling pathways in the lens capsule tissue. Firstly, we observed significantly altered microbial diversity in the aqueous humor of patients with high myopia and cataract ( Figure 1 ), a finding paralleling observations of microbial dysbiosis in other chronic eye diseases such as age-related macular degeneration ( 25 ). However, unlike studies on ocular surface sites like the conjunctiva, the origin and homeostasis maintenance mechanisms of the microbial community in the aqueous humor, as part of the intraocular microenvironment, are more complex ( 26 ). Notably, axial elongation and scleral remodeling accompanying high myopia may lead to blood-aqueous barrier dysfunction, potentially creating conditions for distal microbes from sites like the gut or oral cavity to colonize via hematogenous migration or reduced local immune surveillance ( 27 ). The markedly increased abundance of Neisseria and Veillonella in our study is particularly significant ( Figure 2 ); these genera are common in oral and respiratory microbiomes ( 28 – 30 ), and their increase may reflect a breakdown of intraocular immune tolerance or altered local metabolic substrates ( 31 ). Conversely, the decrease in common commensals like Escherichia may weaken their competitive inhibition against opportunistic pathogens, collectively exacerbating intraocular microecological imbalance. This distinct microbial signature differs notably from patterns observed in simple dry eye disease, where the conjunctival microbiome is predominantly Proteobacteria and influenced by age, suggesting high myopia-associated cataract may have a specific intraocular dysbiosis pattern ( 32 )."
+  }
+ ],
+ "italic_candidates": {
+  "Capnocytophaga": [
+   "E0001"
+  ],
+  "Corynebacterium": [
+   "E0001",
+   "E0031"
+  ],
+  "Escherichia": [
+   "E0001",
+   "E0045"
+  ],
+  "Escherichla": [
+   "E0031"
+  ],
+  "Jensenia": [
+   "E0001"
+  ],
+  "Neisseria": [
+   "E0001",
+   "E0045"
+  ],
+  "Proteobacteria": [
+   "E0045"
+  ],
+  "Rhodococcus": [
+   "E0001"
+  ],
+  "Veillonella": [
+   "E0001",
+   "E0045"
+  ]
+ }
+}

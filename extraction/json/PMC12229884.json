@@ -1,0 +1,129 @@
+{
+ "pmcid": "PMC12229884",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "placenta (maternal and fetal side), SGA vs AGA",
+ "year": 2025,
+ "country": "Poland",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "Samples of maternal venous blood, stool and placenta were collected perinatally."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "Ion 16S Metagenomics Kit (V2,V3,V4,V6-7,V8,V9)",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "The bacterial 16S rRNA gene libraries were then prepared using the Ion 16S™ Metagenomics Kit"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "extraction blank; PCR NTC; environmental and reagent controls",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "DNA extraction protocols included multiple negative controls, such as blank extraction and no-template PCR controls. Environmental and reagent controls were also sequenced"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "unclear",
+  "tool": "unnamed 'contamination-aware tools'",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "Bioinformatic analyses incorporated contamination-aware tools to distinguish true microbial signal from potential contaminants."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 22,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Ruminiclostridium",
+   "evidence_id": "E0072",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Faecalibaculum",
+   "evidence_id": "E0075",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sediminibacterium",
+   "evidence_id": "E0080",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dechloromonas",
+   "evidence_id": "E0082",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methyloversatilis",
+   "evidence_id": "E0083",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Tepidicella",
+   "evidence_id": "E0086",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dorea",
+   "evidence_id": "E0095",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acidaminococcus",
+   "evidence_id": "E0097",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0122",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0122",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia/Shigella",
+   "evidence_id": "E0122",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ureaplasma",
+   "evidence_id": "E0122",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gardnerella",
+   "evidence_id": "E0122",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "unclear",
+ "notes": "22 placentas (11 SGA, 11 AGA), sampled maternal and fetal side. Lactobacillus/Staphylococcus/Escherichia-Shigella/Ureaplasma/Gardnerella named only in Discussion as detected in own placental samples; authors call Staphylococcus and Escherichia/Shigella frequent contaminants needing cautious interpretation (not flagged as removed). Stool shotgun genera excluded.",
+ "extractor": "AI agent (Claude sub-agent, batch 09)",
+ "date": "2026-11-23"
+}

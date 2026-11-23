@@ -1,0 +1,69 @@
+{
+  "pmcid": "PMC11307144",
+  "tissue_category": "tumour",
+  "sub_site": "metastatic melanoma tumour",
+  "year": 2024,
+  "country": "USA",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "ORIEN Avatar; TCGA/Gide/Riaz validation",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "In this study, we assembled RNA-seq data from the tumor samples of 71 patients with metastatic melanoma treated with ICIs."
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "RNA-seq reads were used to calculate microbe abundances using the {exotic} pipeline v1.2"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "exotic",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "The observed microbes were then proceeded through a series of filtering steps to carefully and conservatively remove contaminants"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 71,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Campylobacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0033",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "ORIEN Avatar tumour RNA-seq; TCGA and Gide/Riaz external datasets validate. No supplements available despite <3 main-text bacterial genera.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

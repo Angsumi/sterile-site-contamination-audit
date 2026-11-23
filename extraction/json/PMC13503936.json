@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC13503936",
+ "tissue_category": "blood",
+ "sub_site": "plasma cell-free DNA (gastric cancer and benign participants)",
+ "year": 2026,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0004", "quote": "resulting in final analytical cohorts of 870 participants"}]},
+ "method": {"value": "shotgun", "region": "", "evidence": [{"id": "E0004", "quote": "All samples underwent cfDNA whole genome sequencing and were analyzed."}, {"id": "E0027", "quote": "filtered reads were aligned to NCBI microbial genomes using Kraken2"}]},
+ "controls": {"value": "sequenced", "types": "blank control (1 ml distilled water) per batch", "n_sequenced": null, "evidence": [{"id": "E0024", "quote": "blank controls of 1 ml distilled water were used in every batch of the experiment to control the microbial DNA contamination from environment and reagents"}, {"id": "E0027", "quote": "Sequences identified by blank controls were excluded as contamination."}]},
+ "decontamination": {"value": "removed_control_taxa", "tool": "exclusion of sequences found in blank controls; read/k-mer thresholds", "evidence": [{"id": "E0027", "quote": "Sequences identified by blank controls were excluded as contamination."}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 870,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Klebsiella", "evidence_id": "E0008", "flagged_contaminant": false},
+  {"name": "Stenotrophomonas", "evidence_id": "E0008", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Plasma cfDNA low-depth WGS (2x) mined with Kraken2/Bracken for a gastric-cancer diagnostic model. Only two genera named in text (K. pneumoniae enriched in GC, S. maltophilia in benign); 75 LEfSe species in Supplementary Data 2 (not available). '30 control samples per batch' are batch-effect reference samples, not negative controls.",
+ "extractor": "AI agent (Claude sub-agent, batch 02)",
+ "date": "2026-11-23"
+}

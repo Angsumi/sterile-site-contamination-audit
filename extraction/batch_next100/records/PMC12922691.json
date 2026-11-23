@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC12922691",
+  "tissue_category": "blood",
+  "sub_site": "plasma",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "fc70477ab63f6b9049dccf80fa3038022d26d2b2cf66540ab83f82b84c75a4e0",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "ncing libraries using the Illumina 16S metagenomic sequencing library preparation protocol. The sequencing library construction includes (1) amplicon PCR using v3/v4 16S primers (16S amplicon PCR forward primer = 5ʹ TCGTCGGCAGCGTCAGATGTGTAT"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "erion 2 , higher ASV abundances in negative controls and lower abundances in the patient samples; Criterian 3 , different ASV abundances in the replicate patient samples; and Criterion 4 , ASVs contained in published literature “contaminant"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "idence, we followed an established decontamination framework to remove suspected contaminant ASVs in a stepwise manner among samples with a low biomass of cell-free microbial DNA (cfmDNA). 16 The framework is based on meeting four criteria:"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Brevibacterium",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chloronema",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Facklamia",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sutterella",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Zymomonas",
+      "evidence_id": "E0081",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

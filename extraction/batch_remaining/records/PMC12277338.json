@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12277338",
+  "tissue_category": "tumour",
+  "sub_site": "HCC target profiling not established",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "16S community results are from gut samples; intratumoral host single-cell and mechanistic assays do not establish target-site community sequencing.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ebd81a280f3a977fc599a518f8af7f80c6482620a56b3a98815d06bfc53d5810",
+  "notes": "",
+  "review_flags": []
+}

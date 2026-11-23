@@ -1,0 +1,102 @@
+{
+  "pmcid": "PMC6528574",
+  "tissue_category": "blood",
+  "sub_site": "blood",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "n Inc, Germantown, MD, USA). The V5\u2010V6 regions of 16S rRNA gene were PCR\u2010amplified using primers (forward primer, 5\u2032\u2010CCTACGGGNGGCWGCAG; reverse primer, 5\u2032\u2010GACTACHVGGGTATCTAATCC). Every reaction contained bacterial\u2010free blank control as nega"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "C). Every reaction contained bacterial\u2010free blank control as negative controls for the quality confirmation. Moreover, each plate was sequenced on one MiSeq run with two duplicated quality controls and one negative control sample (lysis buf"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 150,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Actinotalea",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alishewanella",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoclavibacter",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudonocardia",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "E0074",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0085",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Afipia",
+      "evidence_id": "E0089",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "50 incident T2DM cases and 100 controls from cohort 135. Genus rows with rounded medians 0 retained where detection/prevalence supports presence.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c3dc9a74a9ddeccccdedca0087d89ecf6e8e9cda396c4f28902cf445e3836ef1",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

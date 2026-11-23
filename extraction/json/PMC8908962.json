@@ -1,0 +1,55 @@
+{
+  "pmcid": "PMC8908962",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2022,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "tration tests, the V3\u2013V4 hypervariable regions of bacterial 16S ribosomal gene were quantified by quantitative PCR (qPCR) and sequenced by the MiSeq technology (Illumina, San Diego, CA, USA), as described previously ( 21 ). Briefly, 16s rRN"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "acterial 16S ribosomal gene were quantified by quantitative PCR (qPCR) and sequenced by the MiSeq technology (Illumina, San Diego, CA, USA), as described previously ( 21 ). Briefly, 16s rRNA was processed with hybrid de novo , a secondary p"
+      }
+    ]
+  },
+  "n_target_samples": 48,
+  "list_type": "full_profile",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Main text and downloaded image supplements report higher taxonomic ranks; no named genus detections. No negative controls described.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ca32a3290227363210b5edfde4ad44a0a362ae410fc95164dd00a46586ecf724",
+  "supplement_manifest": []
+}

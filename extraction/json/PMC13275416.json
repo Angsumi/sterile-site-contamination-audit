@@ -1,0 +1,142 @@
+{
+  "pmcid": "PMC13275416",
+  "tissue_category": "tumour",
+  "sub_site": "high-grade serous ovarian carcinoma",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "m-sensitive statuses and subjected to microbiome (16S rRNA gene sequencing) analyses. Following DNA extraction and PCR amplification, library construction and sequencing were performed. The differences in intratumoral microbiota across vari"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": " were significantly more frequent in the negative controls than in the tissue samples. Second, we curated the remaining ASVs to remove sequences identified as common laboratory contaminants (e.g., Ralstonia, Cutibacterium)."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "To computationally address contaminants, we employed a two-step approach. First, we applied the decontam R package using the prevalence method (p < 0.05) to filter out amplicon sequence variants (ASVs) that were significantly more frequent "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 22,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hydrogenophaga",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arcobacter",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neorhizobium",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0044",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leuconostoc",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacteria",
+      "evidence_id": "E0049",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0011",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Composite rhizobial label counted by first genus; independently listed Neorhizobium also retained. Acinetobacteria is retained as written for taxonomy review. Ralstonia and Cutibacterium explicitly removed.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8848c114274318e51edb59e7623101750684c64ed9257cc7701aa2512366ddfe",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

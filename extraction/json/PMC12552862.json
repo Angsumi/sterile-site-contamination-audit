@@ -1,0 +1,87 @@
+{
+  "pmcid": "PMC12552862",
+  "tissue_category": "tumour",
+  "sub_site": "lung squamous carcinoma and normal lung",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCMA / TCGA",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Abstract The development of lung squamous cell carcinoma (LUSC) is associated with the intratumoral microbiota. To facilitate faster clinical decisions and predict patient prognosis, we constructed an intratumoral microbial abundance progno"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Abstract The development of lung squamous cell carcinoma (LUSC) is associated with the intratumoral microbiota. To facilitate faster clinical decisions and predict patient prognosis, we constructed an intratumoral microbial abundance progno"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 82,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Sediminibacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terriglobus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Indibacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermopetrobacter",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oceanospirillum",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thalassomonas",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "TCMA/TCGA reuse, 50 tumour and 32 normal. Betaretrovirus excluded as viral. LUAD validation-only results not used to add genera.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5a401f0d20ce4a432e3a623c7f0247f1409d9912cfd09ea979b2ad563f229517",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

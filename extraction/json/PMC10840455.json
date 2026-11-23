@@ -1,0 +1,26 @@
+{
+ "pmcid": "PMC10840455",
+ "tissue_category": "tumour",
+ "sub_site": "ORIEN pan-cancer tumour RNA-seq; eligible types: LUAD, LUSC, SCLC, other lung, PAAD/other pancreatic, sarcoma, melanoma (SKCM), thyroid (THCA)",
+ "year": 2024,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "public_reuse", "dataset": "ORIEN Avatar tumour RNA-seq (exotic pipeline microbe abundances)", "evidence": [{"id": "E0007", "quote": "RNA-seq reads are used to calculate microbe abundances using the (exotic) pipeline"}]},
+ "method": {"value": "host_seq_mining", "region": "", "evidence": [{"id": "E0007", "quote": "reads are aligned first to the human reference genome, and then unaligned reads are mapped to a database of bacteria, fungi, archaea, viruses, and eukaryotic parasites"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "tool", "tool": "exotic pipeline contaminant filtering + batch correction; 0.1% abundance filter", "evidence": [{"id": "E0007", "quote": "The observed microbes then proceed through a series of filtering steps to carefully and conservatively remove contaminants before batch correction and normalization."}]},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": null,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Pseudomonas", "evidence_id": "E0030", "flagged_contaminant": false},
+  {"name": "Staphylococcus", "evidence_id": "E0030", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Deep-learning (MEGA) tool paper on 2,704 ORIEN tumour RNA-seq samples, 12 cancer types; per-type sample counts not given in main text, so n_target_samples null. Only THCA genera (Pseudomonas, Staphylococcus; S. aureus also shared across all 12 types) named for eligible types; F. nucleatum reported in lung/pancreatic cancers but written only as 'F. nucleatum' in Results (genus name not spelled out there), so not recorded. Full species lists in Supplementary Tables S1-S3 (not available). 16S validation set is colorectal (not eligible).",
+ "extractor": "AI agent (Claude sub-agent, batch 02)",
+ "date": "2026-11-23"
+}

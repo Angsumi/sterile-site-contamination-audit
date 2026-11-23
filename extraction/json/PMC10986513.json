@@ -1,0 +1,128 @@
+{
+  "pmcid": "PMC10986513",
+  "tissue_category": "tumour",
+  "sub_site": "breast",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6eec13019b60ce37160eea4043485d8095ac5aac77087e9a6629685ef4770e02",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-BRCA Kraken raw profiles (Poore)",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "The RNA sequencing data and corresponding clinical profiles were acquired from the TCGA database ( https://tcga-data.nci.nih.gov/tcga/ ). The abundances of immune cell data of the TCGA-BRCA samples were downloaded from Immune Cell Abundance"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "The RNA sequencing data and corresponding clinical profiles were acquired from the TCGA database ( https://tcga-data.nci.nih.gov/tcga/ ). The abundances of immune cell data of the TCGA-BRCA samples were downloaded from Immune Cell Abundance"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 1018,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidibacillus",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alcanivorax",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flammeovirga",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gelidibacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnoclostridium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marichromatium",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nitrospira",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oceanospirillum",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pararhodospirillum",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelagibacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudogulbenkiania",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseivirga",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Succinimonas",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrabacter",
+      "evidence_id": "E0023",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "pmcid": "PMC11853128",
+  "tissue_category": "other_sterile",
+  "sub_site": "cerebral arterial thrombus",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "ion and sequencing processes. The presence of the 16S rDNA region was verified via polymerase chain reaction (PCR) using primers 27F and 1392R. Sequencing of the 16S rDNA V4 region amplicons was performed at the University of Minnesota Geno"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "ham, MA, USA) and agarose gel electrophoresis. To control the potential contamination during DNA isolation, phosphate-buffered saline was used as a negative control. The negative control was processed and analyzed alongside the patient samp"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "were observed in negative controls, indicating no contamination ( Supplementary Figure S1 ). The sequencing depth varied across samples, with read counts ranging from 97 to 5890. A control sample was used to identify and filter out potentia"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pantoea",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoduganella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "19/20 amplified. Negative controls reported no amplicons, but a control sample used to filter background; successful control sequencing remains ambiguous. Culture-only Enterococcus excluded.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6f9f0696b0769680aaf7aa9e31bfed973f9d2645859b798cc024427529ad990c",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Target selection or cohort attribution requires human confirmation; see notes."
+  ]
+}

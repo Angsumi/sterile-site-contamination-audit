@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC10031003",
+  "tissue_category": "tumour",
+  "sub_site": "eligible TCGA internal tumours",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f0e853806c75ecd738b962f5bb3d1ec2830ebe89f334fc193a0a483d53650356",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "or patients were obtained from the TCGA dataset ( https://portal.gdc.cancer.gov/repository ). Figure 1 displays an overview of the study design, and the information on included tumor types is summarized in Table S1 ."
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "or patients were obtained from the TCGA dataset ( https://portal.gdc.cancer.gov/repository ). Figure 1 displays an overview of the study design, and the information on included tumor types is summarized in Table S1 ."
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pan-cancer microbial profiles; eligible internal tumour strata must be distinguished from excluded mucosal tumours. Main text and text supplements pool tissue types; no confidently isolated eligible-site genus list extracted. Unusable pending site-specific figure adjudication.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

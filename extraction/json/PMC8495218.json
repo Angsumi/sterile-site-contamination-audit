@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC8495218",
+  "tissue_category": "tumour",
+  "sub_site": "review",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Narrative review without original target-site community profiling.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "b7f96814a5a72cd314ec967add3962b3cd8ddcf8912060933ac7393f02330410",
+  "notes": "",
+  "review_flags": []
+}

@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC12542631",
+  "tissue_category": "tumour",
+  "sub_site": "lung and other eligible internal TCGA cohorts",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6b1a6ee72d7dfb1c8263def7ddb4b32dbc24078c40b39f36dc61d5e4b68813d6",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0053",
+        "quote": "er analysis. The RNA-seq data were downloaded from the Genomic Data Commons (GDC) repository ( https://portal.gdc.cancer.gov/ ). Clinical and survival data were available at the University of California, Santa Cruz Xena database ( https://x"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0053",
+        "quote": " matching microbial data with host RNA-seq data, there were >10 pairs of adjacent tissues and tumor tissues. Ultimately, BLCA, BRCA, ESCA, HNSC, KICH, KIRC, KIRP, LIHC, LUAD, LUSC, PRAD, STAD, THCA, and UCEC were selected for further analys"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptomyces",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alteromonas",
+      "evidence_id": "E0036",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Public TCGA plus lung scRNA-seq microbial validation; gene pathway labels not microbial detections.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

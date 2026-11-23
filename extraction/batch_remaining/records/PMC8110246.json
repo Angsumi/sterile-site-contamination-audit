@@ -1,0 +1,83 @@
+{
+  "pmcid": "PMC8110246",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "fetal intestinal tissue",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "df083e0ccefb228f44e21095dc2b17c0e5923ffe3df71444aed30de5e90f99b0",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "e bacterial signal was detected by 16S rRNA sequencing (n=40 of 50) compared to environmental controls (n=87). Eighteen taxa were enriched in fetal meconium with Micrococcaceae (n=9) and Lactobacillus (n=6) the most abundant. Fetal intestin"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "les, n=87 technical and procedural controls; Supplementary Figure 1 ; Supplementary Table 1 ; Online Methods ) to quantify and identify these bacteria using molecular techniques. Irrespective of the small intestine segment sampled, and cons"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "ed as contaminants using stringent thresholds ( decontam R package; p threshold=0.6, Supplementary Table 3 ). Thus, the majority of human fetal intestinal samples at this stage of gestation produced a signal that could either be attributabl"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": "16S rRNA gene copy number was assessed by quantitative PCR (Q-PCR) using the 16S rRNA universal primers and TaqMan probes, as previously described 41 . Briefly, total 16S rRNA gene copy number was calculated against a standard curve of know"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0006",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0006",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0006",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Fetal intestinal 16S signal attributable to controls; Micrococcus from cultured isolates is not a community-sequencing detection.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

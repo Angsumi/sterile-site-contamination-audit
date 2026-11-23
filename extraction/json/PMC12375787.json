@@ -1,0 +1,211 @@
+{
+ "pmcid": "PMC12375787",
+ "tissue_category": "tumour",
+ "sub_site": "",
+ "year": 2025,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "Non-human, unmapped reads were retained and mapped to the Kraken2 32GB database"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "evidence": [
+   {
+    "id": "E0037",
+    "quote": "there is a lack of microbiome controls to rule out environmental contamination"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "abundance_filter_only",
+  "evidence": [
+   {
+    "id": "E0037",
+    "quote": "We attempted to reduce the effect of this on our findings by applying appropriate prevalence filtering"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0024",
+    "quote": "we conducted an in vitro validation of microbial abundance using qPCR amplification of the bacterial 16S V3V4 region"
+   }
+  ]
+ },
+ "n_target_samples": null,
+ "list_type": "full_profile",
+ "genera": [
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Escherichia",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Klebsiella",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptomyces",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Priestia",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Cutibacterium",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Serratia",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sulfidibacter",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Microbacterium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kocuria",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudolysobacter",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dietzia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Curtobacterium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudonocardia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paraburkholderia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Alcanivorax",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gordonia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacteroides",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Kinneretia",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Dolosigranulum",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhizobium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Micrococcus",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Erythrobacter",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudoalteromonas",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacterium",
+   "evidence_id": "E0020",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [
+  "Pseudomonas",
+  "Bacillus",
+  "Escherichia",
+  "Klebsiella",
+  "Streptomyces"
+ ],
+ "figures_only": "no",
+ "authors_conclusion": "claimed",
+ "notes": "Existing RNA-seq of 977 breast tumours re-mined; Siphoviridae (viral family) not counted.",
+ "extractor": "AI agent (Claude Opus 5.5), pilot 2026-11-22; converted 2026-11-23",
+ "date": "2026-11-22"
+}

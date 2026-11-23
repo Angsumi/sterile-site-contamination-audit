@@ -1,0 +1,669 @@
+{
+  "pmcid": "PMC13185545",
+  "tissue_category": "tumour",
+  "sub_site": "eligible internal TCGA cohorts",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "3a34b4895292fc0495cd3ef24e04c60a963f7939704d9c3251f5cd703ae7e73f",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "ently published and representative TCGA-derived microbial profiles by Sepich-Poore et al. ( 5 ) and Ge et al. ( 17 ). These profiles, both derived from whole-genome sequencing (WGS) data of primary tumor tissues, employed distinct methodolo"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "ently published and representative TCGA-derived microbial profiles by Sepich-Poore et al. ( 5 ) and Ge et al. ( 17 ). These profiles, both derived from whole-genome sequencing (WGS) data of primary tumor tissues, employed distinct methodolo"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "upstream microbial profiling pipelines",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "pletion, microbiome profiling, and contamination removal. Sepich-Poore et al. ( 5 ) identified 583 microbial species from 1,835 samples across 24 cancer types, while Ge et al. ( 17 ) reported 11,895 species from 2,300 samples across the sam"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shigella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicatella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Abiotrophia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aggregatibacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloprevotella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Campylobacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Capnocytophaga",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cardiobacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catonella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eikenella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Filifactor",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kingella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lautropia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Tannerella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Treponema",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cupriavidus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alcaligenes",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dermacoccus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Afipia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Xanthomonas",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnoanaerobaculum",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lancefieldella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Micrococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Barnesiella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hungatella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruthenibacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Herbaspirillum",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprobacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parvimonas",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fannyhessea",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerostipes",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Solobacterium",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dialister",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Selenomonas",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Peptostreptococcus",
+      "evidence_id": "S2:L2721",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizobium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Variovorax",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brucella",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Salmonella",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Schaalia",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Buchnera",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cohnella",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Edwardsiella",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helicobacter",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Janthinobacterium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasmopsis",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phocaeicola",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Plantactinospora",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stutzerimonas",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aquabacterium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alicycliphilus",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Odoribacter",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Glutamicibacter",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pasteurella",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eggerthella",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Flavonifractor",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Butyricimonas",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Metamycoplasma",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parascardovia",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arthrobacter",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pyramidobacter",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cryptobacterium",
+      "evidence_id": "S2:L4560",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "unclear",
+  "notes": "Benchmark of public TCGA microbial profiles; named main-text oncomicrobes predominantly involve excluded mucosal cancers. Supplements required for eligible strata. Supplement abundance rows matched to eligible cancer types via the same supplement patient metadata; only positive entries used, with row links retained in the support manifest.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ],
+  "supplement_use": "Fewer than 3 securely attributable target-site genera in main text; supplementary table restricted to target samples or eligible cancer strata."
+}

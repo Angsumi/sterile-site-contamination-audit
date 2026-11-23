@@ -1,0 +1,27 @@
+[
+  {
+    "pmcid": "PMC9718202",
+    "retained_genera": 75,
+    "outcome": "supplement_named_genus_list"
+  },
+  {
+    "pmcid": "PMC4419820",
+    "retained_genera": 8,
+    "outcome": "figure_genus_list_provisional"
+  },
+  {
+    "pmcid": "PMC7355471",
+    "retained_genera": 16,
+    "outcome": "figure_genus_list_provisional"
+  },
+  {
+    "pmcid": "PMC12066232",
+    "retained_genera": 0,
+    "outcome": "not_usable_no_reported_genus_names"
+  },
+  {
+    "pmcid": "PMC5946436",
+    "retained_genera": 0,
+    "outcome": "not_usable_unannotated_OTU_table"
+  }
+]

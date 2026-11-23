@@ -1,0 +1,143 @@
+{
+  "pmcid": "PMC5759273",
+  "tissue_category": "other_sterile",
+  "sub_site": "peripheral lung parenchyma",
+  "year": 2018,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6cd40c80d765ce499c4dec804732461dcd5936a1e72e752165dfe35a56e801ed",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "we have previously reported [ 1 ]. 16S rRNA gene hypervariable region 3 (V3) amplicons were generated via PCR amplification using primers as reported by Bartram [ 23 ]. Amplicons were sequenced on the Illumina MiSeq instrument using paired-"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": " equipment was evaluated using six negative controls consisting of unused swabs extracted, sequenced, and analyzed alongside the experimental samples."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "Control and sample similarity was assessed with β-diversity using Bray-Curtis distance on the full data set. Following removal of Lactobacillus and rarefaction to 563 sequences, the remaining 35 subject samples were assessed again using β-d"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "a were analyzed with 16S rRNA gene qPCR and 16S rRNA gene hypervariable region 3 (V3) sequencing. Data analyses were performed using QIIME, SourceTracker, and R. Results Streptococcus was the most common genus in the oral, bronchial, and lu"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0011",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haemophilus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Neisseria",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Peripheral lung tissue only. Lactobacillus removed as control contaminant; lung source-model taxa included only where tissue occurrence explicit.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

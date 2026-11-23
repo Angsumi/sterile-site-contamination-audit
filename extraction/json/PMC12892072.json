@@ -1,0 +1,83 @@
+{
+  "pmcid": "PMC12892072",
+  "tissue_category": "tumour",
+  "sub_site": "lung single cell RNA mining",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "74da647acd769ba918c4d669e582dc833bf086c912d173fd97b2bcb99dd31367",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "nd somatic cell type clusters. The cohort had around 25 million reads per sample, of which a substantial proportion did not map to the human genome, and these reads were used for metagenomic analyses."
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "primarily analyzed data from two scRNA-seq datasets 13 , 14 , in which 10 human LUAD and 10 normal lung tissues were analyzed, totally. There was no randomization or blinding during data analysis and sample size estimation or power computat"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Aeromonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysinibacillus",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Weissella",
+      "evidence_id": "E0059",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human LUAD scRNA-seq mining target; mouse 2bRAD-M intervention taxa excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

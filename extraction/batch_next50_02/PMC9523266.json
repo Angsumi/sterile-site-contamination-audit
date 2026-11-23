@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC9523266",
+  "tissue_category": "tumour",
+  "sub_site": "lung cancer",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA via Poore 2020",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Rob Knight\u2019s team rechecked the microbial readings from 18,116 cancer tissue samples included 10,481 patients and 33 cancers in The Cancer Genome Atlas 1 (TCGA; Poore et al., 2020 ). Of the 6.4\u203210 12 sequencing readings in TCGA, 7.2% were c"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "s 1 (TCGA; Poore et al., 2020 ). Of the 6.4\u203210 12 sequencing readings in TCGA, 7.2% were classified as non-human, of which 35.2% were assigned to bacteria, archaea, or viruses; the sequencing readings were clustered into operational taxonom"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 308,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Dickeya",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudogulbenkiania",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Azoarcus",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ramlibacter",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphaerotilus",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Variovorax",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridioides",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leuconostoc",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Succinimonas",
+      "evidence_id": "E0050",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "298 TCGA patients and 308 tissue profiles, Poore reprocessed microbial data. Own results retained; literature-only genus discussions excluded. Genus Clostridium mentioned loosely for Clostridioides difficile is not double-counted.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "1340273f3934b3006bc960eb921a95b0c179923118c1fafe6c6b2403cc13b16b",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

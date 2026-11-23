@@ -1,0 +1,95 @@
+{
+ "pmcid": "PMC13115908",
+ "tissue_category": "brain_csf",
+ "sub_site": "",
+ "year": 2026,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "public_reuse",
+  "dataset": "GEO GSE53697 (Mount Sinai Brain Bank) via SRA",
+  "evidence": [
+   {
+    "id": "E0026",
+    "quote": "Raw paired-end RNA-seq data were obtained from the NCBI Sequence Read Archive (SRA)"
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "evidence": [
+   {
+    "id": "E0029",
+    "quote": "High-quality, cleaned reads were taxonomically classified using Kraken2"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "evidence": [
+   {
+    "id": "E0028",
+    "quote": "did not include extraction blanks or library blanks"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "evidence": [
+   {
+    "id": "E0028",
+    "quote": "formal contaminant modeling/decontamination could not be performed"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": null,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Arthrobacter",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Actinomyces",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0011",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Nocardioides",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "unclear",
+ "notes": "Authors call several taxa plausible contaminants but do not remove them; hypothesis-generating.",
+ "extractor": "AI agent (Claude Opus 5.5), pilot 2026-11-22; converted 2026-11-23",
+ "date": "2026-11-22"
+}

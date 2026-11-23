@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC7952451",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "119907f505e02075b2c0b93dfbab8a3c63cfa424f3a8effa8739991b7a66a2eb",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": "V3–V4 hypervariable regions of the 16S rDNA were amplified and quantified by qPCR, sequenced with MiSeq technology, and clustered into operational taxonomic units (OTUs) before taxonomic assignment as described for fecal and plasma samples "
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0017",
+        "quote": "A were amplified and quantified by qPCR, sequenced with MiSeq technology, and clustered into operational taxonomic units (OTUs) before taxonomic assignment as described for fecal and plasma samples ( 36 ). PCR amplification was performed us"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "claimed",
+  "notes": "Plasma sequencing eligible but text/supplements give only phylum-level plasma results; fecal genus lists excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

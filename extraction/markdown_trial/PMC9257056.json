@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC9257056",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "tissue_category": "tumour",
+  "sub_site": "pancreatic tumour EUS-FNA",
+  "n_target_samples": 30,
+  "data_source": {
+    "value": "own_samples"
+  },
+  "method": {
+    "value": "16S"
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no"
+  },
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "fulltext.md:L159",
+      "evidence_quote": "We then evaluated differences in the microbial taxonomic structure at the phylum level (Fig. 2 ). Firmicutes, Bacteroidetes, and Fusobacteria were significantly less abundant in PC tissues than in the gastrointestinal tract, whereas Proteobacteria were significantly more abundant in PC samples (Fig. 2 B). We then conducted high-dimensional class comparisons using LefSe, which revealed considerable differences in the predominance of bacterial communities between PC, stomach, and duodenal tissues at the genus level. Evaluation of the relative frequency of the bacteria indicated that PC tissue exhibited a predominance of Acinetobacter and Pseudomonas compared with the gastrointestinal tract (Figs. 3 A, B). The ANCOM also revealed a trend that Acinetobacter was abundant in PC (Fig. 3 C).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "fulltext.md:L159",
+      "evidence_quote": "We then evaluated differences in the microbial taxonomic structure at the phylum level (Fig. 2 ). Firmicutes, Bacteroidetes, and Fusobacteria were significantly less abundant in PC tissues than in the gastrointestinal tract, whereas Proteobacteria were significantly more abundant in PC samples (Fig. 2 B). We then conducted high-dimensional class comparisons using LefSe, which revealed considerable differences in the predominance of bacterial communities between PC, stomach, and duodenal tissues at the genus level. Evaluation of the relative frequency of the bacteria indicated that PC tissue exhibited a predominance of Acinetobacter and Pseudomonas compared with the gastrointestinal tract (Figs. 3 A, B). The ANCOM also revealed a trend that Acinetobacter was abundant in PC (Fig. 3 C).",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "fulltext.md:L171",
+      "evidence_quote": "In the subgroup analysis, we analyzed patients with advanced PC who had been diagnosed as unresectable because of distant metastasis or invasion of major vessels. We found no significant difference in the Shannon index between resectable and unresectable PC tissues, although the Shannon index was lower in the stomach ( P = 0.106) and duodenum ( P < 0.05) samples from patients with unresectable PC than in those with resectable PC (Fig. 4 A). The \u03b2-diversity analysis showed no significant difference in unweighted and weighted UniFrac distances between resectable and unresectable PC tissues. There was no significant difference with respect to major taxa at the phylum level (Fig. 4 B). Linear discriminant analysis effect size showed that Delftia was significantly more abundant in resectable than in unresectable PC tissues (Fig. 4 C). Evaluation of the association between the aspiration site and bacteria in PC, to account for possible contamination of tumor tissue with stomach or duodenal bacteria, revealed no significant difference between the stomach- and duodenum-derived samples (Fig. 5 ).",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "mixed",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "30 sampled; 24 yielded analysable tumour sequencing. Stomach/duodenum microbiota excluded.",
+  "supplement_status": "No supplementary Markdown or original files present locally; referenced missing supplements require retrieval.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9257056/fulltext.md",
+  "source_sha256": "ad382793e71ceb2915c1148b0ff0eac8f675fb497c73fd84f09c033b1f4fe87f",
+  "extractor": "Codex single-agent Markdown batch; provisional",
+  "date": "2026-11-23",
+  "review_status": "provisional; not merged into analysis dataset",
+  "genus_list_status": "at_least_three_named"
+}

@@ -1,0 +1,536 @@
+{
+  "pmcid": "PMC9718202",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "tissue_category": "blood",
+  "sub_site": "plasma",
+  "n_target_samples": 70,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V4",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "Isolation of total DNA from plasma samples and analysis by Illumina MiSeq 16S rRNA amplicon sequencing was performed in the University of North Carolina (UNC) Microbiome Core following standard protocols [ 7 ] with additional details provid"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "evidence": [
+      {
+        "id": "S902:L3",
+        "quote": "a blank composed of only DNA isolation reagents was included in the DNA extraction process and again in the library preparation."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "genera": [
+    {
+      "name": "Salinivibrio",
+      "as_written": "Salinivibrio",
+      "evidence_id": "S901:L4",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "as_written": "Stenotrophomonas",
+      "evidence_id": "S901:L5",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geotoga",
+      "as_written": "Geotoga",
+      "evidence_id": "S901:L6",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Halomonas",
+      "as_written": "Halomonas",
+      "evidence_id": "S901:L7",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Agrobacterium",
+      "as_written": "Agrobacterium",
+      "evidence_id": "S901:L8",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Vibrio",
+      "as_written": "Vibrio",
+      "evidence_id": "S901:L9",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "as_written": "Ochrobactrum",
+      "evidence_id": "S901:L10",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Idiomarina",
+      "as_written": "Idiomarina",
+      "evidence_id": "S901:L11",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marinobacter",
+      "as_written": "Marinobacter",
+      "evidence_id": "S901:L12",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chryseobacterium",
+      "as_written": "Chryseobacterium",
+      "evidence_id": "S901:L13",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "as_written": "Pseudomonas",
+      "evidence_id": "S901:L14",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Porphyromonas",
+      "as_written": "Porphyromonas",
+      "evidence_id": "S901:L15",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Elizabethkingia",
+      "as_written": "Elizabethkingia",
+      "evidence_id": "S901:L16",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shinella",
+      "as_written": "Shinella",
+      "evidence_id": "S901:L17",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "as_written": "Enterococcus",
+      "evidence_id": "S901:L19",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alishewanella",
+      "as_written": "Alishewanella",
+      "evidence_id": "S901:L20",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "as_written": "Staphylococcus",
+      "evidence_id": "S901:L21",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "as_written": "Paenibacillus",
+      "evidence_id": "S901:L22",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pedobacter",
+      "as_written": "Pedobacter",
+      "evidence_id": "S901:L23",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "as_written": "Streptococcus",
+      "evidence_id": "S901:L24",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "as_written": "Ralstonia",
+      "evidence_id": "S901:L25",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "as_written": "Achromobacter",
+      "evidence_id": "S901:L26",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Myroides",
+      "as_written": "Myroides",
+      "evidence_id": "S901:L27",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacillus",
+      "as_written": "Brevibacillus",
+      "evidence_id": "S901:L28",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "as_written": "Prevotella",
+      "evidence_id": "S901:L29",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "as_written": "Sphingomonas",
+      "evidence_id": "S901:L30",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "as_written": "Anoxybacillus",
+      "evidence_id": "S901:L31",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "as_written": "Bradyrhizobium",
+      "evidence_id": "S901:L32",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "as_written": "Clostridium",
+      "evidence_id": "S901:L33",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "as_written": "Corynebacterium",
+      "evidence_id": "S901:L34",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoramibacter",
+      "as_written": "Pseudoramibacter_Eubacterium",
+      "evidence_id": "S901:L35",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "as_written": "Propionibacterium",
+      "evidence_id": "S901:L36",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shewanella",
+      "as_written": "Shewanella",
+      "evidence_id": "S901:L37",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "as_written": "Actinomyces",
+      "evidence_id": "S901:L38",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geobacillus",
+      "as_written": "Geobacillus",
+      "evidence_id": "S901:L39",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionicimonas",
+      "as_written": "Propionicimonas",
+      "evidence_id": "S901:L40",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacillus",
+      "as_written": "Bacillus",
+      "evidence_id": "S901:L41",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "as_written": "Acinetobacter",
+      "evidence_id": "S901:L42",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "as_written": "Microbacterium",
+      "evidence_id": "S901:L43",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "as_written": "Parabacteroides",
+      "evidence_id": "S901:L44",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "as_written": "Bifidobacterium",
+      "evidence_id": "S901:L45",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Turicibacter",
+      "as_written": "Turicibacter",
+      "evidence_id": "S901:L46",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Comamonas",
+      "as_written": "Comamonas",
+      "evidence_id": "S901:L48",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collinsella",
+      "as_written": "Collinsella",
+      "evidence_id": "S901:L49",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Megasphaera",
+      "as_written": "Megasphaera",
+      "evidence_id": "S901:L50",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Catenibacterium",
+      "as_written": "Catenibacterium",
+      "evidence_id": "S901:L51",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Listeria",
+      "as_written": "Listeria",
+      "evidence_id": "S901:L52",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blautia",
+      "as_written": "Blautia",
+      "evidence_id": "S901:L53",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "as_written": "Faecalibacterium",
+      "evidence_id": "S901:L54",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseburia",
+      "as_written": "Roseburia",
+      "evidence_id": "S901:L55",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "as_written": "Methylobacterium",
+      "evidence_id": "S901:L56",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "as_written": "Lactococcus",
+      "evidence_id": "S901:L57",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bilophila",
+      "as_written": "Bilophila",
+      "evidence_id": "S901:L58",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "as_written": "[Ruminococcus]",
+      "evidence_id": "S901:L59",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "as_written": "Mycobacterium",
+      "evidence_id": "S901:L60",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermus",
+      "as_written": "Thermus",
+      "evidence_id": "S901:L61",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "as_written": "Lactobacillus",
+      "evidence_id": "S901:L62",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "as_written": "Desulfovibrio",
+      "evidence_id": "S901:L64",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprococcus",
+      "as_written": "Coprococcus",
+      "evidence_id": "S901:L65",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaeroplasma",
+      "as_written": "Anaeroplasma",
+      "evidence_id": "S901:L66",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesorhizobium",
+      "as_written": "Mesorhizobium",
+      "evidence_id": "S901:L67",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dorea",
+      "as_written": "Dorea",
+      "evidence_id": "S901:L68",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Coprobacillus",
+      "as_written": "Coprobacillus",
+      "evidence_id": "S901:L70",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oscillospira",
+      "as_written": "Oscillospira",
+      "evidence_id": "S901:L71",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Adlercreutzia",
+      "as_written": "Adlercreutzia",
+      "evidence_id": "S901:L72",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "as_written": "[Eubacterium]",
+      "evidence_id": "S901:L73",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Akkermansia",
+      "as_written": "Akkermansia",
+      "evidence_id": "S901:L74",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "as_written": "Bacteroides",
+      "evidence_id": "S901:L75",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Allobaculum",
+      "as_written": "Allobaculum",
+      "evidence_id": "S901:L78",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gemmiger",
+      "as_written": "Gemmiger",
+      "evidence_id": "S901:L79",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mesonia",
+      "as_written": "Mesonia",
+      "evidence_id": "S901:L80",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sutterella",
+      "as_written": "Sutterella",
+      "evidence_id": "S901:L81",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerostipes",
+      "as_written": "Anaerostipes",
+      "evidence_id": "S901:L82",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dehalobacterium",
+      "as_written": "Dehalobacterium",
+      "evidence_id": "S901:L83",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerobacillus",
+      "as_written": "Anaerobacillus",
+      "evidence_id": "S901:L84",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "list_type": "differential_only",
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Supplement table lists plasma genera with node-group means; all named bacterial genera with positive group means retained, not only statistically significant rows. Blank included in library preparation; sequencing not explicitly reported. Non-genus/unvalidated labels and archaeal Methanobrevibacter not counted.",
+  "supplement_status": "Retrieved available PMC OA media; originals and markitdown copies kept locally.",
+  "source": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/fulltext.md",
+  "source_sha256": "41a59076ec46daa55e1c38d5ed03dcf6a7b55ae37d4874d6e59dff2e32d01604",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "review_status": "supplements/figures reviewed; provisional; not merged",
+  "genus_list_status": "supplement_named_genus_list",
+  "additional_source_manifest": [
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp/mmc2.docx",
+      "sha256": "762d5d254f2c4c42e7c15a93818ecd0497b498a90bc92c2bc5930e9d5207beb9"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp/mmc1.xlsx",
+      "sha256": "6064cc70debc5fbfcc91873969fbd6792c5b663464435f2940540a565302d40c"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp_md/mmc2.md",
+      "sha256": "1a690b1e34584b4241a35eaaafb288e0751e0023532cad3bf5319e7849bd024f"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/supp_md/mmc1.md",
+      "sha256": "8758ce3470b36c76bd9398f175c832144c07d7f832acd65963d6ab7358f30eb2"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/figures/gr1.jpg",
+      "sha256": "aa3902e8c0d4294c0f94113fa767f6b0fac17ece41a9225d269fd4c62fc81aa2"
+    },
+    {
+      "path": "/home/angsuman/extra_spac/META/data_local/sterile-site-contamination-audit/papers/PMC9718202/figures/gr2.jpg",
+      "sha256": "748b574fbd39a70fba891973cb5a888083a180e152690b85f7abf216a3af41a3"
+    }
+  ],
+  "not_counted_taxa": [
+    "Methanobrevibacter",
+    "rc4-4",
+    "SMB53"
+  ],
+  "exclusion_reason": "",
+  "country": ""
+}

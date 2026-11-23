@@ -1,0 +1,159 @@
+{
+ "pmcid": "PMC6558066",
+ "tissue_category": "blood",
+ "sub_site": "maternal peripheral blood cells (pregnancy; term vs preterm)",
+ "year": 2019,
+ "country": "South Korea",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "blood samples were obtained 2 or 3 times from 45 pregnant women enrolled in a cohort study"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "The V3–V4 hypervariable region of bacterial genomic DNA was amplified"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 86,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Propionibacterium",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Fastidiosipila",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Butyricicoccus",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Massilia",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Stenotrophomonas",
+   "evidence_id": "E0040",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rhizobium",
+   "evidence_id": "E0047",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Eisenbergiella",
+   "evidence_id": "E0051",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Ruminiclostridium",
+   "evidence_id": "E0053",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Syntrophaceticus",
+   "evidence_id": "E0057",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Flavonifractor",
+   "evidence_id": "E0065",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Prochlorococcus",
+   "evidence_id": "E0067",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gemmata",
+   "evidence_id": "E0068",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Eubacterium",
+   "evidence_id": "E0071",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Weissella",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "n_target_samples = 86 women (45 longitudinal cohort sampled 2-3 times + 41 case-control); exact sample count not stated. Blood cell fraction (EDTA) used. Archaea Methanobrevibacter/Methanocella in Table 2 not recorded. Weissella only in abstract. No negative controls or decontamination mentioned.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

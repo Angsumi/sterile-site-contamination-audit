@@ -1,0 +1,58 @@
+{
+ "pmcid": "PMC11604690",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "placenta (basal plate and centre), pre-eclampsia vs normotensive",
+ "year": 2024,
+ "country": "South Africa",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "A total of 120 placental samples were tested in this study."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0009",
+    "quote": "The V3-V4 region of the 16 S rRNA gene was PCR-amplified from microbial genomic DNA"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0029",
+    "quote": "the study lacks both negative and positive controls of known and quantifiable bacteria"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 120,
+ "list_type": "mixed",
+ "genera": [],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "unclear",
+ "notes": "Only phylum/class-level results reported; no genus names in main text; no supplements. Authors explicitly state no negative controls. n=120 per methods, but Table 2 read totals imply ~45 samples analysed (743319/16518); abstract mentions thirty per group. Conclusion: very low biomass, no association with PE; neither claims nor rejects a resident microbiome.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

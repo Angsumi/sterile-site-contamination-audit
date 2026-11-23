@@ -1,0 +1,118 @@
+{
+ "pmcid": "PMC12150986",
+ "tissue_category": "blood",
+ "sub_site": "plasma cfDNA (MASLD cirrhosis, HCC surveillance)",
+ "year": 2025,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0011",
+    "quote": "All 343 plasma samples from the 151 patients with cirrhosis and 17 negative extraction batch controls were subjected to cfDNA extraction and 16S rRNA sequencing."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V4",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "The V4 region of the bacterial 16S rRNA gene was amplified by PCR"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "extraction blank (one per extraction batch)",
+  "n_sequenced": 17,
+  "evidence": [
+   {
+    "id": "E0011",
+    "quote": "17 negative extraction batch controls were subjected to cfDNA extraction and 16S rRNA sequencing"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "removed_control_taxa",
+  "tool": "control-vs-sample read count exclusion; SCRuB sensitivity analysis; cross-check against published contaminant list",
+  "evidence": [
+   {
+    "id": "E0011",
+    "quote": "potential contaminants were removed by excluding 243 taxa with read counts in extraction controls equal to or greater than read counts in plasma samples"
+   },
+   {
+    "id": "E0008",
+    "quote": "ANCOM-BC2 was repeated for data with in silico decontamination by Source tracking for Contamination Removal in microBiomes (SCRuB)."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 343,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Tsukamurella",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacteroides",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Natronomonas",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Geothrix",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Aeromonas",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rheinheimera",
+   "evidence_id": "E0021",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gaiella",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Edaphobaculum",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "343 longitudinal plasma samples from 151 patients. 256 genera after filtering (Table S2, not available); text names only differential genera (HCC, gender, Child-Pugh). Acinetobacter and Staphylococcus noted by authors as on a published contaminant list but argued to be real - not flagged. Natronomonas is archaeal.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

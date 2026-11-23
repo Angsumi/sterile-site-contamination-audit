@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC9609265",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "94f9d5b1bdde3210e702709a4f71c40bc588f8866010d37ecfb9b415d02b7924",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "normal lung samples), we conducted 16S rRNA gene sequencing. We also measured peripheral blood immune gene expression with nanoString®. We examined associations of lung microbiota and peripheral gene expression with recurrence-free survival"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "d in two batches, each including a negative PCR control and a positive PCR control (ZymoBIOMICS Microbial Community Standard, Zymo Research, Irvine, CA), and all sequenced together in a single run. Based on examination of the number of sequ"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "PERFect; prevalence filtering",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "ontrols, and positive controls, we excluded samples with low sequence reads similar to the negative controls (<6000 reads/sample) (Supplementary Figure 2 ). After this exclusion, the median sequence read count per sample after the Deblur wo"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Marmoricola",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": " The 46-patient new cohort is distinct from the Peters pilot (PMC6449216; 16 tumour/17 normal samples) reused only for validation. Core genus list restricted to new-cohort results.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

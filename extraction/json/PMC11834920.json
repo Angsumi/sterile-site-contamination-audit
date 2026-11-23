@@ -1,0 +1,74 @@
+{
+  "pmcid": "PMC11834920",
+  "tissue_category": "other_sterile",
+  "sub_site": "aqueous humor",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "lumina library: The V3\u2013V4 region of the bacterial 16S rRNA gene was amplified in bacterial studies, and ITS2, a region of the fungal ribosomal small subunit RNA, was amplified in fungal studies. Amplicon libraries were prepared according to"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "Negative controls were assessed for each sample, DNA contaminants were removed, and only high-quality reads were used in all the studies. Rarefaction curves and \u03b1 diversity (species diversity within the community) indices (Shannon diversity"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bacteroides",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Multiple case-control investigations; target aqueous-fluid study only. Gut/mycobiome genera excluded. Control assessment and contaminant removal stated, exact implementation unclear. Prior reports need overlap review.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "a8809e778b1f620761477486b4dc2606a2dcf91040ad2a15e6ea3831b1e53395",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence."
+  ]
+}

@@ -1,0 +1,167 @@
+{
+ "pmcid": "PMC13115908",
+ "meta": {
+  "title": "Metatranscriptomic Reanalysis of Alzheimer’s Brains Identifies Low-Biomass Microbial Signals Including Enrichment of Acinetobacter radioresistens",
+  "journal": "International Journal of Molecular Sciences",
+  "year": "2026",
+  "doi": "10.3390/ijms27083430",
+  "pmid": "42074073"
+ },
+ "n_elements": 36,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0001",
+   "section": "Abstract",
+   "text": "Alzheimer’s disease (AD) is characterized by progressive cognitive decline and the accumulation of amyloid-β (Aβ) plaques and tau neurofibrillary tangles. Beyond genetic and proteostatic mechanisms, infection- and dysbiosis-based models of AD have gained renewed attention, including the antimicrobial protection hypothesis, in which Aβ may participate in innate immune defense. Here, we reanalyzed ribosomal depleted (Ribo-Zero) RNA-seq data from dorsolateral prefrontal cortex (DLPFC) samples from the Mount Sinai Brain Bank cohort ( GSE53697 ) to screen for non-human transcripts. Reads underwent quality control and adapter trimming, taxonomic classification with Kraken2, abundance re-estimation with Bracken, and differential abundance testing with edgeR. Across 17 samples (9 advanced AD and 8 controls), we detected low-biomass microbial signals, with Acinetobacter radioresistens showing enrichment in the AD group (FDR = 0.018). Several additional taxa showed suggestive group differences but did not remain significant after multiple testing correction, including Lactobacillus iners (FDR = 0.051). We also performed an exploratory in silico analysis of an A. radioresistens biofilm-associated protein homolog, identifying predicted amyloidogenic motifs and surface-exposed regions that may be relevant to cross-seeding hypotheses, although no mechanistic inference can be drawn without experimental validation. Given the technical challenges of inferring microbial signals from post-mortem brain RNA-seq data, including contamination risk, low microbial biomass, and overwhelming host background, these findings should be interpreted as hypothesis-generating and warrant orthogonal validation in larger, microbiome-aware cohorts."
+  },
+  {
+   "evidence_id": "E0005",
+   "section": "1. Introduction",
+   "text": "Direct characterization of microbial nucleic acids in human brain tissue remains technically challenging. Post-mortem brain is a low-biomass environment in which signals can be dominated by reagent and laboratory contamination, index hopping, and environmental exposure, requiring stringent experimental controls and transparent reporting [ 19 , 20 , 21 ]. Nonetheless, reanalysis of deep sequencing datasets offers an opportunity to generate testable hypotheses about microbial signatures and their association with neuropathology—particularly when ribosomal depletion (rather than poly(A) selection) improves retention of bacterial transcripts."
+  },
+  {
+   "evidence_id": "E0006",
+   "section": "1. Introduction",
+   "text": "Here, we mined ribosomal-depleted RNA-seq data from dorsolateral prefrontal cortex (DLPFC) samples in the Mount Sinai Brain Bank cohort ( GSE53697 ) to (i) identify taxa whose assigned transcript counts differ between advanced AD and controls, and (ii) explore whether a candidate AD-enriched taxon encodes proteins with predicted amyloidogenic segments that could plausibly participate in cross-seeding. We emphasize that this study is exploratory and intended to motivate targeted validation in independent cohorts and with orthogonal assays."
+  },
+  {
+   "evidence_id": "E0007",
+   "section": "2. Results",
+   "text": "The study cohort included 17 publicly available post-mortem dorsolateral prefrontal cortex (DLPFC) RNA-seq samples from GSE53697 , comprising 9 advanced AD cases and 8 controls, derived from the Mount Sinai Brain Bank (MSBB) cohort [ 22 ] ( Table 1 )."
+  },
+  {
+   "evidence_id": "E0008",
+   "section": "2.1. Sequencing Depth and Library Size Distribution",
+   "text": "Following adapter trimming and quality filtering, the remaining library sizes were inspected to confirm that sufficient data were retained for downstream microbial profiling. Figure 1 shows the distribution of reads assigned to microbial taxa across the study cohort after Kraken2 classification and Bracken re-estimation. Although library size varied across samples, as expected for archival post-mortem tissue datasets, all samples retained sufficient depth for downstream analysis. The handling of library size differences for statistical testing is described in Section 4.5 ."
+  },
+  {
+   "evidence_id": "E0009",
+   "section": "2.2. Global Microbial Composition and Host Contamination",
+   "text": "We next examined the overall taxonomic composition of the aligned reads to understand the signal-to-noise ratio in brain tissue RNA-seq. As expected for human tissue, the vast majority of reads (>99%) mapped to the host genome ( Homo sapiens ). After filtering out host and eukaryotic reads (including fungi and protozoa) to focus specifically on the prokaryotic and viral microbiome, we analyzed the relative proportions of the remaining microbial signal. Figure 2 summarizes the global composition, showing the proportion of bacterial ( Figure 2 A,B) and viral ( Figure 2 A,C) reads across the cohort. We observed no statistically significant difference in the total fraction of bacterial or viral reads between the AD and Control groups ( Figure 2 B,C), suggesting that the disease state is not characterized by a massive, non-specific microbial overgrowth, but rather by subtle shifts in specific taxa."
+  },
+  {
+   "evidence_id": "E0012",
+   "section": "2.3. Differential Abundance Analysis Reveals an Acinetobacter Signature",
+   "text": "Overall, these results indicate that the differential signal was driven primarily by A. radioresistens , while the remaining taxa should be interpreted as suggestive trends rather than statistically significant findings. This pattern is compatible with differences in the composition of the low-biomass microbial signal between AD and control samples, although this interpretation should remain cautious given the sparse and contamination-prone nature of brain-derived sequencing data."
+  },
+  {
+   "evidence_id": "E0015",
+   "section": "3. Discussion",
+   "text": "Our reanalysis of ribosomal-depleted brain RNA-seq data identified low-biomass microbial signals that differed between advanced AD and control DLPFC samples, with Acinetobacter radioresistens showing the strongest association with AD status. These findings align with broader interest in infection- and dysbiosis-based models of AD, including proposals that innate immune activation, barrier dysfunction, and chronic microbial exposures may interact with host genetics to shape neurodegenerative trajectories [ 4 , 13 ]. At the same time, the analytical context—post-mortem tissue and re-purposed RNA-seq—requires a conservative interpretation of taxonomic assignments and effect sizes. The small cohort size and low-biomass nature of the dataset limit statistical power and make it difficult to distinguish weak biological signals from background variability or residual technical effects. In addition, the present analysis is restricted to advanced AD, a single cortical region (DLPFC), and post-mortem tissue, and therefore does not address early or preclinical AD, regional heterogeneity across the brain, or microbial signals in living patients."
+  },
+  {
+   "evidence_id": "E0016",
+   "section": "3. Discussion",
+   "text": "The brain is a low-microbial-biomass environment, and multiple studies have demonstrated that reagent and laboratory contaminants can dominate sequencing-based microbiome profiles when true biomass is near the limit of detection [ 19 , 20 , 21 ]. Several taxa detected here ( Table 2 and Table S1 )—including environmental actinobacteria (e.g., Nocardioides , Arthrobacter ) and skin-associated organisms—are plausible contaminants introduced during tissue handling, library preparation, or sequencing. Conversely, A. radioresistens and Staphylococcus warneri are recognized opportunists that can colonize humans and persist on environmental surfaces, complicating source attribution. The restriction to the same tissue region and public cohort, together with consistent processing samples reduce (but do not eliminate) the likelihood that differential signals arise solely from batch artifacts; nevertheless, future work should incorporate extraction blanks, library blanks, and computational decontamination to explicitly model contamination structure. In the absence of microbiome-specific negative controls, retrospective contaminant modeling was not possible, and the biological origin of individual taxa cannot be assigned with confidence."
+  },
+  {
+   "evidence_id": "E0017",
+   "section": "3. Discussion",
+   "text": "Notably, some taxa showed relative enrichment in controls, including Lactobacillus iners ( Figure 3 ), although this signal did not remain significant after multiple-testing correction and should therefore be interpreted cautiously. Lactobacillus species are often discussed as mucosal commensals with potential roles in colonization resistance and immune modulation [ 23 ], although L. iners is considered atypical within the genus and has been associated with both health- and dysbiosis-related states depending on the ecological context [ 24 , 25 ]. It has also been reported to produce predominantly the L isomer of lactate, with limited D-lactate production [ 25 ]. Because L-lactate has recognized signaling and metabolic roles in the CNS [ 26 , 27 ], this observation may be of conceptual interest. However, given the low-biomass nature of the present dataset and the lack of functional or metabolomic measurements, no inference can be made regarding microbial metabolite production in brain tissue. At most, these findings may be viewed as compatible with the possibility that control-enriched taxa reflect a different low-abundance microbial signal rather than a simple global increase in microbial reads in AD."
+  },
+  {
+   "evidence_id": "E0018",
+   "section": "3. Discussion",
+   "text": "Nocardioides belongs to the Actinobacteria , a phylum characterized by substantial metabolic versatility and secondary metabolite production [ 28 ], and members of this genus are primarily known as environmental specialists involved in biodegradation [ 29 ]. In our dataset, the apparent relative enrichment of Nocardioides in controls should be interpreted with caution, particularly given the low-biomass nature of brain RNA-seq microbial profiling and the fact that this signal did not meet the predefined FDR < 0.10 trend threshold ( Supplementary Table S1 ). Rather than supporting a specific biological role, this observation is most appropriately interpreted as an exploratory signal that may reflect subtle differences in a sparse microbial background."
+  },
+  {
+   "evidence_id": "E0019",
+   "section": "3. Discussion",
+   "text": "Arthrobacter spp. were also relatively enriched in controls ( Table 2 ). These organisms are classically described as soil-associated actinobacteria and, in a low-biomass setting, may plausibly reflect environmental carryover or other exogenous sources. Although metabolites derived from Arthrobacter metabolism, such as 6-hydroxy-L-nicotine, have shown neurobehavioral effects in experimental animal studies [ 30 , 31 , 32 ], such observations cannot be extrapolated to the present dataset. We therefore do not infer that Arthrobacter -associated metabolites are produced in brain tissue in vivo. Instead, these examples are noted only to illustrate that taxa detected in low-biomass datasets can have biologically interesting metabolic repertoires, even when their relevance to the present samples remains uncertain. Neurovascular unit dysfunction and blood–brain barrier (BBB) breakdown occur early in cognitive decline and are increasingly recognized as contributors to AD pathophysiology [ 33 , 34 ]. BBB impairment could facilitate entry of circulating microbial products (e.g., LPS, peptidoglycan) or rare microbes into perivascular and parenchymal compartments, potentially amplifying microglial activation and inflammasome signaling. However, a purely ‘leakier BBB → more pathogens’ interpretation would predict a higher overall bacterial/viral signal in AD. Consistent with this counter-argument, we observed no significant differences in the fraction of bacterial or viral reads (normalized to total reads per sample) between controls and AD ( Figure 2 ; two-tailed exact Mann–Whitney test). In this framework, microbial signals detected in RNA-seq data may reflect a combination of true biological exposure and sampling artifacts; discriminating these requires spatially resolved assays (e.g., RNAscope, immunohistochemistry) and careful modeling of post-mortem interval effects."
+  },
+  {
+   "evidence_id": "E0022",
+   "section": "3. Discussion",
+   "text": "If microbial exposures contribute to AD onset or progression in a subset of individuals, preventive strategies might include vaccination, periodontal disease management, and targeted modulation of mucosal immunity. Natural experiments and emulated target trials have reported lower dementia incidence after herpes zoster vaccination, findings that are compatible with roles for immune training or reduced viral reactivation [ 17 , 18 ]. However, such observational designs remain susceptible to confounding and do not identify specific pathogens. Translational progress will require (i) prospective cohorts with standardized biospecimen handling and microbiome-aware negative controls, (ii) multimodal validation in tissue, including sequencing, proteomics, and imaging, and (iii) experimental studies testing whether candidate microbial products can influence amyloid aggregation or inflammatory signaling under biologically relevant conditions."
+  },
+  {
+   "evidence_id": "E0023",
+   "section": "3. Discussion",
+   "text": "Because this study is based on retrospective reanalysis of public RNA-seq data, it cannot provide microbiome-aware negative controls, wet-lab validation, or robust estimates of absolute microbial abundance; these will require prospective experimental studies specifically designed for low-biomass microbiome investigation."
+  },
+  {
+   "evidence_id": "E0024",
+   "section": "4.1. Bioinformatic Workflow and Data Processing",
+   "text": "To systematically identify microbial signatures from non-targeted RNA-sequencing data, we implemented a multi-stage bioinformatic pipeline ( Figure 5 ). Raw sequencing reads from 17 post-mortem DLPFC samples (9 AD, 8 controls) were retrieved from the SRA database. Publicly verifiable metadata for the analyzed subset are summarized in Table 1 ."
+  },
+  {
+   "evidence_id": "E0026",
+   "section": "4.2. Data Acquisition and Cohort Selection",
+   "text": "Raw paired-end RNA-seq data were obtained from the NCBI Sequence Read Archive (SRA) corresponding to the Mount Sinai Brain Bank (MSBB) cohort ( GSE53697 ) [ 22 , 41 ]. Using the NCBI SRA Run Selector, we filtered for “Alzheimer’s Disease” and “Control” samples originating from the dorsolateral prefrontal cortex (DLPFC; Brodmann area 46) and prepared using the Ribo-Zero library strategy. This strategy was selected to maximize the retention of non-polyadenylated microbial transcripts. The final dataset comprised 17 samples (9 advanced AD; 8 controls) selected from the same tissue region and public cohort. Publicly verifiable metadata for the analyzed subset are summarized in Table 1 . Reads were retrieved from SRA using the Galaxy tool ‘Download and Extract Reads in FASTQ’ (Galaxy wrapper v3.1.1+galaxy1) to ensure efficient retrieval of large datasets."
+  },
+  {
+   "evidence_id": "E0028",
+   "section": "4.3. Preprocessing and Quality Control",
+   "text": "Because this public post-mortem RNA-seq dataset was not generated under microbiome-specific sterile sampling conditions and did not include extraction blanks or library blanks, formal contaminant modeling/decontamination could not be performed. In the absence of microbiome-specific negative controls, retrospective contaminant modeling was not possible, and the biological origin of individual taxa cannot be assigned with confidence. Therefore, all taxonomic signals reported here should be interpreted conservatively as candidate associations rather than definitive evidence of a resident brain microbiome."
+  },
+  {
+   "evidence_id": "E0029",
+   "section": "4.4. Taxonomic Classification",
+   "text": "High-quality, cleaned reads were taxonomically classified using Kraken2 (Galaxy wrapper Version 2.17.1+galaxy0) [ 45 ]. Abundance re-estimation was performed with Bracken (Galaxy wrapper Version 3.1+galaxy0) [ 46 ]. We utilized the PlusPF (17 May 2021) database (Standard plus protozoa & fungi), which is the most comprehensive standard index available in Galaxy. To maximize sensitivity for low-abundance, non-polyadenylated microbial transcripts in a brain tissue context, the Kraken2 confidence threshold was set to 0.0. We acknowledge that this choice prioritizes sensitivity over specificity and may increase the risk of false-positive assignments in low-biomass data. To mitigate over-interpretation, taxonomic abundances were subsequently re-estimated with Bracken, filtered by prevalence and variance, and interpreted conservatively, with all downstream findings treated as candidate associations rather than definitive evidence of a resident brain microbiome. Output options were configured to print scientific names and generate reports with aggregate counts per clade. For preliminary visual exploration of the taxonomic hierarchy, Kraken report files were converted using Krakentools (Galaxy wrapper Version 1.2.1+galaxy0) and visualized as interactive charts using Krona (Galaxy wrapper Version 2.7.1+galaxy0) [ 47 ]."
+  },
+  {
+   "evidence_id": "E0030",
+   "section": "4.5. Data Matrix Generation and Statistical Analysis",
+   "text": "Individual Bracken species reports were merged into a single abundance matrix using the KrakenTools (Galaxy wrapper Version 1.2.1+galaxy2) utility for combining Kraken-style reports. The resulting matrix was exported to Microsoft Excel for manual curation only. Metadata rows and entries lacking species-level information were removed, and all counts assigned to the domain Eukaryota (including Homo sapiens ) were excluded prior to downstream statistical analysis. For transparency, raw Bracken counts for the top-ranked taxa were compiled at the sample level and are provided together with group-wise prevalence in Supplementary Table S2 ."
+  },
+  {
+   "evidence_id": "E0034",
+   "section": "5. Conclusions",
+   "text": "Reanalysis of ribosomal RNA-depleted brain RNA-seq datasets identified low-biomass microbial signatures that distinguished advanced Alzheimer’s disease (AD) dorsolateral prefrontal cortex (DLPFC) samples from controls, with Acinetobacter radioresistens showing the most consistent association with AD status. These observations complement increasing interest in infection- and dysbiosis-informed frameworks for AD, in which innate immune activation, blood–brain barrier integrity, chronic microbial exposures, and host genetic susceptibility may together shape neurodegenerative trajectories."
+  },
+  {
+   "evidence_id": "E0035",
+   "section": "5. Conclusions",
+   "text": "As an exploratory analysis based on bulk post-mortem RNA-seq data not originally designed for microbiome profiling, our findings should be interpreted as hypothesis-generating and as a foundation for targeted follow-up studies. Future work using dedicated microbiome sequencing protocols, matched negative controls, spatially resolved approaches, and larger cohorts will be important to refine taxonomic resolution, address potential background signals in low-biomass samples, and clarify questions of microbial viability, localization, and temporal dynamics relative to neuropathology. Such studies will help determine the biological relevance of these signals and further evaluate their potential contribution to AD pathogenesis."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0001",
+   "E0011",
+   "E0013",
+   "E0015",
+   "E0020",
+   "E0032"
+  ],
+  "Actinobacteria": [
+   "E0018"
+  ],
+  "Actinomyces": [
+   "E0011",
+   "E0021"
+  ],
+  "Arthrobacter": [
+   "E0011",
+   "E0016",
+   "E0019"
+  ],
+  "Homo": [
+   "E0009",
+   "E0030"
+  ],
+  "Lactobacillus": [
+   "E0001",
+   "E0011",
+   "E0017"
+  ],
+  "Nocardioides": [
+   "E0016",
+   "E0018"
+  ],
+  "Porphyromonas": [
+   "E0003"
+  ],
+  "Staphylococcus": [
+   "E0011",
+   "E0016",
+   "E0021"
+  ],
+  "Streptococci": [
+   "E0021"
+  ],
+  "Streptococcus": [
+   "E0021"
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+  "pmcid": "PMC9282817",
+  "tissue_category": "other_sterile",
+  "sub_site": "cerebral arterial thrombus",
+  "year": 2022,
+  "eligible_fulltext": true,
+  "data_source": {
+    "value": "own_samples",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V1-V9",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Multiplex 16S rRNA gene (16S) fragment amplification (2 \u00d7 300bp paired end) using the Swift Amplicon \u00ae panel (SWIFT Biosciences, Ann Arbor, MI) that targets all nine variable regions (V1-V9) of bacterial and archaeal 16S was performed, foll"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "Negative controls (water) were included in all sample preparation and sequencing experiments."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 4,
+  "sample_count_note": "4 thrombi from 4 patients",
+  "genera": [
+    {
+      "name": "Acetobacter",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "list_type": "mixed",
+  "authors_conclusion": "claimed",
+  "extractor": "Codex Markdown trial; mapped to native evidence IDs; AI first pass",
+  "date": "2026-11-23",
+  "supplement_files_available": [],
+  "status": "provisional; separate from analysis dataset",
+  "notes": "Ralstonia mentioned only as a literature example of contamination; excluded. Qubit total DNA quantification is not bacterial-load qPCR.",
+  "exclusion_reason": "",
+  "country": ""
+}

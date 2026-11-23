@@ -1,0 +1,419 @@
+{
+  "pmcid": "PMC12282056",
+  "tissue_category": "tumour",
+  "sub_site": "eligible internal pan-cancer cohorts",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8d6a8c7645570e4b25113c1a0f445a6b9ae0338b35864f13d9c3e88b7ee2a6aa",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "Our discovery cohort encompasses 3,052 tumor tissue samples across 10 cancer types, with paired omics data comprising microbiome profile, RNA-seq, and methylation array data. Microbiome profile data were obtained from Poore et al. ( 28 ), s"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "ata comprising microbiome profile, RNA-seq, and methylation array data. Microbiome profile data were obtained from Poore et al. ( 28 ), subjected to Kraken2 and PathSeq microbial profiling pipeline. After rigorous decontamination to elimina"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "profiling pipeline. After rigorous decontamination to eliminate potential contaminants, the data set was refined to 1,041 microbial genera. RNA-seq and methylation array data were sourced from The Cancer Genome Atlas (TCGA) via the Genomic "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Phascolarctobacterium",
+      "evidence_id": "S3:L9",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Crenobacter",
+      "evidence_id": "S3:L10",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Filifactor",
+      "evidence_id": "S3:L11",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphaerobacter",
+      "evidence_id": "S3:L12",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Slackia",
+      "evidence_id": "S3:L13",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Truepera",
+      "evidence_id": "S3:L14",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arsenophonus",
+      "evidence_id": "S3:L15",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Collimonas",
+      "evidence_id": "S3:L16",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Syntrophorhabdus",
+      "evidence_id": "S3:L17",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenirhodobacter",
+      "evidence_id": "S3:L18",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Olsenella",
+      "evidence_id": "S3:L19",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Buttiauxella",
+      "evidence_id": "S3:L20",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnoanaerobaculum",
+      "evidence_id": "S3:L21",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Haematospirillum",
+      "evidence_id": "S3:L22",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alistipes",
+      "evidence_id": "S3:L23",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerobaculum",
+      "evidence_id": "S3:L47",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Planomonospora",
+      "evidence_id": "S3:L48",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alloscardovia",
+      "evidence_id": "S3:L49",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Glutamicibacter",
+      "evidence_id": "S3:L50",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Shimwellia",
+      "evidence_id": "S3:L51",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Helcobacillus",
+      "evidence_id": "S3:L52",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Siansivirga",
+      "evidence_id": "S3:L53",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caldanaerobius",
+      "evidence_id": "S3:L54",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Amycolicicoccus",
+      "evidence_id": "S3:L55",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Holdemania",
+      "evidence_id": "S3:L56",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eggerthella",
+      "evidence_id": "S3:L57",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dermabacter",
+      "evidence_id": "S3:L58",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidimicrobium",
+      "evidence_id": "S3:L59",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mastigocladopsis",
+      "evidence_id": "S3:L60",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidithrix",
+      "evidence_id": "S3:L61",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptonema",
+      "evidence_id": "S3:L62",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Nautilia",
+      "evidence_id": "S3:L63",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Wohlfahrtiimonas",
+      "evidence_id": "S3:L64",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionicicella",
+      "evidence_id": "S3:L65",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stackebrandtia",
+      "evidence_id": "S3:L67",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionimicrobium",
+      "evidence_id": "S3:L68",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Asaia",
+      "evidence_id": "S3:L70",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Granulicella",
+      "evidence_id": "S3:L71",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Chitinimonas",
+      "evidence_id": "S3:L72",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hallella",
+      "evidence_id": "S3:L73",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mucispirillum",
+      "evidence_id": "S3:L74",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnobacterium",
+      "evidence_id": "S3:L75",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Synergistes",
+      "evidence_id": "S3:L76",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Uliginosibacterium",
+      "evidence_id": "S3:L77",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ardenticatena",
+      "evidence_id": "S3:L80",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lewinella",
+      "evidence_id": "S3:L81",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polaribacter",
+      "evidence_id": "S3:L82",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anabaena",
+      "evidence_id": "S3:L83",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pyramidobacter",
+      "evidence_id": "S3:L84",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paraclostridium",
+      "evidence_id": "S3:L85",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Varibaculum",
+      "evidence_id": "S3:L86",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arcanobacterium",
+      "evidence_id": "S3:L87",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dethiosulfatarculus",
+      "evidence_id": "S3:L88",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gordonibacter",
+      "evidence_id": "S3:L89",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Subdoligranulum",
+      "evidence_id": "S3:L90",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ehrlichia",
+      "evidence_id": "S3:L91",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lunatimonas",
+      "evidence_id": "S3:L92",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Piscirickettsia",
+      "evidence_id": "S3:L93",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Citrobacter",
+      "evidence_id": "S3:L94",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rikenella",
+      "evidence_id": "S3:L95",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brachyspira",
+      "evidence_id": "S3:L97",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phocaeicola",
+      "evidence_id": "S3:L98",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudoflavonifractor",
+      "evidence_id": "S3:L99",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Alkanindiges",
+      "evidence_id": "S3:L100",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Myroides",
+      "evidence_id": "S3:L101",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Modestobacter",
+      "evidence_id": "S3:L102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sediminibacterium",
+      "evidence_id": "S3:L103",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Conexibacter",
+      "evidence_id": "S3:L105",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Jonquetella",
+      "evidence_id": "S3:L106",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermobifida",
+      "evidence_id": "S3:L107",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaeromyxobacter",
+      "evidence_id": "S3:L108",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Pan-cancer TMSI model; primary mucosal cancer validations excluded from target-genus list. Main-text microbes lack an eligible-site assignment; supplementary per-cancer TMSI coefficient table is used.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ],
+  "supplement_use": "Fewer than 3 securely attributable target-site genera in main text; supplementary table restricted to target samples or eligible cancer strata."
+}

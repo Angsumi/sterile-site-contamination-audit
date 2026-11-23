@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC12054239",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "metabolite analysis only",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Microbial metabolites and host receptors analysed in fetal tissue; no bacterial community sequencing.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "653aba962a5bebfc46b6c63359f89d1e93fe70d72bceb2c157a5beab8ede6aa9",
+  "notes": "",
+  "review_flags": []
+}

@@ -1,0 +1,82 @@
+{
+  "pmcid": "PMC6697683",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and normal tissue",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "o\u2019s instructions on a KingFisher robot. Bacterial 16S sequencing was performed by Microbiome Insights, Vancouver, Canada. Bacterial 16S rRNA genes were PCR-amplified with dual-barcoded primers targeting the V4 region, as per the protocol of"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0020",
+        "quote": "-iT PicoGreen dsDNA Assay Kit (Invitrogen). Blank controls were used for quality control. DNA was placed into a MoBio PowerMag Soil DNA Isolation Bead Plate. DNA was extracted following MoBio\u2019s instructions on a KingFisher robot. Bacterial "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 83,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0009",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hyphomicrobium",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sporosarcina",
+      "evidence_id": "E0011",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "72 women, 83 specimens (64 tumour, 11 adjacent normal, 8 reduction controls). Streptococcaceae is a family, excluded.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ed58f50c4937402f8d1932f369f6075876026272636871b3639ccac457f410e5",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,32 @@
+{
+ "pmcid": "PMC11748501",
+ "tissue_category": "tumour",
+ "sub_site": "hepatocellular carcinoma tissue (plus adjacent non-tumour liver)",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0005", "quote": "we enrolled 172 patients with HCC from Mengchao Hepatobiliary Hospital of Fujian Medical University in Fujian Province, China"}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0062", "quote": "universal primer set was utilized to amplify the V3-V4 region of the 16S rRNA gene"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 172,
+ "list_type": "differential_only",
+ "genera": [
+  {"name": "Rothia", "evidence_id": "E0046", "flagged_contaminant": false},
+  {"name": "Intestinimonas", "evidence_id": "E0046", "flagged_contaminant": false},
+  {"name": "Brachybacterium", "evidence_id": "E0047", "flagged_contaminant": false},
+  {"name": "Acidovorax", "evidence_id": "E0052", "flagged_contaminant": false},
+  {"name": "Holdemanella", "evidence_id": "E0052", "flagged_contaminant": false},
+  {"name": "Tepidimicrobium", "evidence_id": "E0052", "flagged_contaminant": false},
+  {"name": "Alistipes", "evidence_id": "E0052", "flagged_contaminant": false},
+  {"name": "Lysobacter", "evidence_id": "E0052", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "No negative controls or decontamination mentioned (only human/chloroplast/mitochondria read removal). Genus-level composition not given in text (phylum/class only); named genera are 8 of 15 LOS-vs-SOS differential genera (full list in Fig 4/Table S5). FISH and LPS/LTA staining support claim. Pipeline text inconsistently says V4 vs V3-V4 primers.",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

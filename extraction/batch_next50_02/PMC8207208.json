@@ -1,0 +1,74 @@
+{
+  "pmcid": "PMC8207208",
+  "tissue_category": "other_sterile",
+  "sub_site": "liver biopsy",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "a 467 base pairs amplicon (using Escherichia coli 16S as a reference) with a 2\u00d7300 paired-end MiSeq kit V3 (Illumina, San Diego, CA, USA). The detection of the sequencing fragments was performed using the MiSeq Illumina\u00ae technology."
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "d identity \u226580%) with the phiX (library used as a control for Illumina sequencing runs). Clustering was produced in 2 passes of the swarm algorithm v2.1.6. The first pass was a clustering with an aggregation distance equal to 1. The second "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": " To ensure a low background signal from bacterial contamination of reagents and consumables, 2 types of negative controls consisting of molecular-grade water were added in an empty tube separately at the DNA extraction step and at the PCR s"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Real-time quantitative polymerase chain reaction (qPCR) amplification was performed using 16S universal primers targeting the hypervariable V3\u2013V4 region of the bacterial 16S ribosomal gene as described previously. 18 , 19 , 22 The qPCR step"
+      }
+    ]
+  },
+  "n_target_samples": 29,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Massilia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "15 lean and 14 obese participants. Buffy-coat-only results excluded. Supplement plots mostly higher taxonomic ranks; no extra named target genus table. Water controls explicitly extracted/amplified/sequenced in supplemental methods.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c27882edf9b59133a5182e21ecc0939092bbe224029b4fe544b915c77221348d",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+ "pmcid": "PMC12618227",
+ "tissue_category": "tumour",
+ "sub_site": "",
+ "year": 2025,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "16S+shotgun",
+  "evidence": [
+   {
+    "id": "E0051",
+    "quote": "All tumor samples and associated controls were sequenced using V3-V4 16S rRNA amplicon sequencing"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "evidence": [
+   {
+    "id": "E0051",
+    "quote": "Reagent controls were taken at the time of DNA extraction for each extraction kit and each batch"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "tool",
+  "evidence": [
+   {
+    "id": "E0059",
+    "quote": "We used Source tracking for Contamination Removal in microBiomes (SCRuB"
+   },
+   {
+    "id": "E0064",
+    "quote": "Taxa identified in negative controls were removed as contaminants."
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "yes",
+  "evidence": [
+   {
+    "id": "E0070",
+    "quote": "Nuclease-free water was used as a negative control."
+   }
+  ]
+ },
+ "n_target_samples": null,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Fusobacterium",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Veillonella",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Prevotella",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Capnocytophaga",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enterococcus",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Porphyromonas",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Neisseria",
+   "evidence_id": "E0039",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Gemella",
+   "evidence_id": "E0039",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0033",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bifidobacterium",
+   "evidence_id": "E0033",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "34 taxa after filtering shown in bubble plots (figure); text names 10. Also FISH, culture, dPCR. Drops 46.6% of tumours with no signal after filtering.",
+ "extractor": "AI agent (Claude Opus 5.5), pilot 2026-11-22; converted 2026-11-23",
+ "date": "2026-11-22"
+}

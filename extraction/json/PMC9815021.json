@@ -1,0 +1,68 @@
+{
+ "pmcid": "PMC9815021",
+ "tissue_category": "tumour",
+ "sub_site": "soft tissue sarcoma (core biopsies pre-RT and resection post-RT)",
+ "year": 2023,
+ "country": "USA",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "We prospectively obtained tumor and stool samples from adult patients with non-metastatic STS"
+   }
+  ]
+ },
+ "method": {
+  "value": "shotgun",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0016",
+    "quote": "Metagenomic classification of the processed reads was accomplished using Kraken 2 (V.2.1.1)"
+   }
+  ]
+ },
+ "controls": {
+  "value": "sequenced",
+  "types": "sampling controls: collection-surface swabs (sterile vial, pathology workroom, toilet bowl) and patient skin swabs",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0013",
+    "quote": "we sampled surfaces for sequencing analysis that potentially interacted with our specimen acquisition workflow"
+   },
+   {
+    "id": "E0023",
+    "quote": "The pathology workroom surface samples demonstrated a small amount of bacterial DNA (0.27%) compared with the sterile vial"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 15,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Piscirickettsia",
+   "evidence_id": "E0029",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "15 patients, tumour sampled pre- and post-RT (exact number of tumour libraries not stated). Only phylum/family names in text plus one differential genus (Piscirickettsia; Respirovirus is viral). Controls were surface/skin sampling controls compared descriptively; no extraction/PCR blanks and no taxon removal. Per-sample data in online supplement (not converted).",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,115 @@
+{
+  "pmcid": "PMC10986527",
+  "tissue_category": "tumour",
+  "sub_site": "adrenocortical carcinoma HS cohort",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": ", DNA was diluted to 1 \u03bcg/\u03bcL using sterile water. 16S rRNA genes of a distinct V4 region were amplified using specific primer 16S V4:515 F-806R with the barcode. PCR reactions were carried out with 15 \u00b5L of Phusion High-Fidelity PCR Master "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "total of 26 ACC cases (HS cohort) and 10 paraffin controls were sequenced. The TCGA cohort encompassed 77 cases. Two and four amid the top 10 abundant genera in HS cohort were not detected in TCGA-P and TCGA-S, respectively. Neither was alp"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "en the retrospective nature of the current study, contamination was inevitable during and after sample embedment. Processing of FFPE samples before sequencing thus maximally conformed to the recommended protocol to minimize additional conta"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 26,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Marivita",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phaeodactylibacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Idiomarina",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Luteibacter",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Own HS cohort only; external TCGA-P and TCGA-S validation not combined. Muribaculaceae is a family, excluded. Prior TCGA publication is an overlap-review lead.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e18d0fd159539f469329c4f6d6a2342e5783470e6fc7e20ddd5644de86bf21d9",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.",
+    "Target selection or cohort attribution requires human confirmation; see notes."
+  ]
+}

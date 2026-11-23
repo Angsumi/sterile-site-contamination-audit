@@ -1,0 +1,51 @@
+pmcid,status,eligible_fulltext,counted_genera,usable,supplement_files_consulted,source_check,cohort_exclusion,review_flags
+PMC6534876,merged,0,0,0,0,pass,,
+PMC8672898,merged,1,3,1,0,pass,,
+PMC11866540,merged,1,2,0,2,pass,,Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.
+PMC12294340,merged,0,0,0,0,pass,,
+PMC13073471,merged,1,14,1,0,pass,,
+PMC13275416,merged,1,13,1,0,pass,,
+PMC5610236,held_eligibility_or_provenance,pending,,,0,held eligibility/provenance,,Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.; Adjudicate diagnostic intra-amniotic infection scope versus microbiome profiling; do not impose an undocumented exclusion.
+PMC8155119,merged,1,31,1,0,pass,,
+PMC9965790,merged,1,19,1,0,pass,,
+PMC8327971,merged,1,19,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC8025517,merged,1,0,0,2,pass,,Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.
+PMC9402670,merged,1,22,1,0,pass,,
+PMC8971327,merged_cohort_exclusion,0,4,0,0,pass,exclude_this_report_keep_longer_genus_list,
+PMC4971513,merged,1,5,1,0,pass,keep_longer_genus_list,
+PMC11532974,merged,1,4,1,0,pass,,
+PMC9892641,merged,1,3,1,1,pass,,
+PMC6839480,merged,1,7,1,0,pass,,
+PMC6110826,merged,1,4,1,0,pass,,
+PMC13022160,merged,1,21,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC8484116,merged,1,5,1,0,pass,,
+PMC7565819,merged,1,9,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC7445256,merged,1,9,1,0,pass,,
+PMC13359530,merged,1,1,0,4,pass,,Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.
+PMC4802384,merged,1,9,1,0,pass,,
+PMC11817552,merged,1,6,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC9893660,merged,1,21,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC12072589,held_eligibility_or_provenance,pending,,,0,held eligibility/provenance,,Confirm blood source of TCGA-CESC microbial profiles; cervical tumour tissue is an excluded mucosal site.
+PMC6155189,merged,1,21,1,0,pass,,
+PMC6806051,merged,1,4,1,0,pass,,
+PMC6629868,merged,1,17,1,0,pass,,
+PMC5460277,merged,1,9,1,0,pass,,
+PMC9896411,merged,1,9,1,0,pass,,
+PMC6368644,merged,1,3,1,0,pass,,
+PMC9850102,merged,1,11,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC11915875,merged,1,10,1,0,pass,,
+PMC12442831,merged,1,1,0,0,pass,,Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.
+PMC8207208,merged,1,1,0,3,pass,,Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence.
+PMC8202409,merged,1,20,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC8477924,merged,1,5,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC12605167,merged,1,12,1,0,pass,,
+PMC11829562,merged,1,14,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC8535827,merged,1,14,1,4,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC9390323,merged,1,7,1,0,pass,,
+PMC12922273,held_eligibility_or_provenance,pending,,,0,held eligibility/provenance,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.; Identify microbial dataset and sequencing provenance before establishing full-text eligibility.
+PMC11827206,merged,1,17,1,0,pass,,
+PMC9312790,merged,1,24,1,0,pass,,Exact target specimen count not established; do not infer from participant or mixed-compartment totals.
+PMC9658903,merged,1,8,1,0,pass,,
+PMC6237987,merged,1,5,1,0,pass,,
+PMC12373402,merged,1,16,1,0,pass,,
+PMC9523266,merged,1,13,1,0,pass,,

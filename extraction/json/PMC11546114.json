@@ -1,0 +1,28 @@
+{
+ "pmcid": "PMC11546114",
+ "tissue_category": "placenta_fetal",
+ "sub_site": "amniotic fluid (caesarean section); maternal faeces and meconium not extracted",
+ "year": 2024,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0007", "quote": "Amniotic fluid samples (~ 10 mL) were collected using sterile syringes before the complete rupture of the amniotic cavity during caesarean section"}]},
+ "method": {"value": "16S", "region": "V4", "evidence": [{"id": "E0008", "quote": "The hypervariable region V4 of the bacterial 16S rRNA gene was amplified using specific primers"}]},
+ "controls": {"value": "included_not_sequenced", "types": "sampling/container blank; extraction blank; PCR blank (carried to PCR only)", "n_sequenced": null, "evidence": [{"id": "E0008", "quote": "The blank controls underwent the same operational procedures as the experimental group, including sample acquisition, use of sterile container, DNA extraction, and PCR amplification"}, {"id": "E0036", "quote": "However, we didn’t use blank control for library construction and sequencing, which might cause contamination."}]},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "no", "evidence": []},
+ "n_target_samples": 31,
+ "list_type": "mixed",
+ "genera": [
+  {"name": "Acinetobacter", "evidence_id": "E0020", "flagged_contaminant": false},
+  {"name": "Lactobacillus", "evidence_id": "E0020", "flagged_contaminant": false},
+  {"name": "Pseudomonas", "evidence_id": "E0020", "flagged_contaminant": true},
+  {"name": "Agathobacter", "evidence_id": "E0025", "flagged_contaminant": false}
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "unclear",
+ "notes": "Top-20 genera per sample type only in Fig 1e; text names dominant AF genera Acinetobacter, Lactobacillus, Pseudomonas. Authors state Pseudomonas (AF) and Stenotrophomonas (meconium) may be contamination-associated findings (flagged). Blank controls not sequenced. Conclusion: contamination impact 'inconclusive'.",
+ "extractor": "AI agent (Claude sub-agent, batch 05)",
+ "date": "2026-11-23"
+}

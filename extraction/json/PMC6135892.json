@@ -1,0 +1,86 @@
+{
+  "pmcid": "PMC6135892",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid and decidual tissue",
+  "year": 2018,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": " PCR amplification of hypervariable V4 regions of bacterial 16S rDNA genes was performed using forward primer 520F (5\u2032-AYTGGGYDTAAAGNG-3\u2032) and reverse primer 802R (5\u2032-TACNVGGGTATCTAATCC-3\u2032). Sample-specific 7-bp barcodes were incorporated i"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": "ter chimera detection, bacterial operation taxonomic units (OTUs) were clustered by UCLUST (QIIME 1 ) based on 97% nucleotide similarity. A representative sequence selected from each OTU using default parameters. OTU taxonomic classificatio"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 105,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phyllobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Deinococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "64 amniotic fluids plus 41 decidual tissues. Genus list restricted to amniotic-fluid sequencing. Large separate placenta culture cohort and culture-only species excluded.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6907bed830d0ac376fc5c952344fc13b0b3e9a23b501158fcf670ef1d93fcbc9",
+  "supplement_manifest": []
+}

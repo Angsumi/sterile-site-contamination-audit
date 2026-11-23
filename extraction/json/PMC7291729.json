@@ -1,0 +1,113 @@
+{
+  "pmcid": "PMC7291729",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "24354d526112ebb3e40f50cca55eab4bd130bc6ba9792486a9866f88f288246a",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "icantly higher copies of bacterial 16S rRNA genes than negative controls, but the placental microbiome was similar in all three groups and could not be distinguished from contaminants in blank controls. To determine the source and compositi"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "n section delivery in a pilot case control study. Bacterial DNA was extracted from placental parenchyma, maternal and cord blood, maternal vaginal-rectal swabs, and positive and negative controls with the standard Qiagen/MoBio Power Soil ki"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Background A placental microbiome, which may be altered in gestational diabetes mellitus (GDM), has been described. However, publications raising doubts about the existence of a placental microbiome that is different than contaminants in DN"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "Quantitative PCR of bacterial 16S rRNA genes in the study samples and blank controls was used to determine relative absolute values of bacterial DNA in these samples (Fig. 1 a and b). VR samples overall contained a much higher biomass ( ρ <"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Peptoniphilus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0019",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Ruminococcus",
+      "evidence_id": "E0019",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "All named placental detections treated by authors as kitome/splashome; vaginal-only taxa excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

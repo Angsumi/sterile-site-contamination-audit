@@ -1,0 +1,99 @@
+{
+  "pmcid": "PMC10128432",
+  "tissue_category": "tumour",
+  "sub_site": "liver HCC, adjacent normal and hemangioma tissues",
+  "year": 2023,
+  "country": "China",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "5R multiplex",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "Genomic DNA of oral and fecal samples was extracted with the EZNA\u00ae Soil DNA kit in accordance with the manufacturer\u2019s guidelines (D4015, Omega, Inc., USA). Genomic DNA from hepatic tumor and non-tumor samples was extracted with an"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "unclear",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0022",
+        "quote": "The biliary duct anatomically interacts with the duodenum, which proposed an evident link for the microbiota to colonize the hepatic tissues and facilitate HCC development. To corroborate the presence of several influential taxa d"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 99,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Enterococcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia-Shigella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Delftia",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bifidobacterium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parabacteroides",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Stenotrophomonas",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only hepatic target 5R 16S results extracted. Shotgun applies gut samples only. Text says strict procedure to eliminate putative contaminants but gives no interpretable control/decontamination method; germ-free tissues used for IHC/FISH do not establish sequencing negative controls.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch A)",
+  "date": "2026-11-23"
+}

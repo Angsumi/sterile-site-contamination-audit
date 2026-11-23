@@ -1,0 +1,9 @@
+{
+ "pmcid": "PMC7159194",
+ "tissue_category": "placenta_fetal",
+ "year": 2020,
+ "eligible_fulltext": false,
+ "exclusion_reason": "Diagnostic mNGS for suspected infection: Karius clinical pathogen cfDNA assay used to detect pathogens of chorioamnionitis/intra-amniotic infection in maternal and umbilical cord plasma (borderline: includes 63 non-infected controls and sequenced negative controls).",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

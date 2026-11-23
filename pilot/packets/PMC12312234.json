@@ -1,0 +1,97 @@
+{
+ "pmcid": "PMC12312234",
+ "meta": {
+  "title": "2bRAD-M reveals circulating microbiome in chronic antibody-mediated rejection (CAMR) and IgA nephropathy (IgAN) after kidney transplantation",
+  "journal": "BMC Microbiology",
+  "year": "2025",
+  "doi": "10.1186/s12866-025-04103-3",
+  "pmid": "40745634"
+ },
+ "n_elements": 32,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0008",
+   "section": "Identification of species-specific 2bRAD-M markers",
+   "text": "Firstly, totally 404,199 microbial genomes (including bacteria, fungi and archaea) were downloaded from GTDB and Ensembl database. Then, built-in Perl scripts were used to sample restriction fragments from microbial genomes by each of 16 type 2B restriction enzymes, which formed a huge 2bRAD microbial genome database. The set of 2bRAD tags sampled from each genome was assigned under the GCF (Genome Assembly from RefSeq) number, as well as GCF’s taxonomic information corresponding to the whole genome [ 13 , 14 ]. Finally, all 2bRAD tags from each GCF that occur once within the genome were compared with those to all the others. Those 2bRAD tags are specific to a species-level taxon (having no overlap with other species) were developed as species-specific 2bRAD markers, collectively forming a 2bRAD marker database."
+  },
+  {
+   "evidence_id": "E0009",
+   "section": "Calculation of relative abundance",
+   "text": "Firstly, to identify microbial species within each sample, all sequenced 2bRAD tags after quality control were mapped (using a built-in Perl script) against the 2bRAD marker database which contains all 2bRAD tags theoretically unique to each of 86,022 microbial species in database. To control the false-positive in the species identification, G score was derived for each species identified within a sample as below, which is a harmonious mean of read coverage of 2bRAD markers belongs to a species and number of all possible 2bRAD markers of this species. The threshold of G score for a false positive discovery of microbial species was set 5 [ 14 ]. \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\text{G}\\;{score }_{species\\;i}=\\sqrt{{S}_{i}\\times {t}_{i}}$$\\end{document} (S: number of reads for all 2bRAD markers mapped to species i in the sample; t: number of all 2bRAD markers mapped to species i in the sample)."
+  },
+  {
+   "evidence_id": "E0010",
+   "section": "Calculation of relative abundance",
+   "text": "Then, calculated the average read coverage of all 2bRAD markers for each species, which represent the number of individuals belonging to a species present in a sample at a given sequencing depth. The relative abundance of a given species is then calculated as the ratio of the number of microbial individuals belonging to a species against the total number of individuals from known species that can be detected within a sample. \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$Relative\\;{abundance }\\;_{species\\;i} =\\frac{{S}_{i}/{T}_{i}}{{\\sum }_{i=1}^{n}{S}_{i}/{T}_{i}}$$\\end{document}"
+  },
+  {
+   "evidence_id": "E0022",
+   "section": "Discussion",
+   "text": "In this study, we first analyzed the microbial community composition of the three groups, and the dominant phyla of the three groups were Proteobacteria , Firmicutes , and Actinobacteriota , all of which are major constituents of intestinal flora [ 17 ]. The gut microbiota may serve as a potential reservoir for bloodstream pathogens in a cohort of hematopoietic cell transplant recipients, the intestinal tract may be the source of pathogenic infections [ 18 ]. There may be a similar role in kidney transplantation. WF Fricke et al. [ 4 ] identified different microbial communities in all sample types except blood by 16S rRNA sequencing four different types of samples from kidney transplant recipients: blood, urine, oral, and rectal. However, we detected microorganisms in the serum, this may be due to different detection techniques. Compared to the 16S rRNA gene sequence which is approximately 1,550 bp long [ 19 ], 2bRAD-M utilizes type IIB restriction enzymes to exclusively generate 25–33 bp isometric DNA fragments for sequencing [ 14 ], the fragments we detected might be fragments of bacteria that “leak from” the gut into the body due to intestinal microbiota translocation [ 20 ]. There’s another reason, while the lower resolution of 16S rRNA sequencing at the species level limits the depth of its analysis, 2bRAD-M is capable of detecting microorganisms with the highest accuracy and sensitivity and can analyze samples with low biomass (as low as 1 pg) as well as those that are heavily degraded or highly contaminated [ 21 ]. Kidney transplant patients usually take immunosuppressant after transplantation, such as tacrolimus (TAC), found that oral administration of TAC to mice led to alterations in the composition of the gut microbiota [ 22 ], also modulates tacrolimus pharmacokinetics through transcriptional regulation of ABCB1, which is reduced by polar bacterial metabolites, thereby affecting TAC absorption. Patients with higher TAC PK parameters (dose/kg) had higher bacterial abundance [ 23 ]. Intestinal permeability is increased in tacrolimus-treated patients [ 24 , 25 ], TAC is also associated with intestinal barrier loss [ 26 ]. It can be seen that the use of tacrolimus after renal transplantation leads to damage of the intestinal barrier and abnormal intestinal flora in patients. Correlation analyses indicate that there are extensive and close associations between different genera. Positive correlations indicate the existence of mutualistic or symbiotic relationships between some bacteria, which may support each other’s growth and colonization, while negative correlations indicate the existence of competitive relationships between some bacteria, which hinder each other’s growth. The α-diversity of the circulating microbiome was higher in the CAMR and IgAN than in the STABLE group, and β-diversity of CAMR and IgAN differed non-significantly from STABLE. It is worth noting that the Binary Jaccard Distance indices were significantly different for both CAMR and IgAN, suggesting that there were large differences between communities between the two groups. Both α- and β-diversity results indicated differences in species diversity and richness and community structure composition of CAMR, IgAN and STABLE microorganisms."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0015"
+  ],
+  "Actinobacteria": [
+   "E0015"
+  ],
+  "Actinobacteriota": [
+   "E0015",
+   "E0022"
+  ],
+  "Actinomycetales": [
+   "E0018",
+   "E0024"
+  ],
+  "Alcaligenes": [
+   "E0018"
+  ],
+  "Butyricicoccus": [
+   "E0024"
+  ],
+  "Clostridium": [
+   "E0015"
+  ],
+  "Cupriavidus": [
+   "E0015"
+  ],
+  "Enterobacteriaceae": [
+   "E0023"
+  ],
+  "Enterorhabdus": [
+   "E0024"
+  ],
+  "Escherichia": [
+   "E0015"
+  ],
+  "Firmicutes": [
+   "E0015",
+   "E0022"
+  ],
+  "Kocuria": [
+   "E0019"
+  ],
+  "Lactobacillales": [
+   "E0016"
+  ],
+  "Lactobacillus": [
+   "E0015",
+   "E0023"
+  ],
+  "Proteobacteria": [
+   "E0015",
+   "E0022"
+  ],
+  "Pseudomonas": [
+   "E0015"
+  ],
+  "Sphingomonas": [
+   "E0015"
+  ],
+  "Staphylococcus": [
+   "E0015"
+  ]
+ }
+}

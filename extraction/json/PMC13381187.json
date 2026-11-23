@@ -1,0 +1,98 @@
+{
+  "pmcid": "PMC13381187",
+  "tissue_category": "tumour",
+  "sub_site": "lung core tissue",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "fe2ecf19aff9ef188ec41c8d15bb25c379f82bcf0567086c6ee6c44188be81e2",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "rvariable regions of the bacterial 16S rRNA gene were amplified using universal primers 341F (5’-ACTCCTACGGGAGGCAGCA-3’) and 806R (5’-GGACTACHVGGGTWTCTAAT-3’) ( Klindworth et al., 2012 ). The PCR reaction system (20 µL) contained 4 µL 5× Fa"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "ontaminant sequences identified in negative controls were bioinformatically subtracted. Specifically, negative controls, including sterile saline washes and empty extraction kit reagents were sequenced alongside biological specimens. Bacill"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "ata were demultiplexed and quality-filtered using fastp (v0.23.4) to remove adapters and low-quality bases. Paired-end reads were merged using FLASH (v1.2.11). Operational Taxonomic Units (OTUs) were clustered at a 97% similarity threshold "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Bacillus",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycoplasma",
+      "evidence_id": "E0026",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anoxybacillus",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0027",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia-Caballeronia-Paraburkholderia",
+      "evidence_id": "E0029",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

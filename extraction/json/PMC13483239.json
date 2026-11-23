@@ -1,0 +1,108 @@
+{
+  "pmcid": "PMC13483239",
+  "tissue_category": "tumour",
+  "sub_site": "kidney",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e794fcf935e8207416d552cc4c300043934bfc4930373c630febcac442dd8e96",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "Six ccRCC RNA-seq cohorts plus own 16S tissue validation",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "A total of six cohorts with the bulk RNA sequencing data available were included in our study. EGAD00001000597 ( 16 ) is an integrated molecular study of ccRCC and consists of 100 tumor samples. EGAD00001006029 (CheckMate 025; NCT01668784 )"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "total of six cohorts with the bulk RNA sequencing data available were included in our study. EGAD00001000597 ( 16 ) is an integrated molecular study of ccRCC and consists of 100 tumor samples. EGAD00001006029 (CheckMate 025; NCT01668784 ) ("
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "bedded (FFPE). We also included 10 negative controls using sliced paraffin from the margin of the block, sampling paraffin only without tissue."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "statistical / batch filtering",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "plemented a stringent and tailored decontamination algorithm ( Fig. 1A ) to discern authentic microbial signals from pervasive sequencing noise. The overall ITB abundance was low in ccRCC, corresponding to the notion of a low biomass nature"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinomyces",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0015",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Moraxella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Mixed public RNA mining and own 16S cohorts. Exact matching of negative controls to all public cohorts remains a human-check priority.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+ "pmcid": "PMC11858623",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic ductal adenocarcinoma tumour + adjacent normal; normal pancreas from organ donors",
+ "year": 2025,
+ "country": "Italy; Germany (donor controls)",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0007",
+    "quote": "Resected PDAC (T-PDAC) and adjacent normal tissues (N-PDAC) were taken separately"
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0010",
+    "quote": "sequencing the amplified V3 to V4 hypervariable region of the 16S rRNA gene"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "PCR no-template control (checked by gel)",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0010",
+    "quote": "A no-template PCR negative control and a PCR positive control were added to each PCR run"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "abundance_filter_only",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "filtered out features present in fewer than 5 samples or with a total frequency of less than 10"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 81,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Jeotgalicoccus",
+   "evidence_id": "E0026",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0028",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Methylobacterium-Methylorubrum",
+   "evidence_id": "E0029",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Delftia",
+   "evidence_id": "E0029",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sphingomonas",
+   "evidence_id": "E0029",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0029",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "32 PDAC tumour + 32 adjacent normal + 17 donor normal pancreas = 81 samples. Nested PCR (35+25 cycles). Top-15 genera shown only in Figure 1 (not named in text).",
+ "extractor": "AI agent (Claude sub-agent, batch 07)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC8022255",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma and paired normal tissue",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": ". The V3\u2013V4 hypervariable regions of the bacteria 16S rRNA gene were amplified with primers 338 F (5\u2019- ACTCCTACGGGAGGCAGCAG-3\u2019) and 806R (5\u2019-GGACTACHVGGGTWTCTAAT-3\u2019) by thermocycler PCR system (GeneAmp 9700, 110 ABI, USA). The amplified pro"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0007",
+        "quote": "onmental contaminations, we introduced 3 negative controls that were processed with the samples. qPCR was used to evaluated the bacterial load in negative controls with 16 s primers (Forward: CCTACGGGNGGCWGCAG; Reverse: GACTACHVGGGTATCTAATC"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 70,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Ancylobacter",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ochrobactrum",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Parvibaculum",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Renibacterium",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Eubacterium",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Finegoldia",
+      "evidence_id": "E0016",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Subdoligranulum",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lachnoclostridium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Mycobacterium",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "35 paired tissue cases. Negative controls checked by qPCR; successful sequencing not explicit. Target bacterial biomass was not measured by the negative-control assay.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "8e5c9b0582887fb2fe4b082a02e1a89a4f6da3b123bc60a6c4e6403a36ac56d7",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,68 @@
+{
+  "pmcid": "PMC13680605",
+  "tissue_category": "other_sterile",
+  "sub_site": "orbital adipose tissue",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "47f9ee45a3788b46750d404158fbf4f1487b5e05fbd6b9cc067ecedd1ad7a074",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "s, and libraries were prepared for 16S ribosomal RNA (16S rRNA) gene sequencing to characterize the microbial composition of the orbital microenvironment and related anatomical sites."
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0032",
+        "quote": "analysis showed that sterile water controls exhibited markedly lower diversity compared with biological samples, supporting effective discrimination between background contamination and putative tissue-associated microbial DNA signals. Heat"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "statistical / batch filtering",
+    "evidence": [
+      {
+        "id": "E0036",
+        "quote": "trols were identified as potential contaminants and removed using statistical decontamination approaches. After contaminant filtering, the retained dataset was considered to enrich for putative tissue-associated microbial signatures while m"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Allorhizobium–Neorhizobium–Pararhizobium–Rhizobium",
+      "evidence_id": "E0032",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Orbital adipose 16S profiling, separate from host scRNA-seq. Main figure caption names only the ANPR composite; other genus labels require visual review.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

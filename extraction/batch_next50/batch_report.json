@@ -1,0 +1,612 @@
+[
+  {
+    "pmcid": "PMC13207053",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 11,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Participant count is stated; number of target tissue specimens is not assumed equal or doubled."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9440687",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Target selection or cohort attribution requires human confirmation; see notes."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC10986527",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 10,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.",
+      "Target selection or cohort attribution requires human confirmation; see notes."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC7285296",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 23,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC5378909",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.",
+      "Participant count is stated; number of target tissue specimens is not assumed equal or doubled."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": [
+      "N50_srep43481-s1.md"
+    ]
+  },
+  {
+    "pmcid": "PMC8773292",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": [
+      "N50_biomedicines-1436413-supplementary.md"
+    ]
+  },
+  {
+    "pmcid": "PMC12637401",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 12,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9455596",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 3,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8080616",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 3,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC5328378",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 15,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6697683",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC11853128",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 10,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Target selection or cohort attribution requires human confirmation; see notes."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC7492258",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 27,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12552862",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 6,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9787457",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 1,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.",
+      "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": [
+      "N50_jcm-1921217-supplementary.md"
+    ]
+  },
+  {
+    "pmcid": "PMC9917689",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 2,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": [
+      "N50_ijms-2134770-supplementary.md"
+    ]
+  },
+  {
+    "pmcid": "PMC6060185",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.",
+      "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8263754",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 1,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC11767796",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 14,
+    "failures": [],
+    "warnings": [
+      "WARN genus Colinsella not an NCBI Bacteria/Archaea genus (will not be counted)",
+      "WARN genus Faecalibaterium not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC4555154",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 13,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8467001",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 6,
+    "failures": [],
+    "warnings": [
+      "WARN genus Sphihgomonas not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6107834",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": [
+      "N50_Table_1.md"
+    ]
+  },
+  {
+    "pmcid": "PMC11766298",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 8,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Target selection or cohort attribution requires human confirmation; see notes."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12024857",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 10,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12605253",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6528574",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 9,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9669652",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 13,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12692222",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 19,
+    "failures": [],
+    "warnings": [
+      "WARN genus Candidatus_Udaeobacter not an NCBI Bacteria/Archaea genus (will not be counted)",
+      "WARN genus Candidatus_Adlerbacteria not an NCBI Bacteria/Archaea genus (will not be counted)",
+      "WARN duplicate genus Candidatus_Adlerbacteria"
+    ],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6790596",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 28,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8226556",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 8,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8722097",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 7,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8448740",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 4,
+    "failures": [],
+    "warnings": [
+      "WARN genus Clostridoides not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8718896",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 11,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12004234",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 7,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC13176315",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 8,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC11752883",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 14,
+    "failures": [],
+    "warnings": [
+      "WARN genus Bosea not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9342854",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 14,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC7563179",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 16,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC8022255",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 13,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9234634",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 5,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12301127",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 13,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC11906328",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 11,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6023934",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 6,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC11834920",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 3,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC6969417",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 35,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC5237345",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 15,
+    "failures": [],
+    "warnings": [
+      "WARN genus Actinobacter not an NCBI Bacteria/Archaea genus (will not be counted)",
+      "WARN genus Lutemonas not an NCBI Bacteria/Archaea genus (will not be counted)"
+    ],
+    "review_flags": [
+      "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC9225573",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 3,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC3587628",
+    "status": "held_eligibility",
+    "eligible_fulltext": null,
+    "n_genera_raw": 0,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Unresolved eligibility; excluded from merged analysis data until adjudicated."
+    ]
+  },
+  {
+    "pmcid": "PMC13749659",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 16,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [],
+    "source_check": "pass",
+    "supplements_consulted": []
+  },
+  {
+    "pmcid": "PMC12052825",
+    "status": "merged",
+    "eligible_fulltext": true,
+    "n_genera_raw": 53,
+    "failures": [],
+    "warnings": [],
+    "review_flags": [
+      "Target selection or cohort attribution requires human confirmation; see notes."
+    ],
+    "source_check": "pass",
+    "supplements_consulted": []
+  }
+]

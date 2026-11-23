@@ -1,0 +1,54 @@
+{
+  "pmcid": "PMC6060185",
+  "tissue_category": "blood",
+  "sub_site": "serum",
+  "year": 2018,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0023",
+        "quote": "The sequence data covered the 16S rRNA V4 region with a PCR product length of ~ 255 bases and 250 base paired-end reads. Since the overlap between fragments was approximately 245 bases, the information from both ends of the paired reads was"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 48,
+  "list_type": "mixed",
+  "genera": [],
+  "top5": [],
+  "figures_only": "yes",
+  "authors_conclusion": "unclear",
+  "notes": "24 young and 24 older adults. Publication describes higher ranks; no target-genus list recovered. Linked prior same-team intestinal-permeability study is a cohort review lead.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "149d38ff7ca2ebff2fb472b827a69d350d7f88521ab8debb15895459f625c552",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.",
+    "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+  ]
+}

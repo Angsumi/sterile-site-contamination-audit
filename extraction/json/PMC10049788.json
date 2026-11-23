@@ -1,0 +1,89 @@
+{
+ "pmcid": "PMC10049788",
+ "tissue_category": "tumour",
+ "sub_site": "breast cancer (TCGA-BRCA)",
+ "year": 2023,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "public_reuse",
+  "dataset": "TCGA-BRCA; Poore et al. Kraken-TCGA-Voom-SNM (contaminants removed); GSE161529 scRNA-seq for host cells",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "The intratumor microbial abundance data file, Kraken-TCGA-Voom-SNM with all putative contaminants removed, was used for analysis in our study."
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "Poore et al. ( 25 ) re-examined whole genome and transcriptome sequencing studies in TCGA for microbial reads."
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "tool",
+  "tool": "Poore et al. in-silico decontamination (Kraken-TCGA 'all putative contaminants removed')",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "Kraken-TCGA-Voom-SNM with all putative contaminants removed"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 1085,
+ "list_type": "differential_only",
+ "genera": [
+  {
+   "name": "Lawsonia",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bulleidia",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Campylobacter",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Saccharibacter",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paludibacter",
+   "evidence_id": "E0014",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Marichromatium",
+   "evidence_id": "E0022",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Only metabolism-/prognosis-associated genera named (19 metabolism-related genera shown in Figure 1A, only 3 named). Nitrosopelagicus (archaeon) and Simplexvirus (virus) not recorded. Authors' conclusion is exploratory but treats intratumour microbes as real.",
+ "extractor": "AI agent (Claude sub-agent, batch 00)",
+ "date": "2026-11-23"
+}

@@ -1,0 +1,77 @@
+{
+  "pmcid": "PMC6806051",
+  "tissue_category": "blood",
+  "sub_site": "blood",
+  "year": 2019,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "tham, MA). The V3\u2010V4 hypervariable regions of the 16S ribosomal DNA (16S rDNA) were quantified by qPCR, sequenced using the Illumina\u2010MiSeq technology and clustered into operational taxonomic unit before taxonomic assignment, as described pr"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0006",
+        "quote": "e 16S ribosomal DNA (16S rDNA) were quantified by qPCR, sequenced using the Illumina\u2010MiSeq technology and clustered into operational taxonomic unit before taxonomic assignment, as described previously. 10 , 11 , 12 We performed numerous con"
+      }
+    ]
+  },
+  "n_target_samples": 202,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Chryseobacterium",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gordonia",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Propionibacterium",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0058",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "99 myocardial-infarction cases and 103 high-risk controls. qPCR assesses bacterial DNA burden. Higher-rank cholesterol-related families excluded.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "f43b4f7321383e3696af79e408b850c2c79ee63a50655014b5ede1d8021d3d11",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

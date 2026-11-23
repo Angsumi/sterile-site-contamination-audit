@@ -1,0 +1,90 @@
+{
+  "pmcid": "PMC10502960",
+  "tissue_category": "tumour",
+  "sub_site": "adrenocortical carcinoma",
+  "year": 2023,
+  "country": "Italy",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V3-V4",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "mplicons of the variable V3–V4 region of the bacterial 16s rRNA gene were sequenced using a paired-end approach (2 × 300 cycles, 50,000 reads) on the Illumina MiSeq platform according to the Illumina 16S Metagenomic Sequencing Library Prepa"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0011",
+        "quote": "egion. In conclusion, every genus with a mean relative abundance less than 0.05% (computed considering also the host DNA in the total library size) has been removed to further minimise environmental contaminants. Further details are openly "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 26,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Serratia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudarcicella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Frateuria",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [
+    "Pseudomonas",
+    "Pseudarcicella",
+    "Serratia",
+    "Acinetobacter",
+    "Streptococcus"
+  ],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

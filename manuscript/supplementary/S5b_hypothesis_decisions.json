@@ -1,0 +1,484 @@
+{
+ "H1": {
+  "main": {
+   "model": "A_main",
+   "estimate": -0.449999114684332,
+   "ci": [
+    -0.9848627881469383,
+    0.0848645587782742
+   ],
+   "OR": 0.6376287161242161,
+   "OR_ci": [
+    0.3734904707405431,
+    1.08856961951421
+   ],
+   "p": 0.09915075247411523,
+   "n": 94,
+   "direction_ok": false,
+   "ci_excludes_null": false,
+   "supported": false,
+   "estimable": true
+  },
+  "robustness": [
+   {
+    "model": "E1_strict",
+    "estimate": -0.6149148683766525,
+    "ci": [
+     -1.1094908475357608,
+     -0.12033888921754443
+    ],
+    "OR": 0.5406869229055564,
+    "OR_ci": [
+     0.32972679955639494,
+     0.8866199198681702
+    ],
+    "p": 0.014815532115915287,
+    "n": 94,
+    "direction_ok": false,
+    "ci_excludes_null": true,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E2_salter_full",
+    "estimate": -0.8263310913367086,
+    "ci": [
+     -1.3155383602097634,
+     -0.33712382246365374
+    ],
+    "OR": 0.43765204972412436,
+    "OR_ci": [
+     0.26832982624546736,
+     0.7138204474239394
+    ],
+    "p": 0.0009308965792980496,
+    "n": 94,
+    "direction_ok": false,
+    "ci_excludes_null": true,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E3_ge10_genera",
+    "estimate": -0.20231826480126697,
+    "ci": [
+     -1.0598720100060603,
+     0.6552354804035263
+    ],
+    "OR": 0.8168349167657764,
+    "OR_ci": [
+     0.3465001560449653,
+     1.9255959040929485
+    ],
+    "p": 0.6437914387223471,
+    "n": 55,
+    "direction_ok": false,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E4_ols_logit",
+    "estimate": -0.731020824831512,
+    "ci": [
+     -1.2252723363878255,
+     -0.23676931327519846
+    ],
+    "OR": NaN,
+    "OR_ci": [
+     NaN,
+     NaN
+    ],
+    "p": 0.0037450141654293877,
+    "n": 94,
+    "direction_ok": false,
+    "ci_excludes_null": true,
+    "supported": false,
+    "estimable": true
+   }
+  ],
+  "n_robustness_supported": 0,
+  "robust": false
+ },
+ "H2": {
+  "main": {
+   "model": "A_main",
+   "estimate": -0.42236833313104805,
+   "ci": [
+    -0.9294458748030154,
+    0.08470920854091935
+   ],
+   "OR": 0.6554925552976039,
+   "OR_ci": [
+    0.3947724031100643,
+    1.0884005231003655
+   ],
+   "p": 0.10256480322021723,
+   "n": 94,
+   "direction_ok": true,
+   "ci_excludes_null": false,
+   "supported": false,
+   "estimable": true
+  },
+  "robustness": [
+   {
+    "model": "E1_strict",
+    "estimate": -0.34151168229496465,
+    "ci": [
+     -0.8238798833983325,
+     0.14085651880840327
+    ],
+    "OR": 0.7106951650208139,
+    "OR_ci": [
+     0.43872614177633745,
+     1.1512594520557553
+    ],
+    "p": 0.16524847144366506,
+    "n": 94,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E2_salter_full",
+    "estimate": -0.35130953429374945,
+    "ci": [
+     -0.8374688172686373,
+     0.13484974868113841
+    ],
+    "OR": 0.7037658804629431,
+    "OR_ci": [
+     0.43280464577856975,
+     1.1443648291085546
+    ],
+    "p": 0.15668368941335745,
+    "n": 94,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E3_ge10_genera",
+    "estimate": -0.3203198417219204,
+    "ci": [
+     -0.941258097787711,
+     0.30061841434387016
+    ],
+    "OR": 0.725916821453404,
+    "OR_ci": [
+     0.3901366963582647,
+     1.350693837795528
+    ],
+    "p": 0.3119803759636719,
+    "n": 55,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E4_ols_logit",
+    "estimate": -0.5330198447550341,
+    "ci": [
+     -0.9936244355934847,
+     -0.07241525391658338
+    ],
+    "OR": NaN,
+    "OR_ci": [
+     NaN,
+     NaN
+    ],
+    "p": 0.02332279139402572,
+    "n": 94,
+    "direction_ok": true,
+    "ci_excludes_null": true,
+    "supported": true,
+    "estimable": true
+   }
+  ],
+  "n_robustness_supported": 1,
+  "robust": false
+ },
+ "H3": {
+  "main": {
+   "model": "A_main",
+   "estimate": -0.2988285782963647,
+   "ci": [
+    -0.6819799391255084,
+    0.08432278253277892
+   ],
+   "OR": 0.7416865397084553,
+   "OR_ci": [
+    0.5056149139152818,
+    1.087980018083236
+   ],
+   "p": 0.12635840449054306,
+   "n": 94,
+   "direction_ok": true,
+   "ci_excludes_null": false,
+   "supported": false,
+   "estimable": true
+  },
+  "robustness": [
+   {
+    "model": "E1_strict",
+    "estimate": -0.00979676623530612,
+    "ci": [
+     -0.38200861465271263,
+     0.3624150821821004
+    ],
+    "OR": 0.9902510657519915,
+    "OR_ci": [
+     0.6824891737728533,
+     1.4367952062919
+    ],
+    "p": 0.958857743017724,
+    "n": 94,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E2_salter_full",
+    "estimate": -0.5774984234506422,
+    "ci": [
+     -0.9401793413280215,
+     -0.21481750557326285
+    ],
+    "OR": 0.5613007485408286,
+    "OR_ci": [
+     0.3905577859253327,
+     0.8066886429265239
+    ],
+    "p": 0.0018032417593201197,
+    "n": 94,
+    "direction_ok": true,
+    "ci_excludes_null": true,
+    "supported": true,
+    "estimable": true
+   },
+   {
+    "model": "E3_ge10_genera",
+    "estimate": -0.4931951431020574,
+    "ci": [
+     -0.9690199796670567,
+     -0.017370306537058178
+    ],
+    "OR": 0.6106720889918921,
+    "OR_ci": [
+     0.379454729291326,
+     0.9827796875010404
+    ],
+    "p": 0.04220290194618695,
+    "n": 55,
+    "direction_ok": true,
+    "ci_excludes_null": true,
+    "supported": true,
+    "estimable": true
+   },
+   {
+    "model": "E4_ols_logit",
+    "estimate": -0.19761562246025222,
+    "ci": [
+     -0.5761383655988623,
+     0.18090712067835796
+    ],
+    "OR": NaN,
+    "OR_ci": [
+     NaN,
+     NaN
+    ],
+    "p": 0.30619452066049657,
+    "n": 94,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   }
+  ],
+  "n_robustness_supported": 2,
+  "robust": false
+ },
+ "H4": {
+  "main": {
+   "model": "C_pooled",
+   "estimate": -0.2605641388192861,
+   "ci": [
+    -0.52240653440664,
+    0.0012782567680677537
+   ],
+   "OR": 0.7706167283438622,
+   "OR_ci": [
+    0.5930915339913703,
+    1.0012790740864608
+   ],
+   "p": 0.05112895337311328,
+   "n": 398,
+   "direction_ok": true,
+   "ci_excludes_null": false,
+   "supported": false,
+   "estimable": true
+  },
+  "robustness": [
+   {
+    "model": "E1p_strict",
+    "estimate": -0.25257453832637966,
+    "ci": [
+     -0.514030628560102,
+     0.008881551907342633
+    ],
+    "OR": 0.7767983094354088,
+    "OR_ci": [
+     0.5980800754506898,
+     1.0089211099149205
+    ],
+    "p": 0.0583067095132127,
+    "n": 398,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E2p_salter_full",
+    "estimate": -0.09855074676000304,
+    "ci": [
+     -0.3754792326872791,
+     0.17837773916727306
+    ],
+    "OR": 0.906149707285755,
+    "OR_ci": [
+     0.6869599862131448,
+     1.1952767388103627
+    ],
+    "p": 0.4854937902844726,
+    "n": 398,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E3p_ge10_genera",
+    "estimate": -0.3047909989194949,
+    "ci": [
+     -0.6158785735098283,
+     0.006296575670838522
+    ],
+    "OR": 0.7372774500737723,
+    "OR_ci": [
+     0.5401661111373063,
+     1.0063164407755862
+    ],
+    "p": 0.05482086402685372,
+    "n": 216,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   },
+   {
+    "model": "E4p_ols_logit",
+    "estimate": -0.2198231284420413,
+    "ci": [
+     -0.47555796751898294,
+     0.03591171063490037
+    ],
+    "OR": NaN,
+    "OR_ci": [
+     NaN,
+     NaN
+    ],
+    "p": 0.0920397252341411,
+    "n": 398,
+    "direction_ok": true,
+    "ci_excludes_null": false,
+    "supported": false,
+    "estimable": true
+   }
+  ],
+  "n_robustness_supported": 0,
+  "robust": false
+ },
+ "H1_coprimary_excl_mining": {
+  "model": "B_main_excl_mining",
+  "estimate": -0.16142274242721139,
+  "ci": [
+   -0.794504489774565,
+   0.4716590049201423
+  ],
+  "OR": 0.8509322698877243,
+  "OR_ci": [
+   0.45180505348972577,
+   1.6026507945040966
+  ],
+  "p": 0.6172509451328467,
+  "n": 26,
+  "direction_ok": false,
+  "ci_excludes_null": false,
+  "supported": false,
+  "estimable": true
+ },
+ "H1_pooled": {
+  "model": "C_pooled",
+  "estimate": -0.4637308452077611,
+  "ci": [
+   -0.7379339167853989,
+   -0.18952777363012335
+  ],
+  "OR": 0.6289328119681804,
+  "OR_ci": [
+   0.47810069160307395,
+   0.8273497380727471
+  ],
+  "p": 0.0009174770826076248,
+  "n": 398,
+  "direction_ok": false,
+  "ci_excludes_null": true,
+  "supported": false,
+  "estimable": true
+ },
+ "H1_pooled_excl_mining": {
+  "model": "C2_pooled_excl_mining",
+  "estimate": -0.3755364395729286,
+  "ci": [
+   -0.687912319788066,
+   -0.06316055935779119
+  ],
+  "OR": 0.6869206884958284,
+  "OR_ci": [
+   0.502624293298002,
+   0.9387927296300039
+  ],
+  "p": 0.01846013442300166,
+  "n": 330,
+  "direction_ok": false,
+  "ci_excludes_null": true,
+  "supported": false,
+  "estimable": true
+ },
+ "H1_excl_public_reuse": {
+  "model": "F_excl_public_reuse",
+  "estimate": -0.20063219569296248,
+  "ci": [
+   -0.7499680118994148,
+   0.34870362051348974
+  ],
+  "OR": 0.8182133185993481,
+  "OR_ci": [
+   0.4723816630914913,
+   1.4172290904604696
+  ],
+  "p": 0.47409540352243884,
+  "n": 37,
+  "direction_ok": false,
+  "ci_excludes_null": false,
+  "supported": false,
+  "estimable": true
+ },
+ "main_analysis": "shotgun-class model",
+ "n_usable_shotgun_class": 94
+}

@@ -1,0 +1,368 @@
+{
+ "n_eligible": 475,
+ "n_usable": 398,
+ "controls_by_tissue": {
+  "included_not_sequenced": {
+   "blood": 18,
+   "brain_csf": 2,
+   "other_sterile": 15,
+   "placenta_fetal": 8,
+   "tumour": 26
+  },
+  "none_mentioned": {
+   "blood": 58,
+   "brain_csf": 3,
+   "other_sterile": 18,
+   "placenta_fetal": 16,
+   "tumour": 144
+  },
+  "sequenced": {
+   "blood": 33,
+   "brain_csf": 10,
+   "other_sterile": 20,
+   "placenta_fetal": 40,
+   "tumour": 64
+  }
+ },
+ "controls_by_period": {
+  "included_not_sequenced": {
+   "2012-2016": 4,
+   "2017-2020": 12,
+   "2021-2023": 20,
+   "2024-2026": 33
+  },
+  "none_mentioned": {
+   "2012-2016": 5,
+   "2017-2020": 32,
+   "2021-2023": 70,
+   "2024-2026": 132
+  },
+  "sequenced": {
+   "2012-2016": 6,
+   "2017-2020": 26,
+   "2021-2023": 62,
+   "2024-2026": 73
+  }
+ },
+ "decon_by_period": {
+  "abundance_filter_only": {
+   "2012-2016": 0,
+   "2017-2020": 4,
+   "2021-2023": 9,
+   "2024-2026": 14
+  },
+  "literature_list": {
+   "2012-2016": 0,
+   "2017-2020": 0,
+   "2021-2023": 3,
+   "2024-2026": 5
+  },
+  "none": {
+   "2012-2016": 12,
+   "2017-2020": 47,
+   "2021-2023": 82,
+   "2024-2026": 126
+  },
+  "removed_control_taxa": {
+   "2012-2016": 2,
+   "2017-2020": 12,
+   "2021-2023": 22,
+   "2024-2026": 26
+  },
+  "tool": {
+   "2012-2016": 1,
+   "2017-2020": 6,
+   "2021-2023": 30,
+   "2024-2026": 50
+  },
+  "unclear": {
+   "2012-2016": 0,
+   "2017-2020": 1,
+   "2021-2023": 6,
+   "2024-2026": 17
+  }
+ },
+ "qpcr_by_period": {
+  "no": {
+   "2012-2016": 12,
+   "2017-2020": 55,
+   "2021-2023": 118,
+   "2024-2026": 215
+  },
+  "yes": {
+   "2012-2016": 3,
+   "2017-2020": 15,
+   "2021-2023": 34,
+   "2024-2026": 23
+  }
+ },
+ "method_by_tissue": {
+  "16S": {
+   "blood": 82,
+   "brain_csf": 10,
+   "other_sterile": 44,
+   "placenta_fetal": 56,
+   "tumour": 146
+  },
+  "16S+shotgun": {
+   "blood": 1,
+   "brain_csf": 0,
+   "other_sterile": 0,
+   "placenta_fetal": 4,
+   "tumour": 2
+  },
+  "2bRAD-M": {
+   "blood": 4,
+   "brain_csf": 0,
+   "other_sterile": 1,
+   "placenta_fetal": 0,
+   "tumour": 9
+  },
+  "host_seq_mining": {
+   "blood": 10,
+   "brain_csf": 1,
+   "other_sterile": 1,
+   "placenta_fetal": 0,
+   "tumour": 64
+  },
+  "metatranscriptomic": {
+   "blood": 0,
+   "brain_csf": 0,
+   "other_sterile": 1,
+   "placenta_fetal": 0,
+   "tumour": 0
+  },
+  "other": {
+   "blood": 1,
+   "brain_csf": 1,
+   "other_sterile": 0,
+   "placenta_fetal": 0,
+   "tumour": 3
+  },
+  "shotgun": {
+   "blood": 11,
+   "brain_csf": 3,
+   "other_sterile": 6,
+   "placenta_fetal": 4,
+   "tumour": 10
+  }
+ },
+ "share_primary": {
+  "median": 0.1875,
+  "q1": 0.06355,
+  "q3": 0.29315,
+  "mean": 0.2033748743718593,
+  "any_hit_share": 0.7713567839195979
+ },
+ "share_strict": {
+  "median": 0.11215,
+  "q1": 0.0,
+  "q3": 0.2222,
+  "mean": 0.1420394472361809,
+  "any_hit_share": 0.6809045226130653
+ },
+ "share_salter_full": {
+  "median": 0.39565,
+  "q1": 0.25,
+  "q3": 0.5714,
+  "mean": 0.4063801507537689,
+  "any_hit_share": 0.9271356783919598
+ },
+ "share_broad": {
+  "median": 0.7143,
+  "q1": 0.5714,
+  "q3": 0.875,
+  "mean": 0.6980459798994976,
+  "any_hit_share": 0.9874371859296482
+ },
+ "share_primary_by_tissue": {
+  "count": {
+   "blood": 85.0,
+   "brain_csf": 11.0,
+   "other_sterile": 46.0,
+   "placenta_fetal": 50.0,
+   "tumour": 206.0
+  },
+  "mean": {
+   "blood": 0.1859117647058823,
+   "brain_csf": 0.13665454545454547,
+   "other_sterile": 0.22899130434782614,
+   "placenta_fetal": 0.19088600000000003,
+   "tumour": 0.21145436893203884
+  },
+  "std": {
+   "blood": 0.1477451952419666,
+   "brain_csf": 0.13132081604708648,
+   "other_sterile": 0.18285850489270167,
+   "placenta_fetal": 0.2086409854760281,
+   "tumour": 0.1826605884983825
+  },
+  "min": {
+   "blood": 0.0,
+   "brain_csf": 0.0,
+   "other_sterile": 0.0,
+   "placenta_fetal": 0.0,
+   "tumour": 0.0
+  },
+  "25%": {
+   "blood": 0.0968,
+   "brain_csf": 0.0,
+   "other_sterile": 0.09640000000000001,
+   "placenta_fetal": 0.0,
+   "tumour": 0.0785
+  },
+  "50%": {
+   "blood": 0.1765,
+   "brain_csf": 0.1429,
+   "other_sterile": 0.2254,
+   "placenta_fetal": 0.1202,
+   "tumour": 0.2
+  },
+  "75%": {
+   "blood": 0.2857,
+   "brain_csf": 0.19445,
+   "other_sterile": 0.3333,
+   "placenta_fetal": 0.32689999999999997,
+   "tumour": 0.2857
+  },
+  "max": {
+   "blood": 0.6,
+   "brain_csf": 0.4118,
+   "other_sterile": 0.75,
+   "placenta_fetal": 0.7143,
+   "tumour": 1.0
+  }
+ },
+ "share_primary_by_controls": {
+  "count": {
+   "included_not_sequenced": 61.0,
+   "none_mentioned": 199.0,
+   "sequenced": 138.0
+  },
+  "mean": {
+   "included_not_sequenced": 0.23532622950819673,
+   "none_mentioned": 0.18480100502512564,
+   "sequenced": 0.2160355072463768
+  },
+  "std": {
+   "included_not_sequenced": 0.1909521544799808,
+   "none_mentioned": 0.17156733460077744,
+   "sequenced": 0.18004192366634514
+  },
+  "min": {
+   "included_not_sequenced": 0.0,
+   "none_mentioned": 0.0,
+   "sequenced": 0.0
+  },
+  "25%": {
+   "included_not_sequenced": 0.1,
+   "none_mentioned": 0.0,
+   "sequenced": 0.064725
+  },
+  "50%": {
+   "included_not_sequenced": 0.2143,
+   "none_mentioned": 0.1667,
+   "sequenced": 0.2113
+  },
+  "75%": {
+   "included_not_sequenced": 0.3333,
+   "none_mentioned": 0.2792,
+   "sequenced": 0.3043
+  },
+  "max": {
+   "included_not_sequenced": 1.0,
+   "none_mentioned": 1.0,
+   "sequenced": 0.75
+  }
+ },
+ "pooled_proportion_primary": 0.19805955168952827,
+ "top_primary_genera": {
+  "Sphingomonas": 97,
+  "Bacillus": 79,
+  "Ralstonia": 70,
+  "Methylobacterium": 52,
+  "Burkholderia": 50,
+  "Brevundimonas": 46,
+  "Bradyrhizobium": 44,
+  "Rhodococcus": 38,
+  "Comamonas": 35,
+  "Delftia": 35,
+  "Acidovorax": 30,
+  "Paracoccus": 30,
+  "Enhydrobacter": 29,
+  "Pelomonas": 29,
+  "Chryseobacterium": 27,
+  "Massilia": 25,
+  "Paenibacillus": 24,
+  "Herbaspirillum": 22,
+  "Flavobacterium": 21,
+  "Cupriavidus": 20,
+  "Caulobacter": 20,
+  "Sphingobium": 19,
+  "Arthrobacter": 18,
+  "Mesorhizobium": 18,
+  "Microbacterium": 18
+ },
+ "top_strict_genera": {
+  "Sphingomonas": 97,
+  "Bacillus": 79,
+  "Ralstonia": 70,
+  "Methylobacterium": 52,
+  "Burkholderia": 50,
+  "Bradyrhizobium": 44,
+  "Comamonas": 35,
+  "Enhydrobacter": 29,
+  "Pelomonas": 29,
+  "Chryseobacterium": 27,
+  "Massilia": 25,
+  "Paenibacillus": 24,
+  "Herbaspirillum": 22,
+  "Flavobacterium": 21,
+  "Cupriavidus": 20,
+  "Sphingobium": 19,
+  "Arthrobacter": 18,
+  "Mesorhizobium": 18,
+  "Novosphingobium": 14,
+  "Brevibacillus": 12,
+  "Phyllobacterium": 12,
+  "Janthinobacterium": 11,
+  "Curvibacter": 11,
+  "Afipia": 11,
+  "Pedobacter": 9,
+  "Devosia": 7,
+  "Roseomonas": 7,
+  "Wautersiella": 1
+ },
+ "top_all_genera": {
+  "Pseudomonas": 170,
+  "Streptococcus": 151,
+  "Acinetobacter": 148,
+  "Staphylococcus": 140,
+  "Lactobacillus": 123,
+  "Corynebacterium": 102,
+  "Escherichia": 102,
+  "Sphingomonas": 97,
+  "Bacteroides": 96,
+  "Prevotella": 91,
+  "Propionibacterium": 84,
+  "Bacillus": 79,
+  "Ralstonia": 70,
+  "Bifidobacterium": 57,
+  "Veillonella": 54,
+  "Stenotrophomonas": 54,
+  "Fusobacterium": 52,
+  "Methylobacterium": 52,
+  "Burkholderia": 50,
+  "Clostridium": 49,
+  "Klebsiella": 48,
+  "Enterococcus": 47,
+  "Brevundimonas": 46,
+  "Actinomyces": 44,
+  "Bradyrhizobium": 44,
+  "Faecalibacterium": 41,
+  "Blautia": 40,
+  "Neisseria": 39,
+  "Haemophilus": 38,
+  "Rhodococcus": 38
+ }
+}

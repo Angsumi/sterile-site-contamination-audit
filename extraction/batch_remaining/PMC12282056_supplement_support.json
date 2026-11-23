@@ -1,0 +1,372 @@
+[
+  {
+    "line": 9,
+    "cancer": "GBM",
+    "label": "Phascolarctobacterium"
+  },
+  {
+    "line": 10,
+    "cancer": "GBM",
+    "label": "Crenobacter"
+  },
+  {
+    "line": 11,
+    "cancer": "GBM",
+    "label": "Filifactor"
+  },
+  {
+    "line": 12,
+    "cancer": "GBM",
+    "label": "Sphaerobacter"
+  },
+  {
+    "line": 13,
+    "cancer": "GBM",
+    "label": "Slackia"
+  },
+  {
+    "line": 14,
+    "cancer": "KICH",
+    "label": "Truepera"
+  },
+  {
+    "line": 15,
+    "cancer": "KICH",
+    "label": "Arsenophonus"
+  },
+  {
+    "line": 16,
+    "cancer": "KICH",
+    "label": "Collimonas"
+  },
+  {
+    "line": 17,
+    "cancer": "KICH",
+    "label": "Syntrophorhabdus"
+  },
+  {
+    "line": 18,
+    "cancer": "KICH",
+    "label": "Paenirhodobacter"
+  },
+  {
+    "line": 19,
+    "cancer": "KIRC",
+    "label": "Olsenella"
+  },
+  {
+    "line": 20,
+    "cancer": "KIRC",
+    "label": "Buttiauxella"
+  },
+  {
+    "line": 21,
+    "cancer": "KIRC",
+    "label": "Lachnoanaerobaculum"
+  },
+  {
+    "line": 22,
+    "cancer": "KIRC",
+    "label": "Haematospirillum"
+  },
+  {
+    "line": 23,
+    "cancer": "KIRC",
+    "label": "Alistipes"
+  },
+  {
+    "line": 47,
+    "cancer": "LIHC",
+    "label": "Anaerobaculum"
+  },
+  {
+    "line": 48,
+    "cancer": "LIHC",
+    "label": "Planomonospora"
+  },
+  {
+    "line": 49,
+    "cancer": "LIHC",
+    "label": "Alloscardovia"
+  },
+  {
+    "line": 50,
+    "cancer": "LIHC",
+    "label": "Glutamicibacter"
+  },
+  {
+    "line": 51,
+    "cancer": "LIHC",
+    "label": "Shimwellia"
+  },
+  {
+    "line": 52,
+    "cancer": "LIHC",
+    "label": "Helcobacillus"
+  },
+  {
+    "line": 53,
+    "cancer": "LIHC",
+    "label": "Siansivirga"
+  },
+  {
+    "line": 54,
+    "cancer": "LIHC",
+    "label": "Caldanaerobius"
+  },
+  {
+    "line": 55,
+    "cancer": "LIHC",
+    "label": "Amycolicicoccus"
+  },
+  {
+    "line": 56,
+    "cancer": "LIHC",
+    "label": "Holdemania"
+  },
+  {
+    "line": 57,
+    "cancer": "LIHC",
+    "label": "Eggerthella"
+  },
+  {
+    "line": 58,
+    "cancer": "LIHC",
+    "label": "Dermabacter"
+  },
+  {
+    "line": 59,
+    "cancer": "LIHC",
+    "label": "Acidimicrobium"
+  },
+  {
+    "line": 60,
+    "cancer": "LIHC",
+    "label": "Mastigocladopsis"
+  },
+  {
+    "line": 61,
+    "cancer": "LIHC",
+    "label": "Acidithrix"
+  },
+  {
+    "line": 62,
+    "cancer": "LIHC",
+    "label": "Leptonema"
+  },
+  {
+    "line": 63,
+    "cancer": "LIHC",
+    "label": "Nautilia"
+  },
+  {
+    "line": 64,
+    "cancer": "LIHC",
+    "label": "Wohlfahrtiimonas"
+  },
+  {
+    "line": 65,
+    "cancer": "LIHC",
+    "label": "Propionicicella"
+  },
+  {
+    "line": 66,
+    "cancer": "LIHC",
+    "label": "Lachnoanaerobaculum"
+  },
+  {
+    "line": 67,
+    "cancer": "LIHC",
+    "label": "Stackebrandtia"
+  },
+  {
+    "line": 68,
+    "cancer": "LIHC",
+    "label": "Propionimicrobium"
+  },
+  {
+    "line": 70,
+    "cancer": "LIHC",
+    "label": "Asaia"
+  },
+  {
+    "line": 71,
+    "cancer": "LIHC",
+    "label": "Granulicella"
+  },
+  {
+    "line": 72,
+    "cancer": "LIHC",
+    "label": "Chitinimonas"
+  },
+  {
+    "line": 73,
+    "cancer": "LIHC",
+    "label": "Hallella"
+  },
+  {
+    "line": 74,
+    "cancer": "LIHC",
+    "label": "Mucispirillum"
+  },
+  {
+    "line": 75,
+    "cancer": "LIHC",
+    "label": "Lachnobacterium"
+  },
+  {
+    "line": 76,
+    "cancer": "LIHC",
+    "label": "Synergistes"
+  },
+  {
+    "line": 77,
+    "cancer": "LIHC",
+    "label": "Uliginosibacterium"
+  },
+  {
+    "line": 79,
+    "cancer": "LIHC",
+    "label": "Collimonas"
+  },
+  {
+    "line": 80,
+    "cancer": "LIHC",
+    "label": "Ardenticatena"
+  },
+  {
+    "line": 81,
+    "cancer": "LIHC",
+    "label": "Lewinella"
+  },
+  {
+    "line": 82,
+    "cancer": "LIHC",
+    "label": "Polaribacter"
+  },
+  {
+    "line": 83,
+    "cancer": "LIHC",
+    "label": "Anabaena"
+  },
+  {
+    "line": 84,
+    "cancer": "LIHC",
+    "label": "Pyramidobacter"
+  },
+  {
+    "line": 85,
+    "cancer": "OV",
+    "label": "Paraclostridium"
+  },
+  {
+    "line": 86,
+    "cancer": "OV",
+    "label": "Varibaculum"
+  },
+  {
+    "line": 87,
+    "cancer": "OV",
+    "label": "Arcanobacterium"
+  },
+  {
+    "line": 88,
+    "cancer": "OV",
+    "label": "Dethiosulfatarculus"
+  },
+  {
+    "line": 89,
+    "cancer": "OV",
+    "label": "Gordonibacter"
+  },
+  {
+    "line": 90,
+    "cancer": "OV",
+    "label": "Subdoligranulum"
+  },
+  {
+    "line": 91,
+    "cancer": "PRAD",
+    "label": "Ehrlichia"
+  },
+  {
+    "line": 92,
+    "cancer": "PRAD",
+    "label": "Lunatimonas"
+  },
+  {
+    "line": 93,
+    "cancer": "PRAD",
+    "label": "Piscirickettsia"
+  },
+  {
+    "line": 94,
+    "cancer": "PRAD",
+    "label": "Citrobacter"
+  },
+  {
+    "line": 95,
+    "cancer": "THYM",
+    "label": "Rikenella"
+  },
+  {
+    "line": 96,
+    "cancer": "THYM",
+    "label": "Pyramidobacter"
+  },
+  {
+    "line": 97,
+    "cancer": "THYM",
+    "label": "Brachyspira"
+  },
+  {
+    "line": 98,
+    "cancer": "THYM",
+    "label": "Phocaeicola"
+  },
+  {
+    "line": 99,
+    "cancer": "PAAD",
+    "label": "Pseudoflavonifractor"
+  },
+  {
+    "line": 100,
+    "cancer": "PAAD",
+    "label": "Alkanindiges"
+  },
+  {
+    "line": 101,
+    "cancer": "PAAD",
+    "label": "Myroides"
+  },
+  {
+    "line": 102,
+    "cancer": "PAAD",
+    "label": "Modestobacter"
+  },
+  {
+    "line": 103,
+    "cancer": "PAAD",
+    "label": "Sediminibacterium"
+  },
+  {
+    "line": 105,
+    "cancer": "PAAD",
+    "label": "Conexibacter"
+  },
+  {
+    "line": 106,
+    "cancer": "PAAD",
+    "label": "Jonquetella"
+  },
+  {
+    "line": 107,
+    "cancer": "PAAD",
+    "label": "Thermobifida"
+  },
+  {
+    "line": 108,
+    "cancer": "PAAD",
+    "label": "Anaeromyxobacter"
+  }
+]

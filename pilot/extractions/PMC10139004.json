@@ -1,0 +1,27 @@
+{
+ "pmcid": "PMC10139004",
+ "block": "placenta_fetal",
+ "tissue_category": "placenta_fetal",
+ "year": 2023,
+ "eligible_fulltext": false,
+ "exclusion_reason": "metaproteomics (LC-ESI-MS/MS), not sequencing",
+ "method": {
+  "value": "proteomics",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "the microbiome of normal and FGR placentas was analyzed by LC-ESI-MS/MS mass spectrometry"
+   }
+  ]
+ },
+ "controls": {},
+ "decontamination": {},
+ "biomass_qpcr": {},
+ "genera": [],
+ "top5": [],
+ "genera_in_figures_only": "",
+ "authors_conclusion": "",
+ "notes": "",
+ "extractor": "AI agent (Claude Opus 5.5)",
+ "date": "2026-11-22"
+}

@@ -1,0 +1,64 @@
+{
+  "pmcid": "PMC11866540",
+  "tissue_category": "tumour",
+  "sub_site": "lung adenocarcinoma and adjacent tissue",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "We performed 16S rRNA sequencing on cancerous and adjacent tissues collected from 19 clinical lung adenocarcinoma patients. The analysis of the relative abundance of bacteria at the genus level revealed that the bacterial flora in tumor tis"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 38,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "E0018",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "19 paired clinical cases. Mouse-only Pseudomonas, Bacteroides, Faecalibaculum and Sphingomonas findings excluded. Supplement primer table gives no extra human target genera.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "80bd0363972229c0245ee9c3d11ea4a0a022d5b9e9bf139b14a15ce0cbfa70c8",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+  ]
+}

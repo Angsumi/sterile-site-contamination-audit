@@ -1,0 +1,68 @@
+{
+ "pmcid": "PMC12289045",
+ "tissue_category": "blood",
+ "sub_site": "whole blood RNA-seq of healthy individuals (Indonesia; comparison Mali, UK)",
+ "year": 2025,
+ "country": "Indonesia (plus Mali, UK public datasets)",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "public_reuse",
+  "dataset": "Natri et al. Indonesian whole-blood RNA-seq (EGAS00001003671); Tran et al. Mali; UK London dataset",
+  "evidence": [
+   {
+    "id": "E0016",
+    "quote": "we analysed unmapped reads from previously published whole blood transcriptomes"
+   },
+   {
+    "id": "E0022",
+    "quote": "we also analysed microbiome data from two other publicly available datasets of whole blood transcriptomes"
+   }
+  ]
+ },
+ "method": {
+  "value": "host_seq_mining",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0010",
+    "quote": "only reads that did not map to the h"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "abundance_filter_only",
+  "tool": "",
+  "evidence": [
+   {
+    "id": "E0012",
+    "quote": "After removing singletons to prevent spurious identification of taxa"
+   }
+  ]
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 183,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Corynebacterium",
+   "evidence_id": "E0036",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "no",
+ "authors_conclusion": "unclear",
+ "notes": "Analyses mostly at phylum/family level; dominated by Plasmodiidae and Flaviviridae (non-bacterial). Only bacterial genus named is Corynebacterium (C. tuberculostearicum, Malian cohort), reported in Discussion as own result. Authors find no core blood microbiome; describe transient taxa. Xanthomonadaceae (family) noted as possible kitome contaminant. n = 117 Indonesia + 54 Mali + 12 UK. No supplements available.",
+ "extractor": "AI agent (Claude sub-agent, batch 07)",
+ "date": "2026-11-23"
+}

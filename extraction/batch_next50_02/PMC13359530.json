@@ -1,0 +1,69 @@
+{
+  "pmcid": "PMC13359530",
+  "tissue_category": "tumour",
+  "sub_site": "NSCLC tumour and adjacent normal lung",
+  "year": 2026,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "ng (NGS) using hypervariable V3-V4 regions of the 16S rRNA gene. Specific primer sequences 341F and 785R [ 27 ] were used for amplification and library preparation according to the Illumina \u00ae manual: 16S Metagenomic Sequencing Library Prepa"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0014",
+        "quote": "as described in the kit\u2019s user manual. A negative control was included in each extraction batch. The concentration and quality of the obtained DNA were evaluated by spectrophotometric measurement followed by quantification with QuantiFluor "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "ext, the remaining sequences were run through a decontamination tool: Decontam [ 31 ]\u2014part of the qiime2 quality control package. Due to a high human-bacteria DNA ratio, the prevalence method was chosen to remove contaminants, and a thresho"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 64,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0037",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "32 paired resections. Supplement clinical table, sequencing-filter counts and diversity figures reviewed; no extra named-genus table. Composite Escherichia-Shigella counted once. Figure-only taxa unresolved.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "4b9a92084417b89c124b6a47a6141fd670f0551d089853ff118e35fef52d1aee",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+  ]
+}

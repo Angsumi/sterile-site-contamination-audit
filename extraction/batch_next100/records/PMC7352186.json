@@ -1,0 +1,153 @@
+{
+  "pmcid": "PMC7352186",
+  "tissue_category": "tumour",
+  "sub_site": "lung",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ab8e7ea595e1dc1fa049a1d08eb485ef876620957495f8bba283b213e7ece312",
+  "data_source": {
+    "value": "public_reuse",
+    "dataset": "TCGA-LUAD/LUSC Pathoscope",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "e reads of microbial species using TCGA mRNA sequencing data from lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC) samples ( Figure 1 A) [ 14 ]. TCGA samples were collected during surgery, and no prior treatments (chemothe"
+      }
+    ]
+  },
+  "method": {
+    "value": "host_seq_mining",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0005",
+        "quote": "e reads of microbial species using TCGA mRNA sequencing data from lung adenocarcinoma (LUAD) and lung squamous cell carcinoma (LUSC) samples ( Figure 1 A) [ 14 ]. TCGA samples were collected during surgery, and no prior treatments (chemothe"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "statistical / batch filtering",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "ial contaminants ( Figure S1 ). We removed all microbes that we identified as potential contaminants from all analyses. For the microbes identified as contaminants, we visualized the abundance of selected microbes according to the date sequ"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Thermostaphylospora",
+      "evidence_id": "E0007",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "E0008",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Achromobacter",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Agrobacterium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Alkalilimnicola",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Cellvibrio",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Hydrogenophaga",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Roseateles",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Thiomonas",
+      "evidence_id": "E0012",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Meiothermus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "E0014",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anabaena",
+      "evidence_id": "E0019",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

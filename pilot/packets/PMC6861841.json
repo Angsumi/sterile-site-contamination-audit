@@ -1,0 +1,152 @@
+{
+ "pmcid": "PMC6861841",
+ "meta": {
+  "title": "Brain Microbiota in Huntington’s Disease Patients",
+  "journal": "Frontiers in Microbiology",
+  "year": "2019",
+  "doi": "10.3389/fmicb.2019.02622",
+  "pmid": "31798558"
+ },
+ "n_elements": 65,
+ "control_method_passages": [
+  {
+   "evidence_id": "E0007",
+   "section": "Brain Samples From HD Patients",
+   "text": "Brain paraffin sections and frozen tissue were obtained from seven patients diagnosed with HD. Samples were obtained from two regions: the striatum and the frontal cortex (FC). The age and gender of each patient are listed in Supplementary Table 1 . Based on the grade of lesions found in the striatum in the different HD patients they were classified from grade 0 to grade IV ( Supplementary Table 1 ; Vonsattel et al., 1985 ). The Banco de Tejidos CIEN, Madrid, supplied the samples and they were analyzed anonymously. All brain samples were provided by the same laboratory. All of them were processed according to a common postmortem protocol followed by Banco de Tejidos CIEN. Briefly, rapid neuropathological autopsy was performed upon call by the donor’s proxies (mean postmortem interval, 4.5 h). Immediately after extraction, the right half of the brain was sliced and frozen at –80°C. The left half was fixed by immersion in phosphate-buffered 4% formaldehyde for at least 3 weeks. A full neuropathological study was performed in the left half brain after fixation. Neuropathological diagnosis and staging of all disease entities was performed according to consensus criteria. Samples from the frozen tissue were obtained with sterile instruments taking all measures to avoid contamination in a laminar flow hood. Sample transfer was carried out according to national regulations concerning research on human biological samples and written informed consent was obtained in all cases. The study was approved by the ethic committee of the Universidad Autónoma de Madrid (Ref. number CEI-60-1066). To avoid contamination, the frozen tissue was handled with sterile instruments in a laminar flow hood."
+  },
+  {
+   "evidence_id": "E0010",
+   "section": "DNA Extraction From CNS Tissue",
+   "text": "DNA was extracted from frozen tissue obtained from striatum and FC regions of seven HD patients, as described previously ( Alonso et al., 2017a )."
+  },
+  {
+   "evidence_id": "E0011",
+   "section": "Nested PCR Assay",
+   "text": "To prevent PCR contamination, we used separate rooms and glassware supplies for PCR set-up and products. We also used aliquoted reagents, positive-displacement pipettes, aerosol-resistant tips and several negative controls. To assay for bacterial DNA, we used nested PCR with several primer pairs as described ( Alonso et al., 2017a ), which amplify a region between the V3 and V4 variable region of the prokaryotic 16S rRNA gene. In the first PCR, 4 μl (5–10 ng) of DNA was denatured at 95°C for 5 min, followed by 35 cycles of 1 min at 94°C, 1 min at 56°C, and 3 min at 72°C, using primers 27F and 1492R. The second PCR was performed using 2 μl of the product obtained in the first PCR with forward V3 and reverse V4 internal primers, for 30 cycles of 1 min at 94°C, 1 min at 55°C, and 3 min at 72°C."
+  },
+  {
+   "evidence_id": "E0013",
+   "section": "Next-Generation Sequencing",
+   "text": "We used a metagenomics next-generation sequencing (NGS) protocol (Illumina platform) to amplify the ITS1 region of fungi and the 16S rRNA gene of bacteria. This analysis was performed by the Genomics Unit at the Scientific Park of Madrid. Quality analyses were performed over reads using FastQC software 1 . All sequences have been submitted to European Genome-phenome Archive with the accession number EGAS00001003678 ."
+  },
+  {
+   "evidence_id": "E0014",
+   "section": "Next-Generation Sequencing",
+   "text": "For fungal DNA, the region between the internal 1 primer pair was amplified with specific primers joined to linker sequences in a first round of PCR (specific product of ∼300 nt). A second PCR was performed on this product using fusion primers containing Illumina and linker sequences. For bacterial DNA, primers were designed to amplify the region between V3 and V4 of 16S rDNA gene. These primers were joined to linker sequences in a first round of PCR (specific product of ∼400 nt). A second PCR was performed on this product using fusion primers containing Illumina and linker sequences. PCR products were sequenced on a MiSeq sequencing platform (Illumina)."
+  },
+  {
+   "evidence_id": "E0015",
+   "section": "Computational Analysis",
+   "text": "The adapters from the sequences were deleted using Cutadapt and all sequences with a length shorter than 35 bp were discarded. A minimum read length of 35 bases was set due to the wide range of amplicon lengths (from 35 to 301) with an average of 267 and 256 pb in ITS and 16S samples, respectively. The QIIME 2 software pipeline was used for metagenomics analysis ( Caporaso et al., 2010 ) including the following steps: quality filtering, clustering sequences to define operational taxonomic unit (OTU), obtaining representative sequences and aligning them against the reference database in order to perform the taxonomic assignment, phylogenetic reconstruction, and diversity analyses. To define the OTUs, the QIIME pick_open_reference_otus.py workflow was used with an identity percentage of 97 and 94% in fungi and bacteria, respectively. Regarding the fungal analysis according to the taxonomical classification (species level), we found that on average 42% of the matches corresponded to “uncultured fungus blast” hit. For this reason, an additional standard Blast search analysis was performed. All efforts have been made to avoid contamination during the handling of samples. In fact, in the PCR assays, a control without DNA indicated that it was clean without any apparent DNA fragment, suggesting that no environmental contamination occurred. However, since these negative controls were not included in the DNA sequencing runs, the possibility that some OTUs found are due to contamination can not be completely discarded."
+  },
+  {
+   "evidence_id": "E0016",
+   "section": "Principal Component Analysis",
+   "text": "The β-diversity parameter (community structure), which gives a between-sample diversity comparison, and core diversity analyses, was performed with QIIME together with a Principal Coordinates Analysis (PCoA) with Bray-Curtis distances. The 3D plot model of the PCA was made with the scatter plot 3D package in R."
+  },
+  {
+   "evidence_id": "E0031",
+   "section": "Identification of Fungal Species in Huntington’s Disease Brains",
+   "text": "[FIGURE 6 caption] Identification of fungal phylum order and genus by next-generation sequencing. DNA was extracted from HD brain tissue for next-generation sequencing. Computational analyses of the sequences using QIIME classified the data into fungal phyla, order and genera. (A) Striatum tissue from seven HD brains. (B) Frontal cortex tissue from seven HD brains. Asc: Ascomycota , Bas: Basidiomycota , Chy: Chytridiomycota."
+  },
+  {
+   "evidence_id": "E0044",
+   "section": "Identification of Bacteria in Huntington’s Disease Brain",
+   "text": "In an initial attempt to detect prokaryotic DNA in brain tissue from HD patients, we used a PCR assay on DNA extracted from frozen samples, as indicated above for the detection of fungal DNA. First, PCR analyses were carried out using different primers that recognize prokaryotic DNA. One set of primers (universal) was directed to amplify a conserved region (V3–V4) of the 16S rRNA gene, whereas the other set amplified the IGS between the 16S and 23S rRNA genes. The universal primers rendered a DNA fragment of similar size independently of the bacterial species present in the sample, whereas the IGS primers rendered different sized fragments depending on the species detected. Interestingly, a DNA fragment of about 400 bp was present in all samples tested from the seven HD patients using the universal primers ( Supplementary Figure 3 , panel A). Sequencing analysis identified Burkholderia cepacia and uncultured burkholderia in most of these samples. Curiously, after sequencing the different fragments amplified by the IGS primers ( Supplementary Figure 3 , panel B), several bacterial species were identified, including Cutibacterium acnes (formerly known and Propionibacterium acne ), Escherichia coli and Streptococcus spp. ( Supplementary Table 4 ). These findings suggest that some species are preferentially recognized and amplified by the PCR assay depending on the primers and the PCR conditions. Finally, to test for the presence of spirochetes in the CNS samples from HD patients, we employed unique primers that detect this bacterial group. Control DNA extracted from B. burgdorferi rendered a DNA fragment of ∼350 bp using this assay ( Supplementary Figure 3 , panel C). However, no product was detected with the DNA samples from HD patients, pointing to the absence of spirochetes. Indeed, this finding is consistent with the results described above showing no immunoreaction with anti- Borrelia antibodies."
+  },
+  {
+   "evidence_id": "E0053",
+   "section": "Identification of Bacteria in Huntington’s Disease Brain",
+   "text": "[FIGURE 9 caption] Distribution of bacterial phyla and classes in CNS samples from Huntington’s disease patients. Computational analyses of the sequences obtained using next-generation sequencing were carried out with QIIME. Bacterial phyla and classes obtained with this program are shown. Panel (A) shows bacterial phyla and classes detected in striatum of HD patients. Panel (B) shows bacterial phyla and classes detected from frontel cortex of PD patients."
+  }
+ ],
+ "italic_candidates": {
+  "Acinetobacter": [
+   "E0001",
+   "E0045",
+   "E0048",
+   "E0051",
+   "E0056"
+  ],
+  "Actinobacteria": [
+   "E0045"
+  ],
+  "Ascomycota": [
+   "E0031"
+  ],
+  "Banco": [
+   "E0007"
+  ],
+  "Basidiomycota": [
+   "E0031"
+  ],
+  "Borrelia": [
+   "E0008",
+   "E0012",
+   "E0042",
+   "E0044"
+  ],
+  "Burkholderia": [
+   "E0001",
+   "E0044",
+   "E0045",
+   "E0049",
+   "E0052",
+   "E0056"
+  ],
+  "Candida": [
+   "E0008",
+   "E0030",
+   "E0034"
+  ],
+  "Chlamydophila": [
+   "E0008"
+  ],
+  "Chytridiomycota": [
+   "E0031"
+  ],
+  "Clamydophyla": [
+   "E0042"
+  ],
+  "Cutibacterium": [
+   "E0044",
+   "E0049",
+   "E0051"
+  ],
+  "Escherichia": [
+   "E0044"
+  ],
+  "Huntingtin": [
+   "E0001",
+   "E0003"
+  ],
+  "Penicillium": [
+   "E0008"
+  ],
+  "Phoma": [
+   "E0008"
+  ],
+  "Propionibacterium": [
+   "E0044"
+  ],
+  "Pseudomonas": [
+   "E0001",
+   "E0045",
+   "E0048",
+   "E0050",
+   "E0056"
+  ],
+  "Ramularia": [
+   "E0001",
+   "E0030",
+   "E0035",
+   "E0056"
+  ],
+  "Streptococcus": [
+   "E0044"
+  ],
+  "Syncephalastrum": [
+   "E0008"
+  ]
+ }
+}

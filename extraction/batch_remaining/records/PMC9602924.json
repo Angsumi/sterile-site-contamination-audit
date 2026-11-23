@@ -1,0 +1,113 @@
+{
+  "pmcid": "PMC9602924",
+  "tissue_category": "tumour",
+  "sub_site": "liver",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5f0d7c8001ec93a3e888beee600bdc0da8cb1bfa0aecfe9756af065b77b3c3b7",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "ensive DNA sequencing of bacterial 16S rRNA genes in 156 samples from 28 normal liver, 64 peritumoral, and 64 HCC tissues, and the DNA sequencing yielded 4.2 million high-quality reads. Both alpha and beta diversity in peritumor and HCC mic"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0048",
+        "quote": " contaminant results, we sequenced negative-control samples collected during the DNA extraction and PCR amplification steps. The DNA extraction controls were extractions with blank extraction reagents without adding tissue samples. The extr"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "esults were used for contamination filtering by the decontam program ( 16 ). Finally, the sequences were assembled into 3,504 operational taxonomy units (OTUs) with 97% sequence similarity and taxonomic identities were determined."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": "roteobacteria were validated using qPCR analysis of the subjects randomly selected from the 16S_rRNA cohort (I) and an independent cohort (qPCR_cohort) (J) containing 6 peritumor (P) and 6 tumor (T) samples. The normal (N) samples measured "
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cytobacillus",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kocuria",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bradyrhizobium",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactococcus",
+      "evidence_id": "E0022",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caulobacter",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Human tissue profiles only; cultured isolates excluded. Control-removed Sphingomonas logged separately.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+ "pmcid": "PMC4559171",
+ "tissue_category": "other_sterile",
+ "sub_site": "carotid/arterial atherosclerotic plaque (symptomatic endarterectomy + autopsy stable plaques)",
+ "year": 2015,
+ "country": "",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": []
+ },
+ "method": {
+  "value": "shotgun",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0020",
+    "quote": "whole-genome shotgun metagenomics on plaque tissue samples"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0019",
+    "quote": "Important limitations to this study include lack of true negative controls"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 22,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Lactobacillus",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Neisseria",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acidovorax",
+   "evidence_id": "E0010",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Acinetobacter",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0017",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Top-25 species shown only in Fig. 5. H. pylori named among most prevalent species but genus never written out in results text (only 'H. pylori'), so Helicobacter not recorded. Microbacterium, Cyanothece, Coprobacillus, Phytoplasma discarded as likely human-sequence false hits (not contaminant removal; not recorded). 'Negative controls' in E0019 refers to non-atherosclerotic arteries, not reagent blanks. Pseudomonas only at very low read share. Country not stated.",
+ "extractor": "AI agent (Claude sub-agent, batch 11)",
+ "date": "2026-11-23"
+}

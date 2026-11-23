@@ -1,0 +1,23 @@
+{
+ "pmcid": "PMC12261376",
+ "tissue_category": "blood",
+ "sub_site": "blood (baseline, advanced NSCLC patients on ICIs)",
+ "year": 2025,
+ "country": "France",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {"value": "own_samples", "dataset": "", "evidence": [{"id": "E0085", "quote": "T0 blood microbiome analyses were available for 42 patients of cohort #1"}]},
+ "method": {"value": "16S", "region": "V3-V4", "evidence": [{"id": "E0019", "quote": "The microbiome of blood samples was analyzed by sequencing the V3–4 regions of the bacterial 16S rRNA gene at time point T0"}]},
+ "controls": {"value": "none_mentioned", "types": "", "n_sequenced": null, "evidence": []},
+ "decontamination": {"value": "none", "tool": "", "evidence": []},
+ "biomass_qpcr": {"value": "yes", "evidence": [{"id": "E0019", "quote": "The number of 16S rRNA gene copies was quantified by comparing with a standard curve derived from serial dilutions of plasmid standards"}]},
+ "n_target_samples": 42,
+ "list_type": "",
+ "genera": [],
+ "top5": [],
+ "figures_only": "",
+ "authors_conclusion": "unclear",
+ "notes": "Blood 16S (Vaiomer) with 16S qPCR load; only 16S copy number results reported (responders lower). No taxa reported in text, tables or figures despite LEfSe in methods; no supplements available. 'Control samples' mentioned once (E0085) without description - not clearly negative controls, coded none_mentioned. Main focus is plasma citrulline.",
+ "extractor": "AI agent (Claude sub-agent, batch 02)",
+ "date": "2026-11-23"
+}

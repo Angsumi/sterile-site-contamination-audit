@@ -1,0 +1,53 @@
+{
+ "pmcid": "PMC8741880",
+ "tissue_category": "tumour",
+ "sub_site": "pancreatic ductal adenocarcinoma tissue (EUS-FNB and surgical core biopsy)",
+ "year": 2022,
+ "country": "Taiwan",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0010",
+    "quote": "We used EUS-FNB to obtain pancreatic cancer tissues from six patients. We obtained tissue samples from four patients during surgery."
+   }
+  ]
+ },
+ "method": {
+  "value": "16S",
+  "region": "V3-V4",
+  "evidence": [
+   {
+    "id": "E0008",
+    "quote": "The hypervariable region V3-V4 of bacterial 16S rRNA genes was amplified by polymerase chain reaction"
+   }
+  ]
+ },
+ "controls": {
+  "value": "none_mentioned",
+  "types": "",
+  "n_sequenced": null,
+  "evidence": []
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 10,
+ "list_type": "",
+ "genera": [],
+ "top5": [],
+ "figures_only": "yes",
+ "authors_conclusion": "claimed",
+ "notes": "Pilot feasibility study (9 patients, 10 samples). No genus names reported anywhere in text, captions or tables; profiles only summarised as alpha-diversity/PCoA figures. No supplements available. No negative controls or decontamination.",
+ "extractor": "AI agent (Claude sub-agent, batch 01)",
+ "date": "2026-11-23"
+}

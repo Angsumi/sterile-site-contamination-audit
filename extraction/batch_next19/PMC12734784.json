@@ -1,0 +1,76 @@
+{
+  "pmcid": "PMC12734784",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placental tissue",
+  "year": 2025,
+  "country": "Japan",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "em (Pathogen 1000 hp 3.1 protocol). The V1\u2013V2 region of the 16S rRNA gene was amplified using primers 27Fmod and 338R with Illumina overhang adaptors. Sterile distilled water processed identically to the samples was used as negative control"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "lled water processed identically to the samples was used as negative controls, with 1\u20132 controls included in each sequencing run. These controls showed very low read counts and bacterial profiles clearly distinct from the placental samples,"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0010",
+        "quote": "rly distinct from the placental samples, indicating minimal contamination. Potential contaminants were assessed using the decontam package, but we did not rely solely on this approach; samples with fewer than approximately 1000 effective re"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 20,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Ureaplasma",
+      "evidence_id": "E0021",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Metamycoplasma",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "E0024",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Four of 20 placental samples excluded for low reads, 16 profiled. Oral/vaginal-only taxa excluded.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "7f3576a853214f0c59abb4b5dd43e4a819be58375039be8484d45bad91b23034",
+  "supplement_manifest": []
+}

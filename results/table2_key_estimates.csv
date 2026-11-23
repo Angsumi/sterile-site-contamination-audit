@@ -1,0 +1,35 @@
+model,term,n_studies,odds_ratio,or_ci_low,or_ci_high,p
+A_main,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",94,0.673,0.331,1.368,0.273
+A_main,"C(controls, Treatment('sequenced'))[T.none_mentioned]",94,0.638,0.373,1.089,0.099
+A_main,decon_yes,94,0.655,0.395,1.088,0.103
+A_main,year5,94,0.742,0.506,1.088,0.126
+B_main_excl_mining,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",26,0.743,0.316,1.743,0.494
+B_main_excl_mining,"C(controls, Treatment('sequenced'))[T.none_mentioned]",26,0.851,0.452,1.603,0.617
+B_main_excl_mining,decon_yes,26,0.692,0.257,1.859,0.465
+B_main_excl_mining,year5,26,1.012,0.724,1.415,0.946
+C_pooled,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",398,0.865,0.611,1.224,0.414
+C_pooled,"C(controls, Treatment('sequenced'))[T.none_mentioned]",398,0.629,0.478,0.827,0.001
+C_pooled,"C(method_class, Treatment('16S'))[T.other]",398,1.26,0.925,1.717,0.143
+C_pooled,"C(method_class, Treatment('16S'))[T.shotgun]",398,0.771,0.593,1.001,0.051
+C_pooled,decon_yes,398,0.737,0.546,0.994,0.046
+C_pooled,year5,398,1.133,0.936,1.371,0.201
+C2_pooled_excl_mining,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",330,0.925,0.634,1.349,0.686
+C2_pooled_excl_mining,"C(controls, Treatment('sequenced'))[T.none_mentioned]",330,0.687,0.503,0.939,0.018
+C2_pooled_excl_mining,"C(method_class, Treatment('16S'))[T.other]",330,1.22,0.898,1.656,0.203
+C2_pooled_excl_mining,"C(method_class, Treatment('16S'))[T.shotgun]",330,0.944,0.691,1.289,0.715
+C2_pooled_excl_mining,decon_yes,330,0.806,0.563,1.152,0.236
+C2_pooled_excl_mining,year5,330,1.221,1.007,1.481,0.042
+D_16S,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",281,0.887,0.579,1.359,0.583
+D_16S,"C(controls, Treatment('sequenced'))[T.none_mentioned]",281,0.65,0.454,0.93,0.018
+D_16S,decon_yes,281,0.807,0.536,1.215,0.304
+D_16S,year5,281,1.23,0.995,1.522,0.056
+F_excl_public_reuse,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",37,0.884,0.454,1.721,0.717
+F_excl_public_reuse,"C(controls, Treatment('sequenced'))[T.none_mentioned]",37,0.818,0.472,1.417,0.474
+F_excl_public_reuse,decon_yes,37,0.761,0.374,1.545,0.449
+F_excl_public_reuse,year5,37,0.808,0.611,1.068,0.134
+F_pooled_excl_public_reuse,"C(controls, Treatment('sequenced'))[T.included_not_sequenced]",334,0.916,0.626,1.339,0.649
+F_pooled_excl_public_reuse,"C(controls, Treatment('sequenced'))[T.none_mentioned]",334,0.664,0.483,0.911,0.011
+F_pooled_excl_public_reuse,"C(method_class, Treatment('16S'))[T.other]",334,1.262,0.927,1.718,0.139
+F_pooled_excl_public_reuse,"C(method_class, Treatment('16S'))[T.shotgun]",334,1.033,0.782,1.365,0.819
+F_pooled_excl_public_reuse,decon_yes,334,0.795,0.557,1.135,0.206
+F_pooled_excl_public_reuse,year5,334,1.158,0.953,1.407,0.141

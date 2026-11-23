@@ -1,0 +1,96 @@
+{
+  "pmcid": "PMC9653960",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2022,
+  "country": "Italy",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "The abundance of the 16S rRNA gene in blood was computed by using qPCR in triplicate, normalized with a plasmid\u2013based standard range. Results were expressed in number of copies of 16S rRNA gene per \u00b5l of blood. MiSeq Illumina technology for"
+      }
+    ]
+  },
+  "controls": {
+    "value": "included_not_sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "r environment was assessed through the inclusion of several negative controls. Background noise and blood contamination did not impact the metagenomic analyses."
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "abundance_filter_only",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0019",
+        "quote": "prehensive of the FROGS v1.4.0 operational taxonomic units (OTUs) algorithm of clustering and the Blast+ v2.2.30 to obtain the taxonomic assignment using Silva 132 Parc database. The reads obtained from the sequencing were demultiplexed, tr"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0018",
+        "quote": "ndance of the 16S rRNA gene in blood was computed by using qPCR in triplicate, normalized with a plasmid\u2013based standard range. Results were expressed in number of copies of 16S rRNA gene per \u00b5l of blood. MiSeq Illumina technology for 16S rR"
+      }
+    ]
+  },
+  "n_target_samples": 300,
+  "list_type": "differential_only",
+  "genera": [
+    {
+      "name": "Flavobacterium",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Legionella",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0031",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "296 profiles after four low-read exclusions. Escherichia-Shigella composite first genus recorded. Negative controls mentioned but sequencing not explicit. Possible overlap with same Italian case-control cohort needs review.",
+  "extractor": "Codex single-agent Markdown batch next19; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "6e5f64fae7cd16864c968883c6e48ca8fec21c2d528e7a2b357bbd8db368fbdb",
+  "supplement_manifest": []
+}

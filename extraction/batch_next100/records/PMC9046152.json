@@ -1,0 +1,87 @@
+{
+  "pmcid": "PMC9046152",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "amniotic fluid",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown batch next100; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "bd3e7bda6d0f4f2983fb55a254aa9e74fe824d6d5f87da31342174af52a9bebe",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S+shotgun",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0008",
+        "quote": "Genome sequencing libraries without size fractionation were subjected to 100 bp or 125 bp paired end sequencing on Illumina HiSeq 2000 or 2500 machines at the McGill University and Génome Québec Innovation Centre. After QC, libraries were s"
+      },
+      {
+        "id": "E0016",
+        "quote": "en-specific primers to perform PCR sequencing of the resulting fragment and used BLASTn to confirm pathogen identity. For bacteria, a species-specific marker gene was used but where unavailable, we performed bacterial 16S rDNA PCR using the"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "ary pipeline and sequenced 5 water control libraries, only analyzing reads where both members of the read pair matched to the same species. For all samples, the total read count per species (or genus) was expressed as a fraction of the tota"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "of sequenced reads passing quality filters from that sample and this was divided by the fraction seen in water controls to give a Water Normalization Score: \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Acidovorax",
+      "evidence_id": "E0029",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0029",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylorubrum",
+      "evidence_id": "E0029",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Pelomonas",
+      "evidence_id": "E0029",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "not_claimed",
+  "notes": "Healthy mid-gestational AF profiling retained; infected positive-control AF taxa excluded. All four environmental target detections interpreted as contamination.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ]
+}

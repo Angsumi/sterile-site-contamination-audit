@@ -1,0 +1,58 @@
+{
+  "pmcid": "PMC11019516",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta and intrauterine cavity",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0045",
+        "quote": "The microbial community compositions in the collected stool and swab samples were analyzed by 16S rRNA gene amplicon sequencing."
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0045",
+        "quote": "Negative controls used during DNA extraction and 16S rRNA gene amplification were included in the sample processing workflow"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0045",
+        "quote": "used for decontamination of sequencing results before downstream analysis as previously described."
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 30,
+  "list_type": "full_profile",
+  "genera": [],
+  "top5": [],
+  "figures_only": "no",
+  "authors_conclusion": "not_claimed",
+  "notes": "No reliable target-site microbial signature after removal. Named genera in results concern neonatal/maternal mucosal samples, excluded. No supplements available.",
+  "extractor": "AI agent (Codex gpt-6.1-sol, batch C)",
+  "date": "2026-11-23"
+}

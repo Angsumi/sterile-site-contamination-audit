@@ -1,0 +1,60 @@
+{
+  "pmcid": "PMC9787457",
+  "tissue_category": "blood",
+  "sub_site": "serum extracellular vesicles",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0009",
+        "quote": " of the participants and on the bacteria-specific 16s rDNA\u2014in particular, the V3\u2013V4 region, which is a hypervariable region. For this, the MiSeq system and application (Illumina, San Diego, CA, USA) suitable for the NGS of bacteria were use"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 96,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Uncultured Cyanobacterium not assigned as a valid genus; source uses Cyanobacteria at phylum level. Supplement contains diversity plots only. Part of a larger project; overlap review lead.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "48c8a76c3040355222738eeb9e68d9b645993a0becf2c94b1f34eb69ddc10081",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.",
+    "Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "pmcid": "PMC10624578",
+  "tissue_category": "blood",
+  "sub_site": "whole blood of sarcoidosis patients and healthy controls",
+  "year": 2023,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "V4",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "Fig. 1 C illustrates the key steps involved in our metagenomic analysis for preparing 16 S rDNA amplicon libraries. We used the NEXTFLEX® 16 S V4 Amplicon-Seq Kit 2.0 for Illumina Platforms (PerkinElmer, Inc. Waltham, MA, USA) to sequence t"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "see cited methods",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "7% similarity index [39] . Microbial genera present in negative controls, such as water, reagents, air, washings of bronchoscope equipment, were excluded from the analysis. Individual OTUs were normalized via rarefaction to ensure an equiva"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "removed_control_taxa",
+    "tool": "",
+    "evidence": [
+      {
+        "id": "E0013",
+        "quote": "7% similarity index [39] . Microbial genera present in negative controls, such as water, reagents, air, washings of bronchoscope equipment, were excluded from the analysis. Individual OTUs were normalized via rarefaction to ensure an equiva"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 29,
+  "list_type": "full_profile",
+  "genera": [
+    {
+      "name": "Cutibacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Corynebacterium",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Veillonella",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Dietzia",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acinetobacter",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Streptococcus",
+      "evidence_id": "E0017",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Prevotella",
+      "evidence_id": "E0020",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "",
+  "extractor": "AI agent (GPT-6.1-sol, batch B)",
+  "date": "2026-11-23"
+}

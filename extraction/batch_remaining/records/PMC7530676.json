@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC7530676",
+  "tissue_category": "other_sterile",
+  "sub_site": "coronary thrombus",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Targeted real-time PCR only; no microbial community sequencing.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "5ad531ac34242c4b78d6280dc4f14f5b6efe39303721dfcc4a8e4bc378e31403",
+  "notes": "",
+  "review_flags": []
+}

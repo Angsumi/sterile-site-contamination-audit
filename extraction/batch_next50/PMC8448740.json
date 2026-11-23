@@ -1,0 +1,82 @@
+{
+  "pmcid": "PMC8448740",
+  "tissue_category": "tumour",
+  "sub_site": "breast tumour and paired normal tissue",
+  "year": 2021,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0021",
+        "quote": "d using primers targeting the V3-V4 region of the 16S rRNA gene (forward primer 5'-TCG TCG GCA GCG TCA GAT GTG TAT AAG AGA CAG CCT ACG GGN GGC WGC AG-3' and reverse primer 5'-GTC TCG TGG GCT CGG AGA TGT GTA TAA GAG ACA GGA CTA CHV GGG TAT C"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0024",
+        "quote": "The bioinformatic contamination control tools Decontam (v1.0.0) 16 and SourceTracker (v1.0) 15 were used, according to published guidelines 9 , 14 , to retrospectively assess and remove contamination, based on sequencing data from negative "
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam / SourceTracker",
+    "evidence": [
+      {
+        "id": "E0024",
+        "quote": "The bioinformatic contamination control tools Decontam (v1.0.0) 16 and SourceTracker (v1.0) 15 were used, according to published guidelines 9 , 14 , to retrospectively assess and remove contamination, based on sequencing data from negative "
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Staphylococcus",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brevibacterium",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ralstonia",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Clostridoides",
+      "evidence_id": "E0010",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Fresh biopsies with skin swabs and extraction controls. Clostridoides is misspelled in source and held for name review. Tissue-control contrasts support target normal tissue detections.",
+  "extractor": "Codex single-agent Markdown batch next50; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "e6665fb7201acbc67df0860c62d7a3c037e5afc445aad742201fab927c8519d4",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

@@ -1,0 +1,14 @@
+{
+  "pmcid": "PMC9705781",
+  "tissue_category": "other_sterile",
+  "sub_site": "airway fluid only",
+  "year": 2022,
+  "country": "",
+  "eligible_fulltext": false,
+  "exclusion_reason": "Community sequencing of bronchoalveolar lavage/airway flushing fluid only; no lung parenchymal community profile.",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "c04b1cddcf1d5039ca0ed445795ee01dc21e25511a34b585ad96bcf38cbf29ad",
+  "notes": "",
+  "review_flags": []
+}

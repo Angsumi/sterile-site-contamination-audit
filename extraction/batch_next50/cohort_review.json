@@ -1,0 +1,32 @@
+[
+  {
+    "paper": "PMC10986527",
+    "related": "PMC10502960",
+    "decision": "not_same_cohort",
+    "basis": "HS Chinese institutional FFPE cohort (Tan et al.) versus fresh-frozen adrenal cohort (Cantini et al.). Equal n=26 is not duplicate evidence."
+  },
+  {
+    "paper": "PMC6790596",
+    "related": "PMC5237345",
+    "decision": "unconfirmed_overlap_review",
+    "basis": "Both contain Australian prostate material; differing author teams and no shared participant IDs established. No automatic exclusion."
+  },
+  {
+    "paper": "PMC9787457",
+    "related": "not identified",
+    "decision": "review_larger_project",
+    "basis": "Paper explicitly states part of a larger breast-cancer project."
+  },
+  {
+    "paper": "PMC6060185",
+    "related": "Qi et al. 2017 cited study",
+    "decision": "review_prior_cohort",
+    "basis": "Paper builds on a prior same-team intestinal-permeability study; no duplicate microbiome list established."
+  },
+  {
+    "paper": "PMC11834920",
+    "related": "cited prior ocular investigations",
+    "decision": "review_report_overlap",
+    "basis": "Communication presents several case-control investigations; check for reused aqueous-fluid cohort before final analysis."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "Table_1.xlsx",
+    "alias": "S910.md",
+    "bytes": 17926,
+    "sha256": "808b47fa404cc6bab3421fcc905931ae8cb7a22563ed49201895f5da6a3d6099",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_1.xlsx",
+    "md_bytes": 12430
+  },
+  {
+    "file": "Table_2.xlsx",
+    "alias": "S920.md",
+    "bytes": 16695,
+    "sha256": "a74ae36be6b1335a36632917da4efc95dd8e6f26d344c2e45a1434595c1a9cc6",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_2.xlsx",
+    "md_bytes": 7650
+  },
+  {
+    "file": "Table_3.xlsx",
+    "alias": "S930.md",
+    "bytes": 22641,
+    "sha256": "3e8c1ae9ecac7dc4117f0c9cabf8821a4033b672154f7a5f6ef3aa938f6ab3e1",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_3.xlsx",
+    "md_bytes": 16297
+  },
+  {
+    "file": "Table_4.xlsx",
+    "alias": "S940.md",
+    "bytes": 35380,
+    "sha256": "0c7cf0ed9d74487a47e4139404b5db49e941e765d9acdd08144d338016e5b52e",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_4.xlsx",
+    "md_bytes": 40230
+  },
+  {
+    "file": "Table_5.xlsx",
+    "alias": "S950.md",
+    "bytes": 58519,
+    "sha256": "edd65ef9e498c3ac2710043f57415fe164e951ae304799e3161abf379c239c28",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_5.xlsx",
+    "md_bytes": 86381
+  },
+  {
+    "file": "Table_6.xlsx",
+    "alias": "S960.md",
+    "bytes": 103922,
+    "sha256": "6171cd728a87570fa290a77d969c7a993fe79124842a30b3da5752c42c658d3c",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_6.xlsx",
+    "md_bytes": 195583
+  },
+  {
+    "file": "Table_7.xlsx",
+    "alias": "S970.md",
+    "bytes": 82366,
+    "sha256": "e3e48ce78659728b5dcc15bda94af288103a4d2bd7eb66a474c873510a130377",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7813997.1/Table_7.xlsx",
+    "md_bytes": 173292
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "pmcid": "PMC12442831",
+  "tissue_category": "tumour",
+  "sub_site": "hepatocellular carcinoma",
+  "year": 2025,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0027",
+        "quote": "jorbio Bio-Pharm Technology Co., Ltd., China. The 16S rDNA hypervariable V4 region was amplified using barcoded primers (341F: 5\u2032-CCTAYGGGRBGCASCAG-3\u2032; 806R: 5\u2032-GGACTACNNG GGTATCTAAT-3\u2032) incorporating Illumina adapter sequences. PCR product"
+      }
+    ]
+  },
+  "controls": {
+    "value": "none_mentioned",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": []
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 90,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Akkermansia",
+      "evidence_id": "E0001",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "49 early-recurrence and 41 non-recurrent cases. Supplement is an image, not a machine-readable genus table. Twenty-genus model labels need figure review; incomplete list not absence of bacteria. Same institution/prior Qu et al. 2022 methods as PMC9234634 may imply cohort overlap.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "85a80dd029c069c155097ba20d9c6ac9804228a09ba2a790820fbb0c2ad67b21",
+  "excluded_archaeal_labels": [],
+  "review_flags": [
+    "Fewer than three recovered target genera; supplements inspected where available; image-only labels or tables may require further review. Not a statement of bacterial absence."
+  ]
+}

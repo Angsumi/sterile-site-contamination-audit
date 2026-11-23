@@ -1,0 +1,51 @@
+pmcid,status,eligible_fulltext,counted_genera,usable,supplement_list_used,supplement_files_consulted,source_check,review_flags
+PMC13207053,merged,1,4,1,0,0,pass,Participant count is stated; number of target tissue specimens is not assumed equal or doubled.
+PMC9440687,merged,1,5,1,0,0,pass,Target selection or cohort attribution requires human confirmation; see notes.
+PMC10986527,merged,1,10,1,0,0,pass,Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.; Target selection or cohort attribution requires human confirmation; see notes.
+PMC7285296,merged,1,23,1,0,0,pass,
+PMC5378909,merged,1,0,0,0,1,pass,Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.; Participant count is stated; number of target tissue specimens is not assumed equal or doubled.
+PMC8773292,merged,1,0,0,0,1,pass,Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.
+PMC12637401,merged,1,12,1,0,0,pass,
+PMC9455596,merged,1,3,1,0,0,pass,
+PMC8080616,merged,1,3,1,0,0,pass,
+PMC5328378,merged,1,15,1,0,0,pass,
+PMC6697683,merged,1,5,1,0,0,pass,
+PMC11853128,merged,1,10,1,0,0,pass,Target selection or cohort attribution requires human confirmation; see notes.
+PMC7492258,merged,1,27,1,0,0,pass,
+PMC12552862,merged,1,6,1,0,0,pass,
+PMC9787457,merged,1,1,0,0,1,pass,Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.; Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.
+PMC9917689,merged,1,2,0,0,1,pass,Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.
+PMC6060185,merged,1,0,0,0,0,pass,Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.; Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.
+PMC8263754,merged,1,1,0,0,0,pass,Fewer than 3 genus names recovered; supplementary files reviewed where available. Image-only taxa remain unresolved; absence of names is not absence of bacteria.
+PMC11767796,merged,1,12,1,0,0,pass,
+PMC4555154,merged,1,13,1,0,0,pass,
+PMC8467001,merged,1,5,1,0,0,pass,
+PMC6107834,merged,1,5,1,1,1,pass,
+PMC11766298,merged,1,8,1,0,0,pass,Target selection or cohort attribution requires human confirmation; see notes.
+PMC12024857,merged,1,10,1,0,0,pass,
+PMC12605253,merged,1,9,1,0,0,pass,
+PMC6528574,merged,1,9,1,0,0,pass,
+PMC9669652,merged,1,13,1,0,0,pass,
+PMC12692222,merged,1,17,1,0,0,pass,
+PMC6790596,merged,1,28,1,0,0,pass,Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.
+PMC8226556,merged,1,8,1,0,0,pass,
+PMC8722097,merged,1,7,1,0,0,pass,
+PMC8448740,merged,1,3,1,0,0,pass,
+PMC8718896,merged,1,11,1,0,0,pass,
+PMC12004234,merged,1,7,1,0,0,pass,
+PMC13176315,merged,1,8,1,0,0,pass,
+PMC11752883,merged,1,13,1,0,0,pass,
+PMC9342854,merged,1,14,1,0,0,pass,
+PMC7563179,merged,1,16,1,0,0,pass,
+PMC8022255,merged,1,13,1,0,0,pass,
+PMC9234634,merged,1,5,1,0,0,pass,
+PMC12301127,merged,1,13,1,0,0,pass,
+PMC11906328,merged,1,11,1,0,0,pass,
+PMC6023934,merged,1,6,1,0,0,pass,
+PMC11834920,merged,1,3,1,0,0,pass,Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.
+PMC6969417,merged,1,35,1,0,0,pass,
+PMC5237345,merged,1,13,1,0,0,pass,Cohort overlap review lead; see notes. No automatic duplicate exclusion without same-cohort evidence.
+PMC9225573,merged,1,3,1,0,0,pass,
+PMC3587628,held_eligibility,pending,,,0,0,held eligibility,Unresolved eligibility; excluded from merged analysis data until adjudicated.
+PMC13749659,merged,1,16,1,0,0,pass,
+PMC12052825,merged,1,53,1,0,0,pass,Target selection or cohort attribution requires human confirmation; see notes.

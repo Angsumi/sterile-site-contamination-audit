@@ -1,0 +1,339 @@
+{
+  "pmcid": "PMC7709364",
+  "tissue_category": "blood",
+  "sub_site": "whole blood",
+  "year": 2020,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "extractor": "Codex single-agent Markdown remaining corpus; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "338f8831c1295b4e35837e89fa350464c10b1d9cbbbdb11ee450c439a458dd33",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0001",
+        "quote": "Methods DNA encoding the bacterial 16S ribosomal RNA gene (16S rDNA) in whole blood obtained the day before surgery, and on postoperative day (POD) 1 and POD 10–14 was amplified and quantified by PCR before sequencing for taxonomic assignme"
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "negative controls as cited",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0015",
+        "quote": ") with the phiX library (used as a control for Illumina sequencing runs). Clustering was produced in two passes of the swarm algorithm v2.1.6. The first pass was a clustering with an aggregation distance equal to 1. The second pass was a cl"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "none",
+    "tool": "",
+    "evidence": []
+  },
+  "biomass_qpcr": {
+    "value": "yes",
+    "evidence": [
+      {
+        "id": "E0012",
+        "quote": "aiomer universal 16S primers). The quantitative PCR (qPCR) step was done on a VIIA 7® PCR system (Life Technologies, Carlsbad, California, USA) using Sybr Green technology. The absolute number of copies of 16S rDNA was determined by compari"
+      }
+    ]
+  },
+  "n_target_samples": null,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Fusobacterium",
+      "evidence_id": "E0075",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cronobacter",
+      "evidence_id": "S960:L5",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paenibacillus",
+      "evidence_id": "S960:L9",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Phyllobacterium",
+      "evidence_id": "S960:L10",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Blastococcus",
+      "evidence_id": "S960:L15",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Hymenobacter",
+      "evidence_id": "S960:L21",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Enterococcus",
+      "evidence_id": "S960:L22",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Bryobacter",
+      "evidence_id": "S960:L30",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Brachybacterium",
+      "evidence_id": "S960:L32",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudarcicella",
+      "evidence_id": "S960:L34",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Fodinicola",
+      "evidence_id": "S960:L36",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lacihabitans",
+      "evidence_id": "S960:L40",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Geodermatophilus",
+      "evidence_id": "S960:L45",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Kushneria",
+      "evidence_id": "S960:L53",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Legionella",
+      "evidence_id": "S960:L54",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Carnobacterium",
+      "evidence_id": "S960:L55",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Williamsia",
+      "evidence_id": "S960:L57",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhizobacter",
+      "evidence_id": "S960:L59",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paracoccus",
+      "evidence_id": "S960:L60",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rhodococcus",
+      "evidence_id": "S960:L61",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Ottowia",
+      "evidence_id": "S960:L62",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Massilia",
+      "evidence_id": "S960:L63",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rickettsiella",
+      "evidence_id": "S960:L64",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Altererythrobacter",
+      "evidence_id": "S960:L66",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rubrivivax",
+      "evidence_id": "S960:L68",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Paludibacter",
+      "evidence_id": "S960:L69",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Arenimonas",
+      "evidence_id": "S960:L70",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Anaerobiospirillum",
+      "evidence_id": "S960:L72",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylophilus",
+      "evidence_id": "S960:L74",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microvirga",
+      "evidence_id": "S960:L79",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Actinobacillus",
+      "evidence_id": "S960:L82",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cetobacterium",
+      "evidence_id": "S960:L83",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Rothia",
+      "evidence_id": "S960:L91",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Microbacterium",
+      "evidence_id": "S960:L99",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pseudomonas",
+      "evidence_id": "S960:L102",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Leptotrichia",
+      "evidence_id": "S960:L107",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Taibaiella",
+      "evidence_id": "S960:L108",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Caenimonas",
+      "evidence_id": "S960:L109",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Cloacibacterium",
+      "evidence_id": "S960:L111",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Daeguia",
+      "evidence_id": "S960:L112",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Pelosinus",
+      "evidence_id": "S960:L115",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Sphingobacterium",
+      "evidence_id": "S960:L119",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Oligoflexus",
+      "evidence_id": "S960:L121",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Faecalibacterium",
+      "evidence_id": "S960:L122",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Polaromonas",
+      "evidence_id": "S960:L123",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Morganella",
+      "evidence_id": "S960:L131",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Roseococcus",
+      "evidence_id": "S960:L132",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Symbiobacterium",
+      "evidence_id": "S960:L133",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lysinibacillus",
+      "evidence_id": "S960:L136",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Acidovorax",
+      "evidence_id": "S960:L137",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Desulfovibrio",
+      "evidence_id": "S960:L140",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Terrimonas",
+      "evidence_id": "S960:L143",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Gardnerella",
+      "evidence_id": "S960:L145",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Curvibacter",
+      "evidence_id": "S960:L157",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Aeromonas",
+      "evidence_id": "S960:L158",
+      "flagged_contaminant": false
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "Only blood result Fusobacterium is named in main text; Escherichia extraction standard excluded.",
+  "review_flags": [
+    "Provisional AI extraction; human checking and cohort linkage remain outstanding."
+  ],
+  "supplement_use": "Fewer than 3 securely attributable target-site genera in main text; supplementary table restricted to target samples or eligible cancer strata."
+}

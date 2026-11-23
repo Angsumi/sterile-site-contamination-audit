@@ -1,0 +1,112 @@
+{
+  "pmcid": "PMC11532974",
+  "tissue_category": "placenta_fetal",
+  "sub_site": "placenta after vaginal radical trachelectomy",
+  "year": 2024,
+  "country": "",
+  "eligible_fulltext": true,
+  "exclusion_reason": "",
+  "data_source": {
+    "value": "own_samples",
+    "dataset": "",
+    "evidence": []
+  },
+  "method": {
+    "value": "16S",
+    "region": "",
+    "evidence": [
+      {
+        "id": "E0034",
+        "quote": "The V1\u2010V2 hyper\u2010variable region of the bacterial 16S rRNA gene was amplified from the extracted DNA by PCR with the modified primer pair 27Fmod (5\u2032\u2010TCG TCG GCA GCG TCA GAT GTG TAT AAG AGA CAG AGR GTT TGA TYM TGG CTC AG\u20103\u2032) and 338R (5\u2032\u2010GTC "
+      }
+    ]
+  },
+  "controls": {
+    "value": "sequenced",
+    "types": "",
+    "n_sequenced": null,
+    "evidence": [
+      {
+        "id": "E0036",
+        "quote": "biome profile frequently observed in the negative control as \u201cbackground bacteria\u201d: Burkholderia (Unclassified), Escherichia coli , Brevundimonas diminuta , Sphingomonas koreensis , Enterobacter hormaechei , and Methylobacterium goesingense"
+      }
+    ]
+  },
+  "decontamination": {
+    "value": "tool",
+    "tool": "decontam",
+    "evidence": [
+      {
+        "id": "E0036",
+        "quote": "ach sample included sample\u2010derived and background contaminant bacteria. We excluded the following bacteria from the microbiome profile frequently observed in the negative control as \u201cbackground bacteria\u201d: Burkholderia (Unclassified), Escher"
+      }
+    ]
+  },
+  "biomass_qpcr": {
+    "value": "no",
+    "evidence": []
+  },
+  "n_target_samples": 23,
+  "list_type": "mixed",
+  "genera": [
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Klebsiella",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0040",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Lactobacillus",
+      "evidence_id": "E0042",
+      "flagged_contaminant": false
+    },
+    {
+      "name": "Burkholderia",
+      "evidence_id": "E0036",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Escherichia",
+      "evidence_id": "E0036",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Brevundimonas",
+      "evidence_id": "E0036",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Sphingomonas",
+      "evidence_id": "E0036",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Enterobacter",
+      "evidence_id": "E0036",
+      "flagged_contaminant": true
+    },
+    {
+      "name": "Methylobacterium",
+      "evidence_id": "E0036",
+      "flagged_contaminant": true
+    }
+  ],
+  "top5": [],
+  "figures_only": "partial",
+  "authors_conclusion": "claimed",
+  "notes": "15/23 profiles retained after read threshold. Retained species-level Burkholderia and Methylobacterium entries coexist with explicitly removed background strains; removed entries logged separately. Prior invasive Streptococcus pyogenes case not counted.",
+  "extractor": "Codex single-agent Markdown batch next50_02; provisional AI first pass",
+  "date": "2026-11-23",
+  "source_markdown_sha256": "ff90a396aa7ad074ac5ab6642fc42824072422f0eee66ca10ed6b3b376fc0328",
+  "excluded_archaeal_labels": [],
+  "review_flags": []
+}

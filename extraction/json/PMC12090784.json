@@ -1,0 +1,159 @@
+{
+ "pmcid": "PMC12090784",
+ "tissue_category": "blood",
+ "sub_site": "plasma cell-free DNA (healthy, adenoma, CRC); stool not extracted",
+ "year": 2025,
+ "country": "China",
+ "eligible_fulltext": true,
+ "exclusion_reason": "",
+ "data_source": {
+  "value": "own_samples",
+  "dataset": "",
+  "evidence": [
+   {
+    "id": "E0006",
+    "quote": "Cohort 1 contained 120 blood samples, including 44 healthy individuals (BMGH), 31 adenoma patients (BMGP), and 45 CRC patients (BMGT)"
+   }
+  ]
+ },
+ "method": {
+  "value": "shotgun",
+  "region": "",
+  "evidence": [
+   {
+    "id": "E0001",
+    "quote": "The blood cfDNA and fecal genome are subjected to shotgun metagenome sequencing"
+   }
+  ]
+ },
+ "controls": {
+  "value": "included_not_sequenced",
+  "types": "nuclease-free water negative control (extraction/library; sequencing not stated)",
+  "n_sequenced": null,
+  "evidence": [
+   {
+    "id": "E0031",
+    "quote": "Nuclease-free water was set as a negative control"
+   }
+  ]
+ },
+ "decontamination": {
+  "value": "none",
+  "tool": "",
+  "evidence": []
+ },
+ "biomass_qpcr": {
+  "value": "no",
+  "evidence": []
+ },
+ "n_target_samples": 120,
+ "list_type": "mixed",
+ "genera": [
+  {
+   "name": "Escherichia",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Staphylococcus",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Streptococcus",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Klebsiella",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Pseudomonas",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Chlamydia",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Listeria",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Vibrio",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Bacillus",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Mycobacteroides",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leptospira",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Helicobacter",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Rahnella",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Sinomonas",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Leuconostoc",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Paenibacillus",
+   "evidence_id": "E0008",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Enterobacter",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Lacticaseibacillus",
+   "evidence_id": "E0012",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Clostridioides",
+   "evidence_id": "E0018",
+   "flagged_contaminant": false
+  },
+  {
+   "name": "Fusobacterium",
+   "evidence_id": "E0001",
+   "flagged_contaminant": false
+  }
+ ],
+ "top5": [],
+ "figures_only": "partial",
+ "authors_conclusion": "claimed",
+ "notes": "Most abundant blood taxa given only at species level (E. coli, S. aureus, S. pneumoniae), so no genus top5. Genera are from species/LEfSe/correlation statements on blood; Fusobacterium (F. nucleatum) evidenced from abstract since E0018 uses abbreviation. 'Salmonella infection' is a KEGG pathway (not recorded). Water control mentioned but not stated as sequenced; no decontamination. CRC is not a target tumour, but plasma is the extracted target.",
+ "extractor": "AI agent (Claude sub-agent, batch 04)",
+ "date": "2026-11-23"
+}
